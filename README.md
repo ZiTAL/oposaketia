@@ -44,6 +44,10 @@ podman-compose --env-file "$(pwd)/docker/.env" -f "$(pwd)/docker/docker-compose.
 - Swagger: <http://localhost:8080/api/docs>
 
 Bide absolutuek Compose hornitzaile batzuen direktorio-arazoak saihesten dituzte.
+
+Aurrean proxy alderantzizko bat badago, ez ezarri `Content-Security-Policy`
+goiburua: aplikazioak berak sortzen du nonce bat eskaera bakoitzeko, eta proxyak
+goiburua gainidatziko balu nabigatzaileak scriptak blokeatuko lituzke.
 Zerbitzuak gelditzeko, ordezkatu `up -d --build` zatia `down` aginduarekin.
 `down` aginduak bolumenak mantentzen ditu; `down -v` aginduak ezabatu egiten ditu.
 
