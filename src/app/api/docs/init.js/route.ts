@@ -1,0 +1,1 @@
+export function GET(){return new Response(`window.ui = SwaggerUIBundle({url:'/api/v1/openapi.json',dom_id:'#swagger-ui',deepLinking:true,validatorUrl:null,persistAuthorization:false,supportedSubmitMethods:['get'],defaultModelsExpandDepth:0,tryItOutEnabled:false});`,{headers:{'Content-Type':'text/javascript; charset=utf-8','X-Content-Type-Options':'nosniff'}});}

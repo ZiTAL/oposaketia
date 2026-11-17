@@ -1,0 +1,44 @@
+{
+  "name": "oposaketia",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "db:import": "tsx scripts/import.ts",
+    "worker": "tsx scripts/worker.ts",
+    "test:browser": "playwright test",
+    "scrape": "tsx scripts/scrape.ts",
+    "scrape:worker": "tsx scripts/scrape-worker.ts",
+    "prebuild": "node scripts/prepare-swagger.mjs",
+    "predev": "node scripts/prepare-swagger.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "lucide-react": "^0.468.0",
+    "next": "16.4.6",
+    "pg": "^8.16.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "robots-parser": "^3.0.1",
+    "swagger-ui-dist": "^5.35.0",
+    "tsx": "^4.20.0",
+    "undici": "^8.12.4",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@apidevtools/swagger-parser": "^13.1.0",
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.65.1",
+    "@tailwindcss/postcss": "4.3.5",
+    "@types/node": "^24.0.0",
+    "@types/pg": "^8.15.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "4.3.5",
+    "typescript": "^5.9.0"
+  }
+}

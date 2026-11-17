@@ -1,0 +1,225 @@
+[
+  {
+    "id": "auxiliar-administracion",
+    "title": "Auxiliar de administración",
+    "organization": "Administración local · ejemplo",
+    "territory": "Euskadi",
+    "location": "Bilbao",
+    "category": "Administración",
+    "group": "C2",
+    "places": null,
+    "acceptedQualifications": [
+      "eso",
+      "bachiller",
+      "fp-medio",
+      "fp-superior",
+      "grado",
+      "enfermeria"
+    ],
+    "educationText": "ESO o titulaciones expresamente admitidas en las bases.",
+    "language": {
+      "name": "euskera",
+      "level": "B2"
+    },
+    "deadline": null,
+    "status": "Ejemplo",
+    "description": "Ficha ilustrativa para probar el buscador y el cruce de perfil. No corresponde a una convocatoria publicada y no permite presentar una solicitud.",
+    "requirements": [
+      "Comprobar los requisitos de nacionalidad o acceso aplicables.",
+      "Consultar edad, capacidad y demás condiciones en las bases oficiales.",
+      "Verificar titulaciones, equivalencias y acreditaciones exigidas."
+    ],
+    "topics": [
+      "Organización administrativa",
+      "Atención a la ciudadanía",
+      "Ofimática y gestión documental"
+    ],
+    "sourceUrl": "https://www.euskadi.eus/empleo-publico/",
+    "syllabusUrl": null,
+    "isDemo": true,
+    "verifiedAt": null,
+    "province": "Bizkaia"
+  },
+  {
+    "id": "administrativo-navarra",
+    "title": "Administrativo/a",
+    "organization": "Administración foral · ejemplo",
+    "territory": "Navarra",
+    "location": "Pamplona / Iruña",
+    "category": "Administración",
+    "group": "C1",
+    "places": null,
+    "acceptedQualifications": [
+      "bachiller",
+      "fp-superior"
+    ],
+    "educationText": "Bachillerato o FP superior, según las bases.",
+    "language": null,
+    "deadline": null,
+    "status": "Ejemplo",
+    "description": "Ficha ilustrativa para probar el buscador y el cruce de perfil. No corresponde a una convocatoria publicada y no permite presentar una solicitud.",
+    "requirements": [
+      "Comprobar los requisitos de nacionalidad o acceso aplicables.",
+      "Consultar edad, capacidad y demás condiciones en las bases oficiales.",
+      "Verificar titulaciones, equivalencias y acreditaciones exigidas."
+    ],
+    "topics": [
+      "Procedimiento administrativo",
+      "Gestión de expedientes",
+      "Administración electrónica"
+    ],
+    "sourceUrl": "https://www.navarra.es/es/empleo-publico",
+    "syllabusUrl": null,
+    "isDemo": true,
+    "verifiedAt": null,
+    "province": "Navarra"
+  },
+  {
+    "id": "enfermeria",
+    "title": "Enfermero/a",
+    "organization": "Servicio público de salud · ejemplo",
+    "territory": "Euskadi",
+    "location": "Vitoria-Gasteiz",
+    "category": "Sanidad",
+    "group": "A2",
+    "places": null,
+    "acceptedQualifications": [
+      "enfermeria"
+    ],
+    "educationText": "Grado o Diplomatura en Enfermería.",
+    "language": {
+      "name": "euskera",
+      "level": "B2"
+    },
+    "deadline": null,
+    "status": "Ejemplo",
+    "description": "Ficha ilustrativa para probar el buscador y el cruce de perfil. No corresponde a una convocatoria publicada y no permite presentar una solicitud.",
+    "requirements": [
+      "Comprobar los requisitos de nacionalidad o acceso aplicables.",
+      "Consultar edad, capacidad y demás condiciones en las bases oficiales.",
+      "Verificar titulaciones, equivalencias y acreditaciones exigidas."
+    ],
+    "topics": [
+      "Cuidados de enfermería",
+      "Seguridad del paciente",
+      "Salud comunitaria"
+    ],
+    "sourceUrl": "https://www.euskadi.eus/empleo-publico/",
+    "syllabusUrl": null,
+    "isDemo": true,
+    "verifiedAt": null,
+    "province": "Araba / Álava"
+  },
+  {
+    "id": "tecnico-gestion",
+    "title": "Técnico/a de gestión",
+    "organization": "Administración local · ejemplo",
+    "territory": "Euskadi",
+    "location": "Donostia / San Sebastián",
+    "category": "Administración",
+    "group": "A2",
+    "places": null,
+    "acceptedQualifications": [
+      "grado",
+      "enfermeria"
+    ],
+    "educationText": "Titulación universitaria admitida para acceso general.",
+    "language": {
+      "name": "euskera",
+      "level": "C1"
+    },
+    "deadline": null,
+    "status": "Ejemplo",
+    "description": "Ficha ilustrativa para probar el buscador y el cruce de perfil. No corresponde a una convocatoria publicada y no permite presentar una solicitud.",
+    "requirements": [
+      "Comprobar los requisitos de nacionalidad o acceso aplicables.",
+      "Consultar edad, capacidad y demás condiciones en las bases oficiales.",
+      "Verificar titulaciones, equivalencias y acreditaciones exigidas."
+    ],
+    "topics": [
+      "Derecho administrativo",
+      "Contratación pública",
+      "Presupuestos y gestión pública"
+    ],
+    "sourceUrl": "https://www.euskadi.eus/empleo-publico/",
+    "syllabusUrl": null,
+    "isDemo": true,
+    "verifiedAt": null,
+    "province": "Gipuzkoa"
+  },
+  {
+    "id": "servicios-generales",
+    "title": "Personal de servicios generales",
+    "organization": "Administración local · ejemplo",
+    "territory": "Navarra",
+    "location": "Tudela",
+    "category": "Servicios",
+    "group": "C2",
+    "places": null,
+    "acceptedQualifications": [
+      "eso",
+      "bachiller",
+      "fp-medio",
+      "fp-superior",
+      "grado",
+      "enfermeria"
+    ],
+    "educationText": "Consultar la titulación y los permisos exigidos en las bases.",
+    "language": null,
+    "deadline": null,
+    "status": "Ejemplo",
+    "description": "Ficha ilustrativa para probar el buscador y el cruce de perfil. No corresponde a una convocatoria publicada y no permite presentar una solicitud.",
+    "requirements": [
+      "Comprobar los requisitos de nacionalidad o acceso aplicables.",
+      "Consultar edad, capacidad y demás condiciones en las bases oficiales.",
+      "Verificar titulaciones, equivalencias y acreditaciones exigidas."
+    ],
+    "topics": [
+      "Prevención de riesgos",
+      "Mantenimiento de instalaciones",
+      "Atención al público"
+    ],
+    "sourceUrl": "https://www.navarra.es/es/empleo-publico",
+    "syllabusUrl": null,
+    "isDemo": true,
+    "verifiedAt": null,
+    "province": "Navarra"
+  },
+  {
+    "id": "redacteur-territorial",
+    "title": "Rédacteur territorial",
+    "organization": "Fonction publique territoriale · exemple",
+    "territory": "País Vasco francés",
+    "location": "Bayonne / Baiona",
+    "category": "Administración",
+    "group": "Catégorie B",
+    "places": null,
+    "acceptedQualifications": [
+      "bac",
+      "licence"
+    ],
+    "educationText": "Baccalauréat o título admitido por las bases francesas; no se presupone equivalencia con títulos españoles.",
+    "language": {
+      "name": "francés",
+      "level": "B2"
+    },
+    "deadline": null,
+    "status": "Ejemplo",
+    "description": "Ficha ilustrativa para probar el buscador y el cruce de perfil. No corresponde a una convocatoria publicada y no permite presentar una solicitud.",
+    "requirements": [
+      "Comprobar los requisitos de nacionalidad o acceso aplicables.",
+      "Consultar edad, capacidad y demás condiciones en las bases oficiales.",
+      "Verificar titulaciones, equivalencias y acreditaciones exigidas."
+    ],
+    "topics": [
+      "Organisation des collectivités territoriales",
+      "Finances publiques",
+      "Rédaction administrative"
+    ],
+    "sourceUrl": "https://www.emploi-territorial.fr/",
+    "syllabusUrl": null,
+    "isDemo": true,
+    "verifiedAt": null,
+    "province": null
+  }
+]

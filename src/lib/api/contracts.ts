@@ -1,0 +1,11 @@
+import { z } from 'zod';
+import { callSchema } from '../catalogue';
+export const paginationSchema = z.object({ page:z.number().int().min(1), limit:z.number().int().min(1).max(200), total:z.number().int().nonnegative(), pages:z.number().int().nonnegative() });
+export const callListSchema = z.object({ calls:z.array(callSchema), pagination:paginationSchema });
+export const callDetailSchema = z.object({call:callSchema});
+export const sourceReportSchema = z.object({last_success:z.string().nullable(),status:z.string(),count:z.number(),attemptedAt:z.string(),warningCount:z.number()});
+export const sourceSchema = z.object({id:z.string(),name:z.string(),url:z.url(),coverage:z.string(),report:sourceReportSchema.nullable()});
+export const sourceListSchema = z.object({sources:z.array(sourceSchema)});
+export type PublicSource = z.infer<typeof sourceSchema>;
+export const sortChoices = ['title','deadline','province','status'] as const;
+export const optionsSchema = z.object({provinces:z.array(z.string()),categories:z.array(z.string()),statuses:z.array(z.string()),territories:z.array(z.string()),qualifications:z.array(z.object({id:z.string(),label:z.string()})),sources:z.array(z.object({id:z.string(),name:z.string()})),sorts:z.array(z.string())});

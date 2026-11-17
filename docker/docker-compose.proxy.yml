@@ -1,0 +1,11 @@
+# Solo para redes que necesitan proxy y una CA adicional.
+# La CA se monta en ejecución; no se incorpora a ninguna imagen.
+services:
+  scraper:
+    environment:
+      HTTP_PROXY: "${HTTP_PROXY:-}"
+      HTTPS_PROXY: "${HTTPS_PROXY:-}"
+      NO_PROXY: "${NO_PROXY:-}"
+      NODE_EXTRA_CA_CERTS: /run/certs/extra-ca.pem
+    volumes:
+      - "${NODE_EXTRA_CA_CERTS:?Define NODE_EXTRA_CA_CERTS}:/run/certs/extra-ca.pem:ro,Z"

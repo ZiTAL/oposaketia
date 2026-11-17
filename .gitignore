@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+!docker/.env.example
+*.tsbuildinfo
+coverage/
+test-results/
+playwright-report/
+data/scrape-cache/
+
+public/swagger-ui/
