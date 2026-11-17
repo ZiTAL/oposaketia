@@ -79,6 +79,7 @@ export const catalogueSchema = z.array(callSchema).superRefine((items, ctx) => {
 export type Call = z.infer<typeof callSchema>;
 export const provinceChoices = [...provinces, 'Sin concretar'] as const;
 export const statusChoices = ['Abierta', 'Próximamente', 'En curso', 'Cerrada', 'Calendario', 'Pendiente de confirmar'] as const;
+export const statusSortOrder = ['Abierta', 'Próximamente', 'En curso', 'Calendario', 'Pendiente de confirmar', 'Cerrada', 'Ejemplo'] as const;
 export const profileSchema = z.preprocess(input => {
   if (!input || typeof input !== 'object' || Array.isArray(input)) return input;
   const legacy = input as Record<string, unknown>;
