@@ -20,4 +20,6 @@ function rewriteForLocale(request: NextRequest, headers: Headers, locale: string
   if (/^\/(?:api|_next)(?:\/|$)/.test(url.pathname)) return new NextResponse(null, { status: 404 });
   return NextResponse.rewrite(url, { request: { headers } });
 }
-export const config = { matcher: [{ source: '/((?!api(?:/|$)|_next(?:/|$)|icon\\.svg|favicon\\.ico|.*\\.(?:png|jpg|svg|webp|css|js)$).*)', missing: [{ type: 'header', key: 'next-router-prefetch' }, { type: 'header', key: 'purpose', value: 'prefetch' }] }] };
+// Prefetch requests cannot be skipped: the proxy also rewrites the locale prefix,
+// so /eu/... must pass through it even when the browser only asks for RSC data.
+export const config = { matcher: ['/((?!api(?:/|$)|_next(?:/|$)|icon\\.svg|favicon\\.ico|.*\\.(?:png|jpg|svg|webp|css|js)$).*)'] };
