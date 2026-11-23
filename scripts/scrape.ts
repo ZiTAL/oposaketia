@@ -65,6 +65,7 @@ import {scrapeComptos} from './scrapers/comptos';
 import {scrapeMcp} from './scrapers/mcp';
 import {scrapeEgues} from './scrapers/egues';
 import {scrapeArkaute} from './scrapers/arkaute';
+import {scrapeTafalla} from './scrapers/tafalla';
 export type SourceReport = { id:string; attemptedAt:string; succeededAt:string|null; status:'ok'|'partial'|'error'; count:number; warnings:string[]; warningCount:number; error?:string };
 export async function recordReport(report:SourceReport) {
   if(!process.env.DATABASE_URL)return;
@@ -101,6 +102,7 @@ export async function runScrape(selected=process.env.SCRAPE_SOURCES?.trim() || s
           mcp:()=>scrapeMcp(client,now,warn),
           egues:()=>scrapeEgues(client,now,warn),
           arkaute:()=>scrapeArkaute(client,now,warn),
+          tafalla:()=>scrapeTafalla(client,now,warn),
           euskalmet:()=>scrapeEuskalmet(client,now,warn),
           neiker:()=>scrapeNeiker(client,now),
           maneru:()=>scrapeManeru(client,now,warn),

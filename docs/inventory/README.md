@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2218 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 265ek gutxienez bat datorren fitxa zuten, eta 630k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2244 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 265ek gutxienez bat datorren fitxa zuten, eta 630k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -718,3 +718,18 @@ Angleteko destinoarekin. Eskaneatutako PDF ofizialak bisualki berrikusi
 eta SHA-256 bidez lotu dira. Ez da titulu akademikorik edo azterketa-gaitegirik
 asmatzen. SDIS 64ren sei iragarkiak ere berrikusi dira; irakurritako
 postuek ez dute Iparraldeko destinoa egiaztatzen.
+
+
+Tafallako udalaren deialdi-atari propioa gehitu da (`tafalla`). 2026-11-23an
+bost orri publikoak eta banakako fitxak kontsultatu dira: oinarri ofizialak
+dituzten 26 prozesu, horietatik 18 itxita, 6 ebazpen bidean eta 2 epea
+baieztatzeko. Barne-sustapena, lekualdatzeak eta hautagaien emaitzak kanpoan
+geratu dira. Beste hiru fitxatan ez da oinarririk identifikatu; ez dira
+inportatu. Percusión eta Saxofón irakasleen oinarriak PDFaren SHA-256arekin
+egiaztatu dira: musika-espezialitateko titulazio-bideak testu literalean
+gordetzen dira, gradu orokor batekin parekatu gabe. Udal-atariak biak
+«Abierta» gisa etiketatzen ditu, baina ez du epe absolutua ematen; ezin da
+etiketa hori gaurko izen-emate ireki gisa baieztatu. Oinarrietan BONeko
+argitalpenetik hogei egun naturaleko epea dago, baina konektoreak ez du
+epe erlatibotik data automatikoa asmatzen. Anexoari buruzko aipamen hutsa
+ez da gaitegi oso bihurtzen.
