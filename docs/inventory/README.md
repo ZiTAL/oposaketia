@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2244 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 265ek gutxienez bat datorren fitxa zuten, eta 630k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2252 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 265ek gutxienez bat datorren fitxa zuten, eta 630k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -733,3 +733,23 @@ etiketa hori gaurko izen-emate ireki gisa baieztatu. Oinarrietan BONeko
 argitalpenetik hogei egun naturaleko epea dago, baina konektoreak ez du
 epe erlatibotik data automatikoa asmatzen. Anexoari buruzko aipamen hutsa
 ez da gaitegi oso bihurtzen.
+
+
+Barañaingo udalaren enplegu-artxiboa gehitu da (`baranain`): sei orriak
+kontsultatu, 2025etik aurrerako udal-oinarriak dituzten zortzi prozesu
+eta oinarrien eranskinetatik 151 gai berreskuratu dira. Hirutan ez dira
+udal-oinarriak identifikatu; ez dira inportatu. Barneko igoerak,
+lekualdatzeak, emaitzak eta hautagaien agiriak kanpoan geratzen dira.
+Informatikako eta kirol-koordinazioko deialdiek gradu orokorra onartzen
+dute; Lan Harremanetako titulu espezifikoa bere testuan gordetzen da,
+gradu orokorrari sarbidea eman gabe. Hainbat plazako administrazio-deialdian
+euskara B2 duten eta ez duten postuak batera agertzen dira; hizkuntza-baldintza
+ez zaio deialdi osoari ezartzen. Epe absolutu egiaztaturik gabe, prozesuak
+ez dira izen-emate irekitzat aurkezten. 2025 baino lehenagoko artxiboa
+eta kanpoko egoitza elektronikoak ez daude konektorearen estalduran.
+
+Altsasuko udalaren enplegu-orriak egoitza elektronikora bidaltzen du;
+egoitza horretako `robots.txt` arauak ez du fitxa automatizaturik onartzen.
+2026-11-12ko udal-albisteak haur-hezkuntzako hezitzailearen deialdia eta
+2026-11-25eko epea egiaztatzen ditu. Deialdia BONeko `bon-local` iturrian
+jasota zegoen; ez da bikoiztu. Udal-atariaren estaldura oraindik partziala da.
