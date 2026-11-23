@@ -35,7 +35,7 @@ export const messageEntries = [
  ['Enfermería','Erizaintza','Soins infirmiers'],
  ['Idioma de la interfaz','Interfazearen hizkuntza','Langue de l’interface'],
  ['Saltar al contenido','Edukira joan','Aller au contenu'],
- ['Oposaketia, inicio','Oposaketia, hasiera','Oposaketia, accueil'],
+ ['Oposaketia Beta, inicio','Oposaketia Beta, hasiera','Oposaketia Beta, accueil'],
  ['Navegación principal','Nabigazio nagusia','Navigation principale'],
  ['Fuentes','Iturriak','Sources'],
  ['Explorar oposiciones','Oposaketak arakatu','Explorer les concours'],
