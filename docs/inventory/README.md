@@ -35,8 +35,10 @@ Iturria: https://www.communaute-paysbasque.fr/linstitution/nos-offres-demploi
 
 `capb` konektoreak hasierako orri publikoko eskaintzak irakurtzen ditu,
 berezko hautagaitza orokorra baztertzen du, eta lanpostuko fitxak lotzen ditu.
-Argitaratutako epea, tokia eta taldea mantentzen ditu. Probintzia ezin bada
-kokapen esplizitutik baieztatu, zehaztu gabe uzten du. Ez du titulaziorik edo
+Argitaratutako epea, tokia eta taldea mantentzen ditu. Lanpostu-fitxan
+esplizituki eskatutako diplomak eta gidabaimenak jasotzen ditu; merezimendu
+gisa aipatutako ikasketak ez ditu sarbide-baldintza bihurtzen. Probintzia ezin
+bada kokapen esplizitutik baieztatu, zehaztu gabe uzten du. Ez du
 gai-zerrendarik asmatzen. Eskaintzak kontratazio mota desberdinetakoak izan
 daitezke; ez dira guztiak azterketa bidezko hautaketak.
 
@@ -44,6 +46,11 @@ Lehen kontsulta: 2026-11-17. Hiru fitxa eskuratu eta tokiko katalogora inportatu
 dira. Aplikazioaren eta scraper-aren irudiak berreraiki dira, eta konektorea
 tokiko aldizkako bilketan aktibo dago. API publikoan `source=capb` iragazkia
 erabil daiteke.
+
+2026-11-23ko egiaztapenean lau fitxa aktibo berreskuratu dira, intzidentziarik
+gabe. Amikuzeko gazte-animatzailearen fitxak DESJEPS, DEFA, BEATEP edo BPJEPS
+eta PSC1 eskatzen ditu; izendapen literalak gordetzen dira, ikasketa-iragazkiko
+maila orokor batekin parekatu gabe. Beste bi fitxek B gidabaimena eskatzen dute.
 
 ## Hurrengo blokeak
 
@@ -647,6 +654,12 @@ Région Nouvelle-Aquitaine-ren orri ofizialak lotutako kontratazio-atariak
 bilketa ukatu du `robots.txt` bidez. EPFL eta Office de Tourisme Pays Basque
 erakundeen web-identitateak egiaztatu dira; hasierako orrian lan-estekarik
 ez aurkitzeak ez du eskaintzarik ez dagoela frogatzen.
+EPFL Pays Basqueren 2025eko lan-iragarkien bilatzaile-emaitzak egiaztatu dira
+2026-11-23an, baina esteka ofizial horiek HTTP 404 itzultzen dute egun; ez dira
+deialdi berritzat inportatu.
+SCoT Pays Basque et Seignanx sindikatuaren enplegu-orri ofiziala ere aztertu da;
+argitaratutako eskaintzaren izen-ematea 2019-05-20an amaitu zen. Ez da egungo
+deialdi gisa gehitu.
 
 
 Arabako enplegu-atariaren zerrenda argitaratuen orrialde guztiak irakurtzen

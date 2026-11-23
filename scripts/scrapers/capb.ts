@@ -39,6 +39,14 @@ export function parseCapbList(html: string, now: string): Call[] {
   });
 }
 
+export function capbAccessRequirements(html: string): {educationText: string | null; requirements: string[]} {
+  const $ = load(html);
+  const paragraphs = $('main p').map((_, element) => clean($(element).text())).get();
+  const educationText = paragraphs.find(text => /^Dipl[oô]mes? requis\s*:/i.test(text)) ?? null;
+  const permit = paragraphs.find(text => /^Permis(?:\s+B)?\s*:/i.test(text) && /\b(?:requis|indispensable|obligatoire)\b/i.test(text)) ?? null;
+  return {educationText, requirements: [educationText, permit].filter((text): text is string => Boolean(text))};
+}
+
 export async function scrapeCapb(client: OfficialClient, now: string, warn: (message:string)=>void): Promise<Call[]> {
   const calls = parseCapbList(await client.text(CAPB_LIST), now);
   if (!calls.length) throw new Error('No se han reconocido ofertas CAPB; se conserva la importación anterior.');
@@ -47,6 +55,9 @@ export async function scrapeCapb(client: OfficialClient, now: string, warn: (mes
       const html = await client.text(call.sourceUrl);
       const $ = load(html);
       if (!clean($('h1').text())) throw new Error('Ficha CAPB sin título');
+      const access = capbAccessRequirements(html);
+      if (access.educationText) call.educationText = access.educationText;
+      call.requirements = [...access.requirements, ...call.requirements];
       call.documents = linkList($, 'main a[href]', call.sourceUrl)
         .filter(link => /\.pdf(?:\?|$)/i.test(link.url))
         .map(link => ({...link, title:link.title || 'Fiche de poste officielle', kind:'guia' as const, checkedAt:null, sha256:null}));

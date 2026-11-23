@@ -1,11 +1,20 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { frenchDate, parseCapbList } from '../scripts/scrapers/capb';
+import { capbAccessRequirements, frenchDate, parseCapbList } from '../scripts/scrapers/capb';
 
 test('CAPB parses French dates and rejects impossible dates', () => {
   assert.equal(frenchDate('Date limite : 21 nov. 2026'), '2026-11-21');
   assert.equal(frenchDate('31 février 2026'), null);
   assert.equal(frenchDate('inconnue'), null);
+});
+
+test('CAPB keeps mandatory diplomas and permits separate from preferred education', () => {
+  const html = '<main><p>Niveau Bac Professionnel ou BAC+2 dans les métiers de l’eau apprécié</p><p><strong>Permis</strong> : B requis en raison de déplacements</p><p>Diplômes requis : DESJEPS, DEFA, BEATEP, BPJEPS (ou équivalence), PSC1</p></main>';
+  assert.deepEqual(capbAccessRequirements(html), {
+    educationText: 'Diplômes requis : DESJEPS, DEFA, BEATEP, BPJEPS (ou équivalence), PSC1',
+    requirements: ['Diplômes requis : DESJEPS, DEFA, BEATEP, BPJEPS (ou équivalence), PSC1', 'Permis : B requis en raison de déplacements'],
+  });
+  assert.deepEqual(capbAccessRequirements('<main><p>Formation ou expérience juridique appréciée.</p></main>'), {educationText: null, requirements: []});
 });
 
 test('CAPB excludes unsolicited applications and preserves unknown requirements and locations', () => {
