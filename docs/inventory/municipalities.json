@@ -10815,16 +10815,17 @@
     "name": "VILLAVA / ATARRABIA",
     "territory": "Navarra",
     "province": "Navarra",
-    "status": "pending",
+    "status": "connected-partial",
     "officialCode": "31258",
     "type": "municipality",
     "sourceIds": [
       "navarra",
-      "lanbide"
+      "lanbide",
+      "villava"
     ],
     "directoryStatus": "verified",
     "directoryUrl": "https://nastat.navarra.es/es/recursos/nomenclator",
-    "note": "2026-10-20ko Nastat izendegi ofizialean egiaztatua. Enplegu-atari agregatuetan estaldura partziala; udal-atariaren egiaztapena falta da.",
+    "note": "2026-10-20ko Nastat izendegi ofizialean egiaztatua. Udalaren bi orrialdeko deialdi-artxiboan oinarri ofizialetara lotutako zazpi fitxa egiaztatu dira; estaldura partziala da.",
     "aliases": [
       "Villava / Atarrabia"
     ],
@@ -10842,10 +10843,10 @@
       ]
     },
     "employmentPageReview": {
-      "reviewedAt": "2026-11-18T14:59:37.135Z",
+      "reviewedAt": "2026-11-23T13:31:55.000Z",
       "url": "https://www.villava.es/empleo-publico/",
-      "outcome": "requires-format-review",
-      "note": "First published employment link reviewed; this does not establish absence of vacancies or complete coverage."
+      "outcome": "connected-partial",
+      "note": "Two archive pages and 15 individual cards reviewed. Seven externally accessible original bases were verified and yielded 141 syllabus items; one internal-promotion card was excluded. Seven other public cards had no direct original-bases document link and remain for manual review. Open labels without confirmed absolute deadlines remain unverified."
     },
     "aggregateMonitoring": {
       "sourceId": "bon-local",

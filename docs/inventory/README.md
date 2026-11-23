@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2252 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 265ek gutxienez bat datorren fitxa zuten, eta 630k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2259 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 265ek gutxienez bat datorren fitxa zuten, eta 630k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -753,3 +753,12 @@ egoitza horretako `robots.txt` arauak ez du fitxa automatizaturik onartzen.
 2026-11-12ko udal-albisteak haur-hezkuntzako hezitzailearen deialdia eta
 2026-11-25eko epea egiaztatzen ditu. Deialdia BONeko `bon-local` iturrian
 jasota zegoen; ez da bikoiztu. Udal-atariaren estaldura oraindik partziala da.
+
+Villava/Atarrabiako udalaren deialdi-artxiboko bi orriak gehitu dira
+(`villava`). Hamabost fitxa berrikusi dira: zazpik BONeko edo udaleko
+jatorrizko oinarrietarako esteka dute, eta haietatik 141 gai atera dira.
+Barne-sustapeneko deialdia baztertu da; beste zazpi fitxek ez dute
+jatorrizko oinarrien dokumentu-esteka zuzena eta eskuzko berrikuspena
+behar dute. «Abierta» etiketa duten prozesuak ez dira izen-emate
+irekitzat jotzen epe absolutua egiaztatu gabe. Kirol Martiket enpresa
+publikoaren deialdian kontratazio-erakundea bereizita gordetzen da.
