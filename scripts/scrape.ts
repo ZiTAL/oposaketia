@@ -17,7 +17,54 @@ import { scrapeOsakidetza } from './scrapers/osakidetza';
 import { scrapeEuskotren } from './scrapers/euskotren';
 import { scrapeVitoria } from './scrapers/vitoria';
 import { scrapeLanbide } from './scrapers/lanbide';
+import { scrapeCapb } from './scrapers/capb';
+import { scrapeCpen } from './scrapers/cpen';
+import { scrapeGipuzkoa } from './scrapers/gipuzkoa';
+import { scrapeGobiernoVasco } from './scrapers/gobierno-vasco';
+import { scrapeEmploiTerritorial } from './scrapers/emploi-territorial';
+import { scrapeBizkaia } from './scrapers/bizkaia';
+import { scrapeEjie } from './scrapers/ejie';
+import { scrapeTracasa } from './scrapers/tracasa';
+import { scrapeChcb } from './scrapers/chcb';
+import { scrapeUppa } from './scrapers/uppa';
+import { scrapeUliazpi } from './scrapers/uliazpi';
+import { scrapeLantik } from './scrapers/lantik';
+import { scrapeIfas } from './scrapers/ifas';
+import { scrapeKabia } from './scrapers/kabia';
+import { scrapeAlokabide } from './scrapers/alokabide';
+import { scrapeMusikene } from './scrapers/musikene';
+import { scrapeBiogipuzkoa } from './scrapers/biogipuzkoa';
 import { sources } from './sources';
+import { scrapeMunicipalGipuzkoa } from './scrapers/municipal-gipuzkoa';
+import {municipalPortals,type MunicipalPortal} from './municipal-portals';
+import {scrapeChoisirPublic} from './scrapers/choisir-public';
+import {scrapeNavarrabiomed} from './scrapers/navarrabiomed';
+import {scrapeGizain} from './scrapers/gizain';
+import {scrapeItelazpi} from './scrapers/itelazpi';
+import {scrapeBaluarte} from './scrapers/baluarte';
+import {scrapeMiguelIndurain} from './scrapers/miguel-indurain';
+import {scrapeNavarraParliament} from './scrapers/navarra-parliament';
+import {scrapeOsatek} from './scrapers/osatek';
+import {scrapeLaSecuRecrute} from './scrapers/la-secu-recrute';
+import {scrapeLeioa} from './scrapers/leioa';
+import {scrapeBerrioplano} from './scrapers/berrioplano';
+import {scrapeOrkoien} from './scrapers/orkoien';
+import {scrapeManeru} from './scrapers/maneru';
+import {scrapeEuskalmet} from './scrapers/euskalmet';
+import {scrapeNeiker} from './scrapers/neiker';
+import {scrapeMunicipalAccordions} from './scrapers/municipal-accordions';
+import {accordionMunicipalities,type AccordionMunicipality} from './accordion-municipalities';
+import {scrapeRibera} from './scrapers/ribera';
+import {scrapeMairaga} from './scrapers/mairaga';
+import {scrapeDefensorNavarra} from './scrapers/defensor-navarra';
+import {scrapeHazi} from './scrapers/hazi';
+import {scrapeAngletTourisme} from './scrapers/anglet-tourisme';
+import {scrapeBonLocal} from './scrapers/bon-local';
+import {scrapeValdizarbe} from './scrapers/valdizarbe';
+import {scrapeComptos} from './scrapers/comptos';
+import {scrapeMcp} from './scrapers/mcp';
+import {scrapeEgues} from './scrapers/egues';
+import {scrapeArkaute} from './scrapers/arkaute';
 export type SourceReport = { id:string; attemptedAt:string; succeededAt:string|null; status:'ok'|'partial'|'error'; count:number; warnings:string[]; warningCount:number; error?:string };
 export async function recordReport(report:SourceReport) {
   if(!process.env.DATABASE_URL)return;
@@ -28,8 +75,8 @@ export async function recordReport(report:SourceReport) {
       ON CONFLICT(id) DO UPDATE SET last_success=COALESCE(EXCLUDED.last_success,scrape_sources.last_success), report=EXCLUDED.report`,[report.id,report.succeededAt,JSON.stringify(report)]);
   }finally{await pool.end();}
 }
-export async function runScrape(selected=process.env.SCRAPE_SOURCES??'euskadi,eitb,araba,donostia,ehu,ivap,osakidetza,euskotren,vitoria,lanbide,navarra,cdg64') {
-  const selectedIds=selected.split(',').map(x=>x.trim());
+export async function runScrape(selected=process.env.SCRAPE_SOURCES?.trim() || sources.map(source=>source.id).join(',')) {
+  const selectedIds=selected==='all'?sources.map(source=>source.id):selected.split(',').map(x=>x.trim());
   if(selectedIds.some(id=>!sources.some(s=>s.id===id)))throw new Error('SCRAPE_SOURCES contiene un identificador desconocido');
   const now=new Date().toISOString();const since=new Date(Date.now()-90*86400000).toISOString().slice(0,10);
   const dir=resolve(process.env.SCRAPE_OUTPUT_DIR??'data/imports');await mkdir(dir,{recursive:true});
@@ -42,6 +89,46 @@ export async function runScrape(selected=process.env.SCRAPE_SOURCES??'euskadi,ei
       console.log(`[${source.id}] Consultando fuente oficial…`);
       try{
         const extractors:Record<string,()=>Promise<Call[]>>={
+          ...Object.fromEntries(Object.keys(accordionMunicipalities).map(id=>[id,()=>scrapeMunicipalAccordions(client,id as AccordionMunicipality,now,warn)])),
+          ribera:()=>scrapeRibera(client,now,warn),
+          mairaga:()=>scrapeMairaga(client,now,warn),
+          'defensor-navarra':()=>scrapeDefensorNavarra(client,now,warn),
+          hazi:()=>scrapeHazi(client,now,warn),
+          'anglet-tourisme':()=>scrapeAngletTourisme(client,now,warn),
+          'bon-local':()=>scrapeBonLocal(client,now,warn),
+          valdizarbe:()=>scrapeValdizarbe(client,now,warn),
+          comptos:()=>scrapeComptos(client,now,warn),
+          mcp:()=>scrapeMcp(client,now,warn),
+          egues:()=>scrapeEgues(client,now,warn),
+          arkaute:()=>scrapeArkaute(client,now,warn),
+          euskalmet:()=>scrapeEuskalmet(client,now,warn),
+          neiker:()=>scrapeNeiker(client,now),
+          maneru:()=>scrapeManeru(client,now,warn),
+          leioa:()=>scrapeLeioa(client,now,warn),
+          berrioplano:()=>scrapeBerrioplano(client,now,warn),
+          orkoien:()=>scrapeOrkoien(client,now,warn),
+          osatek:()=>scrapeOsatek(client,now,warn),
+          'la-secu-recrute':()=>scrapeLaSecuRecrute(client,now,warn),
+          baluarte:()=>scrapeBaluarte(client,now),
+          'miguel-indurain':()=>scrapeMiguelIndurain(client,now),
+          'navarra-parliament':()=>scrapeNavarraParliament(client,now,warn),
+          itelazpi:()=>scrapeItelazpi(client,now),
+          gizain:()=>scrapeGizain(client,now,warn),
+          navarrabiomed:()=>scrapeNavarrabiomed(client,now,warn),
+          'choisir-public':()=>scrapeChoisirPublic(client,now,warn),
+          biogipuzkoa:()=>scrapeBiogipuzkoa(client,now,warn),
+          musikene:()=>scrapeMusikene(client,now),
+          kabia:()=>scrapeKabia(client,now),alokabide:()=>scrapeAlokabide(client,now,warn),
+          ...Object.fromEntries(Object.keys(municipalPortals).map(id=>[id,()=>scrapeMunicipalGipuzkoa(client,id as MunicipalPortal,now)])),
+          ifas:()=>scrapeIfas(client,now),
+          uliazpi:()=>scrapeUliazpi(client,now),lantik:()=>scrapeLantik(client,now,warn),
+          uppa:()=>scrapeUppa(client,now),
+          tracasa:()=>scrapeTracasa(client,now,warn),chcb:()=>scrapeChcb(client,now),
+          ejie:()=>scrapeEjie(client,now,warn),
+          bizkaia:()=>scrapeBizkaia(client,now,warn),
+          'gobierno-vasco':()=>scrapeGobiernoVasco(client,now,warn),'emploi-territorial':()=>scrapeEmploiTerritorial(client,now,warn),
+          cpen:()=>scrapeCpen(client,now,warn),gipuzkoa:()=>scrapeGipuzkoa(client,now,warn),
+          capb:()=>scrapeCapb(client,now,warn),
           lanbide:()=>scrapeLanbide(client,now,warn),vitoria:()=>scrapeVitoria(client,now,warn),euskotren:()=>scrapeEuskotren(client,now),euskadi:()=>scrapeEuskadi(client,now,since,warn),navarra:()=>scrapeNavarra(client,now,warn),cdg64:()=>scrapeCdg64(client,now,warn),
           eitb:()=>scrapeEitb(client,now,warn),araba:()=>scrapeAraba(client,now,warn),donostia:()=>scrapeDonostia(client,now,warn),
           ehu:()=>scrapeEhu(client,now,warn),ivap:()=>scrapeIvap(client,now,warn),osakidetza:()=>scrapeOsakidetza(client,now,warn),

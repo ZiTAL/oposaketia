@@ -1,0 +1,1817 @@
+{
+  "checkedAt": "2026-11-19T08:24:16.319Z",
+  "finishedAt": "2026-11-19T08:25:12.026Z",
+  "note": "Official directory website links only; not evidence of complete employment coverage, current vacancies or legal classification.",
+  "total": 213,
+  "verified": 53,
+  "results": [
+    {
+      "id": "institution-administracion-general-de-la-comunidad-autonoma-de-euskadi",
+      "name": "Administración General de la Comunidad Autónoma de Euskadi",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-habe",
+      "name": "HABE",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://habe.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/habe-instituto-de-alfabetizacion-y-reeuskaldunizacion-de-adultos/web01-a2ogafin/es/",
+          "directoryName": "HABE-Instituto de Alfabetización y Reeuskaldunización de Adultos"
+        }
+      ]
+    },
+    {
+      "id": "institution-ivap",
+      "name": "IVAP",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://ivap.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/ivap-instituto-vasco-de-la-administracion-publica/web01-a2ogafin/es/",
+          "directoryName": "IVAP-Instituto Vasco de la Administración Pública"
+        }
+      ]
+    },
+    {
+      "id": "institution-eustat",
+      "name": "Eustat",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://eustat.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/eustat-instituto-vasco-de-estadistica/web01-a2ogafin/es/",
+          "directoryName": "Eustat-Instituto Vasco de Estadística"
+        }
+      ]
+    },
+    {
+      "id": "institution-emakunde",
+      "name": "Emakunde",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://emakunde.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/emakunde-instituto-vasco-de-la-mujer/web01-a2ogafin/es/",
+          "directoryName": "Emakunde-Instituto Vasco de la Mujer"
+        }
+      ]
+    },
+    {
+      "id": "institution-academia-vasca-de-policia-y-emergencias",
+      "name": "Academia Vasca de Policía y Emergencias",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://arkauteakademia.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/academia-vasca-de-policia-y-emergencias/web01-a2ogafin/es/",
+          "directoryName": "Academia Vasca de Policía y Emergencias"
+        }
+      ]
+    },
+    {
+      "id": "institution-osalan",
+      "name": "Osalan",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://osalan.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/osalan-instituto-vasco-de-seguridad-y-salud/web01-a2ogafin/es/",
+          "directoryName": "Osalan-Instituto Vasco de Seguridad y Salud Laborales"
+        },
+        {
+          "url": "https://osalan.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/asociacion-centro-de-investigacion-cooperativa-en-micro-nano-tecnologias-cic-microgune/web01-a2ogafin/es/",
+          "directoryName": "Osalan-Instituto Vasco de Seguridad y Salud Laborales"
+        }
+      ]
+    },
+    {
+      "id": "institution-kontsumobide",
+      "name": "Kontsumobide",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://kontsumobide.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/kontsumobide-instituto-vasco-de-consumo/web01-a2ogafin/es/",
+          "directoryName": "Kontsumobide-Instituto Vasco de Consumo"
+        }
+      ]
+    },
+    {
+      "id": "institution-autoridad-vasca-de-la-competencia",
+      "name": "Autoridad Vasca de la Competencia",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://competencia.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/autoridad-vasca-de-la-competencia/web01-a2ogafin/es/",
+          "directoryName": "Autoridad Vasca de la Competencia"
+        }
+      ]
+    },
+    {
+      "id": "institution-gogora",
+      "name": "Gogora",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://gogora.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/gogora-instituto-de-la-memoria-la-convivencia-y-los-derechos-humanos/web01-a2ogafin/es/",
+          "directoryName": "Gogora-Instituto de la Memoria, la Convivencia y los Derechos Humanos"
+        }
+      ]
+    },
+    {
+      "id": "institution-osakidetza",
+      "name": "Osakidetza",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://osakidetza.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/osakidetza-servicio-vasco-salud/web01-a2ogafin/es/",
+          "directoryName": "Osakidetza-Servicio Vasco de Salud"
+        },
+        {
+          "url": "https://osakidetza.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/osakidetza-servicio-vasco-de-salud/web01-a2ogafin/es/",
+          "directoryName": "Osakidetza-Servicio Vasco de Salud"
+        }
+      ]
+    },
+    {
+      "id": "institution-lanbide",
+      "name": "Lanbide",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://lanbide.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/lanbide-servicio-vasco-de-empleo/web01-a2ogafin/es/",
+          "directoryName": "Lanbide-Servicio Vasco de Empleo"
+        }
+      ]
+    },
+    {
+      "id": "institution-elankidetza",
+      "name": "eLankidetza",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://elankidetza.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/agencia-vasca-de-cooperacion-para-el-desarrollo-elankidetza/web01-a2ogafin/es/",
+          "directoryName": "eLankidetza-Agencia Vasca de Cooperación y Solidaridad"
+        },
+        {
+          "url": "https://elankidetza.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/agencia-vasca-cooperacion-y-solidaridad-elankidetza/web01-a2ogafin/es/",
+          "directoryName": "eLankidetza-Agencia Vasca de Cooperación y Solidaridad"
+        }
+      ]
+    },
+    {
+      "id": "institution-cyberzaintza",
+      "name": "Cyberzaintza",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-aukerak",
+      "name": "Aukerak",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "Invalid URL"
+    },
+    {
+      "id": "institution-ente-vasco-de-la-energia",
+      "name": "Ente Vasco de la Energía",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://eve.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/ente-vasco-de-la-energia-eve/web01-a2ogafin/es/",
+          "directoryName": "Ente Vasco de la Energía (EVE)"
+        },
+        {
+          "url": "https://eve.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/ente-vasco-energia-eve/web01-a2ogafin/es/",
+          "directoryName": "Ente Vasco de la Energía (EVE)"
+        }
+      ]
+    },
+    {
+      "id": "institution-euskal-trenbide-sarea",
+      "name": "Euskal Trenbide Sarea",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://ets-rfv.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/red-ferroviaria-vasca-euskal-trenbide-sarea-ets/web01-a2ogafin/es/",
+          "directoryName": "Red Ferroviaria Vasca-Euskal Trenbide Sarea (ETS)"
+        }
+      ]
+    },
+    {
+      "id": "institution-agencia-vasca-del-agua-ura",
+      "name": "Agencia Vasca del Agua URA",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://uragentzia.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/agencia-vasca-del-agua-ura/web01-a2ogafin/es/",
+          "directoryName": "Agencia Vasca del Agua (URA)"
+        }
+      ]
+    },
+    {
+      "id": "institution-instituto-vasco-de-finanzas",
+      "name": "Instituto Vasco de Finanzas",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://ivf-fei.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/instituto-vasco-de-finanzas/web01-a2ogafin/es/",
+          "directoryName": "Instituto Vasco de Finanzas"
+        },
+        {
+          "url": "https://ivf-fei.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/instituto-vasco-finanzas/web01-a2ogafin/es/",
+          "directoryName": "Instituto Vasco de Finanzas"
+        }
+      ]
+    },
+    {
+      "id": "institution-unibasq",
+      "name": "Unibasq",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://unibasq.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/unibasq-agencia-de-calidad-del-sistema-universitario-vasco/web01-a2ogafin/es/",
+          "directoryName": "Unibasq-Agencia de Calidad del Sistema Universitario Vasco"
+        },
+        {
+          "url": "https://unibasq.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/unibasq-agencia-calidad-del-sistema-universitario-vasco/web01-a2ogafin/es/",
+          "directoryName": "Unibasq-Agencia de Calidad del Sistema Universitario Vasco"
+        }
+      ]
+    },
+    {
+      "id": "institution-euskal-irrati-telebista",
+      "name": "Euskal Irrati Telebista",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://eitb.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/euskal-irrati-telebista-radio-television-vasca-eitb/web01-a2ogafin/es/",
+          "directoryName": "Euskal Irrati Telebista-Radio Televisión Vasca (EITB)"
+        }
+      ]
+    },
+    {
+      "id": "institution-instituto-vasco-etxepare",
+      "name": "Instituto Vasco Etxepare",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://etxepare.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/instituto-vasco-etxepare-euskal-institutuabasque-institute/web01-a2ogafin/es/",
+          "directoryName": "Instituto Vasco Etxepare Euskal Institutua/Basque Institute"
+        }
+      ]
+    },
+    {
+      "id": "institution-spri",
+      "name": "SPRI",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://spri.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/sociedad-para-la-transformacion-competitiva-s-a-spri/web01-a2ogafin/es/",
+          "directoryName": "SPRI-Agencia Vasca de Desarrollo Empresarial"
+        },
+        {
+          "url": "https://spri.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/spri-agencia-vasca-desarrollo-empresarial/web01-a2ogafin/es/",
+          "directoryName": "SPRI-Agencia Vasca de Desarrollo Empresarial"
+        }
+      ]
+    },
+    {
+      "id": "institution-euskadiko-kirol-portuak",
+      "name": "Euskadiko Kirol Portuak",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://ekpsa.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/euskadiko-kirol-portuak/web01-a2ogafin/es/",
+          "directoryName": "Euskadiko Kirol Portuak"
+        },
+        {
+          "url": "https://ekpsa.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/euskadiko-kirol-portua-s-a/web01-a2ogafin/es/",
+          "directoryName": "Euskadiko Kirol Portuak"
+        }
+      ]
+    },
+    {
+      "id": "institution-hazi",
+      "name": "HAZI",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://hazi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/fundacion-hazi/web01-a2ogafin/es/",
+          "directoryName": "Fundación HAZI"
+        }
+      ]
+    },
+    {
+      "id": "institution-elika",
+      "name": "ELIKA",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://elika.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/elika-fundacion-vasca-seguridad-agroalimentaria/web01-a2ogafin/es/",
+          "directoryName": "ELIKA Fundación Vasca para la Seguridad Agroalimentaria"
+        },
+        {
+          "url": "https://elika.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/elika-fundacion-vasca-para-la-seguridad-agroalimentaria/web01-a2ogafin/es/",
+          "directoryName": "ELIKA Fundación Vasca para la Seguridad Agroalimentaria"
+        }
+      ]
+    },
+    {
+      "id": "institution-musikene",
+      "name": "Musikene",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://musikene.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/fundacion-privada-centro-superior-musica-del-pais-vasco-musikene/web01-a2ogafin/es/",
+          "directoryName": "Fundación Privada para el Centro Superior de Música del País Vasco (Musikene)"
+        },
+        {
+          "url": "https://musikene.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/fundacion-privada-para-el-centro-superior-de-musica-del-pais-vasco-musikene/web01-a2ogafin/es/",
+          "directoryName": "Fundación Privada para el Centro Superior de Música del País Vasco (Musikene)"
+        }
+      ]
+    },
+    {
+      "id": "institution-bioef",
+      "name": "BIOEF",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://bioef.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/fundacion-vasca-innovacion-e-investigacion-sanitarias-bioef/web01-a2ogafin/es/",
+          "directoryName": "Fundación Vasca de Innovación e Investigación Sanitarias (BIOEF)"
+        },
+        {
+          "url": "https://bioef.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/fundacion-vasca-de-innovacion-e-investigacion-sanitarias-bioef/web01-a2ogafin/es/",
+          "directoryName": "Fundación Vasca de Innovación e Investigación Sanitarias (BIOEF)"
+        }
+      ]
+    },
+    {
+      "id": "institution-ego",
+      "name": "EGO",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://egofundazioa.org/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/fundacion-joven-orquesta-euskal-herria-ego/web01-a2ogafin/es/",
+          "directoryName": "Fundación Joven Orquesta de Euskal Herria (EGO)"
+        },
+        {
+          "url": "https://egofundazioa.org/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/fundacion-joven-orquesta-de-euskal-herria-ego/web01-a2ogafin/es/",
+          "directoryName": "Fundación Joven Orquesta de Euskal Herria (EGO)"
+        }
+      ]
+    },
+    {
+      "id": "institution-basque-team",
+      "name": "Basque Team",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://basqueteam.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/fundacion-euskadi-kirola-basqueteam/web01-a2ogafin/es/",
+          "directoryName": "Fundación Basque Team"
+        }
+      ]
+    },
+    {
+      "id": "institution-haurreskolak",
+      "name": "Haurreskolak",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://haurreskolak.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/haurreskolak/web01-a2ogafin/es/",
+          "directoryName": "Haurreskolak"
+        }
+      ]
+    },
+    {
+      "id": "institution-brta",
+      "name": "BRTA",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://brta.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/consorcio-cientifico-tecnologico-vasco-basque-research-and-technology-alliance-brta/web01-a2ogafin/es/",
+          "directoryName": "Consorcio Científico-Tecnológico Vasco Basque Research and Technology Alliance (BRTA)"
+        }
+      ]
+    },
+    {
+      "id": "institution-eitb-media",
+      "name": "EiTB Media",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://eitb.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/euskal-telebista-television-vasca-s-a-etb/web01-a2ogafin/es/",
+          "directoryName": "EiTB Media, S.A.U."
+        },
+        {
+          "url": "https://eitb.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/eitb-media-s-u/web01-a2ogafin/es/",
+          "directoryName": "EiTB Media, S.A.U."
+        }
+      ]
+    },
+    {
+      "id": "institution-euskotren",
+      "name": "Euskotren",
+      "status": "needs-review",
+      "evidence": [],
+      "error": "Ambiguous institution directory match"
+    },
+    {
+      "id": "institution-euskotren-participaciones",
+      "name": "Euskotren Participaciones",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://euskotren.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/euskotren-participaciones-s-a/web01-a2ogafin/es/",
+          "directoryName": "Euskotren Participaciones, S.A."
+        }
+      ]
+    },
+    {
+      "id": "institution-ejie",
+      "name": "EJIE",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://ejie.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/sociedad-informatica-del-gobierno-vasco-s-ejie/web01-a2ogafin/es/",
+          "directoryName": "Eusko Jaurlaritzaren Informatika Elkartea-Sociedad Informática del Gobierno Vasco, S.A. (EJIE)"
+        },
+        {
+          "url": "https://ejie.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/sociedad-informatica-del-gobierno-vasco-s-a-ejie/web01-a2ogafin/es/",
+          "directoryName": "Eusko Jaurlaritzaren Informatika Elkartea-Sociedad Informática del Gobierno Vasco, S.A. (EJIE)"
+        }
+      ]
+    },
+    {
+      "id": "institution-itelazpi",
+      "name": "Itelazpi",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://itelazpi.eus/es",
+          "directoryUrl": "https://www.euskadi.eus/entidad/itelazpi-s-a/web01-a2ogafin/es/",
+          "directoryName": "Itelazpi, S.A."
+        }
+      ]
+    },
+    {
+      "id": "institution-finkatze-kapitala-finkatuz",
+      "name": "Finkatze Kapitala Finkatuz",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://ivf-fei.euskadi.eus/informacion/ivf/transparencia/webivf00-cnt/es/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/finkatze-kapitala-finkatuz-s-a/web01-a2ogafin/es/",
+          "directoryName": "Finkatze Kapitala Finkatuz, S.A."
+        }
+      ]
+    },
+    {
+      "id": "institution-euskalmet",
+      "name": "Euskalmet",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://euskalmet.euskadi.eus/inicio/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/euskalmet-agencia-vasca-meteorologia-s-a/web01-a2ogafin/es/",
+          "directoryName": "Euskalmet-Agencia Vasca de Meteorología, S.A."
+        }
+      ]
+    },
+    {
+      "id": "institution-zumaiako-kirol-portua",
+      "name": "Zumaiako Kirol Portua",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "Invalid URL"
+    },
+    {
+      "id": "institution-neiker",
+      "name": "NEIKER",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://neiker.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/neiker-instituto-vasco-de-investigacion-y-desarrollo-agrario-s-a/web01-a2ogafin/es/",
+          "directoryName": "NEIKER-Instituto Vasco de Investigación y Desarrollo Agrario, S.A."
+        },
+        {
+          "url": "https://neiker.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/neiker-instituto-vasco-investigacion-y-desarrollo-agrario-s-a/web01-a2ogafin/es/",
+          "directoryName": "NEIKER-Instituto Vasco de Investigación y Desarrollo Agrario, S.A."
+        }
+      ]
+    },
+    {
+      "id": "institution-visesa",
+      "name": "VISESA",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://visesa.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/vivienda-y-suelo-euskadi-s-visesa/web01-a2ogafin/es/",
+          "directoryName": "Vivienda y Suelo de Euskadi, S.A. (VISESA)"
+        },
+        {
+          "url": "https://visesa.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/vivienda-y-suelo-de-euskadi-s-a-visesa/web01-a2ogafin/es/",
+          "directoryName": "Vivienda y Suelo de Euskadi, S.A. (VISESA)"
+        }
+      ]
+    },
+    {
+      "id": "institution-alokabide",
+      "name": "Alokabide",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://alokabide.euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/alokabide-s-a/web01-a2ogafin/es/",
+          "directoryName": "Alokabide, S.A."
+        }
+      ]
+    },
+    {
+      "id": "institution-ihobe",
+      "name": "IHOBE",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://ihobe.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/sociedad-publica-gestion-ambiental-ihobe-s-a/web01-a2ogafin/es/",
+          "directoryName": "Sociedad Pública de Gestión Ambiental IHOBE, S.A."
+        },
+        {
+          "url": "https://ihobe.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/sociedad-publica-de-gestion-ambiental-ihobe-s-a/web01-a2ogafin/es/",
+          "directoryName": "Sociedad Pública de Gestión Ambiental IHOBE, S.A."
+        }
+      ]
+    },
+    {
+      "id": "institution-osatek",
+      "name": "Osatek",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://osakidetza.euskadi.eus/osatek",
+          "directoryUrl": "https://www.euskadi.eus/entidad/osatek-s-a/web01-a2ogafin/es/",
+          "directoryName": "Osatek, S.A."
+        }
+      ]
+    },
+    {
+      "id": "institution-basquetour",
+      "name": "Basquetour",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://basquetour.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/basquetour-agencia-vasca-de-turismo-s-a/web01-a2ogafin/es/",
+          "directoryName": "Basquetour, Agencia Vasca de Turismo, S.A."
+        },
+        {
+          "url": "https://basquetour.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/basquetour-agencia-vasca-turismo-s-a/web01-a2ogafin/es/",
+          "directoryName": "Basquetour, Agencia Vasca de Turismo, S.A."
+        }
+      ]
+    },
+    {
+      "id": "institution-orquesta-de-euskadi",
+      "name": "Orquesta de Euskadi",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://euskadikoorkestra.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/orquesta-de-euskadi-s-a/web01-a2ogafin/es/",
+          "directoryName": "Orquesta de Euskadi, S.A."
+        },
+        {
+          "url": "https://euskadikoorkestra.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/orquesta-euskadi-s-a/web01-a2ogafin/es/",
+          "directoryName": "Orquesta de Euskadi, S.A."
+        }
+      ]
+    },
+    {
+      "id": "institution-bimep",
+      "name": "BIMEP",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://bimep.com/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/biscay-marine-energy-platform-s-a-bimep/web01-a2ogafin/es/",
+          "directoryName": "Biscay Marine Energy Platform, S.A. (BIMEP)"
+        },
+        {
+          "url": "https://bimep.com/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/biscay-marine-energy-platform-s-bimep/web01-a2ogafin/es/",
+          "directoryName": "Biscay Marine Energy Platform, S.A. (BIMEP)"
+        }
+      ]
+    },
+    {
+      "id": "institution-cadem",
+      "name": "CADEM",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://euskadi.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/centro-para-el-ahorro-y-desarrollo-energetico-y-minero-s-a-cadem/web01-a2ogafin/es/",
+          "directoryName": "Centro para el Ahorro y Desarrollo Energético y Minero, S.A. (CADEM)"
+        }
+      ]
+    },
+    {
+      "id": "institution-sociedad-de-hidrocarburos-de-euskadi",
+      "name": "Sociedad de Hidrocarburos de Euskadi",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://shesa.es/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/sociedad-de-hidrocarburos-de-euskadi-s-a-shesa/web01-a2ogafin/es/",
+          "directoryName": "Sociedad de Hidrocarburos de Euskadi, S.A.U. (SHESA)"
+        },
+        {
+          "url": "https://shesa.es/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/sociedad-hidrocarburos-euskadi-s-shesa/web01-a2ogafin/es/",
+          "directoryName": "Sociedad de Hidrocarburos de Euskadi, S.A.U. (SHESA)"
+        }
+      ]
+    },
+    {
+      "id": "institution-basque-trade-investment",
+      "name": "Basque Trade & Investment",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-parlamento-vasco",
+      "name": "Parlamento Vasco",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://legebiltzarra.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/parlamento-vasco/web01-a2ogafin/es/",
+          "directoryName": "Parlamento Vasco"
+        }
+      ]
+    },
+    {
+      "id": "institution-tribunal-vasco-de-cuentas-publicas",
+      "name": "Tribunal Vasco de Cuentas Públicas",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://tvcp.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/tribunal-vasco-de-cuentas-publicas/web01-a2ogafin/es/",
+          "directoryName": "Tribunal Vasco de Cuentas Públicas"
+        },
+        {
+          "url": "https://tvcp.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/tribunal-vasco-cuentas-publicas/web01-a2ogafin/es/",
+          "directoryName": "Tribunal Vasco de Cuentas Públicas"
+        }
+      ]
+    },
+    {
+      "id": "institution-ararteko",
+      "name": "Ararteko",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-agencia-vasca-de-proteccion-de-datos",
+      "name": "Agencia Vasca de Protección de Datos",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-consejo-de-relaciones-laborales",
+      "name": "Consejo de Relaciones Laborales",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://crl-lhk.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/consejo-de-relaciones-laborales-crl/web01-a2ogafin/es/",
+          "directoryName": "Consejo de Relaciones Laborales (CRL)"
+        },
+        {
+          "url": "https://crl-lhk.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/consejo-relaciones-laborales-crl/web01-a2ogafin/es/",
+          "directoryName": "Consejo de Relaciones Laborales (CRL)"
+        }
+      ]
+    },
+    {
+      "id": "institution-consejo-economico-y-social-vasco",
+      "name": "Consejo Económico y Social Vasco",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-universidad-del-pais-vasco",
+      "name": "Universidad del País Vasco",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://ehu.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/universidad-del-pais-vasco-upvehu/web01-a2ogafin/es/",
+          "directoryName": "Universidad del País Vasco (EHU)"
+        }
+      ]
+    },
+    {
+      "id": "institution-diputacion-foral-de-alava",
+      "name": "Diputación Foral de Álava",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-instituto-foral-de-bienestar-social",
+      "name": "Instituto Foral de Bienestar Social",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-instituto-foral-de-la-juventud",
+      "name": "Instituto Foral de la Juventud",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-bomberos-forales-de-alava",
+      "name": "Bomberos Forales de Álava",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-centro-de-calculo-de-alava",
+      "name": "Centro de Cálculo de Álava",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-alava-agencia-de-desarrollo",
+      "name": "Álava Agencia de Desarrollo",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-naturgolf",
+      "name": "Naturgolf",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-indesa-2010",
+      "name": "Indesa 2010",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://indesa2010.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/suztapen-fondo-de-capital-riesgo/web01-a2ogafin/es/",
+          "directoryName": "Indesa 2010, S.L."
+        },
+        {
+          "url": "https://indesa2010.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/indesa-2010-s-l/web01-a2ogafin/es/",
+          "directoryName": "Indesa 2010, S.L."
+        }
+      ]
+    },
+    {
+      "id": "institution-via-promocion-del-aeropuerto-de-vitoria",
+      "name": "VIA Promoción del Aeropuerto de Vitoria",
+      "status": "needs-review",
+      "evidence": [],
+      "error": "URL fuera de las fuentes oficiales permitidas"
+    },
+    {
+      "id": "institution-enargi-araba",
+      "name": "Enargi Araba",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-artium",
+      "name": "Artium",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://artium.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/fundacion-artium-de-alava/web01-a2ogafin/es/",
+          "directoryName": "Fundación Artium de Álava"
+        },
+        {
+          "url": "https://artium.eus/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/fundacion-artium-alava/web01-a2ogafin/es/",
+          "directoryName": "Fundación Artium de Álava"
+        }
+      ]
+    },
+    {
+      "id": "institution-catedral-santa-maria",
+      "name": "Catedral Santa María",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-valle-salado-de-anana",
+      "name": "Valle Salado de Añana",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://vallesalado.com/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/fundacion-valle-salado-de-anana/web01-a2ogafin/es/",
+          "directoryName": "Fundación Valle Salado de Añana"
+        },
+        {
+          "url": "https://vallesalado.com/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/fundacion-valle-salado-anana/web01-a2ogafin/es/",
+          "directoryName": "Fundación Valle Salado de Añana"
+        }
+      ]
+    },
+    {
+      "id": "institution-vitoria-gasteiz-araba-mobility-lab",
+      "name": "Vitoria-Gasteiz Araba Mobility Lab",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-diputacion-foral-de-bizkaia",
+      "name": "Diputación Foral de Bizkaia",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-ifas",
+      "name": "IFAS",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-bizkaikoa",
+      "name": "Bizkaikoa",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-gaikuntza",
+      "name": "GaiKuntza",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-aparkabisa",
+      "name": "Aparkabisa",
+      "status": "website-verified",
+      "evidence": [
+        {
+          "url": "https://aparkabisa.com/",
+          "directoryUrl": "https://www.euskadi.eus/entidad/aparkabisa-centro-transportes-bizkaia-s-a/web01-a2ogafin/es/",
+          "directoryName": "APARKABISA Centro de Transportes de Bizkaia, S.A."
+        }
+      ]
+    },
+    {
+      "id": "institution-azpiegiturak",
+      "name": "Azpiegiturak",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-basalan",
+      "name": "Basalan",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-beaz",
+      "name": "BEAZ",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-crowdfunding-bizkaia",
+      "name": "Crowdfunding Bizkaia",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-palacio-euskalduna",
+      "name": "Palacio Euskalduna",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-garbiker",
+      "name": "Garbiker",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-interbiak",
+      "name": "Interbiak",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-lantik",
+      "name": "Lantik",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-seed-capital",
+      "name": "Seed Capital",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-bizkaia-mikro",
+      "name": "Bizkaia Mikro",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-zugaztel",
+      "name": "Zugaztel",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-azkue",
+      "name": "Azkue",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-biscaytik",
+      "name": "BiscayTIK",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-bilbao-orkestra-sinfonikoa",
+      "name": "Bilbao Orkestra Sinfonikoa",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-bizkaia-bizkaialde",
+      "name": "Bizkaia Bizkaialde",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-diputacion-foral-de-gipuzkoa",
+      "name": "Diputación Foral de Gipuzkoa",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-uliazpi",
+      "name": "Uliazpi",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-kabia",
+      "name": "Kabia",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-izfe",
+      "name": "IZFE",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-bidegi",
+      "name": "Bidegi",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-etorlur",
+      "name": "Etorlur",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-gipuzkoa-zainduz",
+      "name": "Gipuzkoa Zainduz",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-kirolgi",
+      "name": "Kirolgi",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-sueskola-gipuzkoa",
+      "name": "Sueskola Gipuzkoa",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-naturklima",
+      "name": "Naturklima",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-ziur",
+      "name": "Ziur",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-adinberri",
+      "name": "Adinberri",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-mubil",
+      "name": "Mubil",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-bstk",
+      "name": "BSTK",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-administracion-de-la-comunidad-foral-de-navarra",
+      "name": "Administración de la Comunidad Foral de Navarra",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-parlamento-de-navarra",
+      "name": "Parlamento de Navarra",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-defensor-del-pueblo-de-navarra",
+      "name": "Defensor del Pueblo de Navarra",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-camara-de-comptos",
+      "name": "Cámara de Comptos",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-consejo-de-navarra",
+      "name": "Consejo de Navarra",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-oficina-de-buenas-practicas-y-anticorrupcion",
+      "name": "Oficina de Buenas Prácticas y Anticorrupción",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-universidad-publica-de-navarra",
+      "name": "Universidad Pública de Navarra",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-instituto-navarro-para-la-igualdad",
+      "name": "Instituto Navarro para la Igualdad",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-oficina-de-analisis-y-prospeccion",
+      "name": "Oficina de Análisis y Prospección",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-euskarabidea",
+      "name": "Euskarabidea",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-instituto-navarro-de-la-juventud",
+      "name": "Instituto Navarro de la Juventud",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-hacienda-foral-de-navarra",
+      "name": "Hacienda Foral de Navarra",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-agencia-navarra-de-autonomia-y-desarrollo-de-las-personas",
+      "name": "Agencia Navarra de Autonomía y Desarrollo de las Personas",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-servicio-navarro-de-empleo",
+      "name": "Servicio Navarro de Empleo",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-servicio-navarro-de-salud-osasunbidea",
+      "name": "Servicio Navarro de Salud Osasunbidea",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-instituto-de-salud-publica-y-laboral-de-navarra",
+      "name": "Instituto de Salud Pública y Laboral de Navarra",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-instituto-navarro-del-deporte",
+      "name": "Instituto Navarro del Deporte",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-transporte-sanitario-de-navarra-bidean",
+      "name": "Transporte Sanitario de Navarra Bidean",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-ciudad-agroalimentaria-de-tudela",
+      "name": "Ciudad Agroalimentaria de Tudela",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-cein",
+      "name": "CEIN",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-cnai",
+      "name": "CNAI",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-cpen",
+      "name": "CPEN",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-instituto-navarro-de-inversiones",
+      "name": "Instituto Navarro de Inversiones",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-intia",
+      "name": "INTIA",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-nafarbide",
+      "name": "Nafarbide",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-nasertic",
+      "name": "NASERTIC",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-nasuvinsa",
+      "name": "NASUVINSA",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-nicdo",
+      "name": "NICDO",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-nilsa",
+      "name": "NILSA",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-orekan-gestion-ambiental-de-navarra",
+      "name": "OREKAN Gestión Ambiental de Navarra",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-potasas-de-subiza-posusa",
+      "name": "Potasas de Subiza POSUSA",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-salinas-de-navarra",
+      "name": "Salinas de Navarra",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-sodena",
+      "name": "SODENA",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-start-up",
+      "name": "Start Up",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-tracasa",
+      "name": "TRACASA",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-tracasa-instrumental",
+      "name": "TRACASA Instrumental",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-fundacion-miguel-servet",
+      "name": "Fundación Miguel Servet",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-fundacion-baluarte",
+      "name": "Fundación Baluarte",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-fundacion-miguel-indurain",
+      "name": "Fundación Miguel Induráin",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-gizain",
+      "name": "Gizain",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-fundacion-publica-navarra-para-la-provision-de-apoyos-a-personas-con-discapacidad",
+      "name": "Fundación Pública Navarra para la Provisión de Apoyos a Personas con Discapacidad",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-mancomunidad-de-la-comarca-de-pamplona",
+      "name": "Mancomunidad de la Comarca de Pamplona",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-mancomunidad-de-montejurra",
+      "name": "Mancomunidad de Montejurra",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-mancomunidad-de-la-ribera",
+      "name": "Mancomunidad de la Ribera",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-mancomunidad-de-mairaga",
+      "name": "Mancomunidad de Mairaga",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-mancomunidad-de-sakana",
+      "name": "Mancomunidad de Sakana",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-mancomunidad-de-valdizarbe",
+      "name": "Mancomunidad de Valdizarbe",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-mancomunidad-de-aguas-del-moncayo",
+      "name": "Mancomunidad de Aguas del Moncayo",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-republique-francaise",
+      "name": "République française",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-region-nouvelle-aquitaine",
+      "name": "Région Nouvelle-Aquitaine",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-departement-des-pyrenees-atlantiques",
+      "name": "Département des Pyrénées-Atlantiques",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-communaute-dagglomeration-pays-basque",
+      "name": "Communauté d’Agglomération Pays Basque",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-sous-prefecture-de-bayonne",
+      "name": "Sous-préfecture de Bayonne",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-prefecture-des-pyrenees-atlantiques",
+      "name": "Préfecture des Pyrénées-Atlantiques",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-sm-du-scot-du-pays-basque-et-du-seignanx",
+      "name": "SM du SCoT du Pays Basque et du Seignanx",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-sm-du-bas-adour-maritime",
+      "name": "SM du Bas Adour Maritime",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-sm-de-prefiguration-du-parc-naturel-regional-montagne-basque",
+      "name": "SM de préfiguration du Parc naturel régional Montagne Basque",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-epfl-pays-basque",
+      "name": "EPFL Pays Basque",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-commission-syndicale-de-la-vallee-de-baigorry",
+      "name": "Commission Syndicale de la Vallée de Baïgorry",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-commission-syndicale-du-pays-de-cize",
+      "name": "Commission Syndicale du Pays de Cize",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-commission-syndicale-de-lostabaret",
+      "name": "Commission Syndicale de l’Ostabaret",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-commission-syndicale-du-pays-de-soule",
+      "name": "Commission Syndicale du Pays de Soule",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-commission-syndicale-du-bois-de-mixe",
+      "name": "Commission Syndicale du Bois de Mixe",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-sivu-mondarrain-artzamendi",
+      "name": "SIVU Mondarrain Artzamendi",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-office-de-tourisme-pays-basque",
+      "name": "Office de Tourisme Pays Basque",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-office-de-tourisme-communautaire-de-bayonne",
+      "name": "Office de tourisme communautaire de Bayonne",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-anglet-tourisme",
+      "name": "Anglet Tourisme",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-biarritz-tourisme",
+      "name": "Biarritz Tourisme",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-ot-bidart",
+      "name": "OT Bidart",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-ot-cambo-les-bains",
+      "name": "OT Cambo-les-Bains",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-hendaye-tourisme-et-commerce",
+      "name": "Hendaye Tourisme et Commerce",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-agence-regionale-de-sante-nouvelle-aquitaine",
+      "name": "Agence régionale de santé Nouvelle-Aquitaine",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-cpam-des-pyrenees-atlantiques",
+      "name": "CPAM des Pyrénées-Atlantiques",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-caf-des-pyrenees-atlantiques",
+      "name": "CAF des Pyrénées-Atlantiques",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-msa-sud-aquitaine",
+      "name": "MSA Sud Aquitaine",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-groupement-hospitalier-de-territoire-navarre-cote-basque",
+      "name": "Groupement Hospitalier de Territoire Navarre Côte Basque",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-centre-hospitalier-de-la-cote-basque",
+      "name": "Centre Hospitalier de la Côte Basque",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-universite-de-pau-et-des-pays-de-ladour",
+      "name": "Université de Pau et des Pays de l’Adour",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-cci-bayonne-pays-basque",
+      "name": "CCI Bayonne Pays Basque",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-chambre-de-metiers-et-de-lartisanat",
+      "name": "Chambre de Métiers et de l’Artisanat",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-chambre-dagriculture",
+      "name": "Chambre d’Agriculture",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-banque-de-france",
+      "name": "Banque de France",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-dsden",
+      "name": "DSDEN",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-sdis",
+      "name": "SDIS",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-france-travail",
+      "name": "France Travail",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-delegacion-del-gobierno-en-el-pais-vasco",
+      "name": "Delegación del Gobierno en el País Vasco",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-aeat",
+      "name": "AEAT",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-inss",
+      "name": "INSS",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-tgss",
+      "name": "TGSS",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-sepe",
+      "name": "SEPE",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-dgt",
+      "name": "DGT",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-guardia-civil",
+      "name": "Guardia Civil",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-policia-nacional",
+      "name": "Policía Nacional",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-administracion-de-justicia",
+      "name": "Administración de Justicia",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-instituciones-penitenciarias",
+      "name": "Instituciones Penitenciarias",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-delegacion-del-gobierno-en-navarra",
+      "name": "Delegación del Gobierno en Navarra",
+      "status": "unavailable",
+      "evidence": [],
+      "error": "CPEN directory unavailable: fetch failed"
+    },
+    {
+      "id": "institution-sous-prefecture-doloron-sainte-marie",
+      "name": "Sous-préfecture d’Oloron-Sainte-Marie",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-ddfip",
+      "name": "DDFIP",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-douanes",
+      "name": "Douanes",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-police-nationale",
+      "name": "Police nationale",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-gendarmerie-nationale",
+      "name": "Gendarmerie nationale",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-justice",
+      "name": "Justice",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-administration-penitentiaire",
+      "name": "Administration pénitentiaire",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-renfe",
+      "name": "RENFE",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-adif",
+      "name": "ADIF",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-aena",
+      "name": "AENA",
+      "status": "no-directory-match",
+      "evidence": []
+    },
+    {
+      "id": "institution-correos",
+      "name": "Correos",
+      "status": "no-directory-match",
+      "evidence": []
+    }
+  ],
+  "additionalSavedOfficialPageEvidence": [
+    {
+      "id": "institution-cein",
+      "name": "CEIN",
+      "websiteFromDirectory": "https://www.cein.es/",
+      "websiteDirectoryUrl": "https://www.sociedadespublicasdenavarra.es/es/sociedades-publicas/cein",
+      "websiteDirectoryCheckedAt": "2026-11-19T08:13:22.216Z",
+      "websiteDirectoryEvidenceMode": "saved-official-page",
+      "websiteDirectoryPageHash": "7cfd16691dc6839ea3ab80dbc8eecae85f35f0df53ef6c36c6c85fbe4fd17287"
+    },
+    {
+      "id": "institution-nasertic",
+      "name": "NASERTIC",
+      "websiteFromDirectory": "https://www.nasertic.es/",
+      "websiteDirectoryUrl": "https://www.sociedadespublicasdenavarra.es/es/sociedades-publicas/nasertic",
+      "websiteDirectoryCheckedAt": "2026-11-19T08:13:22.752Z",
+      "websiteDirectoryEvidenceMode": "saved-official-page",
+      "websiteDirectoryPageHash": "de2e22ac030fe6c67971f3c9d8eb54736dd4150e95ef127448c4ef070f83e5a3"
+    },
+    {
+      "id": "institution-orekan-gestion-ambiental-de-navarra",
+      "name": "OREKAN Gestión Ambiental de Navarra",
+      "websiteFromDirectory": "https://orekan.es/",
+      "websiteDirectoryUrl": "https://www.sociedadespublicasdenavarra.es/es/sociedades-publicas/gan",
+      "websiteDirectoryCheckedAt": "2026-11-19T08:13:23.308Z",
+      "websiteDirectoryEvidenceMode": "saved-official-page",
+      "websiteDirectoryPageHash": "36a448d481d81186cf46e9e93a114203f199a6bf22a84555e50b923b1c32b61b"
+    }
+  ]
+}

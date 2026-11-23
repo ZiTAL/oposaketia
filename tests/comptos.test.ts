@@ -1,0 +1,10 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {parseComptos} from '../scripts/scrapers/comptos';
+const now='2026-11-20T00:00:00Z';
+test('Comptos scopes recent official BON calls to their own document block and excludes legacy IP links and transfers',()=>{
+ const html='<h1>Empleo público</h1><div class="column-content"><p>Convocatoria para la provisión de servicios generales al servicio de la Universidad Pública de Navarra y la Cámara de Comptos. <a href="https://bon.navarra.es/es/anuncio/-/texto/2026/211/3">BON 2026</a></p><ul><li><a href="https://seat.test/">Inscripción en la convocatoria</a></li></ul></div><div class="column-content"><p><strong>Convocatoria para la provisión de técnico de sistemas de la Cámara de Comptos de Navarra. <a href="https://bon.navarra.es/es/anuncio/-/texto/2025/72/10">BON 2025</a><a href="http://176.12.84.2/old/">Texto antiguo</a></strong></p><ul><li><a href="/candidates.pdf">Resolución nombramiento BON</a></li></ul></div><div class="column-content"><p>Convocatoria para la provisión mediante traslado. <a href="https://bon.navarra.es/es/anuncio/-/texto/2026/2/1">BON</a></p></div>';
+ const calls=parseComptos(html,now);assert.equal(calls.length,2);assert.match(calls[0].organization,/Universidad Pública de Navarra/);assert.equal(calls[0].status,'Pendiente de confirmar');assert.equal(calls[1].status,'Cerrada');assert.equal(calls[1].documents.length,1);assert.equal(calls[1].documents[0].url.startsWith('https://bon.navarra.es/'),true);assert.deepEqual(calls[0].acceptedQualifications,[]);assert.equal(calls[0].languageStatus,'unknown');
+});
+test('Comptos reads appointment phase from the document column of the same CMS row',()=>{
+ const html='<h1>Empleo público</h1><div class="row-wrapper"><div class="column-content"><p>Convocatoria para la provisión de técnicos de la Cámara de Comptos de Navarra. <a href="https://bon.navarra.es/es/anuncio/-/texto/2025/72/10">BON</a></p></div><div class="column-content"><ul><li><a href="/appointment.pdf">Resolución nombramiento BON</a></li></ul></div></div>';
+ assert.equal(parseComptos(html,now)[0].status,'Cerrada');
+});

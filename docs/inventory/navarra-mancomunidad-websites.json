@@ -1,0 +1,61 @@
+{
+  "evidence": {
+    "mode": "saved-official-dataset",
+    "retrievedAt": "2026-11-18T08:36:51.199955+00:00",
+    "reviewedAt": "2026-11-20T08:46:23.955952+00:00",
+    "sha256": "6e9ce337fd0f83c1fb5ddfcb40eabc060b71828f8948b08e5809c976cd692e87",
+    "sourceUrl": "https://datosabiertos.navarra.es/dataset/entidades-locales-de-navarra"
+  },
+  "note": "Named website references from a saved official dataset; no fresh live fetch or employment coverage is implied.",
+  "results": [
+    {
+      "id": "institution-mancomunidad-de-la-comarca-de-pamplona",
+      "name": "Mancomunidad de la Comarca de Pamplona",
+      "publishedName": "Mancomunidad de la Comarca de Pamplona",
+      "url": "https://www.mcp.es/",
+      "status": "website-verified"
+    },
+    {
+      "id": "institution-mancomunidad-de-montejurra",
+      "name": "Mancomunidad de Montejurra",
+      "publishedName": "Mancomunidad de Montejurra",
+      "url": "https://www.montejurra.com/",
+      "status": "website-verified"
+    },
+    {
+      "id": "institution-mancomunidad-de-la-ribera",
+      "name": "Mancomunidad de la Ribera",
+      "publishedName": "Mancomunidad de la Ribera",
+      "url": "https://www.mancoribera.com/",
+      "status": "website-verified"
+    },
+    {
+      "id": "institution-mancomunidad-de-mairaga",
+      "name": "Mancomunidad de Mairaga",
+      "publishedName": "Mancomunidad de Mairaga-Zona Media<>Erdi Aldea",
+      "url": "https://www.mairaga.es/",
+      "status": "website-verified"
+    },
+    {
+      "id": "institution-mancomunidad-de-sakana",
+      "name": "Mancomunidad de Sakana",
+      "publishedName": "Mancomunidad de Sakana",
+      "url": "https://www.sakana-mank.eus/",
+      "status": "website-verified"
+    },
+    {
+      "id": "institution-mancomunidad-de-valdizarbe",
+      "name": "Mancomunidad de Valdizarbe",
+      "publishedName": "Mancomunidad de Valdizarbe-Izarbeibarko Mankomunitatea",
+      "url": "https://www.mancomunidadvaldizarbe.com/",
+      "status": "website-verified"
+    },
+    {
+      "id": "institution-mancomunidad-de-aguas-del-moncayo",
+      "name": "Mancomunidad de Aguas del Moncayo",
+      "publishedName": "Mancomunidad de Aguas del Moncayo",
+      "url": "https://www.aguasdelmoncayo.es/",
+      "status": "website-verified"
+    }
+  ]
+}

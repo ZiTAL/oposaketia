@@ -185,7 +185,7 @@ Komandoak ez du PostgreSQL abiarazten.
 
 Konfigurazioa:
 
-- `SCRAPE_SOURCES=euskadi,eitb,araba,donostia,ehu,ivap,osakidetza,euskotren,vitoria,lanbide,navarra,cdg64`: erabili beharreko konektoreak.
+- `SCRAPE_SOURCES`: komaz bereizitako konektore-IDak. Hutsik edo definitu gabe, erregistroko konektore guztiak erabiltzen dira; zerrenda osoa `scripts/sources.ts` fitxategian dago.
 - `SCRAPE_INTERVAL_SECONDS=21600`: zerbitzuaren tartea, gutxienez 3600 segundo.
 - `SCRAPE_OUTPUT_DIR=data/imports`: esportazio-direktorioa.
 - `SCRAPE_CACHE_DIR=data/scrape-cache`: erantzunen cachea.
@@ -390,3 +390,121 @@ behera uztea eta berriz saiatzea kudeatzen dute. Datuak ezabatzeko baieztapenak
 jatorrizko HTML elkarrizketa-koadroa erabiltzen du: hasierako fokua «Utzi» aukeran
 dago, eta Escape teklak ixten du. Erlaitzetan geziak, Hasiera eta Amaiera teklak
 erabil daitezke.
+
+## Sektore publikoaren inbentarioa
+
+Erakunde berrien integrazioaren jarraipena [docs/inventory/README.md](docs/inventory/README.md)
+fitxategian dago. CAPB, CPEN, Tracasa, EJIE, Bizkaiko eta Gipuzkoako aldundiak,
+Euskadiko Administrazio Orokorra, Emploi territorial eta Centre Hospitalier de la
+Côte Basque gehitu dira. Iturri bakoitzaren mugak konektore-erregistroan eta
+inbentarioaren jarraipenean dokumentatzen dira.
+
+Ondoren IFAS, Uliazpi, Lantik, Kabia, Alokabide, Musikene eta Biogipuzkoa
+gehitu dira, baita Andoain, Hernani, Zizurkil, Elgoibar, Hondarribia, Ibarra eta
+Orioko udal-zerrendak ere. Emploi territorial-en orrialde guztiak irakurtzen
+dira. Udal-direktorioetan 682 udal/commune egiaztatu dira, eta Euskadiko,
+Nafarroako eta Iparraldeko 570 web-erreferentziaren prospekzioak 112tan
+enplegu-esteka hautagaiak
+aurkitu ditu. Esteka horiek ez dira berez deialdi edo integrazio oso gisa hartzen.
+
+Open Data Euskadi/IVAPeko iturriak Nafarroako kokapen esplizitua duten fitxak ere
+jasotzen ditu; lehen kanpoan gelditzen ziren. Hedapenean 164 fitxa gehitu dira,
+horietatik bost NUPekoak eta 34 dokumentu-estekekin. Metadatu territorialak
+kontraesankorrak badira, ez da fitxa lurralde okerrean inportatzen.
+
+Choisir le service public ataritik Iparraldeko 52 eskaintza gehitu dira;
+kokapena lanpostuaren helbidetik egiaztatzen da. Iparraldeko 156 communeen
+probintzia historikoa Euskal Kultur Erakundearen sailkapenarekin osatu da.
+Miguel Servet Fundazioa–Navarrabiomed, Gizain eta Itelazpi ere konektatu dira,
+argitaratutako oinarriak, titulazioak eta epeak erabiliz.
+
+Parlamento de Navarra, Baluarte eta Miguel Induráin fundazioen iturriak ere
+egiaztatuta daude. Gipuzkoako beste 13 udalen egoitzak lotu dira (44 fitxa);
+Aramaren enplegu-modulua hutsik dago egiaztapen honetan. Erakunde bakoitzaren
+estaldura eta mugak [inbentarioan](docs/inventory/README.md) daude.
+
+Leioa, Berrioplano, Orkoien eta Mañeruko udal-iturriak gehitu dira, baita
+Osatekeko lanpostuen atala eta La Sécu recrute-ko Iparraldeko eskaintzak ere.
+Eskaneatutako bandoen berrikuspenak dokumentuaren URL eta SHA-256rekin
+lotzen dira; epe ezezagunak ez dira asmatzen.
+
+Arkaute, Baztan eta Estella-Lizarrako iturriak ere gehitu dira. Arkauteko
+plazen handitze-ebazpenak irakurtzen dira: 2025eko Ertzaintzako deialdia
+327 plazara handitu zen. Baztango bi prozesuen euskarazko BONeko oinarriak,
+C1 baldintza eta 21na gai berreskuratu dira. Estella-Lizarrako 12 prozesuetatik
+seitan gai-zerrenda irakurri da; falta diren oinarriak esplizituki markatzen dira.
+
+Cámara de Comptos eta SCPSA / Iruñerriko Mankomunitatearen enplegu-iturriak ere
+gehitu dira: 2 eta 12 prozesu, hurrenez hurren. Webeko erakusketa-data ez da
+inskripzio-epearekin nahasten. Nafarroako direktorio ofizialek eta gordetako
+REELL snapshotak erakundeen 99 web-erreferentzia kontrastatzeko aukera eman
+dute; kanal bat aurkitzeak ez du estaldura osoa edo lanpostu berriak frogatzen.
+
+
+[Mairaga](https://mairaga.es/) mankomunitateko azken 365 egunetako
+kontratazio-albisteetatik bi jatorrizko prozesu eta haien oinarriak irakurtzen
+dira: Ekonomia/Enpresen Administrazioko zerrenda, 14 gai osorekin, eta
+txoferraren hiru plazako prozesua. C gidabaimena eta indarreko CAP baldintza
+bereiziak dira. Barneko txandak eta emaitzen albisteak ez dira deialdi berriak;
+txoferraren oinarrietan ez da identifikatutako gai-zerrendarik gehitzen.
+
+
+[Riberako mankomunitatearen taulan](https://mancoribera.com/tablon-de-anuncios/)
+argitaratutako SERINSAren 2024ko bi prozesu berreskuratzen dira: administraria,
+11 gaiko programarekin, eta zaintzaileen zerrenda, 6 gairekin eta B gidabaimenarekin.
+Oinarriek Servicios Públicos de la Ribera, S.A.U. (SERINSA) enplegatzailea
+baieztatzen dute; ez da mankomunitate argitaratzailea enplegatzailetzat
+automatikoki hartzen. Hautagaien PDFak eta eskaera-ereduak ez dira
+deskargatzen. Deialdi historikoak ez dira izen-emate ireki gisa erakusten.
+
+
+Arabako enplegu-atariaren zerrenda argitaratuen orrialde guztiak irakurtzen
+dira, azken 180 egunetako iragarki datatuetarako. Identifikatutako oinarrien
+PDFak egiaztatzen dira: Gazteriaren Foru Erakundearen deialdiko anexo
+espezifikoak Batxilergoa edo erdi/goi-mailako LH onartzen du, eta 40 gaiko
+programa berreskuratu da. Samaniegoko zerrendak eskolatze-ziurtagiria eta B
+gidabaimena eskatzen ditu; euskera meritu da, derrigortasunik gabekoa.
+Eskolatze-ziurtagiria ez da ESO bihurtzen. Data gabeko OPE-moduluak eta
+identitate idatzia ezin egiaztatu den dokumentuak berrikusteko mantentzen dira.
+
+
+Euskadiko katalogoan lurralderik gabe zeuden 114 fitxa berrikusi dira.
+39 fitxa berreskuratu dira: 22 Euskadin, fitxako eremu geografiko esplizituarekin,
+eta 17 Nafarroako udaletan, udalerriaren nortasun ofiziala eta BONeko
+erreferentzia batera egiaztatuta. Egoitza edo koordenatu instituzionalak
+ez dira lanpostuaren probintzia bihurtzen. Arkaute-ren kopia zaharkitua
+berariazko konektorearen jatorrizko oinarrien bidez kudeatzen da.
+Gainerako eremu zabalek edo baieztatu gabekoek ez dute helburuko lurraldea
+frogatzen; ez dira eskaintzarik ezaren frogatzat hartzen. Xehetasunak
+`docs/inventory/euskadi-scope-review.json` fitxategian daude.
+
+
+Nafarroako Arartekoaren langileen atala ere integratuta dago (`defensor-navarra`).
+Argitaratutako administrariaren prozesua historiko itxia da: 2023-01-11ko
+epea, Batxilergoa edo LH II eta Parlamentuko funtzionario-lotura, Arartekoaren
+bulegoan. Oinarrien PDFa egiaztatzen da; merezimendu-lehiaketa horretan ez
+da oposizioko gaitegirik asmatu. INTIAren gardentasun-orriak CPENeko enplegu
+atarira zuzenean lotzen du; NILSAren estekak informazio korporatiboa baino
+ez du egiaztatzen. Sodena-ren egungo gardentasun-orria berrikusi da,
+direktorioko bide zaharrak 404 eman ondoren. Froga:
+`docs/inventory/navarra-employment-page-reviews.json`.
+
+
+HAZIren atari propioa gehitu da (`hazi`): kanpoko hiru kontratu mugagabeko
+deialdi, hiru profil eta bi egutegi PDF egiaztatuta. Idatzizko probaren
+5/3/4 ezagutza-blokeak berreskuratzen dira, merezimenduetatik bereizita.
+Hirurek C1 euskera eta B gidabaimena eskatzen dituzte; Markak eta Merkatuak
+postuak C1 ingelesa ere eskatzen du. Prestakuntzako postuaren titulazio
+sektoriala bere horretan mantentzen da, edozein gradu onartzen dela asmatu
+gabe. Donostia, Abadiño eta Arkaute destino posibleak dira; hasierako egoitza
+ez da probintzia bakar bihurtzen. Postu juridikoan oinarriek 2026-11-20 eta
+egutegiak 2026-11-19 adierazten dute: epea baieztatzeko dago. Hautagaien
+zerrendak eta kanpoko eskaera-formularioak ez dira deskargatzen.
+
+
+Anglet Tourisme erakundearen bi kontratazio historiko gehitu dira
+(`anglet-tourisme`): biak itxita daude, 2025-08-22ko epearekin eta
+Angleteko destinoarekin. Eskaneatutako PDF ofizialak bisualki berrikusi
+eta SHA-256 bidez lotu dira. Ez da titulu akademikorik edo azterketa-gaitegirik
+asmatzen. SDIS 64ren sei iragarkiak ere berrikusi dira; irakurritako
+postuek ez dute Iparraldeko destinoa egiaztatzen.

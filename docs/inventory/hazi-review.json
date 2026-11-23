@@ -1,0 +1,109 @@
+{
+  "reviewedAt": "2026-11-20T16:12:27.284Z",
+  "sourceUrl": "https://hazi.eus/es/trabaja-en-hazi/",
+  "calls": 3,
+  "verifiedDocuments": 5,
+  "knowledgeBlocks": 12,
+  "note": "Three own external indefinite-contract calls; profiles and calendars verified. Calendar/bases disagreement retained as a pending deadline. Public result lists and external application forms were not downloaded. Work locations include several provinces; no permanent single province inferred.",
+  "report": {
+    "id": "hazi",
+    "attemptedAt": "2026-11-20T16:12:23.570Z",
+    "succeededAt": "2026-11-20T16:12:27.282Z",
+    "status": "partial",
+    "count": 3,
+    "warnings": [
+      "hazi-1436e2a5473a3fc9324b: Literal academic restriction requires review; no broad degree match inferred",
+      "hazi-fa920df36e36e1e3ac4c: Conflicting official application deadlines"
+    ],
+    "warningCount": 2
+  },
+  "evidence": [
+    {
+      "id": "hazi-1436e2a5473a3fc9324b",
+      "title": "Convocatoria externa de un puesto indefinido “C-Formación para el empleo”",
+      "educationText": "Titulación: Diplomatura/grado universitario relacionado con el sector primario y/o medio rural y litoral y transversales. Solo se admitirán titulaciones oficiales expedidas por el Ministerio o titulaciones homologadas por él.",
+      "acceptedQualifications": [],
+      "deadline": "2026-10-23",
+      "status": "Cerrada",
+      "language": {
+        "name": "euskera",
+        "level": "C1"
+      },
+      "province": null,
+      "location": "Con independencia de los desplazamientos que el desempeño de sus funciones exija, su centro de trabajo podrá ser cualquiera de las tres sedes de Hazi: Donostia (Gipuzkoa), Abadiño (Bizkaia) o Arkaute (Araba). Durante los primeros meses y/o hasta hacerse con el puesto, su sede será Abadiño.",
+      "documents": [
+        {
+          "title": "PERFIL REQUERIDO",
+          "url": "https://hazi.eus/wp-content/uploads/BASES-C-FORMACION-PARA-EL-EMPLEO-CONV-EXTERNA-2026-10.pdf",
+          "kind": "bases",
+          "checkedAt": "2026-11-20T16:12:23.562Z",
+          "sha256": "d75a3566febce6c2a3d45090a2c6b80ac813e47034edc14d2c1b07c36c96a925"
+        }
+      ]
+    },
+    {
+      "id": "hazi-267cd1751ec5a0160a1d",
+      "title": "Convocatoria externa de un puesto indefinido «C-Marcas y Mercados”",
+      "educationText": "Diplomatura/Grado universitario en Empresariales, ADE, Marketing, turismo o similar",
+      "acceptedQualifications": [
+        "ade"
+      ],
+      "deadline": "2026-11-20",
+      "status": "Abierta",
+      "language": {
+        "name": "euskera",
+        "level": "C1"
+      },
+      "province": null,
+      "location": "Con independencia de los desplazamientos que el desempeño de sus funciones exija, su centro de trabajo podrá ser cualquiera de las tres sedes de HAZI: Donostia (Gipuzkoa), Abadiño (Bizkaia) o Arkaute (Araba). Durante los primeros meses y/o hasta hacerse con el puesto, su sede será Donostia.",
+      "documents": [
+        {
+          "title": "CALENDARIO",
+          "url": "https://hazi.eus/wp-content/uploads/CALENDARIO-PROCESO-EXTERNO-C-MARCAS-Y-MERCADOS-2026-11.pdf",
+          "kind": "calendario",
+          "checkedAt": "2026-11-20T16:12:23.562Z",
+          "sha256": "e01f32ed1522ac2886ef9c776212241857e004a1a16b011805a1e1dfda0b7e0f"
+        },
+        {
+          "title": "PERFIL REQUERIDO",
+          "url": "https://hazi.eus/wp-content/uploads/2026-11-C-MARCAS-Y-MERCADOS-BASES-CONV-EXTERNA.pdf",
+          "kind": "bases",
+          "checkedAt": "2026-11-20T16:12:23.562Z",
+          "sha256": "9ccbfd10c9171ace433d20daf08cc722eeedf4d547375ef6b13e6dffab7c6305"
+        }
+      ]
+    },
+    {
+      "id": "hazi-fa920df36e36e1e3ac4c",
+      "title": "Convocatoria externa de un puesto indefinido «C-Técnica/o jurídico en contratación”",
+      "educationText": "Licenciatura o Grado universitario oficial en Derecho, incluida cualquier doble titulación universitaria oficial que incorpore el Grado en Derecho, o titulación extranjera debidamente reconocida conforme a la normativa aplicable. Solo se admitirán titulaciones oficiales expedidas por el Ministerio o titulaciones homologadas por él.",
+      "acceptedQualifications": [
+        "derecho"
+      ],
+      "deadline": null,
+      "status": "Pendiente de confirmar",
+      "language": {
+        "name": "euskera",
+        "level": "C1"
+      },
+      "province": null,
+      "location": "Con independencia de los desplazamientos que el desempeño de sus funciones exija, su centro de trabajo podrá ser cualquiera de las tres sedes de Hazi: Donostia (Gipuzkoa), Abadiño (Bizkaia) o Arkaute (Araba). Durante los primeros meses y/o hasta hacerse con el puesto, su sede será Arkaute o Donostia.",
+      "documents": [
+        {
+          "title": "CALENDARIO DEL PROCESO",
+          "url": "https://hazi.eus/wp-content/uploads/CALENDARIO-PROCESO-EXTERNO-C-TECNICO-JURIDICO-2026-11.pdf",
+          "kind": "calendario",
+          "checkedAt": "2026-11-20T16:12:23.562Z",
+          "sha256": "a6fe70b76145aff6a8b7423b0d5b89b1d0fd1c133a71f7ec1c3b095c9cf156b7"
+        },
+        {
+          "title": "PERFIL REQUERIDO",
+          "url": "https://hazi.eus/wp-content/uploads/BASES-PLAZA-C-TECNICO-JURIDICO-CONV-EXTERNA-2026-11.pdf",
+          "kind": "bases",
+          "checkedAt": "2026-11-20T16:12:23.562Z",
+          "sha256": "8b6209e6d984a2aca84126309a009aebc5f4597c159c52af816bff531197c44c"
+        }
+      ]
+    }
+  ]
+}

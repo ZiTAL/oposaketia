@@ -92,7 +92,7 @@ services:
     environment:
       DATABASE_URL: "postgresql://oposaketia:${POSTGRES_PASSWORD:?Define POSTGRES_PASSWORD in docker/.env}@db:5432/oposaketia"
       DEMO_MODE: "false"
-      SCRAPE_SOURCES: "euskadi,eitb,araba,donostia,ehu,ivap,osakidetza,euskotren,vitoria,lanbide,navarra,cdg64"
+      SCRAPE_SOURCES: "all"
       SCRAPE_INTERVAL_SECONDS: "${SCRAPE_INTERVAL_SECONDS:-21600}"
     volumes:
       - scrape_exports:/app/data/imports

@@ -27,7 +27,7 @@ test('language selectors, multi-select filters and translated 404 pages work on 
  await page.setViewportSize({width:390,height:844});
  for(const locale of ['es','eu','fr']as const){await page.goto('/'+locale);await expect(page.getByRole('heading',{name:titles[locale],exact:true})).toBeVisible();await expect(page.getByTestId('language-switcher')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}
  await page.getByRole('checkbox',{name:'Santé',exact:true}).check();await page.getByRole('checkbox',{name:'Services',exact:true}).check();await page.reload();await expect(page.getByRole('checkbox',{name:'Santé',exact:true})).toBeChecked();
- await page.goto('/eu/oposiciones/no-existe');await expect(page.getByRole('heading',{name:'Ez dugu oposizio hori aurkitu.',exact:true})).toBeVisible();await expect(page.locator('html')).toHaveAttribute('lang','eu');
+ await page.goto('/eu/oposiciones/no-existe');await expect(page.getByRole('heading',{name:'Ez dugu oposaketa hori aurkitu.',exact:true})).toBeVisible();await expect(page.locator('html')).toHaveAttribute('lang','eu');
 });
 test('explicit language URLs remain usable when localStorage is unavailable',async({page})=>{
  await page.addInitScript(()=>Object.defineProperty(window,'localStorage',{get(){throw new DOMException('Blocked','SecurityError');}}));

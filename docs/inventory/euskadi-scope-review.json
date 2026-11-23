@@ -1,0 +1,814 @@
+{
+  "reviewedAt": "2026-11-20T15:20:27.701Z",
+  "mode": "reviewed-official-page-cache",
+  "datasetUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_otras_ope/opendata/ofertas.json",
+  "datasetSha256": "1c3e808ca2af2f9dd576f1f262b567e52cbca33e58cb0e6a4acd53eac6c0446c",
+  "note": "Cached pages were retrieved from official origins and reviewed during this session. This transformation makes no fresh HTTP requests or claims about a full scraper run. The dedicated Arkaute source owns its Gazette mirrors.",
+  "considered": 113,
+  "included": 39,
+  "byTerritory": {
+    "Euskadi": 22,
+    "Navarra": 17
+  },
+  "evidence": [
+    {
+      "id": "euskadi-9872f530302d65a19b88",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1764054984642/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Ayuntamiento de Zumaia",
+      "publicationReference": "Boletín Oficial de Gipuzkoa 101 de 30-11-2025; BOE 283 de 25-11-2025.",
+      "pageSha256": "35dbcd9129a84e1428bdf68211a020c435fb81bf6c7699e3aa64595944d8b49c",
+      "cachedBodyRetrievedAt": "2026-11-20T14:52:23.764Z"
+    },
+    {
+      "id": "euskadi-06be2368afe78c1711a3",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1771486327917/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Tudela",
+      "publicationReference": "Boletín Oficial de Navarra 36 de 19-02-2026.",
+      "pageSha256": "fa3c5a05402976cae95ebf062fd9bac32cea21f9f408ab54664466def5a8a164",
+      "cachedBodyRetrievedAt": "2026-11-20T15:04:55.616Z"
+    },
+    {
+      "id": "euskadi-7c18047e593bf41203aa",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1771487204368/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Tudela",
+      "publicationReference": "Boletín Oficial de Navarra 36 de 19-02-2026.",
+      "pageSha256": "d373ce780ad5da5afe3126a5c51b3ca045665b291676d8fdb27f9b6bf4562a0f",
+      "cachedBodyRetrievedAt": "2026-11-20T14:52:56.200Z"
+    },
+    {
+      "id": "euskadi-46c27cba56216043d607",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1771489869841/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Tudela",
+      "publicationReference": "Boletín Oficial de Navarra 36 de 19-02-2026.",
+      "pageSha256": "bd26154a58eea3657d7176e895d69feadf64ab29e52ec2a92d8b94214d05adf8",
+      "cachedBodyRetrievedAt": "2026-11-20T14:52:56.732Z"
+    },
+    {
+      "id": "euskadi-93c166098d1437bd35e0",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1771490338130/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Tudela",
+      "publicationReference": "Boletín Oficial de Navarra 36 de 19-02-2026.",
+      "pageSha256": "063ba746dd838b9b7473df31a48daff174cf4ffb5ca1dc915cf1af31966752e6",
+      "cachedBodyRetrievedAt": "2026-11-20T14:52:57.368Z"
+    },
+    {
+      "id": "euskadi-2575cf8ec2f82ee36c6b",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1772087376995/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Barañain",
+      "publicationReference": "Boletín Oficial de Navarra 42 de 26-02-2026.",
+      "pageSha256": "760cfa3a9484ca5024821e31dfab5d32ddbfc41042f2bf5bb4e932a9c1c15437",
+      "cachedBodyRetrievedAt": "2026-11-20T14:52:57.916Z"
+    },
+    {
+      "id": "euskadi-2b510e85aec993df458b",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1772177142909/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Ayuntamiento de Gatika",
+      "publicationReference": "Boletín Oficial de Bizkaia 31 de 16-02-2026; BOE 52 de 27/02/2026",
+      "pageSha256": "b06d93ce9cef7447a8e6eb8eb89e54a2a52bfe0e293616131700bf1b98be3d7c",
+      "cachedBodyRetrievedAt": "2026-11-20T14:52:58.540Z"
+    },
+    {
+      "id": "euskadi-00f91c999b85187c124e",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1772693612235/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Ansoáin",
+      "publicationReference": "Boletín Oficial de Navarra 47 de 05-03-2025.",
+      "pageSha256": "e23be084df603a7dc2c216d6cbe1715414878c547a900c04b144649870b46c72",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:00.940Z"
+    },
+    {
+      "id": "euskadi-0851370b85e2a9fd8407",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1773392721837/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Ayuntamiento de Elgeta",
+      "publicationReference": "Boletín Oficial de Gipuzkoa 49 de 13-03-2026.",
+      "pageSha256": "120ce40a3bd21b4644c8899a7a75e0377ecf4f700b6f9ffbe37c4869669defcc",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:01.524Z"
+    },
+    {
+      "id": "euskadi-4a82516e3852a9d0ef6b",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1776145507759/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Peralta",
+      "publicationReference": "Boletín Oficial de Navarra 68 de 09-04-2026.",
+      "pageSha256": "be68881be2b39e3032d4daefea14fbe9681002a1e932d3ce188da676f2f809d8",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:04.516Z"
+    },
+    {
+      "id": "euskadi-2e824aead966a01e3da4",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1776236606538/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Ayuntamiento de Larrabetzu",
+      "publicationReference": "Boletín Oficial de Bizkaia 69 de 15-04-2026.",
+      "pageSha256": "827a93986373154f1188915ab5794569aa5a7cae77d8cdd51d841c1f7601dbe3",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:05.780Z"
+    },
+    {
+      "id": "euskadi-814fffe76830b51a5beb",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1776252364618/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Ayuntamiento de Elgeta",
+      "publicationReference": "Boletín Oficial de Gipuzkoa 67 de 14-03-2026.",
+      "pageSha256": "467c6d95a97f7b8a85ee2d1137d2777e5b10bb49e2ea044cfd650aadd6c7ac3b",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:06.324Z"
+    },
+    {
+      "id": "euskadi-33ae4998861383d951c5",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1776409250293/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Ayuntamiento de Antzuola",
+      "publicationReference": "Boletín Oficial de Gipuzkoa 70 de 17-04-2026.",
+      "pageSha256": "541a7d5ce40d3374baa21fdbd820211ac68c73b0264145ccc9825f04f32a5d4b",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:06.808Z"
+    },
+    {
+      "id": "euskadi-7b44702eae209fe7f203",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1778650008739/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Tudela",
+      "publicationReference": "Boletín Oficial de Navarra 91 de 12-05-2026.",
+      "pageSha256": "6626af153c1afd3b63cf2802fc1c4bb8608bd96ec2ed414cf45b0a182ac1a029",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:09.332Z"
+    },
+    {
+      "id": "euskadi-32245857b3a2c2b23a67",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1778735407743/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Barañain",
+      "publicationReference": "Boletín Oficial de Navarra 93 de 14-05-2026.",
+      "pageSha256": "8dac8b2d86c6fa7be7f04c7680bfb6a10f1e17d8e182a0f0cb2afbf683876de2",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:09.836Z"
+    },
+    {
+      "id": "euskadi-96322ffd4443f1e88183",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1779344642827/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Villava",
+      "publicationReference": "Boletín Oficial de Navarra 98 de 21-05-2026.",
+      "pageSha256": "b6694a2e44ad91227ecd778e4241eb455d8fd3d46f5e29186371220c68071ee2",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:11.136Z"
+    },
+    {
+      "id": "euskadi-9691f4e77d37fa9d5197",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1782711396312/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Ayuntamiento de Lemoa",
+      "publicationReference": "BOE 157 de 29-06-2026; Boletín Oficial de Bizkaia 108 de 10-06-2026",
+      "pageSha256": "11103a442692d236c0890698ff1afbd2bee667bed05eea2bc788cfb17610b886",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:12.320Z"
+    },
+    {
+      "id": "euskadi-0cedde52643f74d75d73",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1784263914840/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Andosilla",
+      "publicationReference": "Boletín Oficial de Navarra 139 de 17-07-2026.",
+      "pageSha256": "8fb775c5ac30cbbea0e37fd1784cb2ec70856fc6f48b3256bc50bed314ddc22d",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:20.736Z"
+    },
+    {
+      "id": "euskadi-5daeb7fe81e1c0fc4940",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1785388065969/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Buñuel",
+      "publicationReference": "Boletín Oficial de Navarra 148 de 30-07-2026.",
+      "pageSha256": "05e41dc8b5f2b8530a619686b27e685e7f44768c3cc7e84cc50f41eb66be4ece",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:21.300Z"
+    },
+    {
+      "id": "euskadi-327487ebaccf91b54176",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1785506958616/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Buñuel",
+      "publicationReference": "Boletín Oficial de Navarra 149 de 31-07-2026.",
+      "pageSha256": "50932a62633214687aa5c47177e6d464d02b3f6960b459aaf9b0c46c32313824",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:21.824Z"
+    },
+    {
+      "id": "euskadi-5731f68ac6b8e300f93e",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1787808614343/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Tudela",
+      "publicationReference": "Boletín Oficial de Navarra 169 de 27-08-2026.",
+      "pageSha256": "cda1787a63729fd146e80c5cd2a0165010d5863c312c5781102fbb2ad046ec20",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:23.044Z"
+    },
+    {
+      "id": "euskadi-e5ad5bd4b0d0c70fc06c",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1788246558648/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Gobierno Vasco. Departamento de Educación",
+      "publicationReference": null,
+      "pageSha256": "7886f6e04cc492d09cbe4c0201de5fcf544a7227a38d63bb86eb87ea2ec60bda",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:23.708Z"
+    },
+    {
+      "id": "euskadi-f780cd2b68c14a8dd0e0",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1788247742838/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Gobierno Vasco. Departamento de Educación",
+      "publicationReference": null,
+      "pageSha256": "1cdb4e69962edf7eaa3c23df0d2d3823a8e419ab4fe51f3b4c5f93654dca3596",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:24.300Z"
+    },
+    {
+      "id": "euskadi-fee3e1c8aa2978233a3e",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1788776415222/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "UPV",
+      "publicationReference": "BOPV 144 de 30-07-2026.",
+      "pageSha256": "344a5cdc046c497e90f56b5d844d1b2fe3276f50373e428212f753f82ea65d6a",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:25.448Z"
+    },
+    {
+      "id": "euskadi-9cded9109aa8815bb278",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1790228190845/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Ansoáin",
+      "publicationReference": "Boletín Oficial de Navarra 190 de 24-09-2026.",
+      "pageSha256": "93c44780fd8eec6276356f30811fc8b318983a8fdf3d75a266caba503d09e220",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:26.044Z"
+    },
+    {
+      "id": "euskadi-47f544ed334c3e7f68a6",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1792044721119/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Villava",
+      "publicationReference": "Boletín Oficial de Navarra 206 de 15-10-2026.",
+      "pageSha256": "edc329040efd1764b760bea1f9ecd1889e4d980e97c199b836c521c5b0e7d164",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:27.232Z"
+    },
+    {
+      "id": "euskadi-b3eb665086be77d6eaf4",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793599368352/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Osakidetza. Servicio Vasco de Salud",
+      "publicationReference": "BOPV 208 de 30/10/2026",
+      "pageSha256": "0c3b0e3676dc5448ad55f5e7a762a3534ce68cbf32aa43f5607919b9e0ff3fe7",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:29.668Z"
+    },
+    {
+      "id": "euskadi-f45c4fc885d12a96078e",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793601947849/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Osakidetza. Servicio Vasco de Salud",
+      "publicationReference": "BOPV 208 de 30/10/2026",
+      "pageSha256": "27a281e40ad444390d1a4dd993c1b58f86b8a4fdefbd8e913e48b79d5d444ce2",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:30.244Z"
+    },
+    {
+      "id": "euskadi-342148362e58c1f69c6b",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793602445533/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Osakidetza. Servicio Vasco de Salud",
+      "publicationReference": "BOPV 208 de 30/10/2026",
+      "pageSha256": "68ed5add9e117cec0c5d5d0d5ff9b257cd5b0d33fa176cf056ec73e1d2d1b3ed",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:30.844Z"
+    },
+    {
+      "id": "euskadi-25b34de046f0de3d3814",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793606975095/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Osakidetza. Servicio Vasco de Salud",
+      "publicationReference": "BOPV 208 de 30/10/2026",
+      "pageSha256": "cb6cf09ffccc7f01ee5383e08a0cf42ce2bd7c371b1b8e8a4a8fb88869cf668d",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:31.444Z"
+    },
+    {
+      "id": "euskadi-b4a0f3e3587ca86d19d8",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793611026788/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Osakidetza. Servicio Vasco de Salud",
+      "publicationReference": "BOPV 208 de 30/10/2026",
+      "pageSha256": "33be7eddc4a5c5e665aa41e48482b58302f05a53571405fd0eb9ce7ab8781596",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:32.036Z"
+    },
+    {
+      "id": "euskadi-bed7dfaf786adf0c05ed",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793612715758/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Osakidetza. Servicio Vasco de Salud",
+      "publicationReference": "BOPV 208 de 30/10/2026",
+      "pageSha256": "704b709f988bb0bf43b1f92c35c885a7d44f31e383e4a9d311c1cf92ac4aba34",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:32.632Z"
+    },
+    {
+      "id": "euskadi-27dc6d614bcb09a7cae0",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793613800930/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Osakidetza. Servicio Vasco de Salud",
+      "publicationReference": "BOPV 208 de 30/10/2026",
+      "pageSha256": "5d02b9d2b739672e0e59a1e504505ac3e13d0025793ed6c6004702c16cd7d2f5",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:33.236Z"
+    },
+    {
+      "id": "euskadi-fc3a01ab18cc8271c42f",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793614235398/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Osakidetza. Servicio Vasco de Salud",
+      "publicationReference": "BOPV 208 de 30/10/2026",
+      "pageSha256": "7b85c89d6cf2ad54879f95bfcd85ce13c3e25690f1828a87820c6187c7c7a993",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:33.816Z"
+    },
+    {
+      "id": "euskadi-d6f4ee60466bb8f3e72c",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793614624978/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Osakidetza. Servicio Vasco de Salud",
+      "publicationReference": "BOPV 208 de 30/10/2026",
+      "pageSha256": "b11d7939216db8dc3c9a74230bbff6730b693bb4829d3550bcc7fcdeea6ea90b",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:34.436Z"
+    },
+    {
+      "id": "euskadi-d0737c173c22459007f7",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793616983612/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Osakidetza. Servicio Vasco de Salud",
+      "publicationReference": "BOPV 208 de 30/10/2026",
+      "pageSha256": "aec914c1743b05c980e29836e5519c0dd9a31530be45a95f9efea6f1f8847c5a",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:35.032Z"
+    },
+    {
+      "id": "euskadi-f13890ced0cb4eb1f0eb",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793617657060/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Osakidetza. Servicio Vasco de Salud",
+      "publicationReference": "BOPV 208 de 30/10/2026",
+      "pageSha256": "2f580618878bd338731a78f366d625c9a2b9ea20c468924b16becdd6ef2bba15",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:35.636Z"
+    },
+    {
+      "id": "euskadi-c96898244c0a332c9614",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793618050667/es_def/index.shtml",
+      "territory": "Euskadi",
+      "province": null,
+      "publishedScope": "Euskadi",
+      "publisher": "Osakidetza. Servicio Vasco de Salud",
+      "publicationReference": "BOPV 208 de 30/10/2026",
+      "pageSha256": "1399a43f5fa4307a6ac161d15e09016fb37b6859c543f5396c4df6cfb1bf6704",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:36.264Z"
+    },
+    {
+      "id": "euskadi-f4360017c347c5fa562c",
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1795078781483/es_def/index.shtml",
+      "territory": "Navarra",
+      "province": "Navarra",
+      "publishedScope": "Resto de CCAA",
+      "publisher": "Ayuntamiento de Ansoáin",
+      "publicationReference": "Boletín Oficial de Navarra 231 de 19-11-2026.",
+      "pageSha256": "14192fc239379a6eb617b5448e464ac51822583b7efe2620a03773d00d9a3623",
+      "cachedBodyRetrievedAt": "2026-11-20T14:53:39.836Z"
+    }
+  ],
+  "pending": [
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_2_administrariak/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_2_arrantza/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_2_haziak/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_2_kudeaketa_informatika/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_2_laborategi_osasun_ingur/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_2_laguntzako_langileak/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_2_obren_instal_delineazio/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_administrariak/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_atenc_sociolaboral/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_economia_empresa/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_edific_urban_orden_terr/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_edificacion_urbanismo/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_esc_industrial/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_estadistica/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_gestion_administrativa/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_igualdad/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_industrial/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_infraestructuras/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_juridico/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_naval/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_recursos_humanos_formac/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_3_sistemas_informacion/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://uragentzia.euskadi.eus//webura00-contents/es/contenidos/empleo_publico/2026_administrativo_restringid/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/2026_zigorrak_betearazt_lagun/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/basquetrade_2026_07_29_saopaul/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/basquetrade_2026_07_29_washin/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/bioef_i_d_2026_10_06/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/ekintza_juridiko/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1761633931749/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1761633994339/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1762930502124/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1764573028525/es_def/index.shtml",
+      "status": "page-unavailable"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1765954341414/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1767852539080/es_def/index.shtml",
+      "status": "page-unavailable"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1768461479985/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1772438747999/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1772439601215/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1772440336739/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1773729962776/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1773730454624/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1773730971903/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1773731453950/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1776231494576/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1776750524078/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1777533300181/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1777872405236/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1779169645396/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1779515494061/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1783602214886/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1783602934263/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1783603451456/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1783603752967/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1783604073502/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1783678535386/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1783679083844/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1783679537875/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1783680022058/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1783680282518/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1783680540296/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1783680775698/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1784180343456/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1785909478972/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1788500579607/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1791187047127/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793431561528/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793431992299/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793792211507/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793792619024/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1793793152372/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1794292865246/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.gazteaukera.euskadi.eus/webgaz00-tramite3/es/contenidos/empleo_publico/empleo_publico_1794809300976/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://arkauteakademiamuseoa.euskadi.eus/webark00-publicaciones/es/contenidos/empleo_publico/ope_2026_avpe_conjunta7/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/organizador_eventos/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    },
+    {
+      "url": "https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/upv_hainbatprozesu_02092026/es_def/index.shtml",
+      "status": "target-scope-not-confirmed",
+      "reason": "Territorio ausente o contradictorio en el catálogo oficial"
+    }
+  ]
+}

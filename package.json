@@ -14,7 +14,16 @@
     "scrape": "tsx scripts/scrape.ts",
     "scrape:worker": "tsx scripts/scrape-worker.ts",
     "prebuild": "node scripts/prepare-swagger.mjs",
-    "predev": "node scripts/prepare-swagger.mjs"
+    "predev": "node scripts/prepare-swagger.mjs",
+    "inventory:audit": "tsx scripts/audit-inventory.ts",
+    "inventory:sync": "tsx scripts/sync-municipalities.ts",
+    "inventory:sync-iparralde": "tsx scripts/sync-iparralde.ts",
+    "inventory:discover": "tsx scripts/discover-municipal-portals.ts",
+    "inventory:sync-iparralde-websites": "tsx scripts/sync-iparralde-websites.ts",
+    "inventory:sync-iparralde-provinces": "tsx scripts/sync-iparralde-provinces.ts",
+    "inventory:sync-navarra-institutions": "tsx scripts/sync-navarra-institutions.ts",
+    "inventory:sync-institutions": "tsx scripts/sync-institution-websites.ts",
+    "inventory:discover-institutions": "tsx scripts/discover-municipal-portals.ts --inventory=institutions"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

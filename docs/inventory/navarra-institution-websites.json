@@ -1,0 +1,521 @@
+{
+  "checkedAt": "2026-11-20T09:00:48.395Z",
+  "note": "Official named website references only, not evidence of vacancies, complete employment coverage, or legal classification. Unmatched entries are outside these published lists or require other evidence; no website is deleted.",
+  "directories": [
+    {
+      "url": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas",
+      "status": "ok",
+      "count": 19
+    },
+    {
+      "url": "https://gobiernoabierto.navarra.es/es/transparencia/fundaciones-consorcios",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "url": "https://gobiernoabierto.navarra.es/es/transparencia/sector-publico-foral",
+      "status": "ok",
+      "count": 7
+    },
+    {
+      "url": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos",
+      "status": "ok",
+      "count": 10
+    }
+  ],
+  "total": 49,
+  "verified": 39,
+  "results": [
+    {
+      "id": "institution-administracion-de-la-comunidad-foral-de-navarra",
+      "name": "Administración de la Comunidad Foral de Navarra",
+      "status": "website-verified",
+      "evidence": {
+        "name": "Administración de la Comunidad Foral de Navarra",
+        "brand": "Administración de la Comunidad Foral de Navarra",
+        "url": "https://gobiernoabierto.navarra.es/transparencia/funciones-estructura-organigrama",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sector-publico-foral"
+      }
+    },
+    {
+      "id": "institution-parlamento-de-navarra",
+      "name": "Parlamento de Navarra",
+      "status": "website-verified",
+      "evidence": {
+        "name": "El Parlamento de Navarra",
+        "brand": "El Parlamento de Navarra",
+        "url": "https://www.parlamentodenavarra.es/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sector-publico-foral"
+      }
+    },
+    {
+      "id": "institution-defensor-del-pueblo-de-navarra",
+      "name": "Defensor del Pueblo de Navarra",
+      "status": "website-verified",
+      "evidence": {
+        "name": "Defensor del Pueblo",
+        "brand": "Defensor del Pueblo",
+        "url": "https://www.defensornavarra.es/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sector-publico-foral"
+      }
+    },
+    {
+      "id": "institution-camara-de-comptos",
+      "name": "Cámara de Comptos",
+      "status": "website-verified",
+      "evidence": {
+        "name": "Cámara de Comptos",
+        "brand": "Cámara de Comptos",
+        "url": "https://camaradecomptos.navarra.es/es",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sector-publico-foral"
+      }
+    },
+    {
+      "id": "institution-consejo-de-navarra",
+      "name": "Consejo de Navarra",
+      "status": "website-verified",
+      "evidence": {
+        "name": "Consejo de Navarra",
+        "brand": "Consejo de Navarra",
+        "url": "https://consejonavarra.navarra.es/es/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sector-publico-foral"
+      }
+    },
+    {
+      "id": "institution-oficina-de-buenas-practicas-y-anticorrupcion",
+      "name": "Oficina de Buenas Prácticas y Anticorrupción",
+      "status": "website-verified",
+      "evidence": {
+        "name": "Oficina de Buenas Prácticas y Anticorrupción de la Comunidad Foral de Navarra",
+        "brand": "Oficina de Buenas Prácticas y Anticorrupción de la Comunidad Foral de Navarra",
+        "url": "https://oana.es/es",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sector-publico-foral"
+      }
+    },
+    {
+      "id": "institution-universidad-publica-de-navarra",
+      "name": "Universidad Pública de Navarra",
+      "status": "website-verified",
+      "evidence": {
+        "name": "Universidad Pública de Navarra",
+        "brand": "Universidad Pública de Navarra",
+        "url": "https://www.unavarra.es/portada",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sector-publico-foral"
+      }
+    },
+    {
+      "id": "institution-instituto-navarro-para-la-igualdad",
+      "name": "Instituto Navarro para la Igualdad",
+      "status": "website-verified",
+      "evidence": {
+        "name": "INSTITUTO NAVARRO PARA LA IGUALDAD",
+        "brand": "INSTITUTO NAVARRO PARA LA IGUALDAD",
+        "url": "https://www.navarra.es/es/igualdad-y-violencia-de-genero",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos"
+      }
+    },
+    {
+      "id": "institution-oficina-de-analisis-y-prospeccion",
+      "name": "Oficina de Análisis y Prospección",
+      "status": "website-verified",
+      "evidence": {
+        "name": "OFICINA DE ANÁLISIS Y PROSPECCIÓN",
+        "brand": "OFICINA DE ANÁLISIS Y PROSPECCIÓN",
+        "url": "https://analisisyprospectiva.navarra.es/es/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos"
+      }
+    },
+    {
+      "id": "institution-euskarabidea",
+      "name": "Euskarabidea",
+      "status": "website-verified",
+      "evidence": {
+        "name": "EUSKARABIDEA/INSTITUTO NAVARRO DEL EUSKERA",
+        "brand": "EUSKARABIDEA/INSTITUTO NAVARRO DEL EUSKERA",
+        "url": "https://www.euskarabidea.es/castellano",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos"
+      }
+    },
+    {
+      "id": "institution-instituto-navarro-de-la-juventud",
+      "name": "Instituto Navarro de la Juventud",
+      "status": "website-verified",
+      "evidence": {
+        "name": "INSTITUTO NAVARRO DE LA JUVENTUD",
+        "brand": "INSTITUTO NAVARRO DE LA JUVENTUD",
+        "url": "https://www.juventudnavarra.es/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos"
+      }
+    },
+    {
+      "id": "institution-hacienda-foral-de-navarra",
+      "name": "Hacienda Foral de Navarra",
+      "status": "website-verified",
+      "evidence": {
+        "name": "HACIENDA FORAL DE NAVARRA",
+        "brand": "HACIENDA FORAL DE NAVARRA",
+        "url": "https://www.navarra.es/es/hacienda",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos"
+      }
+    },
+    {
+      "id": "institution-agencia-navarra-de-autonomia-y-desarrollo-de-las-personas",
+      "name": "Agencia Navarra de Autonomía y Desarrollo de las Personas",
+      "status": "website-verified",
+      "evidence": {
+        "name": "AGENCIA NAVARRA DE AUTONOMÍA Y DESARROLLO DE LAS PERSONAS",
+        "brand": "AGENCIA NAVARRA DE AUTONOMÍA Y DESARROLLO DE LAS PERSONAS",
+        "url": "https://www.navarra.es/es/derechos-sociales",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos"
+      }
+    },
+    {
+      "id": "institution-servicio-navarro-de-empleo",
+      "name": "Servicio Navarro de Empleo",
+      "status": "website-verified",
+      "evidence": {
+        "name": "SERVICIO NAVARRO DE EMPLEO",
+        "brand": "SERVICIO NAVARRO DE EMPLEO",
+        "url": "https://www.navarra.es/es/empleo",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos"
+      }
+    },
+    {
+      "id": "institution-servicio-navarro-de-salud-osasunbidea",
+      "name": "Servicio Navarro de Salud Osasunbidea",
+      "status": "website-verified",
+      "evidence": {
+        "name": "SERVICIO NAVARRO DE SALUD - OSASUNBIDEA",
+        "brand": "SERVICIO NAVARRO DE SALUD - OSASUNBIDEA",
+        "url": "https://www.navarra.es/home_es/Temas/Portal+de+la+Salud/Ciudadania/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos"
+      }
+    },
+    {
+      "id": "institution-instituto-de-salud-publica-y-laboral-de-navarra",
+      "name": "Instituto de Salud Pública y Laboral de Navarra",
+      "status": "website-verified",
+      "evidence": {
+        "name": "INSTITUTO DE SALUD PÚBLICA Y LABORAL DE NAVARRA",
+        "brand": "INSTITUTO DE SALUD PÚBLICA Y LABORAL DE NAVARRA",
+        "url": "https://www.navarra.es/home_es/Gobierno+de+Navarra/Organigrama/Los+departamentos/Salud/Organigrama/Estructura+Organica/Instituto+Navarro+de+Salud+Publica/portada+ISP.htm",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos"
+      }
+    },
+    {
+      "id": "institution-instituto-navarro-del-deporte",
+      "name": "Instituto Navarro del Deporte",
+      "status": "website-verified",
+      "evidence": {
+        "name": "INSTITUTO NAVARRO DEL DEPORTE",
+        "brand": "INSTITUTO NAVARRO DEL DEPORTE",
+        "url": "https://www.deportenavarra.es/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos"
+      }
+    },
+    {
+      "id": "institution-transporte-sanitario-de-navarra-bidean",
+      "name": "Transporte Sanitario de Navarra Bidean",
+      "status": "website-unpublished",
+      "evidence": {
+        "name": "Transporte Sanitario de Navarra Bidean, S. L.",
+        "brand": "BIDEAN",
+        "url": null,
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-ciudad-agroalimentaria-de-tudela",
+      "name": "Ciudad Agroalimentaria de Tudela",
+      "status": "website-verified",
+      "evidence": {
+        "name": "CIUDAD AGROALIMENTARIA DE TUDELA",
+        "brand": "CAT",
+        "url": "https://www.ciudadagroalimentaria.es/transparencia/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-cein",
+      "name": "CEIN",
+      "status": "website-verified",
+      "evidence": {
+        "name": "CENTRO EUROPEO EMPRESAS E INNOVACION DE NAVARRA SL",
+        "brand": "CEIN",
+        "url": "https://www.cein.es/transparencia/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-cnai",
+      "name": "CNAI",
+      "status": "website-verified",
+      "evidence": {
+        "name": "CENTRO NAVARRO DE APRENDIZAJE INTEGRAL, S.L.",
+        "brand": "CNAI",
+        "url": "https://www.cnai.es/es/transparencia",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-cpen",
+      "name": "CPEN",
+      "status": "website-verified",
+      "evidence": {
+        "name": "CORPORACION PUBLICA EMPRESARIAL DE NAVARRA SL",
+        "brand": "CPEN",
+        "url": "https://www.sociedadespublicasdenavarra.es/cpen/transparencia-cpen",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-instituto-navarro-de-inversiones",
+      "name": "Instituto Navarro de Inversiones",
+      "status": "website-verified",
+      "evidence": {
+        "name": "INSTITUTO NAVARO DE INVERSIONES S.L. (INI)",
+        "brand": "INI",
+        "url": "https://www.ininavarra.es/transparencia/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-intia",
+      "name": "INTIA",
+      "status": "website-verified",
+      "evidence": {
+        "name": "INST NAVARRO TEC INFRAEST AGROALIMENTAR NAVARRA SA",
+        "brand": "INTIA",
+        "url": "https://www.intiasa.es/web/es/transparencia",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-nafarbide",
+      "name": "Nafarbide",
+      "status": "website-unpublished",
+      "evidence": {
+        "name": "NAFARBIDE El Camino de los Navarros, S. L.",
+        "brand": "NAFARBIDE",
+        "url": null,
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-nasertic",
+      "name": "NASERTIC",
+      "status": "website-verified",
+      "evidence": {
+        "name": "NAVARRA DE SERVICIOS Y TECNOLOGIAS",
+        "brand": "NASERTIC",
+        "url": "https://www.nasertic.es/es/transparencia",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-nasuvinsa",
+      "name": "NASUVINSA",
+      "status": "website-verified",
+      "evidence": {
+        "name": "NAVARRA DE SUELO Y VIVIENDA, S.A.",
+        "brand": "NASUVINSA",
+        "url": "https://www.nasuvinsa.es/es/transparencia",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-nicdo",
+      "name": "NICDO",
+      "status": "website-verified",
+      "evidence": {
+        "name": "NAVARRA IMPULSA DE CULTURA, DEPORTE Y OCIO, S.L.",
+        "brand": "NICDO",
+        "url": "https://www.nicdo.es/es/transparencia",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-nilsa",
+      "name": "NILSA",
+      "status": "website-verified",
+      "evidence": {
+        "name": "NAVARRA DE INFRAESTRUCTURAS LOCALES, S.L.",
+        "brand": "NILSA",
+        "url": "https://www.nilsa.com/es/quienes-somos/transparencia/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-orekan-gestion-ambiental-de-navarra",
+      "name": "OREKAN Gestión Ambiental de Navarra",
+      "status": "website-verified",
+      "evidence": {
+        "name": "GESTION AMBIENTAL DE NAVARRA, S.A.",
+        "brand": "OREKAN",
+        "url": "https://orekan.es/es/transparencia",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-potasas-de-subiza-posusa",
+      "name": "Potasas de Subiza POSUSA",
+      "status": "website-verified",
+      "evidence": {
+        "name": "POTASAS DE SUBIZA, S.A.",
+        "brand": "POSUSA",
+        "url": "https://potasasdesubiza.com/transparencia/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-salinas-de-navarra",
+      "name": "Salinas de Navarra",
+      "status": "website-verified",
+      "evidence": {
+        "name": "SALINAS DE NAVARRA, S.A.",
+        "brand": "SALINAS",
+        "url": "https://saldosa.com/ley-de-transparencia/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-sodena",
+      "name": "SODENA",
+      "status": "website-verified",
+      "evidence": {
+        "name": "SOCIEDAD DE DESARROLLO DE NAVARRA, S.L.",
+        "brand": "SODENA",
+        "url": "https://www.sodena.com/index.php/es/quienes-somos/transparencia.html",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-start-up",
+      "name": "Start Up",
+      "status": "website-verified",
+      "evidence": {
+        "name": "START UP, S.L.",
+        "brand": "START UP",
+        "url": "https://www.startup.es/index.php/transparencia",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-tracasa",
+      "name": "TRACASA",
+      "status": "website-verified",
+      "evidence": {
+        "name": "TRABAJOS CATASTRALES, S.A.",
+        "brand": "TRACASA",
+        "url": "https://tracasa.es/transparencia/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-tracasa-instrumental",
+      "name": "TRACASA Instrumental",
+      "status": "website-verified",
+      "evidence": {
+        "name": "TRACASA INSTRUMENTAL, S.L.",
+        "brand": "TRACASA INSTRUMENTAL",
+        "url": "https://itracasa.es/transparencia/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas"
+      }
+    },
+    {
+      "id": "institution-fundacion-miguel-servet",
+      "name": "Fundación Miguel Servet",
+      "status": "website-verified",
+      "evidence": {
+        "name": "Fundación Miguel Servet",
+        "brand": "Fundación Miguel Servet",
+        "url": "https://www.navarrabiomed.es/es/navarrabiomed/fundacion-miguel-servet",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/fundaciones-consorcios"
+      }
+    },
+    {
+      "id": "institution-fundacion-baluarte",
+      "name": "Fundación Baluarte",
+      "status": "website-verified",
+      "evidence": {
+        "name": "Fundación \"Baluarte\"",
+        "brand": "Fundación \"Baluarte\"",
+        "url": "https://www.fundacionbaluarte.com/es/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/fundaciones-consorcios"
+      }
+    },
+    {
+      "id": "institution-fundacion-miguel-indurain",
+      "name": "Fundación Miguel Induráin",
+      "status": "website-verified",
+      "evidence": {
+        "name": "Fundación Miguel Induráin",
+        "brand": "Fundación Miguel Induráin",
+        "url": "https://www.fundacionmiguelindurain.com/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/fundaciones-consorcios"
+      }
+    },
+    {
+      "id": "institution-gizain",
+      "name": "Gizain",
+      "status": "website-verified",
+      "evidence": {
+        "name": "Fundación Navarra para la Gestión de Servicios Sociales Públicos, GIZAIN",
+        "brand": "Fundación Navarra para la Gestión de Servicios Sociales Públicos, GIZAIN",
+        "url": "https://fundaciongizain.es/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/fundaciones-consorcios"
+      }
+    },
+    {
+      "id": "institution-fundacion-publica-navarra-para-la-provision-de-apoyos-a-personas-con-discapacidad",
+      "name": "Fundación Pública Navarra para la Provisión de Apoyos a Personas con Discapacidad",
+      "status": "website-verified",
+      "evidence": {
+        "name": "Fundación Pública Navarra para la Provisión de Apoyos a Personas con Discapacidad",
+        "brand": "Fundación Pública Navarra para la Provisión de Apoyos a Personas con Discapacidad",
+        "url": "https://www.fundapa.org/",
+        "directoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/fundaciones-consorcios"
+      }
+    },
+    {
+      "id": "institution-mancomunidad-de-la-comarca-de-pamplona",
+      "name": "Mancomunidad de la Comarca de Pamplona",
+      "status": "no-directory-match"
+    },
+    {
+      "id": "institution-mancomunidad-de-montejurra",
+      "name": "Mancomunidad de Montejurra",
+      "status": "no-directory-match"
+    },
+    {
+      "id": "institution-mancomunidad-de-la-ribera",
+      "name": "Mancomunidad de la Ribera",
+      "status": "no-directory-match"
+    },
+    {
+      "id": "institution-mancomunidad-de-mairaga",
+      "name": "Mancomunidad de Mairaga",
+      "status": "no-directory-match"
+    },
+    {
+      "id": "institution-mancomunidad-de-sakana",
+      "name": "Mancomunidad de Sakana",
+      "status": "no-directory-match"
+    },
+    {
+      "id": "institution-mancomunidad-de-valdizarbe",
+      "name": "Mancomunidad de Valdizarbe",
+      "status": "no-directory-match"
+    },
+    {
+      "id": "institution-mancomunidad-de-aguas-del-moncayo",
+      "name": "Mancomunidad de Aguas del Moncayo",
+      "status": "no-directory-match"
+    },
+    {
+      "id": "institution-delegacion-del-gobierno-en-navarra",
+      "name": "Delegación del Gobierno en Navarra",
+      "status": "no-directory-match"
+    }
+  ]
+}

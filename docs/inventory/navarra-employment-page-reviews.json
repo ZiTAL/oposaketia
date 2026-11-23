@@ -1,0 +1,36 @@
+{
+  "note": "Follow-up reviews of published institutional transparency pages; original directory and homepage discovery evidence retained.",
+  "results": [
+    {
+      "id": "institution-intia",
+      "name": "INTIA",
+      "url": "https://www.intiasa.es/transparencia",
+      "checkedAt": "2026-11-20T15:55:43.363931Z",
+      "sha256": "beefc0e1fa99270bc57dd4a19a4db00babab38287f562781f6c0f5f28f3d128d",
+      "scope": "Published personnel/transparency page only; not proof of complete employment coverage or vacancy absence.",
+      "status": "corporate-jobs-link-verified",
+      "jobsUrl": "https://empleo.sociedadespublicasdenavarra.es/jobs/"
+    },
+    {
+      "id": "institution-nilsa",
+      "name": "NILSA",
+      "url": "https://www.nilsa.com/es/transparencia/",
+      "checkedAt": "2026-11-20T15:56:28.127930Z",
+      "sha256": "57bcda8dc81e4f56a50c7f2dccb49807ca33d0df1f07ba82e2e3310edde19e14",
+      "scope": "Published personnel/transparency page only; not proof of complete employment coverage or vacancy absence.",
+      "status": "corporate-information-link-only",
+      "linkedUrl": "https://www.sociedadespublicasdenavarra.es/es/la-voz-de-cpen/unete-a-nuestro-equipo",
+      "note": "The linked corporate employment information and its published offers page contained no readable job links. No new NILSA vacancy is asserted."
+    },
+    {
+      "id": "institution-sodena",
+      "name": "SODENA",
+      "url": "https://sodena.com/transparencia/",
+      "checkedAt": "2026-11-20T15:57:15.247929Z",
+      "sha256": "5693e4834fdd8265f0d3644ca474b8d464d10c34de6b2436e964f6f27913a6cc",
+      "scope": "Published personnel/transparency page only; not proof of complete employment coverage or vacancy absence.",
+      "status": "no-employment-link-found",
+      "note": "Current transparency page verified after the old directory URL returned 404. No absence of vacancies is inferred."
+    }
+  ]
+}

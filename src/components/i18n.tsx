@@ -34,5 +34,5 @@ export function LanguageSwitcher() {
   }}>{code.toUpperCase()}</button>)}</div>;
 }
 export function SiteFooter() {
-  return <footer className="shell footer"><span className="footer-brand">oposaketia.</span><span>Euskal Herria</span></footer>;
+  return <footer className="shell footer"><span className="footer-brand">oposaketia.</span><span>Euskal Herriko oposaketa bilatzailea</span></footer>;
 }

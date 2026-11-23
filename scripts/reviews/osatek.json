@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://www.osakidetza.euskadi.eus/contenidos/informacion/osk_ostk_convocatoria_puestos/es_def/adjuntos/disposiciones/Disposicion-por-la-que-se-autoriza-convocator_2026.pdf",
+    "sha256": "c99b12bfde391d365502614877695bf4187fb5c3fc377b5e0051d42101ff3641",
+    "reviewedAt": "2026-11-18",
+    "pages": [
+      1
+    ],
+    "deadline": "2026-12-31",
+    "educationText": "Licenciatura en Medicina y Cirugía y especialidad en Radiodiagnóstico. La disposición exige reunir la titulación o estar en condiciones de obtenerla el 1 de junio de 2026.",
+    "requirements": [
+      "La especialidad en Radiodiagnóstico también es obligatoria. Consulta los restantes requisitos y el procedimiento en las bases de 13 de julio de 2016, a las que remite la disposición."
+    ],
+    "baseKind": "radiology",
+    "baseUrl": "https://www.osakidetza.euskadi.eus/contenidos/informacion/osk_ostk_convocatoria_puestos/es_def/adjuntos/bases/bases_es.pdf"
+  },
+  {
+    "url": "https://www.osakidetza.euskadi.eus/contenidos/informacion/osk_ostk_convocatoria_puestos/es_def/adjuntos/disposiciones/Disposicion-apertura-plazo-inscripcion-listas-contratacion-temporal-radiologo-a-2023.pdf",
+    "sha256": "45599f7cecd0b68eae5f124ac32b245f5d89aa8a18a4476e4914a64e6775693a",
+    "reviewedAt": "2026-11-18",
+    "pages": [
+      1
+    ],
+    "deadline": "2023-12-31",
+    "educationText": "Licenciatura en Medicina y Cirugía y especialidad en Radiodiagnóstico. La disposición exige reunir la titulación o estar en condiciones de obtenerla el 1 de junio de 2023.",
+    "requirements": [
+      "La especialidad en Radiodiagnóstico también es obligatoria. Consulta los restantes requisitos y el procedimiento en las bases de 13 de julio de 2016, a las que remite la disposición."
+    ],
+    "baseKind": "radiology",
+    "baseUrl": "https://www.osakidetza.euskadi.eus/contenidos/informacion/osk_ostk_convocatoria_puestos/es_def/adjuntos/bases/bases_es.pdf"
+  },
+  {
+    "url": "https://www.osakidetza.euskadi.eus/contenidos/informacion/osk_ostk_convocatoria_puestos/es_def/adjuntos/disposiciones/disposicion_inscripcion_listas_contratacion_temporal_radiologos.pdf",
+    "sha256": "27a30559f0b964e93be6130ffe527735b3ab08e79f034e33fa302bdcd87cc176",
+    "reviewedAt": "2026-11-18",
+    "pages": [
+      1
+    ],
+    "deadline": "2021-12-31",
+    "educationText": "Licenciatura en Medicina y Cirugía y especialidad en Radiodiagnóstico. La disposición exige reunir la titulación o estar en condiciones de obtenerla el 1 de junio de 2021.",
+    "requirements": [
+      "La especialidad en Radiodiagnóstico también es obligatoria. Consulta los restantes requisitos y el procedimiento en las bases de 13 de julio de 2016, a las que remite la disposición."
+    ],
+    "baseKind": "radiology",
+    "baseUrl": "https://www.osakidetza.euskadi.eus/contenidos/informacion/osk_ostk_convocatoria_puestos/es_def/adjuntos/bases/bases_es.pdf"
+  },
+  {
+    "url": "https://www.osakidetza.euskadi.eus/contenidos/informacion/osk_ostk_convocatoria_puestos/es_def/adjuntos/disposiciones/disposicion-autorizacion-convocatoria-ampliacion-bolsa-tecnico-manipulador.pdf",
+    "sha256": "a7a4bd7e203a2de648ad856d4d44b47a10f612b86c52e19ac1c81605947996c6",
+    "reviewedAt": "2026-11-18",
+    "pages": [
+      1
+    ],
+    "baseKind": "technical",
+    "baseUrl": "https://www.osakidetza.euskadi.eus/contenidos/informacion/osk_ostk_convocatoria_puestos/es_def/adjuntos/bases/bases-convocatoria-ampliacion-de-la-bolsa-de-trabajo-tecnico-manipulador.pdf"
+  },
+  {
+    "url": "https://www.osakidetza.euskadi.eus/contenidos/informacion/osk_ostk_convocatoria_puestos/es_def/adjuntos/disposiciones/disposicion-por-la-que-se-aprueban-las-bases-de-la-convocatoria-del-puesto-de-jefe-de-servicios-generales.pdf",
+    "sha256": "ad3e89e87790fc1eae9d36c20a7e8eaf7dc6614c84370cb1f0f46d1cd59c4b28",
+    "reviewedAt": "2026-11-18",
+    "pages": [
+      1
+    ],
+    "baseKind": "services",
+    "baseUrl": "https://www.osakidetza.euskadi.eus/contenidos/informacion/osk_ostk_convocatoria_puestos/es_def/adjuntos/bases/bases-que-regulan-el-proceso-para-cubrir-un-puesto-de-jefe-a-de-servicios-generales.pdf"
+  },
+  {
+    "url": "https://www.osakidetza.euskadi.eus/contenidos/informacion/osk_ostk_convocatoria_puestos/es_def/adjuntos/disposiciones/disposicion_autorizacion_bases.pdf",
+    "sha256": "7348e10dfec28ac71a4f2188374a6bc39ad3a6b0b92c3f508bd233b83765468e",
+    "reviewedAt": "2026-11-18",
+    "pages": [
+      1
+    ],
+    "baseKind": "radiology",
+    "baseUrl": "https://www.osakidetza.euskadi.eus/contenidos/informacion/osk_ostk_convocatoria_puestos/es_def/adjuntos/bases/bases_es.pdf"
+  }
+]

@@ -1,0 +1,1176 @@
+{
+  "checkedAt": "2026-11-20T09:02:18.228Z",
+  "note": "Named official directory website references only. Each result retains its actual check time; cached pages are not represented as fresh reads. Candidate links are not evidence of imported vacancies or complete employment coverage.",
+  "total": 99,
+  "processed": 99,
+  "results": [
+    {
+      "id": "institution-academia-vasca-de-policia-y-emergencias",
+      "name": "Academia Vasca de Policía y Emergencias",
+      "homepage": "https://arkauteakademia.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:50.655Z",
+      "hash": "206897c01568805f2146bfb22fc080214762fe294deb79855f00896456518751"
+    },
+    {
+      "id": "institution-agencia-vasca-del-agua-ura",
+      "name": "Agencia Vasca del Agua URA",
+      "homepage": "https://uragentzia.euskadi.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:56.844Z",
+      "hash": "cd91475b0d2c49d07cadb00c5f2c4e9ff206599669f3baf7bd7c5ee870b73172"
+    },
+    {
+      "id": "institution-alokabide",
+      "name": "Alokabide",
+      "homepage": "https://alokabide.euskadi.eus/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Lan eskaintzak",
+          "url": "https://alokabide.euskadi.eus/lan-eskaintzak/"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:27:09.023Z",
+      "hash": "1bd57ecd2d9ae38a0f35fc90f391b944279f26a283d40201ba7e57a656def6d4"
+    },
+    {
+      "id": "institution-aparkabisa",
+      "name": "Aparkabisa",
+      "homepage": "https://aparkabisa.com/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:18.998Z",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "institution-artium",
+      "name": "Artium",
+      "homepage": "https://artium.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:17.572Z",
+      "hash": "e00cea1b621ae52db9661abb4b623082b6ef63c812b3f8413f20101a717e720f"
+    },
+    {
+      "id": "institution-autoridad-vasca-de-la-competencia",
+      "name": "Autoridad Vasca de la Competencia",
+      "homepage": "https://competencia.euskadi.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:52.418Z",
+      "hash": "b205413fb658aee7bba94b480b2e2a4f6295ead25182e9f9476a5f05b72aa5c9"
+    },
+    {
+      "id": "institution-basque-team",
+      "name": "Basque Team",
+      "homepage": "https://basqueteam.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:03.222Z",
+      "hash": "fce672ade1f8903b65fdc197026bc040b7dcc032b6ba48f59b7d7a5e55edd73e"
+    },
+    {
+      "id": "institution-basquetour",
+      "name": "Basquetour",
+      "homepage": "https://basquetour.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:09.181Z",
+      "hash": "6767a6f6a2bd3aa358a1db9d0494b4c7f4ae24abb0765778574e692dfea56a77"
+    },
+    {
+      "id": "institution-bimep",
+      "name": "BIMEP",
+      "homepage": "https://bimep.com/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:11.190Z",
+      "hash": "b03d236dda4b4855035cd39061c1f8a8012e74d673e10bc6d907e85509754808"
+    },
+    {
+      "id": "institution-bioef",
+      "name": "BIOEF",
+      "homepage": "https://bioef.eus/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:01.825Z",
+      "error": "HTTP 403 en www.bioef.eus/es/"
+    },
+    {
+      "id": "institution-brta",
+      "name": "BRTA",
+      "homepage": "https://brta.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:04.322Z",
+      "hash": "111a6a00a5f22f58dda4a6388e692b3f0190a6ab35193f138cdc21c8e0cb822c"
+    },
+    {
+      "id": "institution-cadem",
+      "name": "CADEM",
+      "homepage": "https://euskadi.eus/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Enplegu publikoa",
+          "url": "https://www.euskadi.eus/enplegu-publikoa/"
+        },
+        {
+          "title": "Lana eta enplegua",
+          "url": "https://euskadi.eus/gaiak/-/lana-eta-enplegua/"
+        },
+        {
+          "title": "Ekonomia, Lana eta Enplegua",
+          "url": "https://euskadi.eus/eusko-jaurlaritza/ekonomia-lan-enplegu-saila/"
+        },
+        {
+          "title": "Lanbide-Euskal Enplegu Zerbitzua",
+          "url": "https://www.lanbide.euskadi.eus/"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:27:11.421Z",
+      "hash": "fea65caf4265bee8d99a2f365a166d031ffed2c7fe85a87f68e1f877bd7bc804"
+    },
+    {
+      "id": "institution-consejo-de-relaciones-laborales",
+      "name": "Consejo de Relaciones Laborales",
+      "homepage": "https://crl-lhk.eus/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Empleo",
+          "url": "https://www.crl-lhk.eus/el-consejo/empleo/"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:27:13.294Z",
+      "hash": "cabf84e1840835625c396208402d0aceb76400ae82955f270b453952b70fc932"
+    },
+    {
+      "id": "institution-ego",
+      "name": "EGO",
+      "homepage": "https://egofundazioa.org/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:03.017Z",
+      "error": "fetch failed"
+    },
+    {
+      "id": "institution-eitb-media",
+      "name": "EiTB Media",
+      "homepage": "https://eitb.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:05.270Z",
+      "hash": "926a6bb7cab6c662b10c62fd811dbdd672ed19f1a7642c6a77731e049d1dd231"
+    },
+    {
+      "id": "institution-ejie",
+      "name": "EJIE",
+      "homepage": "https://ejie.eus/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Lan-eskaintzak",
+          "url": "https://ejie.eus/webejie00-contqtit/eu/?r01kPageContents=/webejie00-contqtit/eu/&r01kPresentationThumbnail=miniatura-3&r01kQry=tC:euskadi;tF:rrhh;tT:empleo_publico;m:documentLanguage.EQ.eu;cO:r01epd012cab7c3b2513bab5f2d1fd16f8b777a71;pp:r01PageSize.5&r01kSearchResultsHeader=1;p:Inter;"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:27:06.502Z",
+      "hash": "938ae19a4d70b18c573c392fd5ac49dd20c6076d06b612b1c390b4005e407f0c"
+    },
+    {
+      "id": "institution-elankidetza",
+      "name": "eLankidetza",
+      "homepage": "https://elankidetza.euskadi.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:55.138Z",
+      "hash": "989d91c6ca04dacf48b331fe7250d3a561d5eae632e94a9e35c3f4b21d2e67b7"
+    },
+    {
+      "id": "institution-elika",
+      "name": "ELIKA",
+      "homepage": "https://elika.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:00.724Z",
+      "hash": "59e706b2d338aa209ef29b4fd11d1f4a9bca93e7ab762f028dbc877c1e9b4171"
+    },
+    {
+      "id": "institution-emakunde",
+      "name": "Emakunde",
+      "homepage": "https://emakunde.euskadi.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:50.204Z",
+      "hash": "db06a54214f19c54604ae634d948745b288ad191501ff838a6c4f5f5da2c7625"
+    },
+    {
+      "id": "institution-ente-vasco-de-la-energia",
+      "name": "Ente Vasco de la Energía",
+      "homepage": "https://eve.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:55.833Z",
+      "hash": "fc9fd585f1b50a2787747a2388619edcbc95c9e96c370f6c422bdb109bf35a95"
+    },
+    {
+      "id": "institution-euskadiko-kirol-portuak",
+      "name": "Euskadiko Kirol Portuak",
+      "homepage": "https://ekpsa.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:59.569Z",
+      "hash": "f6e6f64bd67ed10b27de681996d0fbb8b1b1a0ff7d5cd208433a593546c73557"
+    },
+    {
+      "id": "institution-euskal-irrati-telebista",
+      "name": "Euskal Irrati Telebista",
+      "homepage": "https://eitb.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:58.337Z",
+      "hash": "926a6bb7cab6c662b10c62fd811dbdd672ed19f1a7642c6a77731e049d1dd231"
+    },
+    {
+      "id": "institution-euskal-trenbide-sarea",
+      "name": "Euskal Trenbide Sarea",
+      "homepage": "https://ets-rfv.euskadi.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:56.830Z",
+      "hash": "2f80fd0a63d643229d7211b369bd0728c1904fa7ff2fa2a97621d7e3e9159cd1"
+    },
+    {
+      "id": "institution-euskalmet",
+      "name": "Euskalmet",
+      "homepage": "https://euskalmet.euskadi.eus/inicio/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Oferta de empleo",
+          "url": "https://euskalmet.euskadi.eus/oferta-de-empleo/"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:27:07.575Z",
+      "hash": "a6eccf46d06b19694d812d5edce94bfa1bb2febb5b7fb39a9c0857fc5456ab67"
+    },
+    {
+      "id": "institution-euskotren-participaciones",
+      "name": "Euskotren Participaciones",
+      "homepage": "https://euskotren.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:05.940Z",
+      "hash": "24b02ddc94fead3b9cf3f4285f0b5b8b6ee1439d62f94d45b1c2b0f1cc1530de"
+    },
+    {
+      "id": "institution-eustat",
+      "name": "Eustat",
+      "homepage": "https://eustat.eus/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:50.203Z",
+      "error": "robots.txt no permite eustat.eus/"
+    },
+    {
+      "id": "institution-finkatze-kapitala-finkatuz",
+      "name": "Finkatze Kapitala Finkatuz",
+      "homepage": "https://ivf-fei.euskadi.eus/informacion/ivf/transparencia/webivf00-cnt/es/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:07.536Z",
+      "error": "fetch failed"
+    },
+    {
+      "id": "institution-gogora",
+      "name": "Gogora",
+      "homepage": "https://gogora.euskadi.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:53.045Z",
+      "hash": "2dd1cd384ac968389cd186dd04da389bf32ae7c1e073cf855701fdaca8e92574"
+    },
+    {
+      "id": "institution-habe",
+      "name": "HABE",
+      "homepage": "https://habe.euskadi.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:50.201Z",
+      "hash": "300a6075e7f0ae9673ca8d13a1f1438869536af4e0025288e6af70cd9beeef32"
+    },
+    {
+      "id": "institution-haurreskolak",
+      "name": "Haurreskolak",
+      "homepage": "https://haurreskolak.eus/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:04.182Z",
+      "error": "fetch failed"
+    },
+    {
+      "id": "institution-hazi",
+      "name": "HAZI",
+      "homepage": "https://hazi.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:00.409Z",
+      "hash": "86083c80c65e4c7acc0cc2d1fc8bbaf311000b9e342f4c45dedfb20b412c1a21"
+    },
+    {
+      "id": "institution-ihobe",
+      "name": "IHOBE",
+      "homepage": "https://ihobe.eus/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:09.024Z",
+      "error": "fetch failed"
+    },
+    {
+      "id": "institution-indesa-2010",
+      "name": "Indesa 2010",
+      "homepage": "https://indesa2010.eus/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:16.022Z",
+      "error": "fetch failed"
+    },
+    {
+      "id": "institution-instituto-vasco-de-finanzas",
+      "name": "Instituto Vasco de Finanzas",
+      "homepage": "https://ivf-fei.euskadi.eus/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:57.343Z",
+      "error": "fetch failed"
+    },
+    {
+      "id": "institution-instituto-vasco-etxepare",
+      "name": "Instituto Vasco Etxepare",
+      "homepage": "https://etxepare.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:58.899Z",
+      "hash": "247d791b8959b3fb30b9aa1bf715d9e7a5048f6966492c04fdaca396e3af06ff"
+    },
+    {
+      "id": "institution-itelazpi",
+      "name": "Itelazpi",
+      "homepage": "https://itelazpi.eus/es",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:06.623Z",
+      "error": "HTTP 404 en www.itelazpi.eus/es"
+    },
+    {
+      "id": "institution-ivap",
+      "name": "IVAP",
+      "homepage": "https://ivap.euskadi.eus/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Enplegu publikoa",
+          "url": "https://ivap.euskadi.eus/enplegu-ivap/"
+        },
+        {
+          "title": "2026ko EPEa. Zenbait hautaketa-prozesutako lehenengo probaren behin-behineko emaitzak argitaratzea. Langile lan-kontratudunak",
+          "url": "https://ivap.euskadi.eus/albistea/2026/2026ko-epea-zenbait-hautaketa-prozesutako-lehenengo-probaren-behin-behineko-emaitzak-argitaratzea-langile-lan-kontratudunak/webivap00-h2home/eu/"
+        },
+        {
+          "title": "Abuztua eta irailean deitutako hautaketa prozesuetako oposizio-faseko lehen bi proben aurreikusitako datak",
+          "url": "https://ivap.euskadi.eus/albistea/2026/abuztua-eta-irailean-deitutako-hautaketa-prozesuetako-oposizio-faseko-lehen-bi-proben-aurreikusitako-datak/webivap00-h2home/eu/"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:26:50.203Z",
+      "hash": "f0f2f67180162de0d23dba3227fa46927f82623ca07036880bff7aff46decd0f"
+    },
+    {
+      "id": "institution-kontsumobide",
+      "name": "Kontsumobide",
+      "homepage": "https://kontsumobide.euskadi.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:52.253Z",
+      "hash": "9ad96f300ab80ce8a515c1a0293858f8d26127084084fb017a31e0b85e4054f3"
+    },
+    {
+      "id": "institution-lanbide",
+      "name": "Lanbide",
+      "homepage": "https://lanbide.euskadi.eus/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Enplegua",
+          "url": "https://web.lanbide.eus/apps/OF_BUSQUEDA_OFERTAS?LG=E&ML=OFEMEN1"
+        },
+        {
+          "title": "Lan eskaintzak",
+          "url": "https://web.lanbide.eus/apps/EM_CONTROL_ACCESO?LG=C&ML=EMPMEN1&MS=Ba"
+        },
+        {
+          "title": "Enplegua eta Desgaitasuna",
+          "url": "https://lanbide.euskadi.eus/desgaitasuna-duten-pertsonei-enplegua-erreserbatzea-izapideak/weblan00-emptramites/eu/"
+        },
+        {
+          "title": "Autoenplegua",
+          "url": "https://www.lanbide.euskadi.eus/informazioa/enpresa-bat-sortzeko-era/weblan00-empleo/eu/"
+        },
+        {
+          "title": "Enplegu-agentziak",
+          "url": "https://lanbide.euskadi.eus/erregistroa/agentziaren-erantzukizunpeko-adierazpena/weblan00-content/eu/"
+        },
+        {
+          "title": "Enplegu Publikoa",
+          "url": "https://lanbide.euskadi.eus/lanbide-enplegu-publikoa/weblan00-content/eu/"
+        },
+        {
+          "title": "Enpleguaren 15/2023 legea",
+          "url": "https://www.legegunea.euskadi.eus/eli/es-pv/l/2023/12/21/15/dof/eus/html/"
+        },
+        {
+          "title": "Azoka birtuala abian dela, BECek MerkaLan hartuko du bihar, Euskadiko enpleguari eta prestakuntzari buruzko ekitaldi handia",
+          "url": "https://lanbide.euskadi.eus/albistea/2026/azoka-birtuala-abian-dela-becek-merkalan-hartuko-du-bihar-euskadiko-enpleguari-eta-prestakuntzari-buruzko-ekitaldi-handia/weblan00-noticias/eu/"
+        },
+        {
+          "title": "Lanaldi jaio da, enpleguari buruz Euskadin egingo den topaketa handia",
+          "url": "https://lanbide.euskadi.eus/albistea/2026/lanaldi-jaio-da-enpleguari-buruz-euskadin-egingo-den-topaketa/weblan00-noticias/eu/"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:26:54.523Z",
+      "hash": "9cb240aa8637da1876cf1c161304563ee4bbb3a625500923829103d33c1bf579"
+    },
+    {
+      "id": "institution-musikene",
+      "name": "Musikene",
+      "homepage": "https://musikene.eus/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "EMPLEO",
+          "url": "https://musikene.eus/empleo/"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:27:01.133Z",
+      "hash": "863c898c003701c7ebb037f175be339e21275629f43f122bc545082fb0edcaed"
+    },
+    {
+      "id": "institution-neiker",
+      "name": "NEIKER",
+      "homepage": "https://neiker.eus/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Empleo",
+          "url": "https://neiker.eus/es/empleo/"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:27:08.223Z",
+      "hash": "0bd0ddc589cec04acb4077b11226cfb3ded5826494b2ced4138d76e309d540e6"
+    },
+    {
+      "id": "institution-orquesta-de-euskadi",
+      "name": "Orquesta de Euskadi",
+      "homepage": "https://euskadikoorkestra.eus/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:09.364Z",
+      "error": "The operation was aborted"
+    },
+    {
+      "id": "institution-osakidetza",
+      "name": "Osakidetza",
+      "homepage": "https://osakidetza.euskadi.eus/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Enplegupublikoa",
+          "url": "https://osakidetza.euskadi.eus/enplegu-publikorako-eskaintza/webosk00-procon/eu/"
+        },
+        {
+          "title": "Enplegu publikoa Osakidetzak martxan dituen hautaketa-prozesuetan parte har ezazu eta datozen deialdien inguruko informazioa jaso ezazu.",
+          "url": "https://osakidetza.euskadi.eus/profesionalentzako-ataria/#enplegu_publikoa"
+        },
+        {
+          "title": "Enpleguaren ataria",
+          "url": "https://osakidetza.euskadi.eus/"
+        },
+        {
+          "title": "2022ko enplegu eskaintza",
+          "url": "https://osakidetza.euskadi.eus/2022ko-enplegu-eskaintza/webosk00-otkcon/eu/"
+        },
+        {
+          "title": "Aldi baterako lan-poltsak",
+          "url": "https://osakidetza.euskadi.eus/aldi-baterako-lan-poltsak/webosk00-otkcon/eu/"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:26:54.466Z",
+      "hash": "e064713b151fa3d6196d7d28508222b6bbfc3a5d0ac4a44ac093e3bd976aac9d"
+    },
+    {
+      "id": "institution-osalan",
+      "name": "Osalan",
+      "homepage": "https://osalan.euskadi.eus/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Genero ikuspegia lan arriskuen prebentzioan txertatzea sustatu dute Osalanek, Ekonomia, Lan eta Enplegu Sailak eta Emakundek",
+          "url": "https://osalan.euskadi.eus/albistea/2026/genero-ikuspegia-lan-arriskuen-prebentzioan-txertatzea-sustatu-dute-osalanek-ekonomia-lan-eta-enplegu-sailak-eta-emakundek-26/webosa00-noticia/eu/"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:26:52.211Z",
+      "hash": "a4b3a13f6ff4f6b875e1864f3afc27ae12aa9e2cb78e6898cd86ddc676fb979c"
+    },
+    {
+      "id": "institution-osatek",
+      "name": "Osatek",
+      "homepage": "https://osakidetza.euskadi.eus/osatek",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Oferta de empleo 2022",
+          "url": "https://osakidetza.euskadi.eus/oferta-de-empleo-2022/webosk00-otkcon/es/"
+        },
+        {
+          "title": "Empleo público",
+          "url": "https://osakidetza.euskadi.eus/oferta-de-empleo-publico/webosk00-procon/es/"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:27:09.157Z",
+      "hash": "e01d8a600be81a7b59c4a40a9e94c25b4b567006e4281af02ac7a36dd2b9996a"
+    },
+    {
+      "id": "institution-parlamento-vasco",
+      "name": "Parlamento Vasco",
+      "homepage": "https://legebiltzarra.eus/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:11.800Z",
+      "error": "robots.txt no permite legebiltzarra.eus/"
+    },
+    {
+      "id": "institution-sociedad-de-hidrocarburos-de-euskadi",
+      "name": "Sociedad de Hidrocarburos de Euskadi",
+      "homepage": "https://shesa.es/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:11.568Z",
+      "error": "fetch failed"
+    },
+    {
+      "id": "institution-spri",
+      "name": "SPRI",
+      "homepage": "https://spri.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:58.996Z",
+      "hash": "791af6297bbeb2cab165cd21598886ccfa2c86cea35b716c8375092e2f5da48c"
+    },
+    {
+      "id": "institution-tribunal-vasco-de-cuentas-publicas",
+      "name": "Tribunal Vasco de Cuentas Públicas",
+      "homepage": "https://tvcp.eus/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:13.104Z",
+      "error": "fetch failed"
+    },
+    {
+      "id": "institution-unibasq",
+      "name": "Unibasq",
+      "homepage": "https://unibasq.eus/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:26:57.387Z",
+      "hash": "51dbaa41731f155c788b463d9aef9eba483b5cf3bf83192593bfd20b731297b2"
+    },
+    {
+      "id": "institution-universidad-del-pais-vasco",
+      "name": "Universidad del País Vasco",
+      "homepage": "https://ehu.eus/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Enplegu Guneak",
+          "url": "https://www.ehu.eus/enplegugunea/"
+        },
+        {
+          "title": "Lan eskaintzak",
+          "url": "https://www.ehu.eus/web/guest/lan-eskaintzak"
+        }
+      ],
+      "checkedAt": "2026-11-19T08:27:13.305Z",
+      "hash": "0d3999e2508662817f3ca839bff37c113946c22a5a08abfaad7285fdbfd8ca30"
+    },
+    {
+      "id": "institution-valle-salado-de-anana",
+      "name": "Valle Salado de Añana",
+      "homepage": "https://vallesalado.com/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:18.154Z",
+      "hash": "1e24777a6a2f724c11ed51c95d91a5f4df5b9b35907d405dc80925438a99795f"
+    },
+    {
+      "id": "institution-visesa",
+      "name": "VISESA",
+      "homepage": "https://visesa.eus/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-19T08:27:09.009Z",
+      "error": "fetch failed"
+    },
+    {
+      "id": "institution-administracion-de-la-comunidad-foral-de-navarra",
+      "name": "Administración de la Comunidad Foral de Navarra",
+      "homepage": "https://gobiernoabierto.navarra.es/transparencia/funciones-estructura-organigrama",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:01:51.015Z",
+      "error": "URL fuera de las fuentes oficiales permitidas"
+    },
+    {
+      "id": "institution-agencia-navarra-de-autonomia-y-desarrollo-de-las-personas",
+      "name": "Agencia Navarra de Autonomía y Desarrollo de las Personas",
+      "homepage": "https://www.navarra.es/es/derechos-sociales",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Empleo",
+          "url": "https://www.navarra.es/es/empleo"
+        },
+        {
+          "title": "keyboard_arrow_right Trámites - Sede electrónica Ayudas, empleo público, impuestos, autorizaciones, certificados...",
+          "url": "https://www.navarra.es/es/tramites"
+        }
+      ],
+      "checkedAt": "2026-11-20T09:01:52.590Z",
+      "hash": "3e53d0e400b0a5068f471e0e40c37db5c8a2ecf0fb45e5865aace7aa948ae8a4"
+    },
+    {
+      "id": "institution-camara-de-comptos",
+      "name": "Cámara de Comptos",
+      "homepage": "https://camaradecomptos.navarra.es/es",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Empleo público",
+          "url": "https://camaradecomptos.navarra.es/es/transparencia/empleo-publico"
+        }
+      ],
+      "checkedAt": "2026-11-20T08:45:40.000Z",
+      "fromCache": true,
+      "hash": "c1b74c02cd62ff019683c73a0c9e3cfb7aa7d214a03cda1329e5552235334d35"
+    },
+    {
+      "id": "institution-cein",
+      "name": "CEIN",
+      "homepage": "https://www.cein.es/transparencia/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:42.036Z",
+      "fromCache": true,
+      "hash": "64c6d911dcb0ac88759c3b971370834881f679e022f3a0ebaa1a8ea1c3315b13"
+    },
+    {
+      "id": "institution-ciudad-agroalimentaria-de-tudela",
+      "name": "Ciudad Agroalimentaria de Tudela",
+      "homepage": "https://www.ciudadagroalimentaria.es/transparencia/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:46.704Z",
+      "fromCache": true,
+      "hash": "fe056985ac91bdfac75a215964e6571b3a19ad09d8811ccce41a09e4d453f8df"
+    },
+    {
+      "id": "institution-cnai",
+      "name": "CNAI",
+      "homepage": "https://www.cnai.es/es/transparencia",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:43.376Z",
+      "fromCache": true,
+      "hash": "58cdcb083a9fc5befd787b75c6e191c0f1c26e6e688c68007a3358d5336bdc1e"
+    },
+    {
+      "id": "institution-consejo-de-navarra",
+      "name": "Consejo de Navarra",
+      "homepage": "https://consejonavarra.navarra.es/es/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:39.860Z",
+      "fromCache": true,
+      "hash": "3a1d24cb71fbb8f241d34de80469ffef023dc51136d4241ce53774e1102c71ae"
+    },
+    {
+      "id": "institution-cpen",
+      "name": "CPEN",
+      "homepage": "https://www.sociedadespublicasdenavarra.es/cpen/transparencia-cpen",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:43.576Z",
+      "fromCache": true,
+      "hash": "d6ddd6b06df3547d975e97c845387cdfaa26fd232d71fc5a3bc7690e64ac2263"
+    },
+    {
+      "id": "institution-defensor-del-pueblo-de-navarra",
+      "name": "Defensor del Pueblo de Navarra",
+      "homepage": "https://www.defensornavarra.es/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:41.364Z",
+      "fromCache": true,
+      "hash": "72bc57a8e9422f64315f02405d789476ee19a68e09501c1de73e1b15dd771fe6"
+    },
+    {
+      "id": "institution-euskarabidea",
+      "name": "Euskarabidea",
+      "homepage": "https://www.euskarabidea.es/castellano",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:01:51.674Z",
+      "hash": "7d75aa704c12011782040901a45a21da3cf0d44a43822c2a1a2123c308057f3f"
+    },
+    {
+      "id": "institution-fundacion-baluarte",
+      "name": "Fundación Baluarte",
+      "homepage": "https://www.fundacionbaluarte.com/es/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:53.580Z",
+      "fromCache": true,
+      "hash": "895565bdc22be7935919c946fa12cd18a4a686ad8bb3f89c13ea342f8378cf54"
+    },
+    {
+      "id": "institution-fundacion-miguel-indurain",
+      "name": "Fundación Miguel Induráin",
+      "homepage": "https://www.fundacionmiguelindurain.com/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:53.108Z",
+      "fromCache": true,
+      "hash": "98fe75e91ed3bc591ac8ad7162ca137257bef4cedeadae9bfd02cd511156c028"
+    },
+    {
+      "id": "institution-fundacion-miguel-servet",
+      "name": "Fundación Miguel Servet",
+      "homepage": "https://www.navarrabiomed.es/es/navarrabiomed/fundacion-miguel-servet",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Empleo",
+          "url": "https://www.navarrabiomed.es/es"
+        }
+      ],
+      "checkedAt": "2026-11-20T08:45:51.900Z",
+      "fromCache": true,
+      "hash": "f8ac021fb3d6f440710f1e7d48d38d58969d871816dbbd2990f951af1ea0d049"
+    },
+    {
+      "id": "institution-fundacion-publica-navarra-para-la-provision-de-apoyos-a-personas-con-discapacidad",
+      "name": "Fundación Pública Navarra para la Provisión de Apoyos a Personas con Discapacidad",
+      "homepage": "https://www.fundapa.org/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:54.928Z",
+      "fromCache": true,
+      "hash": "2ebdaf4fac2b9cfee9acde3957d9b7132a43dab923e93257e2cb6263fb823ad3"
+    },
+    {
+      "id": "institution-gizain",
+      "name": "Gizain",
+      "homepage": "https://fundaciongizain.es/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:53.744Z",
+      "fromCache": true,
+      "hash": "f3056cb1d842ecfa6586158ff28be39227c9560b1b4de32e63d79b4b853c4b72"
+    },
+    {
+      "id": "institution-hacienda-foral-de-navarra",
+      "name": "Hacienda Foral de Navarra",
+      "homepage": "https://www.navarra.es/es/hacienda",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Empleo",
+          "url": "https://www.navarra.es/es/empleo"
+        },
+        {
+          "title": "keyboard_arrow_right Trámites - Sede electrónica Ayudas, empleo público, impuestos, autorizaciones, certificados...",
+          "url": "https://www.navarra.es/es/tramites"
+        }
+      ],
+      "checkedAt": "2026-11-20T09:01:52.253Z",
+      "hash": "c0a6a6d9100db5960885e0108407b5273f3e4d8f9a561d53a53103d70af22344"
+    },
+    {
+      "id": "institution-instituto-de-salud-publica-y-laboral-de-navarra",
+      "name": "Instituto de Salud Pública y Laboral de Navarra",
+      "homepage": "https://www.navarra.es/home_es/Gobierno+de+Navarra/Organigrama/Los+departamentos/Salud/Organigrama/Estructura+Organica/Instituto+Navarro+de+Salud+Publica/portada+ISP.htm",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Empleo Público",
+          "url": "https://portalsalud.navarra.es/es/profesionales/empleo-salud"
+        },
+        {
+          "title": "Oposiciones",
+          "url": "https://portalsalud.navarra.es/es/oposiciones"
+        }
+      ],
+      "checkedAt": "2026-11-20T09:01:54.355Z",
+      "hash": "ebf3f8f5c7c5e8f969b3df5b36d12e0bfda23163e87b0c538c2a2a339a814409"
+    },
+    {
+      "id": "institution-instituto-navarro-de-inversiones",
+      "name": "Instituto Navarro de Inversiones",
+      "homepage": "https://www.ininavarra.es/transparencia/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:47.104Z",
+      "fromCache": true,
+      "hash": "8e3ae0b1acf093f3908edb6adfbe994baec0adccf3a2c28cb778829a2250d173"
+    },
+    {
+      "id": "institution-instituto-navarro-de-la-juventud",
+      "name": "Instituto Navarro de la Juventud",
+      "homepage": "https://www.juventudnavarra.es/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:01:52.240Z",
+      "hash": "889ec71ad895fd5ebd56e8e8ddd6b3ac60210a99fb788edfdf300e9712312cf7"
+    },
+    {
+      "id": "institution-instituto-navarro-del-deporte",
+      "name": "Instituto Navarro del Deporte",
+      "homepage": "https://www.deportenavarra.es/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:01:55.297Z",
+      "hash": "66f113ac0938d6fcd86e62b62e279cd692dadd09b7396a8356f03ce5c02d31ef"
+    },
+    {
+      "id": "institution-instituto-navarro-para-la-igualdad",
+      "name": "Instituto Navarro para la Igualdad",
+      "homepage": "https://www.navarra.es/es/igualdad-y-violencia-de-genero",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Empleo",
+          "url": "https://www.navarra.es/es/empleo"
+        },
+        {
+          "title": "keyboard_arrow_right Trámites - Sede electrónica Ayudas, empleo público, impuestos, autorizaciones, certificados...",
+          "url": "https://www.navarra.es/es/tramites"
+        }
+      ],
+      "checkedAt": "2026-11-20T09:01:51.114Z",
+      "hash": "7b459df4e1068c7913d6261cd645fbbc8f69c193557b1a58882ec9da3901a255"
+    },
+    {
+      "id": "institution-intia",
+      "name": "INTIA",
+      "homepage": "https://www.intiasa.es/web/es/transparencia",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:45.252Z",
+      "fromCache": true,
+      "hash": "58b9d33b8446fb23b50fa38f2d454769082b5852377d5c058c33aa83d6cddd9e"
+    },
+    {
+      "id": "institution-mancomunidad-de-aguas-del-moncayo",
+      "name": "Mancomunidad de Aguas del Moncayo",
+      "homepage": "https://www.aguasdelmoncayo.es/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:46:49.224Z",
+      "fromCache": true,
+      "hash": "c4236fdd5b8349dc71357ea5f52ef588704e116a60a3acd89063e774113d6424"
+    },
+    {
+      "id": "institution-mancomunidad-de-la-comarca-de-pamplona",
+      "name": "Mancomunidad de la Comarca de Pamplona",
+      "homepage": "https://www.mcp.es/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Ofertas de empleo",
+          "url": "https://www.mcp.es/ofertas-de-empleo"
+        }
+      ],
+      "checkedAt": "2026-11-20T08:46:40.612Z",
+      "fromCache": true,
+      "hash": "d97c06eac12c5236c01cb84488c4dca26d9d503fea3707fd4952d8551ff770df"
+    },
+    {
+      "id": "institution-mancomunidad-de-la-ribera",
+      "name": "Mancomunidad de la Ribera",
+      "homepage": "https://www.mancoribera.com/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Oferta de empleo: Convocatoria de empleo Oficial Administrativo",
+          "url": "https://mancoribera.com/2024/12/30/oferta-de-empleo-convocatoria-de-empleo-oficial-administrativo/"
+        },
+        {
+          "title": "Oferta de empleo: Convocatoria de lista temporal de empleo Vigilante de contratas 2024",
+          "url": "https://mancoribera.com/2024/07/18/oferta-de-empleo-convocatoria-de-lista-temporal-de-empleo-vigilante-2024/"
+        }
+      ],
+      "checkedAt": "2026-11-20T08:46:47.428Z",
+      "fromCache": true,
+      "hash": "b0097a250d9c9a9d5f735fd0cf878029d3bdbd9f5efcd495e9867ec9e805eaaa",
+      "reviewedAt": "2026-11-20T10:39:06.725754+00:00",
+      "reviewUrl": "https://mancoribera.com/tablon-de-anuncios/",
+      "note": "Two explicitly titled public employment articles from 2024 on the published bulletin page. Bases, employers and the load-more archive need integration; no complete current coverage is implied."
+    },
+    {
+      "id": "institution-mancomunidad-de-mairaga",
+      "name": "Mancomunidad de Mairaga",
+      "homepage": "https://www.mairaga.es/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:01:58.217Z",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "institution-mancomunidad-de-montejurra",
+      "name": "Mancomunidad de Montejurra",
+      "homepage": "https://www.montejurra.com/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:46:41.180Z",
+      "fromCache": true,
+      "hash": "e335258f89edab80e54a2637101fe344b9ca6401d50dda6289130bcbb6668824",
+      "error": "The published homepage returns a JavaScript cookie/reload challenge, not readable institutional content. No challenge was solved; no vacancy absence is inferred.",
+      "reviewedAt": "2026-11-20T10:37:32.142932+00:00"
+    },
+    {
+      "id": "institution-mancomunidad-de-sakana",
+      "name": "Mancomunidad de Sakana",
+      "homepage": "https://www.sakana-mank.eus/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:02:00.440Z",
+      "error": "fetch failed"
+    },
+    {
+      "id": "institution-mancomunidad-de-valdizarbe",
+      "name": "Mancomunidad de Valdizarbe",
+      "homepage": "https://www.mancomunidadvaldizarbe.com/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Empleo",
+          "url": "https://www.mancomunidadvaldizarbe.com/empleo/"
+        }
+      ],
+      "checkedAt": "2026-11-20T08:46:47.272Z",
+      "fromCache": true,
+      "hash": "90d6d21a9568617fe309a63d53077784d868f4bb7c41d19fd65d0aa5fcd4f13b"
+    },
+    {
+      "id": "institution-nasertic",
+      "name": "NASERTIC",
+      "homepage": "https://www.nasertic.es/es/transparencia",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:45.932Z",
+      "fromCache": true,
+      "hash": "1095efe381cded7231a19b5895a879d7916ed1e7c265d26f23f56ba1ad20259e"
+    },
+    {
+      "id": "institution-nasuvinsa",
+      "name": "NASUVINSA",
+      "homepage": "https://www.nasuvinsa.es/es/transparencia",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:46.900Z",
+      "fromCache": true,
+      "hash": "e23024c9660e8f8691a3d02abd7d3ee90c0c63c309df0bfe1d1d81983bde4905"
+    },
+    {
+      "id": "institution-nicdo",
+      "name": "NICDO",
+      "homepage": "https://www.nicdo.es/es/transparencia",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:01:55.745Z",
+      "error": "HTTP 403 en www.nicdo.es/es/transparencia"
+    },
+    {
+      "id": "institution-nilsa",
+      "name": "NILSA",
+      "homepage": "https://www.nilsa.com/es/quienes-somos/transparencia/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:01:56.177Z",
+      "error": "HTTP 404 en www.nilsa.com/es/quienes-somos/transparencia/"
+    },
+    {
+      "id": "institution-oficina-de-analisis-y-prospeccion",
+      "name": "Oficina de Análisis y Prospección",
+      "homepage": "https://analisisyprospectiva.navarra.es/es/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:01:51.310Z",
+      "hash": "27429f46738c78284ac192820f6cfd03dbb57191e1f20be6d3dcda771ddab605"
+    },
+    {
+      "id": "institution-oficina-de-buenas-practicas-y-anticorrupcion",
+      "name": "Oficina de Buenas Prácticas y Anticorrupción",
+      "homepage": "https://oana.es/es",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:01:51.083Z",
+      "error": "fetch failed"
+    },
+    {
+      "id": "institution-orekan-gestion-ambiental-de-navarra",
+      "name": "OREKAN Gestión Ambiental de Navarra",
+      "homepage": "https://orekan.es/es/transparencia",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:47.804Z",
+      "fromCache": true,
+      "hash": "adc29d64c80cb2a74aa0b978bd77e4bea2400f3c538205117a52603754a52015"
+    },
+    {
+      "id": "institution-parlamento-de-navarra",
+      "name": "Parlamento de Navarra",
+      "homepage": "https://www.parlamentodenavarra.es/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:01:51.016Z",
+      "error": "The operation was aborted"
+    },
+    {
+      "id": "institution-potasas-de-subiza-posusa",
+      "name": "Potasas de Subiza POSUSA",
+      "homepage": "https://potasasdesubiza.com/transparencia/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:50.168Z",
+      "fromCache": true,
+      "hash": "15f0d1895a7c912d247ab86fc0e7c22bad91dd19186ac88d67e5414a3e0af633"
+    },
+    {
+      "id": "institution-salinas-de-navarra",
+      "name": "Salinas de Navarra",
+      "homepage": "https://saldosa.com/ley-de-transparencia/",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:01:57.162Z",
+      "error": "robots.txt no permite saldosa.com/ley-de-transparencia/"
+    },
+    {
+      "id": "institution-servicio-navarro-de-empleo",
+      "name": "Servicio Navarro de Empleo",
+      "homepage": "https://www.navarra.es/es/empleo",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Empleo",
+          "url": "https://www.navarra.es/es/empleo"
+        },
+        {
+          "title": "keyboard_arrow_right Trámites - Sede electrónica Ayudas, empleo público, impuestos, autorizaciones, certificados...",
+          "url": "https://www.navarra.es/es/tramites"
+        },
+        {
+          "title": "Ofertas de empleo del SNE-NL",
+          "url": "https://www.navarra.es/es/tramites/on/-/line/ofertas-de-empleo?pageBackId=6529020"
+        },
+        {
+          "title": "Empleo público",
+          "url": "https://www.navarra.es/es/empleo-publico?pageBackId=6529020"
+        },
+        {
+          "title": "Búsqueda de empleo Ofertas de empleo y convocatorias de empleo público de Navarra, España y Europa",
+          "url": "https://www.navarra.es/es/empleo/ofertas-de-empleo"
+        }
+      ],
+      "checkedAt": "2026-11-20T09:01:53.195Z",
+      "hash": "716db64bd9fc2e0314d80164a7119c2ea86cd967e6b5bf3b77a4f0512e07897a"
+    },
+    {
+      "id": "institution-servicio-navarro-de-salud-osasunbidea",
+      "name": "Servicio Navarro de Salud Osasunbidea",
+      "homepage": "https://www.navarra.es/home_es/Temas/Portal+de+la+Salud/Ciudadania/",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Empleo Público",
+          "url": "https://portalsalud.navarra.es/es/profesionales/empleo-salud"
+        },
+        {
+          "title": "Oposiciones",
+          "url": "https://portalsalud.navarra.es/es/oposiciones"
+        },
+        {
+          "title": "Empleo público",
+          "url": "https://empleosalud.navarra.es/es/"
+        }
+      ],
+      "checkedAt": "2026-11-20T09:01:53.697Z",
+      "hash": "07c33594214cce5d400074a7faecb49a84d6780c31436be19f8c699302096315"
+    },
+    {
+      "id": "institution-sodena",
+      "name": "SODENA",
+      "homepage": "https://www.sodena.com/index.php/es/quienes-somos/transparencia.html",
+      "status": "unavailable",
+      "candidates": [],
+      "checkedAt": "2026-11-20T09:01:57.344Z",
+      "error": "HTTP 404 en sodena.com/es/quienes-somos/transparencia.html"
+    },
+    {
+      "id": "institution-start-up",
+      "name": "Start Up",
+      "homepage": "https://www.startup.es/index.php/transparencia",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:50.864Z",
+      "fromCache": true,
+      "hash": "328bdedbcfdcd7229a8b72842289b6e5291d8130bf0b1dd64d77921f3d270cc4"
+    },
+    {
+      "id": "institution-tracasa",
+      "name": "TRACASA",
+      "homepage": "https://tracasa.es/transparencia/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:46:01.504Z",
+      "fromCache": true,
+      "hash": "e50c2fb8f30c95538fb303cf7f33692d3c7739d716d8297ad1769339afe9c610"
+    },
+    {
+      "id": "institution-tracasa-instrumental",
+      "name": "TRACASA Instrumental",
+      "homepage": "https://itracasa.es/transparencia/",
+      "status": "no-link-found",
+      "candidates": [],
+      "checkedAt": "2026-11-20T08:45:52.456Z",
+      "fromCache": true,
+      "hash": "7295cbbaf38a02dfae8b4d0f2f996a2d211c5271314ba68b77b315b28b3d4267"
+    },
+    {
+      "id": "institution-universidad-publica-de-navarra",
+      "name": "Universidad Pública de Navarra",
+      "homepage": "https://www.unavarra.es/portada",
+      "status": "candidates-found",
+      "candidates": [
+        {
+          "title": "Empleo",
+          "url": "https://www.unavarra.es/fundacionuniversidadsociedad/empleo/presentacion?languageId=100000"
+        }
+      ],
+      "checkedAt": "2026-11-20T08:45:40.684Z",
+      "fromCache": true,
+      "hash": "d6eea2ad64f9fafac1eccba7b6fb865166a54e0dc48c69607f0d7a0ff8c4f670"
+    }
+  ]
+}

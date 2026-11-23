@@ -1,0 +1,99 @@
+{
+  "reviewedAt": "2026-11-20T16:07:10.065123Z",
+  "mode": "official-page-identity-review",
+  "note": "Five current first-page calls plus eight previously stored calls reviewed through their original official detail URLs. Stable IDs retained. Linked documents were not fetched or marked PDF-verified in this review.",
+  "calls": 13,
+  "entries": [
+    {
+      "id": "ivap-2908dc657b9e87af542b",
+      "sourceUrl": "https://www.ivap.euskadi.eus/empleo_publico/jefatura-de-equipo-de-seguridad-y-cumplimiento/webivap00-a3lanesk/es/",
+      "title": "Jefatura de equipo de Seguridad y Cumplimiento",
+      "organization": "BilbaoTIK",
+      "sourceHash": "ffc0c272b4f16044ee0d6b456963a2ff679afa94fcb4e3a6cdc476da52acc00e"
+    },
+    {
+      "id": "ivap-05d04c53e2519ea31d0f",
+      "sourceUrl": "https://www.ivap.euskadi.eus/empleo_publico/analista-programadora-gis/webivap00-a3lanesk/es/",
+      "title": "Analista programador/a GIS",
+      "organization": "BilbaoTIK",
+      "sourceHash": "06855e165096500be9a5d5095cf42ffc74ecbd9e8e2994474f0fa4a90f53ee9a"
+    },
+    {
+      "id": "ivap-8030dec08ec5681c3769",
+      "sourceUrl": "https://www.ivap.euskadi.eus/empleo_publico/tecnicao-de-servicios-de-valor-tecnicao-de-industria/webivap00-a3lanesk/es/",
+      "title": "Técnica/o de Servicios de Valor (Técnica/o de INDUSTRIA)",
+      "organization": "ENTE VASCO DE LA ENERGÍA",
+      "sourceHash": "87b3415db9c8d77724b0255529edffcba4219920d18389a2d42cf2e53cb17bc8"
+    },
+    {
+      "id": "ivap-9e5184cb00ccf0784569",
+      "sourceUrl": "https://www.ivap.euskadi.eus/empleo_publico/coordinador-a-de-kulturarteko-plaza-feminista-p-166/webivap00-a3lanesk/es/",
+      "title": "Coordinador-a de Kulturarteko Plaza Feminista (P 166).",
+      "organization": "Ayuntamiento de Hernani",
+      "sourceHash": "e5b5004414031003ff41ad39c5805524fd460bba4ecaa585b7a986d26d7f8a42"
+    },
+    {
+      "id": "ivap-895ca2c3a226ef63b82e",
+      "sourceUrl": "https://www.ivap.euskadi.eus/empleo_publico/conserje-del-polideportivo/webivap00-a3lanesk/es/",
+      "title": "Conserje del Polideportivo",
+      "organization": "Ayuntamiento de Hernani",
+      "sourceHash": "1d8f9942d286682b14e9ec199e49c3d9bb5957634a4a43bc99319a853da8341e"
+    },
+    {
+      "id": "ivap-21755affb1115fea70ec",
+      "sourceUrl": "https://www.ivap.euskadi.eus/empleo_publico/responsable-de-gestion-de-expedientes-e-informatica/webivap00-a3lanesk/es/",
+      "title": "Responsable de gestión de expedientes e informática.",
+      "organization": "Ayuntamiento de Astigarraga",
+      "sourceHash": "5f6dea0c12b6dc8845266c2ecadc10586db55ce4cbc52862cc18293dc3e43ee4"
+    },
+    {
+      "id": "ivap-3f24108dd834f7280f28",
+      "sourceUrl": "https://www.ivap.euskadi.eus/empleo_publico/ayuntamiento-de-donostia-san-sebastian-agente-de-la-policia-municipal/webivap00-a3lanesk/es/",
+      "title": "Ayuntamiento de Donostia / San Sebastián (Agente de la Policia Municipal)",
+      "organization": "Ayuntamiento de Donostia/San Sebastian",
+      "sourceHash": "8fd054cd796bd93a600bc3e544a76842129efff8709283d24292e98a0d85a7a4"
+    },
+    {
+      "id": "ivap-452e39ca5e6aacaed35b",
+      "sourceUrl": "https://www.ivap.euskadi.eus/webivap00-a3lanesk/es/contenidos/empleo_publico/tec_organizacion_jp082026/es_def/index.shtml",
+      "title": "Técnico/a de organización, calidad y seguridad",
+      "organization": "Eusko Jaurlaritzaren Informatika Elkartea - EJIE",
+      "sourceHash": "e48336ed4e7a676f982d18823467cdb610d199d4bdc2acb8e8782f70b369cdcf"
+    },
+    {
+      "id": "ivap-51d06fd3c074503774ee",
+      "sourceUrl": "https://www.ivap.euskadi.eus/empleo_publico/administrativoadeintervencion/webivap00-a3lanesk/es/",
+      "title": "Administrativo/a de Intervención",
+      "organization": "Ayuntamiento de Azkoitia",
+      "sourceHash": "163615f7cc864e2f5031e14d6ddecc59295107ac8e6f2c860ae479f14f7baa3b"
+    },
+    {
+      "id": "ivap-5d91936c946b5882df36",
+      "sourceUrl": "https://www.ivap.euskadi.eus/empleo_publico/c-marcas-y-mercados-organizadora-de-eventos-agroalimentarios/webivap00-a3lanesk/es/",
+      "title": "C- MARCAS Y MERCADOS (Organizador/a de eventos agroalimentarios)",
+      "organization": "FUNDACIÓN HAZI FUNDAZIOA",
+      "sourceHash": "9fe221e695bd20df0681d508c63778a64bc59b15d7da8860b407b56e36441909"
+    },
+    {
+      "id": "ivap-8bc1fa1389af42823829",
+      "sourceUrl": "https://www.ivap.euskadi.eus/empleo_publico/tecnicao-de-estudios-y-planificacion-energetica-redes-electricas/webivap00-a3lanesk/es/",
+      "title": "Técnica/o de Estudios y Planificación Energética. Redes Eléctricas",
+      "organization": "ENTE VASCO DE LA ENERGÍA",
+      "sourceHash": "a3ecff82f0087f4a7ab1c5071f5174875b0dccc94dac4b9cf4d88ca4afafa125"
+    },
+    {
+      "id": "ivap-8ebd96aa4b08f92150db",
+      "sourceUrl": "https://www.ivap.euskadi.eus/empleo_publico/tecnicoa-en-trabajo-social/webivap00-a3lanesk/es/",
+      "title": "Técnico/a en Trabajo Social",
+      "organization": "Ayuntamiento de San Sebastián",
+      "sourceHash": "4ea51fff0e724ad10f7b3891e9b0241be5e34853cf481d9bcdb1b49d76be9ba7"
+    },
+    {
+      "id": "ivap-ea8149d8e14c1f3e8c3f",
+      "sourceUrl": "https://www.ivap.euskadi.eus/empleo_publico/encargadoa-de-brigada-de-obras-y-servicios/webivap00-a3lanesk/es/",
+      "title": "Encargado/a de Brigada de Obras y Servicios",
+      "organization": "Ayuntamiento de Legazpi",
+      "sourceHash": "fe777d54433958bf07d3657ab6b08cb7e25fcf0837562326b7ecc559e3b1c3a8"
+    }
+  ]
+}

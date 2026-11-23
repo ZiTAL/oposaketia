@@ -13,6 +13,13 @@ import {baseCall,educationIds,extractTopics,parseDate}from'../scripts/scrapers/s
 import {assess,defaultProfile}from'../src/lib/catalogue';
 const now='2026-11-16T12:00:00.000Z';
 const row={documentName:'Título antiguo',physicalUrl:'https://www.gazteaukera.euskadi.eus/contenidos/empleo_publico/prueba/es_def/index.shtml',rrhhTerritory:'Comunidad Autónoma del País Vasco',territory:'Gipuzkoa',rrhhStartDate:'01/11/2026',rrhhEndDate:'30/11/2026',rrhhSponsor:'Ayuntamiento',rrhhRules:'',rrhhVacancies:'1'};
+test('official open dataset retains Navarra municipal calls and rejects contradictory regional metadata',()=>{
+ const navarra={...row,rrhhTerritory:'Navarra',territory:'',rrhhSponsor:'Ayuntamiento de Tudela'};
+ const mixed={...navarra,territory:'Gipuzkoa'};
+ assert.deepEqual(parseDataset(JSON.stringify([row,navarra,mixed]),'2026-08-20'),[row,navarra]);
+ const call=parseEuskadiDetail('<h1>Administrativo/a</h1><div class="r01gContentTabSeccion"><div class="r01gContentSeccionTitulo">Titulación</div><div class="r01gContentSeccionTexto">Bachiller</div></div>',navarra,now);
+ assert.equal(call.territory,'Navarra');assert.equal(call.province,'Navarra');assert.equal(call.organization,'Ayuntamiento de Tudela');
+});
 test('EITB parses current public recruitment calls and links their official bases',()=>{
  const html='<div class="convocatoria"><div class="header"><a href="/es/convocatoria-publica-detalle.php?id=1"><h2>15_ADMIN — ADMINISTRATIVO/A</h2></a><p><svg></svg>EITB Media S.A.U. - ETB</p></div><div class="description">Administrativo/a</div><div class="info-convocatoria">Plazo inscripción: 06/11/2026 - 21/11/2026 Número de plazas: 3</div><div class="row">Tipo de proceso selectivo: Concurso oposición</div></div>';
  const listing=parseEitbList(html)[0];assert.equal(listing.title,'Administrativo/a');assert.equal(listing.deadline,'2026-11-21');assert.equal(listing.places,3);
@@ -59,6 +66,10 @@ test('Euskadi uses the current page title, actual education and linguistic text,
 });
 test('unknown page layouts are not silently converted into invented calls',()=>{
  assert.throws(()=>parseEuskadiDetail('<title>Blocked</title>',row,now));assert.throws(()=>parseNavarraList('<html>No results</html>'));
+});
+test('Euskadi does not use a portal brand or generic navigation heading as the job title',()=>{
+ const actual=parseEuskadiDetail('<h1>Museo de la Policía Vasca</h1><div class="r01gContentTabSeccion"><div class="r01gContentSeccionTitulo">Plaza</div><div class="r01gContentSeccionTexto">Plaza de agente</div></div>',row,now);assert.equal(actual.title,'Plaza de agente');
+ const fallback=parseEuskadiDetail('<h3>Información General</h3><div class="bloqueInfo"><div class="cabecera">Convoca:</div><div class="info">Ayuntamiento</div></div>',{...row,documentName:'Administrativo/a publicado'},now);assert.equal(fallback.title,'Administrativo/a publicado');
 });
 test('Navarra follows pagination and normalizes tracking parameters',()=>{
  const result=parseNavarraList(`<li class="searcher-result"><div class="searcher-result-category">En resolución</div><a class="searcher-result-title" href="https://www.navarra.es/es/tramites/on/-/line/test?back=true&amp;pageBackId=123">Puesto</a><div class="searcher-result-description">2 plazas</div></li><a href="javascript:document.form._cur.value = '10'; paginate()">10</a>`);

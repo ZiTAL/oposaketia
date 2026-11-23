@@ -3,7 +3,8 @@ import { resolve,join } from 'node:path';
 import { z } from 'zod';
 import { saveCalls } from './import';
 import { recordReport } from './scrape';
-const reportsSchema=z.object({sources:z.array(z.object({id:z.enum(['euskadi','navarra','cdg64']),attemptedAt:z.iso.datetime(),succeededAt:z.iso.datetime().nullable(),status:z.enum(['ok','partial','error']),count:z.number().int().nonnegative(),warnings:z.array(z.string()),warningCount:z.number().int().nonnegative(),error:z.string().optional()}))});
+import { sources } from './sources';
+const reportsSchema=z.object({sources:z.array(z.object({id:z.string().refine(id=>sources.some(source=>source.id===id),'Unknown scrape source'),attemptedAt:z.iso.datetime(),succeededAt:z.iso.datetime().nullable(),status:z.enum(['ok','partial','error']),count:z.number().int().nonnegative(),warnings:z.array(z.string()),warningCount:z.number().int().nonnegative(),error:z.string().optional()}))});
 async function apply(){
  for(const folder of process.argv.slice(2).length?process.argv.slice(2):['data/imports']){
   const dir=resolve(folder);const reports=reportsSchema.parse(JSON.parse(await readFile(join(dir,'scrape-report.json'),'utf8')));
