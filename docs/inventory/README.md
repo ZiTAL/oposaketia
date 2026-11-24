@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2271 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 268k gutxienez bat datorren fitxa zuten, eta 627k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2274 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 269k gutxienez bat datorren fitxa zuten, eta 626k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -810,3 +810,16 @@ Administrari orokorraren beste prozesua desgaitasuna duten pertsonentzako
 turnu murriztua da, eta bilaketa orokorretik kanpo utzi da. Konektore
 honek ez du prozesu amaituen artxiboa edo kanpoko hautagaitza-ataria
 osorik estaltzen.
+
+## Herri Kontuen Euskal Epaitegia (TVCP)
+
+[Hautaketa-prozesuen atarian](https://hkee-tvcp.eus/portal-de-transparencia/informacion-sobre-procesos-selectivos/)
+argitaratutako 2026-0053, 2026-0054 eta 2026-0055 ebazpenen PDF ofizialak
+egiaztatu dira 2026-11-24an. Administrazio orokorreko teknikaria, informatika
+teknikaria eta administraria hautatzeko hiru lan-poltsa dira. Oinarrietan
+Vitoria-Gasteizko destinoa, titulu-baldintzak eta 2026-08-11ko izen-emate
+itxiera ageri dira. Euskara derrigorrezko profila duten eta ez duten poltsak
+bereizten dira; ez da hizkuntza-eskakizun bakarra ezartzen fitxa osoari.
+Merezimendu-lehiaketak dira, azterketako gai-zerrendarik gabe. Ez dira
+hautagaien zerrendak edo emaitzen agiriak inportatzen. Ebazpen berriak eskuz
+berrikusi behar dira.

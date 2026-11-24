@@ -1863,8 +1863,8 @@
     "territory": "Euskadi",
     "province": null,
     "reportLine": 29,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "connected-partial",
+    "note": "TVCPren hautaketa-prozesuen ataria eta 2026ko hiru lan-poltsen oinarri ofizialak egiaztatu dira. Estaldura partziala: ebazpen berriek berrikuspena behar dute.",
     "websiteFromDirectory": "https://tvcp.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/tribunal-vasco-de-cuentas-publicas/web01-a2ogafin/es/",
     "websiteDirectoryName": "Tribunal Vasco de Cuentas Públicas",
@@ -1877,9 +1877,11 @@
       "error": "fetch failed"
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
+      "auditedAt": "2026-11-24T08:16:49.473Z",
+      "calls": 3,
+      "sourceIds": [
+        "tvcp"
+      ],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
     },
     "directoryReview": {
@@ -1887,7 +1889,11 @@
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
-    }
+    },
+    "sourceIds": [
+      "tvcp"
+    ],
+    "employmentPortal": "https://hkee-tvcp.eus/portal-de-transparencia/informacion-sobre-procesos-selectivos/"
   },
   {
     "id": "institution-ararteko",
