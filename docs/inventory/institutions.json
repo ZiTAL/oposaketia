@@ -857,22 +857,27 @@
     "territory": "Euskadi",
     "province": null,
     "reportLine": 23,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "connected-partial",
+    "note": "Qualis Consultores enpresari esleitutako 2026ko bi kanpoko prozesu eta oinarri PDFak egiaztatuta; bi plaza, biak Gipuzkoan. Beste urteetako prozesuak berrikusteko daude.",
     "websiteFromDirectory": "https://ekpsa.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/euskadiko-kirol-portuak/web01-a2ogafin/es/",
     "websiteDirectoryName": "Euskadiko Kirol Portuak",
     "websiteDirectoryCheckedAt": "2026-11-20T13:59:27.596Z",
     "websiteDirectoryStatus": "verified",
     "employmentDiscovery": {
-      "status": "no-link-found",
-      "checkedAt": "2026-11-19T08:26:59.569Z",
-      "candidates": []
+      "status": "verified",
+      "checkedAt": "2026-11-24T13:58:55.733Z",
+      "candidates": [
+        "https://www.qualisconsultores.es/oferta-publica-de-empleo-procesos-en-curso"
+      ],
+      "note": "EKPren oinarri PDFek Qualis Consultores enpresa laguntzailearen ataria identifikatzen dute."
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
+      "auditedAt": "2026-11-24T13:58:55.733Z",
+      "calls": 2,
+      "sourceIds": [
+        "ekp"
+      ],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
     },
     "directoryReview": {
@@ -880,7 +885,11 @@
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
-    }
+    },
+    "sourceIds": [
+      "ekp"
+    ],
+    "employmentPortal": "https://www.qualisconsultores.es/oferta-publica-de-empleo-procesos-en-curso"
   },
   {
     "id": "institution-hazi",

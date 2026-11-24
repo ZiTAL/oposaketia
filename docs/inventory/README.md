@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2295 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 277k gutxienez bat datorren fitxa zuten, eta 618k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2297 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 278k gutxienez bat datorren fitxa zuten, eta 617k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -912,3 +912,16 @@ egiaztatuta daude. Albisteak zirkulazio-araudiko proba aipatzen du,
 baina ez du materialaren zuzeneko estekarik. 2026ko hautaketa-zerbitzuaren
 lizitazioa kontratu publikoa da, ez hautagaientzako deialdia.
 Beste lan-deialdiak eta ikasgai-materiala berrikusteko daude.
+
+## Euskadiko Kirol Portuak
+
+[Qualis Consultoresen enplegu publikoko atarian](https://www.qualisconsultores.es/oferta-publica-de-empleo-procesos-en-curso)
+EKPren 2026ko bi kanpo-prozesu daude. EKPk kontratatutako enpresa
+laguntzailearen oinarri PDFak egiaztatu dira: Mutrikuko administrari
+laguntzaile plaza bat eta Donostia, Getaria eta Orioko portuetan
+ustiapen-arduradun plaza bat. Biek B2 euskara eta B motako gidabaimena
+eskatzen dituzte; titulazio-baldintzak desberdinak dira. Izen-emateak
+2026-04-09an eta 2026-07-19an itxi ziren. Atari bereko hautagaien
+zerrendak eta emaitzak baztertzen dira. Oinarriek hautaketa-faseak
+azaltzen dituzte, baina ez dute azterketako gai-zerrendarik.
+Gainerako urteak berrikusteko daude.
