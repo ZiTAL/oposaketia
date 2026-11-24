@@ -658,23 +658,26 @@
     "territory": "Euskadi",
     "province": null,
     "reportLine": 23,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "connected-partial",
+    "note": "2025eko bi eta 2026ko lan-eskaintza historiko bat egiaztatuta, guztira lau plaza. Gardentasun-atariak ez du hautaketa-prozesu aktiborik iragartzen; artxibo osoa berrikusteko dago.",
     "websiteFromDirectory": "https://ivf-fei.euskadi.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/instituto-vasco-de-finanzas/web01-a2ogafin/es/",
     "websiteDirectoryName": "Instituto Vasco de Finanzas",
     "websiteDirectoryCheckedAt": "2026-11-20T13:59:23.645Z",
     "websiteDirectoryStatus": "verified",
     "employmentDiscovery": {
-      "status": "unavailable",
-      "checkedAt": "2026-11-19T08:26:57.343Z",
-      "candidates": [],
-      "error": "fetch failed"
+      "status": "verified",
+      "checkedAt": "2026-11-24T13:36:51.609Z",
+      "candidates": [
+        "https://www.ivf-fei.euskadi.eus/informacion/ivf/transparencia/webivf00-cnt/es/"
+      ]
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
+      "auditedAt": "2026-11-24T13:36:51.609Z",
+      "calls": 3,
+      "sourceIds": [
+        "ivf"
+      ],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
     },
     "directoryReview": {
@@ -682,7 +685,11 @@
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
-    }
+    },
+    "sourceIds": [
+      "ivf"
+    ],
+    "employmentPortal": "https://www.ivf-fei.euskadi.eus/informacion/ivf/transparencia/webivf00-cnt/es/"
   },
   {
     "id": "institution-unibasq",

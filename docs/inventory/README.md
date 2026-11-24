@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2288 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 274k gutxienez bat datorren fitxa zuten, eta 621ek ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2291 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 275ek gutxienez bat datorren fitxa zuten, eta 620k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -887,3 +887,16 @@ derrigorrezkoak dira; informatika-plazaren 3. profilak ez du derrigortasun
 datarik, eta ez da nahitaezko eskakizun gisa ezartzen. Merezimendu-lehiaketak
 dira, azterketako gai-zerrendarik gabe. Hautagaien agiriak eta urte berrietako
 deialdiak hurrengo berrikuspenetarako geratzen dira.
+
+## Finantzen Euskal Institutua
+
+[Erakundearen gardentasun-atariak](https://www.ivf-fei.euskadi.eus/informacion/ivf/transparencia/webivf00-cnt/es/)
+ez du gaur egun hautaketa-prozesu aktiborik iragartzen. Euskadi.eus-eko
+erakundearen 2025eko bi eta 2026ko lan-eskaintza historiko egiaztatu dira:
+Bilboko lau plaza guztira, horietatik bi 2025eko lehen deialdian.
+Fitxek izen-emateko epe absolutuak, titulazioak eta gutxieneko bi urteko
+esperientzia jasotzen dituzte. Ingelesa PL2 nahitaezkoa da; euskara PL3ra
+arte meritua da. 2025eko funts eta partaidetzen analista-plazaren oinarri
+PDFa ere egiaztatu da. Ez da azterketako gai-zerrendarik argitaratzen
+fitxa hauetan. Beste prozesu historikoak eta deialdi berriak berrikusteko
+daude.
