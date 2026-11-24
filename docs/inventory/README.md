@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2282 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 272k gutxienez bat datorren fitxa zuten, eta 623k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2285 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 273k gutxienez bat datorren fitxa zuten, eta 622k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -862,3 +862,16 @@ bereizita gordetzen dira. Merezimendu-lehiaketak dira, azterketako
 gai-zerrendarik gabe. Izen-emateko epea argitalpenaren ondoko hogei egun
 baliodunekoa da; ez da data absoluturik kalkulatzen. Ez dira hautagaien
 emaitzak edo beste urteetako deialdiak inportatzen.
+
+## Bilbao Orkestra Sinfonikoa
+
+[BOSen musikariak hautatzeko atariko](https://www.bilbaorkestra.eus/la-orquesta/audiciones/)
+2026ko ENT202602, ENT202603 eta ENT202604 audizioen deialdi PDF ofizialak
+egiaztatu dira. Biolontxelo tuttiko bi plaza, kontrabaxuko bakarlari
+plaza bat eta bakarlariaren laguntzaile plaza bat daude. Musikako
+erdi-mailako titulua eskatzen da; izena emateko azken egunak 2026-09-30
+eta 2026-10-07 dira. Epeak amaituta daude, baina atariak prozesuak
+«en curso» atalean mantentzen ditu. II. eranskineko errepertorioa
+PDF berera estekatzen da; ez da musika-obra zerrenda okerrik erauzten.
+Hautagaien izenak, emaitzak eta beste audizio historikoak ez dira
+integrazio honetan inportatzen.

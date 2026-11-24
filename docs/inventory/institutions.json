@@ -2834,20 +2834,26 @@
     "territory": "Euskadi",
     "province": "Bizkaia",
     "reportLine": 33,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "connected-partial",
+    "note": "BOSen atariko 2026ko hiru musikari-audizio eta haien deialdi PDFak egiaztatu dira. Gainerako audizio historikoak eta administrazio-lanpostuak berrikusteko daude.",
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-24T13:21:13.460Z",
+      "calls": 3,
+      "sourceIds": [
+        "bos"
+      ],
+      "matching": "Bilbao Orkestra Sinfonikoa izen ofizialarekin lotutako benetako audizioak; estaldura partziala."
     },
     "directoryReview": {
       "sourceUrl": "https://opendata.euskadi.eus/contenidos/ds_localizaciones/sector_publico_cae_y_entidades/opendata/sector-publico.json",
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "no-directory-match",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
-    }
+    },
+    "sourceIds": [
+      "bos"
+    ],
+    "employmentPortal": "https://www.bilbaorkestra.eus/la-orquesta/audiciones/"
   },
   {
     "id": "institution-bizkaia-bizkaialde",
