@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2266 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 266k gutxienez bat datorren fitxa zuten, eta 629k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2270 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 267k gutxienez bat datorren fitxa zuten, eta 628k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -782,3 +782,17 @@ CEINen hiru eta NILSAren fitxa bat ere CPENeko iturri agregatuan aurkitu dira
 azken auditorian. Inbentarioan `aggregate-partial` gisa markatu dira:
 fitxa horiek benetako erakunde deitzailearekin lotuta daude, baina ez dute
 erakunde horien enplegu-eskaintza guztiak estaltzen direla frogatzen.
+
+## Unibasq
+
+[Unibasqen gardentasun-atariko](https://www.unibasq.eus/es/portal-de-transparencia/portal-de-transparencia-ofertas/)
+lau prozesu itxiak eta oinarri PDFak irakurri dira 2026-11-24an:
+ebaluazioko teknikarien aldi baterako poltsa (2024), bi plaza finkatzeko
+merezimendu-lehiaketa (2023), administrari laguntzailearen aldi baterako
+postua (2019) eta nazioarteko arloko postua (PDFan 2017ko epea).
+Azken PDF horren URLak `2023/09` adierazten badu ere, oinarrietan bertan
+2017-08-16ko epea dago; ez da 2023ko deialditzat aurkezten. Titulazio,
+hizkuntza-eskakizun eta izen-emate epe esplizituak gordetzen dira.
+Hautagaien zerrendak, merezimenduen ebazpenak eta beste emaitza-agiriak
+ez dira deskargatzen. Lau prozesuek ez dute oposizioko gai-zerrendarik;
+ez da asmatzen. Atariak ez du artxibo historiko osoa bermatzen.

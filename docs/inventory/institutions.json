@@ -675,30 +675,39 @@
     "territory": "Euskadi",
     "province": null,
     "reportLine": 23,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "connected-partial",
+    "note": "Enplegu eta gardentasuneko orri propioan lau prozesu historiko itxi eta haien PDF oinarriak egiaztatuta; ez du artxibo osoa edo uneko lan-eskaintza guztiak estaltzen.",
     "websiteFromDirectory": "https://unibasq.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/unibasq-agencia-de-calidad-del-sistema-universitario-vasco/web01-a2ogafin/es/",
     "websiteDirectoryName": "Unibasq-Agencia de Calidad del Sistema Universitario Vasco",
     "websiteDirectoryCheckedAt": "2026-11-20T13:59:24.598Z",
     "websiteDirectoryStatus": "verified",
     "employmentDiscovery": {
-      "status": "no-link-found",
-      "checkedAt": "2026-11-19T08:26:57.387Z",
-      "candidates": []
+      "status": "verified",
+      "checkedAt": "2026-11-24T07:57:24.530Z",
+      "candidates": [
+        "https://www.unibasq.eus/es/portal-de-transparencia/portal-de-transparencia-ofertas/"
+      ],
+      "note": "Lau prozesu itxi eta oinarri PDFak benetako kontsultan egiaztatuta; izangaien zerrendak ez dira bildu."
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-24T07:57:07.800Z",
+      "calls": 4,
+      "sourceIds": [
+        "unibasq"
+      ],
+      "matching": "Official employer name; observed calls show partial presence only, not complete source coverage."
     },
     "directoryReview": {
       "sourceUrl": "https://opendata.euskadi.eus/contenidos/ds_localizaciones/sector_publico_cae_y_entidades/opendata/sector-publico.json",
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
-    }
+    },
+    "sourceIds": [
+      "unibasq"
+    ],
+    "employmentPortal": "https://www.unibasq.eus/es/portal-de-transparencia/portal-de-transparencia-ofertas/"
   },
   {
     "id": "institution-euskal-irrati-telebista",
