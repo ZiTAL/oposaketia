@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2280 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 271k gutxienez bat datorren fitxa zuten, eta 624k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2282 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 272k gutxienez bat datorren fitxa zuten, eta 623k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -850,3 +850,15 @@ Euskadi.eus-en `robots.txt` fitxategiak PDF horien deskarga automatikoa
 debekatzen duenez, ez dira gaiak erauzten eta PDFak ez dira egiaztatutzat
 markatzen. Hautagaien emaitzak eta zerrendak ez dira inportatzen; urte
 berrietako prozesuak hurrengo integrazioetan berrikusi behar dira.
+
+## Lan Harremanen Kontseilua · Consejo de Relaciones Laborales
+
+[EHAAko 2023ko urtarrilaren 9ko ebazpenak](https://www.euskadi.eus/bopv2/datos/2023/01/2300110a.shtml)
+2022ko aparteko egonkortze-OPEaren oinarri orokorrak eta bi eranskin
+espezifiko ditu. Negoziazio kolektiboko teknikari plaza bat Bilbon eta
+lan-harremanen arloko bi administrari plaza Bilbon eta Donostian jasota
+daude. Titulazioak eta nahitaezko euskarako 3. eta 2. hizkuntza-eskakizunak
+bereizita gordetzen dira. Merezimendu-lehiaketak dira, azterketako
+gai-zerrendarik gabe. Izen-emateko epea argitalpenaren ondoko hogei egun
+baliodunekoa da; ez da data absoluturik kalkulatzen. Ez dira hautagaien
+emaitzak edo beste urteetako deialdiak inportatzen.

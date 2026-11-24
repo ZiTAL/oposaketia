@@ -1958,8 +1958,8 @@
     "territory": "Euskadi",
     "province": null,
     "reportLine": 29,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "connected-partial",
+    "note": "2022ko aparteko egonkortze-OPEaren bi deialdiak eta EHAAko oinarri orokorrak eta espezifikoak egiaztatu dira. Merezimendu-lehiaketak dira, gai-zerrendarik gabe; beste urteetako deialdiak berrikusi behar dira.",
     "websiteFromDirectory": "https://crl-lhk.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/consejo-de-relaciones-laborales-crl/web01-a2ogafin/es/",
     "websiteDirectoryName": "Consejo de Relaciones Laborales (CRL)",
@@ -1984,17 +1984,23 @@
       ]
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-24T13:10:49.158Z",
+      "calls": 2,
+      "sourceIds": [
+        "crl-lhk"
+      ],
+      "matching": "Consejo de Relaciones Laborales izen ofizialarekin lotutako benetako fitxak; estaldura partziala."
     },
     "directoryReview": {
       "sourceUrl": "https://opendata.euskadi.eus/contenidos/ds_localizaciones/sector_publico_cae_y_entidades/opendata/sector-publico.json",
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
-    }
+    },
+    "sourceIds": [
+      "crl-lhk"
+    ],
+    "employmentPortal": "https://www.euskadi.eus/bopv2/datos/2023/01/2300110a.shtml"
   },
   {
     "id": "institution-consejo-economico-y-social-vasco",
