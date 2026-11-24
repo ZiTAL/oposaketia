@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2270 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 267k gutxienez bat datorren fitxa zuten, eta 628k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2271 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 268k gutxienez bat datorren fitxa zuten, eta 627k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -796,3 +796,17 @@ hizkuntza-eskakizun eta izen-emate epe esplizituak gordetzen dira.
 Hautagaien zerrendak, merezimenduen ebazpenak eta beste emaitza-agiriak
 ez dira deskargatzen. Lau prozesuek ez dute oposizioko gai-zerrendarik;
 ez da asmatzen. Atariak ez du artxibo historiko osoa bermatzen.
+
+## URA · Uraren Euskal Agentzia
+
+[URAren lan-prozesu indarrekoen orriak](https://www.uragentzia.euskadi.eus/empleo-procesos-vigentes-ura/webura00-contents/es/)
+bi prozesu erakusten ditu 2026-11-24an. Zuzendaritza eta Plangintza eta
+Obren arloko zuzendari-postuaren DOCX iragarki ofizialetik Vitoria-Gasteizko
+destinoa, eskatutako titulazioaren alternatibak, bost urteko esperientzia
+eta hizkuntza-baldintzak jaso dira. Iragarkiak ez du izena emateko azken
+egun absoluturik ematen; egoera `Pendiente de confirmar` da, orriak
+«vigentes» esan arren. Ez dago oposizioko gai-zerrendarik argitaratuta.
+Administrari orokorraren beste prozesua desgaitasuna duten pertsonentzako
+turnu murriztua da, eta bilaketa orokorretik kanpo utzi da. Konektore
+honek ez du prozesu amaituen artxiboa edo kanpoko hautagaitza-ataria
+osorik estaltzen.

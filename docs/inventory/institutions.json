@@ -612,30 +612,39 @@
     "territory": "Euskadi",
     "province": null,
     "reportLine": 23,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "connected-partial",
+    "note": "Lan-eskaintza propioen orri ofizialeko zuzendari-postuaren DOCX iragarkia egiaztatuta; epe absolutua falta da eta amaitutako prozesuen artxiboa ez dago konektore honetan.",
     "websiteFromDirectory": "https://uragentzia.euskadi.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/agencia-vasca-del-agua-ura/web01-a2ogafin/es/",
     "websiteDirectoryName": "Agencia Vasca del Agua (URA)",
     "websiteDirectoryCheckedAt": "2026-11-20T13:59:22.586Z",
     "websiteDirectoryStatus": "verified",
     "employmentDiscovery": {
-      "status": "no-link-found",
-      "checkedAt": "2026-11-19T08:26:56.844Z",
-      "candidates": []
+      "status": "verified",
+      "checkedAt": "2026-11-24T08:08:30.047Z",
+      "candidates": [
+        "https://www.uragentzia.euskadi.eus/empleo-procesos-vigentes-ura/webura00-contents/es/"
+      ],
+      "note": "Zuzendari-postuaren iragarki ofiziala egiaztatu da; turnu murriztuko administrari-prozesua kanpoan."
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-24T08:08:17.498Z",
+      "calls": 1,
+      "sourceIds": [
+        "ura"
+      ],
+      "matching": "Official URA employer name; observed calls show partial presence only, not complete source coverage."
     },
     "directoryReview": {
       "sourceUrl": "https://opendata.euskadi.eus/contenidos/ds_localizaciones/sector_publico_cae_y_entidades/opendata/sector-publico.json",
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
-    }
+    },
+    "sourceIds": [
+      "ura"
+    ],
+    "employmentPortal": "https://www.uragentzia.euskadi.eus/empleo-procesos-vigentes-ura/webura00-contents/es/"
   },
   {
     "id": "institution-instituto-vasco-de-finanzas",

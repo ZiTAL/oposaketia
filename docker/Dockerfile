@@ -24,7 +24,7 @@ CMD ["node", "server.js"]
 FROM dependencies AS importer
 RUN --mount=type=secret,id=npm_ca \
     if [ -f /run/secrets/npm_ca ]; then cat /etc/ssl/cert.pem /run/secrets/npm_ca > /tmp/apk-ca.pem; export SSL_CERT_FILE=/tmp/apk-ca.pem; fi; \
-    apk add --no-cache poppler-utils && rm -f /tmp/apk-ca.pem
+    apk add --no-cache poppler-utils unzip && rm -f /tmp/apk-ca.pem
 COPY scripts ./scripts
 COPY docs/inventory/municipalities.json docs/inventory/institutions.json ./docs/inventory/
 COPY src/lib/api/contracts.ts ./src/lib/api/
