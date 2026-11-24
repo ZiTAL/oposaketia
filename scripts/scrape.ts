@@ -80,6 +80,7 @@ import {scrapeElankidetza} from './scrapers/elankidetza';
 import {scrapeIvf} from './scrapers/ivf';
 import {scrapeEts} from './scrapers/ets';
 import {scrapeEkp} from './scrapers/ekp';
+import {scrapeMobilityLab} from './scrapers/mobility-lab';
 export type SourceReport = { id:string; attemptedAt:string; succeededAt:string|null; status:'ok'|'partial'|'error'; count:number; warnings:string[]; warningCount:number; error?:string };
 export async function recordReport(report:SourceReport) {
   if(!process.env.DATABASE_URL)return;
@@ -131,6 +132,7 @@ export async function runScrape(selected=process.env.SCRAPE_SOURCES?.trim() || s
           ivf:()=>scrapeIvf(client,now,warn),
           ets:()=>scrapeEts(client,now),
           ekp:()=>scrapeEkp(client,now,warn),
+          'mobility-lab':()=>scrapeMobilityLab(client,now,warn),
           euskalmet:()=>scrapeEuskalmet(client,now,warn),
           neiker:()=>scrapeNeiker(client,now),
           maneru:()=>scrapeManeru(client,now,warn),

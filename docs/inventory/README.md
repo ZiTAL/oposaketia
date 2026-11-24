@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2297 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 278k gutxienez bat datorren fitxa zuten, eta 617k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2300 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 279k gutxienez bat datorren fitxa zuten, eta 616k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -925,3 +925,17 @@ eskatzen dituzte; titulazio-baldintzak desberdinak dira. Izen-emateak
 zerrendak eta emaitzak baztertzen dira. Oinarriek hautaketa-faseak
 azaltzen dituzte, baina ez dute azterketako gai-zerrendarik.
 Gainerako urteak berrikusteko daude.
+
+## Vitoria-Gasteiz Araba Mobility Lab
+
+[Qualis Consultoresen enplegu publikoko atarian](https://www.qualisconsultores.es/oferta-publica-de-empleo-procesos-en-curso)
+fundazioaren 2026ko hiru kanpo-prozesuren oinarri orokor eta
+espezifikoak egiaztatu dira: bi berrikuntza-teknikari, datu-analista
+bat eta Europako proiektuen teknikari bat. Lanpostuak Vitoria-Gasteizen
+daude; izen-ematea 2026-04-12an edo 2026-06-18an itxi zen.
+Berrikuntzako eta datuetako lanpostuek B2 eta C1 euskara eskatzen
+dute hurrenez hurren; Europako proiektuetan euskara meritua da,
+ingelesa C1 derrigorrezkoa. Oinarriek hautaketa-faseak eta baremoa
+jasotzen dituzte, baina ez azterketako gai-zerrendarik. 202604mobilitylab
+barne-sustapena eta hautagaien zerrendak baztertu dira. Beste urteak
+berrikusteko daude.
