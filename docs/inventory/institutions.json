@@ -1636,31 +1636,39 @@
     "territory": "Euskadi",
     "province": null,
     "reportLine": 27,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "connected-partial",
+    "note": "Atari propioaren audizio-fitxak eta PDF oinarriak konektatuta; egungo zerrendako instrumentista-prozesuak soilik, ez artxibo historiko osoa.",
     "websiteFromDirectory": "https://euskadikoorkestra.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/orquesta-de-euskadi-s-a/web01-a2ogafin/es/",
     "websiteDirectoryName": "Orquesta de Euskadi, S.A.",
     "websiteDirectoryCheckedAt": "2026-11-20T14:00:02.677Z",
     "websiteDirectoryStatus": "verified",
     "employmentDiscovery": {
-      "status": "unavailable",
-      "checkedAt": "2026-11-19T08:27:09.364Z",
-      "candidates": [],
-      "error": "The operation was aborted"
+      "status": "verified",
+      "checkedAt": "2026-11-24T07:45:33.013Z",
+      "candidates": [
+        "https://es.euskadikoorkestra.eus/orquesta/trabajar-en-la-orquesta"
+      ],
+      "note": "Enplegu-orria, hiru fitxak eta hiru oinarri PDF benetako kontsultan egiaztatuta; orrialdeak audizio-data erakusten du, ez izen-ematearen azken eguna."
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-24T07:47:50.928Z",
+      "calls": 3,
+      "sourceIds": [
+        "orkestra"
+      ],
+      "matching": "Official institution alias Euskadiko Orkestra; observed calls show partial presence, not complete source coverage."
     },
     "directoryReview": {
       "sourceUrl": "https://opendata.euskadi.eus/contenidos/ds_localizaciones/sector_publico_cae_y_entidades/opendata/sector-publico.json",
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
-    }
+    },
+    "sourceIds": [
+      "orkestra"
+    ],
+    "employmentPortal": "https://es.euskadikoorkestra.eus/orquesta/trabajar-en-la-orquesta"
   },
   {
     "id": "institution-bimep",
@@ -3607,8 +3615,8 @@
     "territory": "Navarra",
     "province": "Navarra",
     "reportLine": 45,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "aggregate-partial",
+    "note": "CPENen enplegu-atari ofizialean erakunde honen benetako fitxak aurkitu dira; horrek ez du atariaren edo erakundearen deialdi guztien estaldura frogatzen.",
     "websiteFromDirectory": "https://www.cein.es/transparencia/",
     "websiteDirectoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas",
     "websiteDirectoryName": "CENTRO EUROPEO EMPRESAS E INNOVACION DE NAVARRA SL",
@@ -3623,13 +3631,16 @@
       "error": "HTTP 523 en www.cein.es/robots.txt"
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 2,
+      "auditedAt": "2026-11-24T07:47:50.928Z",
+      "calls": 3,
       "sourceIds": [
         "cpen"
       ],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
-    }
+      "matching": "Normalized employer name in CPEN records; observed calls prove partial presence only, not complete source coverage."
+    },
+    "sourceIds": [
+      "cpen"
+    ]
   },
   {
     "id": "institution-cnai",
@@ -3834,15 +3845,15 @@
     "territory": "Navarra",
     "province": "Navarra",
     "reportLine": 45,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "aggregate-partial",
+    "note": "CPENen enplegu-atari ofizialean erakunde honen benetako fitxak aurkitu dira; horrek ez du atariaren edo erakundearen deialdi guztien estaldura frogatzen.",
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
+      "auditedAt": "2026-11-24T07:47:50.928Z",
       "calls": 1,
       "sourceIds": [
         "cpen"
       ],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "matching": "Normalized employer name in CPEN records; observed calls prove partial presence only, not complete source coverage."
     },
     "websiteFromDirectory": "https://www.nilsa.com/es/quienes-somos/transparencia/",
     "websiteDirectoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas",
@@ -3857,7 +3868,10 @@
       "status": "corporate-information-link-only",
       "linkedUrl": "https://www.sociedadespublicasdenavarra.es/es/la-voz-de-cpen/unete-a-nuestro-equipo",
       "note": "The linked corporate employment information and its published offers page contained no readable job links. No new NILSA vacancy is asserted."
-    }
+    },
+    "sourceIds": [
+      "cpen"
+    ]
   },
   {
     "id": "institution-orekan-gestion-ambiental-de-navarra",

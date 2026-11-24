@@ -11,6 +11,7 @@ const aliases: Record<string,string[]> = {
   'Universidad del País Vasco':['EHU','UPV'],
   'Universidad Pública de Navarra':['UPNA','NUP'],
   'Euskal Irrati Telebista':['EITB','Grupo EITB'],
+  'Orquesta de Euskadi':['Euskadiko Orkestra'],
   'Servicio Navarro de Salud Osasunbidea':['Servicio Navarro de Salud','Osasunbidea'],
   'Administración de la Comunidad Foral de Navarra':['Gobierno de Navarra','Navarrako Gobernua'],
   'Diputación Foral de Álava':['Diputación Foral de Araba'],

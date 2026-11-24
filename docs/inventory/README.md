@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2259 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 265ek gutxienez bat datorren fitxa zuten, eta 630k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2266 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 266k gutxienez bat datorren fitxa zuten, eta 629k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -762,3 +762,23 @@ jatorrizko oinarrien dokumentu-esteka zuzena eta eskuzko berrikuspena
 behar dute. «Abierta» etiketa duten prozesuak ez dira izen-emate
 irekitzat jotzen epe absolutua egiaztatu gabe. Kirol Martiket enpresa
 publikoaren deialdian kontratazio-erakundea bereizita gordetzen da.
+
+## Euskadiko Orkestra
+
+[Euskadiko Orkestraren enplegu-orriko](https://es.euskadikoorkestra.eus/orquesta/trabajar-en-la-orquesta)
+hiru instrumentista-audizioak eta haien oinarri PDFak egiaztatu dira
+2026-11-24an. `orkestra` konektoreak kontrabaxu bakarlaria (itxia), hiru
+biolin tutti (izena emateko azken eguna 2026-11-26) eta fagot bakarlaria
+(2026-11-25) jasotzen ditu. Oinarrietan «antes del» agertzen denean,
+aurreko eguna gordetzen da azken egun gisa. Atariak erakusten duen data
+audizioarena da; ez da izen-ematearen epea. Titulu Gorena edo baliokidea
+hitzez hitz gordetzen da, tribunalak salbuespenez titulurik gabeko
+hautagaiak onar ditzakeela adierazita. PDF berak ariketak eta errepertorioa
+jasotzen ditu; ez da gai-zerrenda akademikorik asmatzen. Hautagaien
+zerrendak eta audizio-aktak ez dira deskargatzen. Estaldura egungo
+lan-eskaintzen orrira mugatzen da, ez artxibo historiko osora.
+
+CEINen hiru eta NILSAren fitxa bat ere CPENeko iturri agregatuan aurkitu dira
+azken auditorian. Inbentarioan `aggregate-partial` gisa markatu dira:
+fitxa horiek benetako erakunde deitzailearekin lotuta daude, baina ez dute
+erakunde horien enplegu-eskaintza guztiak estaltzen direla frogatzen.
