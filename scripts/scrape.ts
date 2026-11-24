@@ -76,6 +76,7 @@ import {scrapeArarteko} from './scrapers/ararteko';
 import {scrapeEtxepare} from './scrapers/etxepare';
 import {scrapeCrlLhk} from './scrapers/crl-lhk';
 import {scrapeBos} from './scrapers/bos';
+import {scrapeElankidetza} from './scrapers/elankidetza';
 export type SourceReport = { id:string; attemptedAt:string; succeededAt:string|null; status:'ok'|'partial'|'error'; count:number; warnings:string[]; warningCount:number; error?:string };
 export async function recordReport(report:SourceReport) {
   if(!process.env.DATABASE_URL)return;
@@ -123,6 +124,7 @@ export async function runScrape(selected=process.env.SCRAPE_SOURCES?.trim() || s
           etxepare:()=>scrapeEtxepare(client,now,warn),
           'crl-lhk':()=>scrapeCrlLhk(client,now),
           bos:()=>scrapeBos(client,now,warn),
+          elankidetza:()=>scrapeElankidetza(client,now,warn),
           euskalmet:()=>scrapeEuskalmet(client,now,warn),
           neiker:()=>scrapeNeiker(client,now),
           maneru:()=>scrapeManeru(client,now,warn),

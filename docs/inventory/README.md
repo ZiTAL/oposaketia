@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2285 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 273k gutxienez bat datorren fitxa zuten, eta 622k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2288 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 274k gutxienez bat datorren fitxa zuten, eta 621ek ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -875,3 +875,15 @@ eta 2026-10-07 dira. Epeak amaituta daude, baina atariak prozesuak
 PDF berera estekatzen da; ez da musika-obra zerrenda okerrik erauzten.
 Hautagaien izenak, emaitzak eta beste audizio historikoak ez dira
 integrazio honetan inportatzen.
+
+## eLankidetza
+
+[eLankidetzaren egonkortze-prozesuko artxiboan](https://www.elankidetza.euskadi.eus/proceso-especial-de-consolidacion-de-empleo/webela01-edukiconsolidacion/es/)
+2022ko hiru fitxa eta lau plaza daude: bi administrari, lankidetza-teknikari
+bat eta informatika-teknikari bat. Fitxa bakoitzetik lotutako EHAAko 2022/5691
+ebazpena eta eranskinak egiaztatu dira. Izen-ematea 2023-01-26an itxi zen.
+Administrarien 2. hizkuntza-eskakizuna eta lankidetza-teknikariaren 4.a
+derrigorrezkoak dira; informatika-plazaren 3. profilak ez du derrigortasun
+datarik, eta ez da nahitaezko eskakizun gisa ezartzen. Merezimendu-lehiaketak
+dira, azterketako gai-zerrendarik gabe. Hautagaien agiriak eta urte berrietako
+deialdiak hurrengo berrikuspenetarako geratzen dira.
