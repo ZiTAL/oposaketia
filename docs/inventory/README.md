@@ -939,3 +939,15 @@ ingelesa C1 derrigorrezkoa. Oinarriek hautaketa-faseak eta baremoa
 jasotzen dituzte, baina ez azterketako gai-zerrendarik. 202604mobilitylab
 barne-sustapena eta hautagaien zerrendak baztertu dira. Beste urteak
 berrikusteko daude.
+
+## Álava Agencia de Desarrollo
+
+[Arabako enplegu publikoaren atari ofizialean](https://enplegupublikoa.araba.eus/es/-/alava-agencia-de-desarrollo-sa-seleccion-de-personal-laboral-ingeniera)
+202601aad ingeniari-plazaren fitxa eta oinarri orokor zein espezifikoen
+[PDFa](https://enplegupublikoa.araba.eus/documents/d/enplegupublikoa/bases-ingeniero-202601aad)
+egiaztatu dira. Gasteizko lanpostuak Ingeniaritza Zibileko edo Industrialeko
+gradua, edo Obra Publikoetako edo Industria Ingeniaritza Teknikoko titulua
+eskatzen du; B1 euskara, B gidabaimena eta bi urtetik gorako esperientzia ere
+derrigorrezkoak dira. Izen-ematea 2026-07-05ean amaitu zen. Oinarriek ez dute
+azterketako gai-zerrendarik. Arabako atariaren fitxa labur bikoiztua baztertu
+da; beste prozesuak berrikusteko daude.

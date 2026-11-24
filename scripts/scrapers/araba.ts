@@ -2,6 +2,7 @@ import { load } from 'cheerio';
 import { callSchema, type Call } from '../../src/lib/catalogue';
 import { OfficialClient, hash } from './http';
 import {enrichArabaBases} from './araba-requirements';
+import {isAadNotice} from './aad';
 import { baseCall, canonical, categoryFor, clean, educationIds, linkList, pdfText, stableId } from './shared';
 
 export const ARABA_LISTS=[
@@ -76,7 +77,8 @@ export async function scrapeAraba(client:OfficialClient,now:string,onWarning:(me
   }
  }
  const cutoff=new Date(Date.parse(now)-180*86400000).toISOString().slice(0,10);
- const current=[...listings.values()].filter(item=>item.published!>=cutoff&&item.published!<=now.slice(0,10));
+ // The AAD connector reads the original provincial PDF; do not retain a second, shallow listing.
+ const current=[...listings.values()].filter(item=>item.published!>=cutoff&&item.published!<=now.slice(0,10)&&!isAadNotice(item.url));
  if(!current.length||current.length>500)throw new Error('Unexpected recent Araba notice count');
  const calls:Call[]=[];
  for(const listing of current){try{
