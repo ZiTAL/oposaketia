@@ -760,8 +760,8 @@
     "territory": "Euskadi",
     "province": null,
     "reportLine": 23,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "connected-partial",
+    "note": "2024ko hiru txanda irekiko lanpostuak eta EHAAko oinarri espezifikoak egiaztatu dira. Gai-zerrendaren PDF ofiziala estekatuta dago, baina robots.txt-ek erauzketa automatikoa galarazten du; beste urteak berrikusteko daude.",
     "websiteFromDirectory": "https://etxepare.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/instituto-vasco-etxepare-euskal-institutuabasque-institute/web01-a2ogafin/es/",
     "websiteDirectoryName": "Instituto Vasco Etxepare Euskal Institutua/Basque Institute",
@@ -773,17 +773,26 @@
       "candidates": []
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-24T08:31:52.440Z",
+      "calls": 3,
+      "sourceIds": [
+        "etxepare"
+      ],
+      "matching": "Etxepare Euskal Institutua izen ofizialaren aliasa; benetako hiru fitxa, estaldura partziala."
     },
     "directoryReview": {
       "sourceUrl": "https://opendata.euskadi.eus/contenidos/ds_localizaciones/sector_publico_cae_y_entidades/opendata/sector-publico.json",
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
-    }
+    },
+    "aliases": [
+      "Etxepare Euskal Institutua"
+    ],
+    "sourceIds": [
+      "etxepare"
+    ],
+    "employmentPortal": "https://www.etxepare.eus/eu/hiru-lanpostu-hautatzeko-prozedura-2024"
   },
   {
     "id": "institution-spri",

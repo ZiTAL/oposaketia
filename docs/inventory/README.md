@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2277 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 270k gutxienez bat datorren fitxa zuten, eta 625k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2280 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 271k gutxienez bat datorren fitxa zuten, eta 624k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -836,3 +836,17 @@ titulazio-alternatibak, esperientzia eta nahitaezko C1 euskara ageri dira
 fitxetan. Oinarrietan 15 egun balioduneko epe erlatiboa dago; ez da amaiera
 egun absoluturik kalkulatzen. 2018–2022ko artxiboko prozesuak eta ebazpen
 berriak hurrengo berrikuspenetarako geratzen dira.
+
+## Etxepare Euskal Institutua
+
+[2024ko hiru lanpostuen albiste ofizialak](https://www.etxepare.eus/eu/hiru-lanpostu-hautatzeko-prozedura-2024)
+komunikazio digitaleko teknikaria, sistema-teknikaria eta administrari
+laguntzailea iragarri zituen. Fitxa bakoitza eta EHAAko oinarri espezifikoen
+HTMLa egiaztatu dira. Hirurak txanda irekiko oposizio-lehiaketak dira,
+Donostian, plaza banarekin; izena emateko azken eguna 2024-01-18 izan zen.
+Titulazioak, euskarako hizkuntza-eskakizuna eta ingeles-maila jasota daude.
+III. eranskineko gai-zerrenda duen PDF ofiziala estekatzen da, baina
+Euskadi.eus-en `robots.txt` fitxategiak PDF horien deskarga automatikoa
+debekatzen duenez, ez dira gaiak erauzten eta PDFak ez dira egiaztatutzat
+markatzen. Hautagaien emaitzak eta zerrendak ez dira inportatzen; urte
+berrietako prozesuak hurrengo integrazioetan berrikusi behar dira.
