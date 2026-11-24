@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2274 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 269k gutxienez bat datorren fitxa zuten, eta 626k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2277 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 270k gutxienez bat datorren fitxa zuten, eta 625k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -823,3 +823,16 @@ bereizten dira; ez da hizkuntza-eskakizun bakarra ezartzen fitxa osoari.
 Merezimendu-lehiaketak dira, azterketako gai-zerrendarik gabe. Ez dira
 hautagaien zerrendak edo emaitzen agiriak inportatzen. Ebazpen berriak eskuz
 berrikusi behar dira.
+
+## Ararteko
+
+[Arartekoaren hautaketa-prozesuen artxiboko](https://transparencia.ararteko.eus/es/procesos-selectivos)
+2024ko eta 2023ko hiru ebazpenen BOPVko PDFak egiaztatu dira. Bi
+arlo-teknikari, hezkuntza-arloko teknikari arduradun bat eta kontratazio
+publikoaren eta kontabilitatearen arloko teknikari arduradun bat hautatzeko
+prozesuak dira. Langile eventualentzako egokitasun eta merezimendu balorazioa
+da; ez dago oposizioko gai-zerrendarik. Zuzenbideko edo Ekonomiako
+titulazio-alternatibak, esperientzia eta nahitaezko C1 euskara ageri dira
+fitxetan. Oinarrietan 15 egun balioduneko epe erlatiboa dago; ez da amaiera
+egun absoluturik kalkulatzen. 2018–2022ko artxiboko prozesuak eta ebazpen
+berriak hurrengo berrikuspenetarako geratzen dira.
