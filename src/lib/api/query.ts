@@ -1,4 +1,4 @@
-import { effectiveStatus,normalize,assess,defaultProfile,statusSortOrder,type Call } from '../catalogue';
+import { effectiveStatus,normalize,assess,statusSortOrder,type Call } from '../catalogue';
 import {sortChoices} from './contracts';
 import {categoryChoices,provinceChoices,qualifications,statusChoices,territories} from '../catalogue';
 import {sources} from '../../../scripts/sources';
@@ -21,7 +21,7 @@ export function parseListQuery(params:URLSearchParams){
 }
 export function selectCalls(calls:Call[],query:ReturnType<typeof parseListQuery>){
  const matches=(values:string[],value:string)=>!values.length||values.includes(value);
- const filtered=calls.filter(call=>matches(query.province,call.province??'Sin concretar')&&matches(query.category,call.category)&&matches(query.status,effectiveStatus(call))&&matches(query.territory,call.territory)&&matches(query.source,call.sourceId??'')&&(!query.qualification.length||assess(call,{...defaultProfile,qualifications:query.qualification as typeof defaultProfile.qualifications}).education)&&(!query.q||normalize(`${call.title} ${call.organization} ${call.location} ${call.province??''}`).includes(normalize(query.q))));
+ const filtered=calls.filter(call=>matches(query.province,call.province??'Sin concretar')&&matches(query.category,call.category)&&matches(query.status,effectiveStatus(call))&&matches(query.territory,call.territory)&&matches(query.source,call.sourceId??'')&&(!query.qualification.length||assess(call,{qualifications:query.qualification as Call['acceptedQualifications']}).education)&&(!query.q||normalize(`${call.title} ${call.organization} ${call.location} ${call.province??''}`).includes(normalize(query.q))));
  const ordered=filtered.toSorted((a,b)=>{
   const order=query.sort==='deadline'?(a.deadline??'9999').localeCompare(b.deadline??'9999'):query.sort==='province'?(a.province??'zzz').localeCompare(b.province??'zzz'):query.sort==='status'?statusSortOrder.indexOf(effectiveStatus(a))-statusSortOrder.indexOf(effectiveStatus(b)):a.title.localeCompare(b.title,'es');
   return order||a.title.localeCompare(b.title,'es')||a.id.localeCompare(b.id);

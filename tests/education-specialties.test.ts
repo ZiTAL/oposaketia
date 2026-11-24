@@ -2,9 +2,12 @@ import {test} from 'node:test';import assert from 'node:assert/strict';
 import {assess,defaultProfile,profileSchema,specificUniversityQualifications,universitySpecialties,catalogueSchema} from '../src/lib/catalogue';
 import {educationIds} from '../scripts/scrapers/shared';
 import data from '../data/demo.json';
-test('specialties survive stored profiles including legacy nursing selections',()=>{
- assert.equal(profileSchema.safeParse({...defaultProfile,qualifications:universitySpecialties.map(s=>s.id)}).success,true);
- assert.equal(profileSchema.safeParse({...defaultProfile,qualifications:['enfermeria']}).success,true);
+test('legacy study selections are removed from browser preferences',()=>{
+ const parsed=profileSchema.parse({...defaultProfile,qualifications:universitySpecialties.map(s=>s.id),euskera:'C1',onlyMatches:true,favorites:['saved']});
+ assert.equal('qualifications' in parsed,false);
+ assert.equal('euskera' in parsed,false);
+ assert.equal('onlyMatches' in parsed,false);
+ assert.deepEqual(parsed.favorites,['saved']);
 });
 test('explicit degrees distinguish medicine, engineering branches and jobs with related subject matter',()=>{
  assert.deepEqual(educationIds('Grado en Medicina'),['medicina']);

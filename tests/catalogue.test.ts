@@ -17,10 +17,9 @@ test('French and Spanish qualifications are not automatically equivalent', () =>
 test('combined filters, favorites, and accent-insensitive searches', () => {
   assert.equal(filterCalls(calls, { ...defaultProfile, search: 'administracion', provinces: ['Araba / Álava', 'Bizkaia', 'Gipuzkoa'] }).length, 2);
   assert.equal(filterCalls(calls, { ...defaultProfile, favorites: ['enfermeria'] }, true)[0].id, 'enfermeria');
-  assert.equal(filterCalls(calls, { ...defaultProfile, onlyMatches: true }).length, 0);
 });
 test('invalid stored profiles and unverified live records are rejected', () => {
-  assert.equal(profileSchema.safeParse({ ...defaultProfile, euskera: 'C9' }).success, false);
+  assert.equal(profileSchema.safeParse({ ...defaultProfile, search: 'x'.repeat(201) }).success, false);
   assert.equal(catalogueSchema.safeParse([{ ...calls[0], isDemo: false, status: 'Abierta', deadline: '2027-01-01' }]).success, false);
   assert.equal(catalogueSchema.safeParse([calls[0], calls[0]]).success, false);
   assert.equal(catalogueSchema.safeParse([{ ...calls[0], deadline: '2027-02-31' }]).success, false);

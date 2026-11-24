@@ -273,17 +273,15 @@ Chromium instalatuta ez badago, `npx playwright install chromium` komandoak
 Playwright-en bertsioa instalatzen du; kasu horretan, kendu `CHROMIUM_PATH`.
 Parserren probak deterministak dira eta ez dituzte atariak kontsultatzen.
 Nabigatzaileko API-probek CORS, orrialdekatzea, Swagger bidezko kontsultak,
-bilaketa, profil lokala, berriz saiatzea, teklatua eta mugikorreko
+bilaketa, nabigatzaileko hobespenak, berriz saiatzea, teklatua eta mugikorreko
 irisgarritasuna egiaztatzen dituzte. `tests/browser/` direktorioan aurreko
 fluxuetarako proba-multzoak ere badaude.
 
-## Ikasketak, probintziak eta iragazkiak
+## Probintziak eta iragazkiak
 
-Ikasketa-mailak hainbat aukera hautatzeko aukera ematen du. Unibertsitateko
-ikasketen barruan 19 titulazio edo espezialitate daude: Erizaintza, Medikuntza,
-Fisioterapia, Zuzenbidea, Psikologia eta Ingeniaritzako hainbat adar, besteak beste.
-Espezialitateak ez dira maila orokor gisa erakusten. Ez da titulazio bat
-lanpostuaren izenetik ondorioztatzen; argitaratutako baldintzetan egon behar du.
+Webguneak ez du ikasketen profilik eskatzen eta ez du titulazioaren araberako
+bat-etortzerik kalkulatzen. Erabiltzaileak deialdia bilatu eta fitxan jasotako
+titulazio-baldintza jatorrizko oinarri ofizialetan egiaztatzen du.
 
 Probintzia bat baino gehiago hauta daiteke aldi berean: Araba, Bizkaia, Gipuzkoa,
 Nafarroa, Lapurdi, Nafarroa Beherea eta Zuberoa, baita «Eremu orokorra / zehaztu
@@ -301,8 +299,8 @@ badago, interfazeak eremu orokorra ere sartzeko aukera ematen du.
 Egoerak eta kategoriak ere hautaketa anitzekoak dira. Egoera bereko aukera
 bakoitza OR bidez konbinatzen da; probintzia, egoera eta kategoria iragazkiak,
 berriz, AND bidez. Iragazki bateko «Guztiak» aukerak iragazki hori soilik garbitzen
-du. Profil zaharrak migratzen dira ikasketak, gogokoak eta aurreko hautaketak
-galdu gabe.
+du. Nabigatzaileko hobespen zaharrak migratzen dira: gogokoak eta iragazkiak
+mantentzen dira, eta gordetako ikasketak eta hizkuntza-mailak kentzen dira.
 
 ## Interfazearen hizkuntzak
 
@@ -315,8 +313,8 @@ Lehentasuna `oposaketia:locale:v1` gakoan gordetzen da, cookie-rik edo konturik
 gabe eta profila aldatu gabe. Nabigatzaileak aukera ematen duenean, gordetako
 hizkuntza berreskuratzen da; hizkuntza esplizitua duen URLak lehentasuna du.
 
-Interfazea, iragazkien eta titulazioen etiketak, mezuak, datak eta metadatuak
-itzultzen dira. Ikasketen, probintzien, egoeren eta kategorien identifikatzaileak
+Interfazea, iragazkien etiketak, mezuak, datak eta metadatuak
+itzultzen dira. Probintzien, egoeren eta kategorien identifikatzaileak
 mantentzen dira, hizkuntza aldatzeak iragazkiak edo gogokoak ez galtzeko.
 Deialdi ofizialen izenburuak, baldintzak, dokumentuak eta gaiak iturriaren
 hizkuntzan agertzen dira.
@@ -334,8 +332,7 @@ iragazkien balio egonkorrak jatorrizko hizkuntzan mantentzen dira.
 
 Webguneak API hori kontsumitzen du: katalogoa eta iturriak nabigatzaileko `fetch`
 bidez; fitxa osoa eta haren metadatuak, zerbitzaritik HTTP bidez. APIaren
-handler-ek soilik atzitzen dute PostgreSQL. Webgunearen ikasketak, hizkuntzak,
-gogokoak eta bilaketak ez dira iragazteko APIra bidaltzen.
+handler-ek soilik atzitzen dute PostgreSQL. Webguneko gogokoak eta bilaketak ez dira iragazteko APIra bidaltzen.
 
 | Baliabidea | Helbidea edo eginkizuna |
 | --- | --- |
@@ -344,7 +341,7 @@ gogokoak eta bilaketak ez dira iragazteko APIra bidaltzen.
 | `GET /api/v1/calls` | Deialdien zerrenda orrialdekatua. Tamaina murrizteko, dokumentu, baldintza eta gaien array-ak hutsik datoz. |
 | `GET /api/v1/calls/{id}` | Fitxa osoa eta eskuragarri dauden dokumentuak eta gai-zerrenda. |
 | `GET /api/v1/sources` | Iturriak, estaldura eta eguneratze-txosten publikoak. |
-| `GET /api/v1/options` | Iragazkietan eta ikasketetan erabil daitezkeen balioak. |
+| `GET /api/v1/options` | APIko iragazkietan erabil daitezkeen balioak. |
 | `GET /api/v1/health` | Zerbitzuaren egoera. |
 
 Zerrendak `q`, `page` (1etik aurrera), `limit` (1–200; 20 lehenespenez) eta
@@ -384,7 +381,7 @@ Ez da bisitariaren Host goiburutik eraikitzen. Docker eta Podman bidezko
 hedapenean balio lehenetsiak funtzionatzen du. Internetetik eskuragarri izateko,
 argitaratu hedapena domeinu batekin eta HTTPS bidez.
 
-Frontend-a profil, iragazki, fitxa eta erlaitzetarako osagaietan antolatuta dago.
+Frontend-a iragazki, fitxa eta erlaitzetarako osagaietan antolatuta dago.
 APIa irakurtzeko hook-ek erantzunak baliozkotzen dituzte eta eskaerak bertan
 behera uztea eta berriz saiatzea kudeatzen dute. Datuak ezabatzeko baieztapenak
 jatorrizko HTML elkarrizketa-koadroa erabiltzen du: hasierako fokua «Utzi» aukeran

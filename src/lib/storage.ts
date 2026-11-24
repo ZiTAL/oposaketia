@@ -16,6 +16,7 @@ export function useProfile() {
         current.current = parsed?.success ? parsed.data : defaultProfile;
         setProfile(current.current);
         setStorageError(Boolean(raw && !parsed?.success));
+        if (raw && parsed?.success && JSON.stringify(parsed.data) !== raw) localStorage.setItem(STORAGE_KEY, JSON.stringify(parsed.data));
       } catch { setStorageError(true); }
       setReady(true);
     }

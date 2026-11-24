@@ -28,7 +28,7 @@ test('multiple provinces match any selection and combine with other filters',()=
 test('legacy profiles preserve a selected province, studies and favorites without hidden territory filters',()=>{
  const {provinces,...base}={...defaultProfile,qualifications:['bachiller'],favorites:['auxiliar-administracion']};
  const legacy={...base,territory:'Euskadi',province:'Bizkaia'};
- const parsed=profileSchema.parse(legacy);assert.deepEqual(parsed.provinces,['Bizkaia']);assert.deepEqual(parsed.qualifications,['bachiller']);assert.deepEqual(parsed.favorites,['auxiliar-administracion']);
+ const parsed=profileSchema.parse(legacy);assert.deepEqual(parsed.provinces,['Bizkaia']);assert.equal('qualifications' in parsed,false);assert.deepEqual(parsed.favorites,['auxiliar-administracion']);
  assert.equal('territory' in parsed,false);assert.equal('province' in parsed,false);
  assert.deepEqual(profileSchema.parse({...legacy,province:'Todas'}).provinces,[]);
  assert.deepEqual(profileSchema.parse({...legacy,province:'Sin concretar'}).provinces,['Sin concretar']);

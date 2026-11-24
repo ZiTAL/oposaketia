@@ -181,23 +181,20 @@ export const profileSchema = z.preprocess(input => {
     statuses: 'statuses' in legacy ? legacy.statuses : statusChoices.some(value => value === legacy.status) ? [legacy.status] : [],
   };
 }, z.object({
-  qualifications: z.array(qualificationId).max(qualifications.length),
-  euskera: z.enum(languageLevels), francés: z.enum(languageLevels),
   provinces: z.array(z.enum(provinceChoices)).max(provinceChoices.length).default([]).transform(values => [...new Set(values)]),
   search: z.string().max(200),
   categories: z.array(z.enum(categoryChoices)).max(categoryChoices.length).default([]).transform(values => [...new Set(values)]),
   favorites: z.array(z.string()).max(1000), recent: z.array(z.string().max(200)).max(8),
-  onlyMatches: z.boolean(),
   statuses: z.array(z.enum(statusChoices)).max(statusChoices.length).default([]).transform(values => [...new Set(values)]),
 }));
 export type Profile = z.infer<typeof profileSchema>;
-export const defaultProfile: Profile = { qualifications: [], euskera: 'Sin acreditar', francés: 'Sin acreditar', provinces: [], search: '', categories: [], favorites: [], recent: [], onlyMatches: false, statuses: [] };
-export function assess(call: Call, profile: Profile) {
+export const defaultProfile: Profile = { provinces: [], search: '', categories: [], favorites: [], recent: [], statuses: [] };
+export function assess(call: Call, profile: {qualifications:Call['acceptedQualifications'];euskera?:typeof languageLevels[number];francés?:typeof languageLevels[number]}) {
   const parsed=universityRequirements(call.educationText);
   const required = requiredQualifications(call,parsed);
   const education = !parsed.unsupportedCumulative&&(parsed.cumulative?parsed.groups.every(group=>group.some(id=>profile.qualifications.includes(id))):required.some(id => profile.qualifications.includes(id)));
   const pending = parsed.needsReview || call.reviewStatus === 'automatic' || call.languageStatus === 'unknown';
-  const language = call.languageStatus === 'unknown' || !call.language || languageLevels.indexOf(profile[call.language.name]) >= languageLevels.indexOf(call.language.level);
+  const language = call.languageStatus === 'unknown' || !call.language || languageLevels.indexOf(profile[call.language.name]??'Sin acreditar') >= languageLevels.indexOf(call.language.level);
   return { education, educationKnown: required.length > 0, language, pending, matches: education && language };
 }
 export function effectiveStatus(call: Call, today = new Date().toISOString().slice(0, 10)) {
@@ -211,7 +208,6 @@ export function filterCalls(calls: Call[], profile: Profile, saved = false, loca
     (!profile.categories.length || profile.categories.includes(call.category)) &&
     (!profile.statuses.length || profile.statuses.some(status => effectiveStatus(call) === status)) &&
     (!query || normalize(`${call.title} ${call.organization} ${call.location} ${call.province ?? ''} ${call.category} ${localize(call.province ?? '')} ${localize(call.category)} ${localize(call.territory)}`).includes(query)) &&
-    (!saved || profile.favorites.includes(call.id)) &&
-    (!profile.onlyMatches || assess(call, profile).matches)
+    (!saved || profile.favorites.includes(call.id))
   );
 }
