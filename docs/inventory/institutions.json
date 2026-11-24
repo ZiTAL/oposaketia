@@ -585,8 +585,8 @@
     "territory": "Euskadi",
     "province": null,
     "reportLine": 23,
-    "status": "pending",
-    "note": "Web ofizialaren antolakuntza eta gardentasun atalak irakurri dira; ez da deialdi-zerrenda identifikatu atal horietan. Enplegu-kanalaren egiaztapena falta da; ez da eskaintzarik eza ondorioztatzen.",
+    "status": "connected-partial",
+    "note": "2022ko zirkulazioko kanpoko lan-poltsaren albiste ofiziala eta baldintzak egiaztatuta. 125 hautagai gehienez ez dira plaza finko gisa kontatzen. Gainerako prozesuak eta ikasgai-materiala berrikusteko daude.",
     "officialWebsite": "https://www.ets-rfv.euskadi.eus/",
     "siteCheckedAt": "2026-11-18T14:58:26.930846Z",
     "websiteFromDirectory": "https://ets-rfv.euskadi.eus/",
@@ -595,14 +595,18 @@
     "websiteDirectoryCheckedAt": "2026-11-20T13:59:22.028Z",
     "websiteDirectoryStatus": "verified",
     "employmentDiscovery": {
-      "status": "no-link-found",
-      "checkedAt": "2026-11-19T08:26:56.830Z",
-      "candidates": []
+      "status": "verified",
+      "checkedAt": "2026-11-24T13:52:58.732Z",
+      "candidates": [
+        "https://www.ets-rfv.euskadi.eus/noticia/2022/ets-lanza-una-convocatoria-externa-para-personal-de-circulacion-puesto-de-mando-y-gestion-de-red/webets00-general/es/"
+      ]
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
+      "auditedAt": "2026-11-24T13:52:58.732Z",
+      "calls": 1,
+      "sourceIds": [
+        "ets"
+      ],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
     },
     "directoryReview": {
@@ -610,7 +614,11 @@
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
-    }
+    },
+    "sourceIds": [
+      "ets"
+    ],
+    "employmentPortal": "https://www.ets-rfv.euskadi.eus/noticia/2022/ets-lanza-una-convocatoria-externa-para-personal-de-circulacion-puesto-de-mando-y-gestion-de-red/webets00-general/es/"
   },
   {
     "id": "institution-agencia-vasca-del-agua-ura",

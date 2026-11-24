@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2291 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 275ek gutxienez bat datorren fitxa zuten, eta 620k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2295 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 277k gutxienez bat datorren fitxa zuten, eta 618k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -900,3 +900,15 @@ arte meritua da. 2025eko funts eta partaidetzen analista-plazaren oinarri
 PDFa ere egiaztatu da. Ez da azterketako gai-zerrendarik argitaratzen
 fitxa hauetan. Beste prozesu historikoak eta deialdi berriak berrikusteko
 daude.
+
+## Euskal Trenbide Sarea
+
+[ETSren 2022ko kanpoko deialdiaren albiste ofizialean](https://www.ets-rfv.euskadi.eus/noticia/2022/ets-lanza-una-convocatoria-externa-para-personal-de-circulacion-puesto-de-mando-y-gestion-de-red/webets00-general/es/)
+zirkulazio, aginte-postu eta sare-kudeaketako lan-poltsa bat iragarri zen.
+Gehienez 125 hautagai hartzeko aukera ez da 125 plaza gisa gordetzen.
+FPII edo goi-mailako LH nahiz Batxilergoa, euskarako B2 maila
+(agiriarekin edo ahozko proba gaindituta) eta 2022-12-26ko epea
+egiaztatuta daude. Albisteak zirkulazio-araudiko proba aipatzen du,
+baina ez du materialaren zuzeneko estekarik. 2026ko hautaketa-zerbitzuaren
+lizitazioa kontratu publikoa da, ez hautagaientzako deialdia.
+Beste lan-deialdiak eta ikasgai-materiala berrikusteko daude.

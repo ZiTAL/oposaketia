@@ -78,6 +78,7 @@ import {scrapeCrlLhk} from './scrapers/crl-lhk';
 import {scrapeBos} from './scrapers/bos';
 import {scrapeElankidetza} from './scrapers/elankidetza';
 import {scrapeIvf} from './scrapers/ivf';
+import {scrapeEts} from './scrapers/ets';
 export type SourceReport = { id:string; attemptedAt:string; succeededAt:string|null; status:'ok'|'partial'|'error'; count:number; warnings:string[]; warningCount:number; error?:string };
 export async function recordReport(report:SourceReport) {
   if(!process.env.DATABASE_URL)return;
@@ -127,6 +128,7 @@ export async function runScrape(selected=process.env.SCRAPE_SOURCES?.trim() || s
           bos:()=>scrapeBos(client,now,warn),
           elankidetza:()=>scrapeElankidetza(client,now,warn),
           ivf:()=>scrapeIvf(client,now,warn),
+          ets:()=>scrapeEts(client,now),
           euskalmet:()=>scrapeEuskalmet(client,now,warn),
           neiker:()=>scrapeNeiker(client,now),
           maneru:()=>scrapeManeru(client,now,warn),
