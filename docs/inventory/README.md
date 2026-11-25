@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2320 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 291k gutxienez bat datorren fitxa zuten, eta 604k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2320 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 292k gutxienez bat datorren fitxa zuten, eta 603k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -1098,3 +1098,13 @@ izendapenaren aurretik. II. eranskineko 15 epigrafeak jaso dira. BONek 11.
 zenbakia bi aldiz erabiltzen du, eta jatorrizko ordena mantendu da.
 Eskabide-epea argitalpenaren biharamunetik 30 egun naturalekoa zen; ez da
 amaiera-data absoluturik kalkulatu. Beste deialdi historikoak berrikusteko daude.
+
+## Euskarabidea
+
+[BON 2026/197/7ko oinarriek](https://bon.navarra.es/es/anuncio/-/texto/2026/197/7)
+euskara itzultzaile-interpretearen 36009 plaza Euskarabidea-Instituto Navarro
+del Euskera erakundeari atxikita dagoela diote. Nafarroako katalogoan lehendik
+zegoen deialdiak 93 gai ditu. Funtzio Publikoa da organo deitzailea; datu hori
+bere horretan gorde da, eta inbentarioko auditorian atxikipen egiaztatua
+gehitu da. Plaza bakarraren presentziak ez du erakundearen deialdi guztien
+estaldura frogatzen.
