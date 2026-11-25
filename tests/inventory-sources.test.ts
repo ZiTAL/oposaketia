@@ -29,6 +29,9 @@ test('CPEN follows only its own job links and pagination, and reads the actual e
   assert.equal(nasertic.status,'Cerrada');assert.equal(nasertic.deadline,null);
   assert(nasertic.requirements.some(requirement=>requirement.includes('Euskera nivel B2')));
   assert(!nasertic.requirements.some(requirement=>requirement.includes('Contrato eventual')));
+  const orekan=parseCpenDetail('<meta name="author" content="OREKAN (GAN-NIK, Gestión Ambiental de Navarra, S.A.)"><p>Oferta cerrada</p><h1>Técnico superior de biodiversidad</h1><p>Requisitos mínimos</p><div class="general-content"><p>Biología o Ciencias Ambientales</p></div>',CPEN_REVIEWED_ARCHIVE[4],now);
+  assert.match(orekan.organization,/OREKAN \(GAN-NIK/);
+  assert.equal(orekan.status,'Cerrada');assert.equal(orekan.deadline,null);
 });
 test('Gipuzkoa excludes internal appointments and duplicates, and never invents dates',()=>{
   const calls=parseGipuzkoaList('<a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/OP01-2026/lista/-1">Administrativo</a><a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/OP01-2026/lista/-1">Duplicated</a><a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/LD01-2026/lista/0">Internal</a>',now);
