@@ -85,6 +85,7 @@ import {scrapeAad} from './scrapers/aad';
 import {scrapeIndesa} from './scrapers/indesa';
 import {scrapeNaturgolf} from './scrapers/naturgolf';
 import {scrapeBeaz} from './scrapers/beaz';
+import {scrapeFundapa} from './scrapers/fundapa';
 export type SourceReport = { id:string; attemptedAt:string; succeededAt:string|null; status:'ok'|'partial'|'error'; count:number; warnings:string[]; warningCount:number; error?:string };
 export async function recordReport(report:SourceReport) {
   if(!process.env.DATABASE_URL)return;
@@ -141,6 +142,7 @@ export async function runScrape(selected=process.env.SCRAPE_SOURCES?.trim() || s
           indesa:()=>scrapeIndesa(client,now),
           naturgolf:()=>scrapeNaturgolf(client,now),
           beaz:()=>scrapeBeaz(client),
+          fundapa:()=>scrapeFundapa(client,now),
           euskalmet:()=>scrapeEuskalmet(client,now,warn),
           neiker:()=>scrapeNeiker(client,now),
           maneru:()=>scrapeManeru(client,now,warn),

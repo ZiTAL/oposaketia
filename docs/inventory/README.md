@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2315 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 289k gutxienez bat datorren fitxa zuten, eta 606k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2316 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 290ek gutxienez bat datorren fitxa zuten, eta 605ek ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -1065,3 +1065,15 @@ industrialari buruzko baldintzak ere jasotzen ditu. Ez dago azterketako
 gai-zerrendarik. Argitalpen-egunak urterik ez duenez, amaiera-data ezezaguna
 da. CPENen zerrenda arruntaz gain URL historiko berrikusia kontsultatzen da;
 horrek ez du CATen deialdi guztien estaldura frogatzen.
+
+## FUNDAPA
+
+[FUNDAPAren iragarki-taulan](https://www.fundapa.org/inicio/tablon-de-anuncios/)
+2026-03-26ko teknikari ekonomikoaren aldi baterako ordezkapen-zerrendaren
+[oinarri ofizialak](https://www.fundapa.org/site/wp-content/uploads/CONVOCATORIA-DE-FUNDAPA-SUSTITUCION-TECNICO-A-ECONOMICO-A-26-03-2026.pdf)
+egiaztatu dira. Enpresen Administrazio eta Zuzendaritzako edo Ekonomiako
+gradua edo lizentzia, Enpresa Zientzietako diplomatura edo titulu baliokidea
+onartzen dira. Eskabide-epea 2026-04-06an 14:00etan amaitu zen. Probak 50
+galderako testa dauka, eta PDFko zortzi gaiak katalogoan daude. Ordezkapen-
+zerrenda ez da plaza finko gisa aurkezten. Onartuen zerrendak eta probaren
+emaitzak kanpoan geratzen dira; beste deialdiak berrikusteko daude.
