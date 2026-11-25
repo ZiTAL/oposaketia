@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2325 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 299k gutxienez bat datorren fitxa zuten, eta 596k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2326 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 300ek gutxienez bat datorren fitxa zuten, eta 595ek ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -1178,3 +1178,14 @@ Politika Publikoen Ebaluazioko Zuzendaritza Nagusiari dagozkio. Katalogoan
 lehendik zegoen deialdiak 81 gai ditu. Funtzio Publikoa da organo deitzailea;
 inbentarioko auditorian soilik gehitu da egiaztatutako atxikipena. Deialdi
 baten presentziak ez du erakundearen eskaintza guztien estaldura frogatzen.
+
+## Alloko Udala
+
+[2026ko martxoaren 12ko udal-iragarkiak](https://www.villadeallo.org/es/actualidad/noticias/980-oferta-de-empleo-ayuntamiento-de-allo.html)
+eta bertan estekatutako bost orrialdeko oinarriek instalazioen erabilera
+hobetzeko peoi-plaza bat iragartzen dute. Aldi baterako kontratua urtebetekoa
+da gehienez, gutxieneko ikasketak DBH dira, SNE-Nafar Lansaren peoi gisa
+inskribatuta egon behar da eta eskabideen epea 2026-03-17an amaitu zen.
+Idatzizko probak laneko ohiko zereginak eta udal-araudia hartzen ditu;
+ez dago gai-zerrenda zenbakiturik. LASEMEren eskaintza bereizia ez da
+udal-lanpostutzat hartu. Gainerako udal-artxiboa berrikusteko dago.
