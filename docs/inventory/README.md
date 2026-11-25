@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2320 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 294k gutxienez bat datorren fitxa zuten, eta 601ek ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2320 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 295ek gutxienez bat datorren fitxa zuten, eta 600ek ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -1128,4 +1128,13 @@ Gazteriaren Institutuari atxikitzen dizkio. Lehenak C1 euskara eskatzen du;
 bigarrenak B gidabaimena. Katalogoan lehendik zegoen deialdiak bi plaza eta 99
 gai ditu. Funtzio Publikoa da organo deitzailea; inbentarioko auditorian soilik
 gehitu da egiaztatutako atxikipena. Deialdi baten presentziak ez du erakundearen
+eskaintza guztien estaldura frogatzen.
+
+## Nafarroako Foru Ogasuna
+
+[BON 2026/82/1eko II. eranskinak](https://bon.navarra.es/es/anuncio/-/texto/2026/82/1)
+Ogasuneko Teknikariaren bederatzi plazak Nafarroako Foru Ogasunari atxikitzen
+dizkio. Katalogoan lehendik zegoen deialdiak bederatzi plaza eta 150 gai ditu.
+Funtzio Publikoa da organo deitzailea; inbentarioko auditorian soilik gehitu da
+egiaztatutako atxikipena. Deialdi baten presentziak ez du erakundearen
 eskaintza guztien estaldura frogatzen.

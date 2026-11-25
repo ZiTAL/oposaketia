@@ -37,6 +37,11 @@ function matches(entity:z.infer<typeof entitySchema>,call:Call) {
     && call.sourceId === 'navarra'
     && call.sourceUrl === 'https://www.navarra.es/es/tramites/on/-/line/tecnico-superior-de-juventud-oposicion-2025'
     && normalize(call.title).includes('tecnico/a superior de juventud')) return true;
+  // BON 2026/82/1 annex II assigns all nine tax technician posts to HFN.
+  if (entity.id === 'institution-hacienda-foral-de-navarra'
+    && call.sourceId === 'navarra'
+    && call.sourceUrl === 'https://www.navarra.es/es/tramites/on/-/line/tecnico-de-hacienda-oposicion-2026'
+    && normalize(call.title).includes('tecnico/a de hacienda')) return true;
   const organization = ` ${words(call.organization)} `;
   const names = [entity.name,...(entity.aliases??[]),...(aliases[entity.name]??[])].flatMap(name => name.split('/')).map(words).filter(name => name.length>2);
   return names.some(name => organization.includes(` ${name} `));
