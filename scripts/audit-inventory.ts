@@ -47,6 +47,11 @@ function matches(entity:z.infer<typeof entitySchema>,call:Call) {
     && call.sourceId === 'navarra'
     && call.sourceUrl === 'https://www.navarra.es/es/tramites/on/-/line/tecnico-de-grado-medio-igualdad-oposicion-2024'
     && normalize(call.title).includes('tecnico/a de grado medio (igualdad)')) return true;
+  // BON 2026/44/7 annex II assigns seven of the eight posts to SNE.
+  if (entity.id === 'institution-servicio-navarro-de-empleo'
+    && call.sourceId === 'navarra'
+    && call.sourceUrl === 'https://www.navarra.es/es/tramites/on/-/line/titulado-superior-de-empleo-oposicion-2026'
+    && normalize(call.title).includes('titulado/a superior de empleo')) return true;
   const organization = ` ${words(call.organization)} `;
   const names = [entity.name,...(entity.aliases??[]),...(aliases[entity.name]??[])].flatMap(name => name.split('/')).map(words).filter(name => name.length>2);
   return names.some(name => organization.includes(` ${name} `));
