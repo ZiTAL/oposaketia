@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2317 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 290ek gutxienez bat datorren fitxa zuten, eta 605ek ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2320 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 291k gutxienez bat datorren fitxa zuten, eta 604k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -1087,3 +1087,14 @@ gorde da. Iragarki-taulak 2023-06-06ko amaierako iragarkia erakusten du;
 eskabide-epea BONeko argitalpenaren ondoko hamar egun naturalekoa zen,
 baina amaiera-data absolutua ez da egiaztatu. Hautagaien emaitzen PDFak
 ez dira deialdi gisa inportatzen.
+
+## Moncayoko Uren Mankomunitatea
+
+[2020ko otsailaren 7ko BONeko oinarri zuzenduetan](https://bon.navarra.es/es/anuncio/-/texto/2020/26/23)
+bi arduradun-plaza ageri dira: bat txanda librekoa eta bestea barne-
+sustapenekoa. Katalogoan kanpoko txandako plaza bakarra sartu da. Gutxieneko
+titulazioa Batxilergoa edo FPII da; C gidabaimena behar da, eta CAP txartela
+izendapenaren aurretik. II. eranskineko 15 epigrafeak jaso dira. BONek 11.
+zenbakia bi aldiz erabiltzen du, eta jatorrizko ordena mantendu da.
+Eskabide-epea argitalpenaren biharamunetik 30 egun naturalekoa zen; ez da
+amaiera-data absoluturik kalkulatu. Beste deialdi historikoak berrikusteko daude.

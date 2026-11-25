@@ -4573,8 +4573,11 @@
     "territory": "Navarra",
     "province": "Navarra",
     "reportLine": 51,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "connected-partial",
+    "note": "2020ko BONeko oinarri zuzenduak zuzenean konektatuta daude: kanpoko txandako plaza bakarra, baldintzak eta II. eranskineko 15 epigrafeak egiaztatu dira; beste prozesuak berrikusteko daude.",
+    "sourceIds": [
+      "moncayo"
+    ],
     "websiteFromDirectory": "https://www.aguasdelmoncayo.es/",
     "websiteDirectoryUrl": "https://datosabiertos.navarra.es/dataset/entidades-locales-de-navarra",
     "websiteDirectoryName": "Mancomunidad de Aguas del Moncayo",
@@ -4596,10 +4599,12 @@
       "note": "Recent published bulletin monitoring only; no matching notice does not prove absence of vacancies. Direct website coverage remains separately recorded."
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-25T13:24:43.776Z",
+      "calls": 1,
+      "sourceIds": [
+        "moncayo"
+      ],
+      "matching": "Exact Mancomunidad employer name in the reviewed BON bases; partial presence only, not complete coverage."
     }
   },
   {
