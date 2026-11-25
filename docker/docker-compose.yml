@@ -94,6 +94,9 @@ services:
       DEMO_MODE: "false"
       SCRAPE_SOURCES: "all"
       SCRAPE_INTERVAL_SECONDS: "${SCRAPE_INTERVAL_SECONDS:-21600}"
+      HTTPS_PROXY: "${HTTPS_PROXY:-}"
+      HTTP_PROXY: "${HTTP_PROXY:-}"
+      NO_PROXY: "${NO_PROXY:-}"
     volumes:
       - scrape_exports:/app/data/imports
       - scrape_cache:/app/data/scrape-cache

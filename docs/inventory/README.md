@@ -976,3 +976,13 @@ argitalpenaren hurrengo egunetik hamar egun naturalekoa zen; argitalpenaren
 egun zehatzik gabe, amaiera-data absolutua hutsik dago. Kontratazio
 publikoko lizitazioak eta hautagaien emaitzak baztertu dira. 2019ko
 deialdiak berrikusteko daude.
+
+## Beaz Bizkaia
+
+[Beazen enplegu-orri ofizialak](https://beaz.bizkaia.eus/empleo/) gaur egun
+hautaketa-prozesu aktiborik ez dagoela berariaz adierazten du. Konektoreak
+mezu hori egiaztatzen du eta zero fitxa itzultzen du; mezua aldatzen bada,
+berrikusteko errorea sortzen du. Orrialdeak amaitutako prozesuen atala ere
+badu, baina oraingoz ez dago bertan egiaztatutako deialdi-fitxarik. Inbentarioko
+auditorian zero erregistro izateak ez du enplegu-deialdirik inoiz egon ez dela
+adierazten.
