@@ -505,3 +505,8 @@ Angleteko destinoarekin. Eskaneatutako PDF ofizialak bisualki berrikusi
 eta SHA-256 bidez lotu dira. Ez da titulu akademikorik edo azterketa-gaitegirik
 asmatzen. SDIS 64ren sei iragarkiak ere berrikusi dira; irakurritako
 postuek ez dute Iparraldeko destinoa egiaztatzen.
+
+Ablitasko Udalaren gazteria, kultura eta kiroleko teknikariaren 2025eko
+oposaketa ere gehitu da (`ablitas`). Udal-iragarkiak 2025-04-23ko epea
+eta B gidabaimenari buruzko zuzenketa ematen ditu; oinarrien PDFko II.
+eranskinetik 12 gaiak jaso dira. Beste udal-prozesuak berrikusteko daude.
