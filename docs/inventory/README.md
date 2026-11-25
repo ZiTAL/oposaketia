@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2300 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 280k gutxienez bat datorren fitxa zuten, eta 615ek ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2308 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 282k gutxienez bat datorren fitxa zuten, eta 613k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -964,3 +964,15 @@ lehentasuna dauka plaza esleitzeko. Foru-atariko fitxa labur bikoiztua
 baztertu da. 2026ko garbiketa-lanpoltsen oinarriak PDF eskaneatuak dira,
 eta haien baldintzak berrikusteko daude; barne-mugikortasuneko prozesuak eta
 hautagaien emaitzak ez dira deialdi gisa inportatzen.
+
+## Naturgolf
+
+[Izki Golfeko Naturgolfen orri ofizialean](https://www.izkigolf.eus/naturgolf-perfil-contratante/)
+2022ko zaintzaile-harreragile plaza bakarraren [oinarriak eta bost gaiko
+gai-zerrenda](https://www.izkigolf.eus/wp-content/uploads/2022/02/Anuncio-Bases-CONTRATACION-VIGILANTE-RECEPCIONISTA.pdf)
+egiaztatu dira. Lan-kontratua mugagabe aldizkakoa zen, eta gutxieneko
+titulazioa Eskola Graduatua edo DBH zen. Euskara meritua zen. Eskabide-epea
+argitalpenaren hurrengo egunetik hamar egun naturalekoa zen; argitalpenaren
+egun zehatzik gabe, amaiera-data absolutua hutsik dago. Kontratazio
+publikoko lizitazioak eta hautagaien emaitzak baztertu dira. 2019ko
+deialdiak berrikusteko daude.
