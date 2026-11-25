@@ -1,11 +1,11 @@
 {
-  "auditedAt": "2026-11-25T08:01:18.018Z",
-  "catalogueCalls": 2310,
+  "auditedAt": "2026-11-25T08:13:50.459Z",
+  "catalogueCalls": 2311,
   "total": 895,
-  "withRecords": 284,
-  "pending": 611,
+  "withRecords": 285,
+  "pending": 610,
   "note": "Observed records prove partial presence only, not complete source coverage. No matching records do not prove absence of vacancies.",
   "directInstitutions": 60,
-  "aggregateInstitutions": 22,
+  "aggregateInstitutions": 23,
   "accessBlockedInstitutions": 4
 }

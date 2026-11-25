@@ -3798,18 +3798,20 @@
     "territory": "Navarra",
     "province": "Navarra",
     "reportLine": 45,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "aggregate-partial",
+    "note": "CPENen enplegu-atari ofizialean INIren analista-fitxa historiko itxi bat egiaztatu da; ez du deialdi guztien estaldura frogatzen.",
     "websiteFromDirectory": "https://www.ininavarra.es/transparencia/",
     "websiteDirectoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas",
     "websiteDirectoryName": "INSTITUTO NAVARO DE INVERSIONES S.L. (INI)",
     "websiteDirectoryCheckedAt": "2026-11-20T09:00:48.395Z",
     "websiteDirectoryStatus": "verified",
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-25T08:13:50.459Z",
+      "calls": 1,
+      "sourceIds": [
+        "cpen"
+      ],
+      "matching": "Institute name in the reviewed CPEN archive record; partial presence only, not complete coverage."
     }
   },
   {

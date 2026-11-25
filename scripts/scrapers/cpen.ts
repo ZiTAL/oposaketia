@@ -7,6 +7,7 @@ export const CPEN_LIST = 'https://empleo.sociedadespublicasdenavarra.es/jobs/';
 export const CPEN_REVIEWED_ARCHIVE = [
   'https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-gestion-de-personas',
   'https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-sistemas-de-gestion-procesos-e-inteligencia-de-negocio',
+  'https://empleo.sociedadespublicasdenavarra.es/jobs/analista-b59fc039-fe62-4ee5-8abe-99958bfd05e6',
 ];
 
 export function parseCpenList(html: string) {
