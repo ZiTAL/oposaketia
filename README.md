@@ -510,3 +510,8 @@ Ablitasko Udalaren gazteria, kultura eta kiroleko teknikariaren 2025eko
 oposaketa ere gehitu da (`ablitas`). Udal-iragarkiak 2025-04-23ko epea
 eta B gidabaimenari buruzko zuzenketa ematen ditu; oinarrien PDFko II.
 eranskinetik 12 gaiak jaso dira. Beste udal-prozesuak berrikusteko daude.
+
+Agoizko Udalaren lorezaintzako zerbitzu anitzetako plaza finkoa ere gehitu
+da (`agoitz`). Udal-webgunean argitaratutako oinarrietatik II. eranskineko
+11 gaiak eta baldintzak atera dira. Epea BONen argitalpenaren ondoko 30 egun
+naturalekoa da; amaiera-data absolutua ez da asmatu.

@@ -808,16 +808,17 @@
     "name": "AOIZ / AGOITZ",
     "territory": "Navarra",
     "province": "Navarra",
-    "status": "pending",
+    "status": "connected-partial",
     "officialCode": "31019",
     "type": "municipality",
     "sourceIds": [
       "navarra",
-      "lanbide"
+      "lanbide",
+      "agoitz"
     ],
     "directoryStatus": "verified",
     "directoryUrl": "https://nastat.navarra.es/es/recursos/nomenclator",
-    "note": "2026-10-20ko Nastat izendegi ofizialean egiaztatua. Enplegu-atari agregatuetan estaldura partziala; udal-atariaren egiaztapena falta da.",
+    "note": "Agoizko udal-webgunean 2026ko lorezaintzako plaza finkoa eta II. eranskineko 11 gaiak egiaztatu dira. Beste prozesuen estaldura partziala da.",
     "aliases": [
       "Aoiz / Agoitz"
     ],
@@ -830,12 +831,13 @@
       "candidates": []
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 1,
+      "auditedAt": "2026-11-25T14:29:15.444Z",
+      "calls": 2,
       "sourceIds": [
-        "euskadi"
+        "euskadi",
+        "agoitz"
       ],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "matching": "One existing aggregate record and one direct municipal gardening call; partial presence only, not complete portal coverage."
     },
     "aggregateMonitoring": {
       "sourceId": "bon-local",
