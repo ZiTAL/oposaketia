@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2325 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 297k gutxienez bat datorren fitxa zuten, eta 598k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2325 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 298k gutxienez bat datorren fitxa zuten, eta 597k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -1157,5 +1157,14 @@ Enpleguko Goi Mailako Tituludunaren zortzi plazetatik zazpi Nafarroako Enplegu
 Zerbitzuari atxikitzen dizkio: 9456, 10534, 10535, 10536, 11746, 11748 eta
 11778. 39466 plaza Hezkuntza Sailari dagokio. Katalogoan lehendik zegoen
 deialdiak zortzi plaza eta 100 gai ditu. Funtzio Publikoa da organo deitzailea;
+inbentarioko auditorian soilik gehitu da egiaztatutako atxikipena. Deialdi
+baten presentziak ez du erakundearen eskaintza guztien estaldura frogatzen.
+
+## Nafarroako Autonomiarako eta Pertsonen Garapenerako Agentzia
+
+[1512/2026 Ebazpenaren eranskinak](https://www.navarra.es/documents/48192/43565909/R202601512+Res+determinar+plazas+TRABAJADOR+SOCIAL+2024.pdf/fc9bf905-78d4-8e70-c9f1-99dedc0e45d7?t=1778069983389)
+Gizarte Langilearen 58 plazetatik zortzi agentziari atxikitzen dizkio: 2870,
+6568, 8186, 11514, 11515, 11516, 11517 eta 11691. Katalogoan lehendik
+zegoen deialdiak 75 gai ditu. Funtzio Publikoa da organo deitzailea;
 inbentarioko auditorian soilik gehitu da egiaztatutako atxikipena. Deialdi
 baten presentziak ez du erakundearen eskaintza guztien estaldura frogatzen.

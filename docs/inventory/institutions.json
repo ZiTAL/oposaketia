@@ -3597,18 +3597,27 @@
     "territory": "Navarra",
     "province": "Navarra",
     "reportLine": 43,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "aggregate-partial",
+    "note": "1512/2026 Ebazpenaren eranskinak Gizarte Langilearen 58 plazetatik zortzi erakunde honi atxikitzen dizkio. Funtzio Publikoa da organo deitzailea; erakundearen atari osoaren estaldura ez dago egiaztatuta.",
     "websiteFromDirectory": "https://www.navarra.es/es/derechos-sociales",
     "websiteDirectoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos",
     "websiteDirectoryName": "AGENCIA NAVARRA DE AUTONOMÍA Y DESARROLLO DE LAS PERSONAS",
     "websiteDirectoryCheckedAt": "2026-11-20T09:00:48.395Z",
     "websiteDirectoryStatus": "verified",
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-25T13:55:17.677Z",
+      "calls": 1,
+      "sourceIds": [
+        "navarra"
+      ],
+      "matching": "Resolution 1512/2026 annex assigns eight of the 58 social worker posts to ANADP; Función Pública remains the publishing body. Partial presence only."
+    },
+    "aggregateMonitoring": {
+      "sourceIds": [
+        "navarra"
+      ],
+      "evidenceUrl": "https://www.navarra.es/documents/48192/43565909/R202601512+Res+determinar+plazas+TRABAJADOR+SOCIAL+2024.pdf/fc9bf905-78d4-8e70-c9f1-99dedc0e45d7?t=1778069983389",
+      "note": "Zortzi plazen atxikipena ebazpen ofizialaren eranskinean egiaztatuta; deialdi horren presentzia partziala soilik."
     }
   },
   {
