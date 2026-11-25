@@ -4062,18 +4062,20 @@
     "territory": "Navarra",
     "province": "Navarra",
     "reportLine": 45,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "aggregate-partial",
+    "note": "CPENen enplegu-atari ofizialean SODENAren Invest in Navarra fitxa historiko itxi bat egiaztatu da; ez du deialdi guztien estaldura frogatzen.",
     "websiteFromDirectory": "https://www.sodena.com/index.php/es/quienes-somos/transparencia.html",
     "websiteDirectoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas",
     "websiteDirectoryName": "SOCIEDAD DE DESARROLLO DE NAVARRA, S.L.",
     "websiteDirectoryCheckedAt": "2026-11-20T09:00:48.395Z",
     "websiteDirectoryStatus": "verified",
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-25T08:24:00.961Z",
+      "calls": 1,
+      "sourceIds": [
+        "cpen"
+      ],
+      "matching": "SODENA employer name in the reviewed CPEN archive record; partial presence only, not complete coverage."
     },
     "employmentPageReview": {
       "url": "https://sodena.com/transparencia/",

@@ -10,6 +10,7 @@ export const CPEN_REVIEWED_ARCHIVE = [
   'https://empleo.sociedadespublicasdenavarra.es/jobs/analista-b59fc039-fe62-4ee5-8abe-99958bfd05e6',
   'https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-atencion-ciudadana',
   'https://empleo.sociedadespublicasdenavarra.es/jobs/tecnico-a-superior-para-el-area-de-biodiversidad',
+  'https://empleo.sociedadespublicasdenavarra.es/jobs/tecnico-a-invest-in-navarra',
 ];
 
 export function parseCpenList(html: string) {

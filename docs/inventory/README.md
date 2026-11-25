@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2313 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 287k gutxienez bat datorren fitxa zuten, eta 608k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2314 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 288k gutxienez bat datorren fitxa zuten, eta 607k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -1044,3 +1044,13 @@ euskara eta ingelesa merezimendu gisa aipatzen dira. Fitxan ez dago
 azterketako gai-zerrendarik. Argitalpen-datak urterik ez duenez, amaiera-data
 ezezaguna da. CPENen zerrenda arruntaz gain berrikusitako URL historikoa
 kontsultatzen da; horrek ez du OREKANen deialdi guztien estaldura frogatzen.
+
+## SODENA
+
+[CPENen SODENAren Invest in Navarra teknikariaren fitxa](https://empleo.sociedadespublicasdenavarra.es/jobs/tecnico-a-invest-in-navarra)
+itxita dago. Goi-mailako unibertsitate-titulua eskatzen du, batez ere
+Ekonomiako, Komunikazio eta Marketineko, Ekintzailetzako edo Informatikako
+ikasketak; ingeles arina ere aipatzen du. Fitxak ez du azterketako gai-zerrendarik.
+Argitalpen-datak urterik ez duenez, amaiera-data ezezaguna da. CPENen
+zerrenda arruntaz gain berrikusitako URL historikoa kontsultatzen da;
+horrek ez du SODENAren deialdi guztien estaldura frogatzen.
