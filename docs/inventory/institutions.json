@@ -3856,13 +3856,15 @@
     "territory": "Navarra",
     "province": "Navarra",
     "reportLine": 45,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "aggregate-partial",
+    "note": "CPENen enplegu-atari ofizialean Nafarbideren fitxa historiko itxi bat egiaztatu da; ez du deialdi guztien estaldura frogatzen.",
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-25T08:01:18.018Z",
+      "calls": 1,
+      "sourceIds": [
+        "cpen"
+      ],
+      "matching": "Nafarbide employer name in the reviewed CPEN archive record; partial presence only, not complete coverage."
     }
   },
   {

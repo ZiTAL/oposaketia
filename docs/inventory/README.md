@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2309 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 283k gutxienez bat datorren fitxa zuten, eta 612k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2310 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 284k gutxienez bat datorren fitxa zuten, eta 611k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -999,3 +999,16 @@ urterik adierazten; beraz, amaiera-data hutsik dago. Fitxak ez du azterketako
 gai-zerrendarik. CPENen zerrenda arruntean ez dagoenez, berrikusitako URL
 historikoa ere kontsultatzen da; horrek ez du INTIAren deialdi guztien
 estaldura frogatzen.
+
+## Nafarbide
+
+[CPENen Nafarbideren fitxa ofizialak](https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-sistemas-de-gestion-procesos-e-inteligencia-de-negocio)
+kudeaketa-sistemen, prozesuen eta negozio-adimenaren teknikari-lanpostua
+jasotzen du. Atariak itxita dagoela dio. Erakundeak industria-antolakuntzako
+edo prozesuetako ingeniaritza, ingurumen-zientziak, industria-segurtasuna,
+datuen zientzia, kudeaketa-sistema integratuetako goi-mailako teknikariaren
+titulua edo antzeko prestakuntza teknikoa eskatzen du, eta gutxienez hiru
+urteko esperientzia. Argitalpen-datak urterik ez duenez, amaiera-data
+ezezaguna da. Fitxan ez dago azterketako gai-zerrendarik. Berrikusitako
+URL historikoa CPENen zerrenda arruntaz gain kontsultatzen da; horrek ez du
+Nafarbideren deialdi guztien estaldura frogatzen.

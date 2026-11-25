@@ -6,6 +6,7 @@ import { baseCall, canonical, categoryFor, clean, educationIds, linkList } from 
 export const CPEN_LIST = 'https://empleo.sociedadespublicasdenavarra.es/jobs/';
 export const CPEN_REVIEWED_ARCHIVE = [
   'https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-gestion-de-personas',
+  'https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-sistemas-de-gestion-procesos-e-inteligencia-de-negocio',
 ];
 
 export function parseCpenList(html: string) {

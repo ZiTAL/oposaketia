@@ -18,6 +18,9 @@ test('CPEN follows only its own job links and pagination, and reads the actual e
   const closed=parseCpenDetail('<meta name="author" content="INTIA, Instituto Navarro de Tecnología e Infraestructuras Agroalimentarias, S.A."><p>Oferta cerrada</p><h1>Personal técnico de gestión de personas</h1><p>Requisitos mínimos</p><div class="general-content"><p>Grado en Relaciones Laborales</p></div>',CPEN_REVIEWED_ARCHIVE[0],now);
   assert.equal(closed.organization.startsWith('INTIA'),true);
   assert.equal(closed.status,'Cerrada');assert.equal(closed.deadline,null);
+  const nafarbide=parseCpenDetail('<meta name="author" content="NAFARBIDE, El Camino de los Navarros S.L."><p>Oferta cerrada</p><h1>Personal técnico sistemas de gestión</h1><p>Requisitos mínimos</p><div class="general-content"><p>Grado o Ingeniería en Organización Industrial</p></div>',CPEN_REVIEWED_ARCHIVE[1],now);
+  assert.equal(nafarbide.organization.startsWith('NAFARBIDE'),true);
+  assert.equal(nafarbide.status,'Cerrada');assert.equal(nafarbide.deadline,null);
 });
 test('Gipuzkoa excludes internal appointments and duplicates, and never invents dates',()=>{
   const calls=parseGipuzkoaList('<a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/OP01-2026/lista/-1">Administrativo</a><a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/OP01-2026/lista/-1">Duplicated</a><a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/LD01-2026/lista/0">Internal</a>',now);
