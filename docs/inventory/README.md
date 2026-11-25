@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2311 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 285ek gutxienez bat datorren fitxa zuten, eta 610ek ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2312 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 286k gutxienez bat datorren fitxa zuten, eta 609k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -1024,3 +1024,13 @@ Frantsesa merezimendu gisa ageri da. Fitxak ez du azterketako gai-zerrendarik.
 Argitalpen-egunak urterik ez duenez, amaiera-data ezezaguna da. URL historiko
 berrikusia CPENen zerrenda arruntaz gain kontsultatzen da; horrek ez du INIren
 deialdi guztien estaldura frogatzen.
+
+## NASERTIC
+
+[CPENen NASERTICen arreta herritarrerako teknikariaren fitxa](https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-atencion-ciudadana)
+itxita dago. Gutxieneko titulazioa Batxilergoa, administrazioko erdi-mailako
+LH edo enpresak parekatutako ezagutzak dira; sei hilabeteko esperientzia,
+euskarako B2 maila eta gidabaimena ere eskatzen dira. Atariak argitalpen-eguna
+urterik gabe erakusten du; amaiera-data ezezaguna da. Ez dago azterketako
+gai-zerrendarik. CPENen zerrenda arruntaz gain berrikusitako fitxa historikoa
+kontsultatzen da; horrek ez du NASERTICen deialdi guztien estaldura frogatzen.

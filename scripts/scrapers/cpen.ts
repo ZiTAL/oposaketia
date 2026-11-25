@@ -8,6 +8,7 @@ export const CPEN_REVIEWED_ARCHIVE = [
   'https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-gestion-de-personas',
   'https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-sistemas-de-gestion-procesos-e-inteligencia-de-negocio',
   'https://empleo.sociedadespublicasdenavarra.es/jobs/analista-b59fc039-fe62-4ee5-8abe-99958bfd05e6',
+  'https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-atencion-ciudadana',
 ];
 
 export function parseCpenList(html: string) {
@@ -32,7 +33,9 @@ export function parseCpenDetail(html: string, url: string, now: string): Call {
   call.location = clean($('[title="Ubicación"]').text()) || 'Navarra';
   call.province = 'Navarra';
   call.category = categoryFor(title);
-  call.requirements = requirements.find('p,li').toArray().map(node => clean($(node).text())).filter(Boolean);
+  const requirementItems = requirements.find('p,li').toArray().map(node => clean($(node).text())).filter(Boolean);
+  const offerStart = requirementItems.findIndex(item => /^se ofrece\b/i.test(item));
+  call.requirements = offerStart < 0 ? requirementItems : requirementItems.slice(0, offerStart);
   call.educationText = call.requirements.join(' ') || clean(requirements.text());
   call.acceptedQualifications = educationIds(call.educationText);
   call.description = 'Oferta de empleo publicada en el portal de sociedades públicas de Navarra. Consultar las condiciones y el procedimiento de selección de la entidad convocante.';

@@ -24,6 +24,11 @@ test('CPEN follows only its own job links and pagination, and reads the actual e
   const ini=parseCpenDetail('<meta name="author" content="INI, Instituto Navarro de Inversiones, S.L."><p>Oferta cerrada</p><h1>Analista de inversiones</h1><p>Requisitos mínimos</p><div class="general-content"><p>Grado en Administración y Dirección de Empresas o Economía</p></div>',CPEN_REVIEWED_ARCHIVE[2],now);
   assert.match(ini.organization,/Instituto Navarro de Inversiones/);
   assert.equal(ini.status,'Cerrada');assert.equal(ini.deadline,null);
+  const nasertic=parseCpenDetail('<meta name="author" content="NASERTIC, Navarra de Servicios y Tecnologías, S.A."><p>Oferta cerrada</p><h1>Personal técnico atención ciudadana</h1><p>Requisitos mínimos</p><div class="general-content"><p>Bachiller o FP Grado Medio Administrativo</p><p>Euskera nivel B2</p><p>Se ofrece</p><p>Contrato eventual</p></div>',CPEN_REVIEWED_ARCHIVE[3],now);
+  assert.match(nasertic.organization,/NASERTIC/);
+  assert.equal(nasertic.status,'Cerrada');assert.equal(nasertic.deadline,null);
+  assert(nasertic.requirements.some(requirement=>requirement.includes('Euskera nivel B2')));
+  assert(!nasertic.requirements.some(requirement=>requirement.includes('Contrato eventual')));
 });
 test('Gipuzkoa excludes internal appointments and duplicates, and never invents dates',()=>{
   const calls=parseGipuzkoaList('<a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/OP01-2026/lista/-1">Administrativo</a><a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/OP01-2026/lista/-1">Duplicated</a><a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/LD01-2026/lista/0">Internal</a>',now);

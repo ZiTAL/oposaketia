@@ -3875,8 +3875,8 @@
     "territory": "Navarra",
     "province": "Navarra",
     "reportLine": 45,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "aggregate-partial",
+    "note": "CPENen enplegu-atari ofizialean NASERTICen arreta herritarrerako fitxa historiko itxi bat egiaztatu da; ez du deialdi guztien estaldura frogatzen.",
     "websiteFromDirectory": "https://www.nasertic.es/es/transparencia",
     "websiteDirectoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas",
     "websiteDirectoryName": "NAVARRA DE SERVICIOS Y TECNOLOGIAS",
@@ -3891,10 +3891,12 @@
       "error": "The operation was aborted due to timeout"
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-25T08:16:17.603Z",
+      "calls": 1,
+      "sourceIds": [
+        "cpen"
+      ],
+      "matching": "NASERTIC employer name in the reviewed CPEN archive record; partial presence only, not complete coverage."
     }
   },
   {
