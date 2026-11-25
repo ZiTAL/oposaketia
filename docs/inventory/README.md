@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2300 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 279k gutxienez bat datorren fitxa zuten, eta 616k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2300 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 280k gutxienez bat datorren fitxa zuten, eta 615ek ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -951,3 +951,16 @@ eskatzen du; B1 euskara, B gidabaimena eta bi urtetik gorako esperientzia ere
 derrigorrezkoak dira. Izen-ematea 2026-07-05ean amaitu zen. Oinarriek ez dute
 azterketako gai-zerrendarik. Arabako atariaren fitxa labur bikoiztua baztertu
 da; beste prozesuak berrikusteko daude.
+
+## Indesa 2010
+
+[Indesaren enplegu-atarian](https://www.indesa.eus/es/empleo/)
+2026ko Lan Saileko arduradun-plaza egiaztatu da. [Oinarri orokor eta
+espezifikoen PDFak](https://www.indesa.eus/wp-content/uploads/2026/05/0-0-Bases-responsable-del-dpto-laboral-1.pdf)
+kanpo-hautagaientzako txanda, plaza bakarra, derrigorrezko titulazioak,
+hiru urteko esperientzia, B gidabaimena eta 2026-06-19ko epea jasotzen ditu.
+I. eranskineko 20 gaiak katalogoan daude; euskara meritua da. Barne-txandak
+lehentasuna dauka plaza esleitzeko. Foru-atariko fitxa labur bikoiztua
+baztertu da. 2026ko garbiketa-lanpoltsen oinarriak PDF eskaneatuak dira,
+eta haien baldintzak berrikusteko daude; barne-mugikortasuneko prozesuak eta
+hautagaien emaitzak ez dira deialdi gisa inportatzen.
