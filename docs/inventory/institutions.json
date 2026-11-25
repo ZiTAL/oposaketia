@@ -3461,18 +3461,27 @@
     "territory": "Navarra",
     "province": "Navarra",
     "reportLine": 43,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "aggregate-partial",
+    "note": "BON 2024/153/2ko II. eranskinak Berdintasuneko Erdi Mailako Teknikariaren hamar plazak erakunde honi atxikitzen dizkio. Funtzio Publikoa da organo deitzailea; erakundearen atari osoaren estaldura ez dago egiaztatuta.",
     "websiteFromDirectory": "https://www.navarra.es/es/igualdad-y-violencia-de-genero",
     "websiteDirectoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/organismos-autonomos",
     "websiteDirectoryName": "INSTITUTO NAVARRO PARA LA IGUALDAD",
     "websiteDirectoryCheckedAt": "2026-11-20T09:00:48.395Z",
     "websiteDirectoryStatus": "verified",
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-25T13:49:40.656Z",
+      "calls": 1,
+      "sourceIds": [
+        "navarra"
+      ],
+      "matching": "BON 2024/153/2 annex II assigns all ten equality technician posts to the institute; Función Pública remains the publishing body. Partial presence only."
+    },
+    "aggregateMonitoring": {
+      "sourceIds": [
+        "navarra"
+      ],
+      "evidenceUrl": "https://bon.navarra.es/es/anuncio/-/texto/2024/153/2",
+      "note": "Hamar plazen atxikipena BONeko II. eranskinean egiaztatuta; deialdi horren presentzia partziala soilik."
     }
   },
   {
