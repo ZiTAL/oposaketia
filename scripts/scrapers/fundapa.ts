@@ -5,6 +5,7 @@ import {baseCall,canonical,clean,educationIds,pdfText,stableId} from './shared';
 
 export const FUNDAPA_BOARD='https://www.fundapa.org/inicio/tablon-de-anuncios/';
 export const FUNDAPA_BASES='https://www.fundapa.org/site/wp-content/uploads/CONVOCATORIA-DE-FUNDAPA-SUSTITUCION-TECNICO-A-ECONOMICO-A-26-03-2026.pdf';
+export const FUNDAPA_SOCIAL_BASES='https://www.fundapa.org/site/wp-content/uploads/Bases-TS-ES-Concurso-Oposicion.pdf';
 
 export function parseFundapaBoard(html:string):string{
  const $=load(html);
@@ -17,6 +18,53 @@ export function parseFundapaBoard(html:string):string{
  const links=cards.find('a[href]').toArray().map(node=>canonical($(node).attr('href')!,FUNDAPA_BOARD));
  if(links.length!==1||links[0]!==FUNDAPA_BASES)throw new Error('Bases FUNDAPA no identificadas');
  return links[0];
+}
+
+export function parseFundapaSocialBoard(html:string):string{
+ const $=load(html);
+ const card=$('.card').filter((_,node)=>/Bases de la Convocatoria para la provisión, mediante concurso oposición, de una plaza de Trabajo Social-Educación Social al servicio de la fundación pública Navarra/i.test(clean($(node).find('h6').text())));
+ const final=$('.card').filter((_,node)=>clean($(node).find('h6').text())==='CONCURSO OPOSICIÓN: Anuncio final del proceso'&&clean($(node).find('p.elcolor').text())==='6 junio 2023');
+ if(card.length!==1||final.length!==1)throw new Error('Concurso-oposición social de FUNDAPA no identificado');
+ const links=card.find('a[href]').toArray().map(node=>canonical($(node).attr('href')!,FUNDAPA_BOARD));
+ if(links.length!==1||links[0]!==FUNDAPA_SOCIAL_BASES)throw new Error('Bases sociales FUNDAPA no identificadas');
+ return links[0];
+}
+
+function socialTopics(text:string):string[]{
+ const section=text.match(/ANEXO I\s+Temario\s+([\s\S]*)/i)?.[1];
+ if(!section)throw new Error('Temario social FUNDAPA no identificado');
+ const topics:string[]=[];
+ for(const line of section.split(/\r?\n/)){
+  const start=line.match(/^\s*(\d{1,2})\.-\s*(.+)/);
+  if(start){topics.push(`${start[1]}.- ${clean(start[2])}`);continue;}
+  const part=clean(line);
+  if(topics.length&&part&&!/^(?:Fundación Pública Navarra|Desgaitasuna duten|C\/ Abejeras)/i.test(part))topics[topics.length-1]+=' '+part;
+ }
+ const numbering=topics.map(topic=>Number(topic.match(/^\d+/)?.[0]));
+ if(topics.length!==23||numbering.join(',')!==[1,2,3,4,5,5,...Array.from({length:17},(_,i)=>i+6)].join(',')||!topics[22].includes('Código deontológico de Trabajo Social'))throw new Error('Epígrafes sociales FUNDAPA no identificados');
+ return topics;
+}
+
+export function parseFundapaSocialBases(text:string,sha256:string,now:string):Call{
+ const body=clean(text);
+ if(!/CONVOCATORIA PARA LA PROVISIÓN, MEDIANTE CONCURSO OPOSICIÓN, DE UN PUESTO DE TRABAJO SOCIAL-EDUCACIÓN SOCIAL/i.test(body)
+  ||!/provisión de una plaza del puesto de trabajo de Trabajo Social- Educación Social/i.test(body)
+  ||!/título de Diplomado o Graduado Universitario en Trabajo Social o Educación Social o título declarado equivalente/i.test(body)
+  ||!/plazo de 10 días naturales, contados a partir del siguiente al de la publicación en el Boletín Oficial de Navarra/i.test(body))throw new Error('Bases sociales FUNDAPA no identificadas');
+ const call=baseCall('fundapa',FUNDAPA_BOARD,now,'Navarra');
+ call.id=stableId('fundapa',FUNDAPA_SOCIAL_BASES);
+ call.title='Trabajo Social / Educación Social · concurso-oposición';
+ call.organization='Fundación Pública Navarra para la Provisión de Apoyos a Personas con Discapacidad';
+ call.location='Pamplona/Iruña';call.province='Navarra';call.category='Servicios';call.places=1;
+ call.educationText='Diplomatura o Grado universitario en Trabajo Social o Educación Social, o título declarado equivalente.';
+ call.acceptedQualifications=educationIds(call.educationText);
+ call.deadline=null;call.status='Cerrada';
+ call.requirements=[call.educationText,'Tener cumplidos dieciséis años y no exceder la edad de jubilación forzosa.','No estar inhabilitado ni separado del servicio de una Administración Pública.'];
+ call.topics=socialTopics(text);
+ call.description='Concurso-oposición de estabilización para una plaza laboral indefinida. El tablón oficial publicó el anuncio final el 6 de junio de 2023. Las bases fijan diez días naturales desde su publicación en el BON; sin fecha absoluta comprobada, el plazo queda sin determinar.';
+ call.syllabusUrl=FUNDAPA_SOCIAL_BASES;call.sourceHash=sha256;
+ call.documents=[{title:'Bases y temario social de FUNDAPA',url:FUNDAPA_SOCIAL_BASES,kind:'bases',checkedAt:now,sha256}];
+ return callSchema.parse(call);
 }
 
 function fundapaTopics(text:string):string[]{
@@ -58,7 +106,10 @@ export function parseFundapaBases(text:string,sha256:string,now:string):Call{
 }
 
 export async function scrapeFundapa(client:OfficialClient,now:string):Promise<Call[]>{
- const url=parseFundapaBoard(await client.text(FUNDAPA_BOARD));
- const pdf=await pdfText(client,url);
- return [parseFundapaBases(pdf.text,pdf.sha256,now)];
+ const board=await client.text(FUNDAPA_BOARD);
+ const economicUrl=parseFundapaBoard(board);
+ const socialUrl=parseFundapaSocialBoard(board);
+ const economic=await pdfText(client,economicUrl);
+ const social=await pdfText(client,socialUrl);
+ return [parseFundapaBases(economic.text,economic.sha256,now),parseFundapaSocialBases(social.text,social.sha256,now)];
 }

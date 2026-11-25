@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2316 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 290ek gutxienez bat datorren fitxa zuten, eta 605ek ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2317 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 290ek gutxienez bat datorren fitxa zuten, eta 605ek ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -1077,3 +1077,13 @@ onartzen dira. Eskabide-epea 2026-04-06an 14:00etan amaitu zen. Probak 50
 galderako testa dauka, eta PDFko zortzi gaiak katalogoan daude. Ordezkapen-
 zerrenda ez da plaza finko gisa aurkezten. Onartuen zerrendak eta probaren
 emaitzak kanpoan geratzen dira; beste deialdiak berrikusteko daude.
+
+FUNDAPAren [Gizarte Laneko/Gizarte Hezkuntzako plaza bakarraren
+oinarriak](https://www.fundapa.org/site/wp-content/uploads/Bases-TS-ES-Concurso-Oposicion.pdf)
+ere egiaztatu dira. Diplomatura edo gradua bi arlo horietako batean, edo
+titulu baliokidea, eskatzen dute. I. eranskineko 23 epigrafeak katalogoan
+daude; jatorrizko PDFak 5. zenbakia birritan erabiltzen du eta horrela
+gorde da. Iragarki-taulak 2023-06-06ko amaierako iragarkia erakusten du;
+eskabide-epea BONeko argitalpenaren ondoko hamar egun naturalekoa zen,
+baina amaiera-data absolutua ez da egiaztatu. Hautagaien emaitzen PDFak
+ez dira deialdi gisa inportatzen.
