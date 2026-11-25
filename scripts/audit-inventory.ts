@@ -57,6 +57,11 @@ function matches(entity:z.infer<typeof entitySchema>,call:Call) {
     && call.sourceId === 'navarra'
     && call.sourceUrl === 'https://www.navarra.es/es/tramites/on/-/line/trabajador-social-oposicion-2025'
     && normalize(call.title).includes('trabajador/a social')) return true;
+  // Resolution 3775/2025 assigns one of six statistician posts here.
+  if (entity.id === 'institution-oficina-de-analisis-y-prospeccion'
+    && call.sourceId === 'navarra'
+    && call.sourceUrl === 'https://www.navarra.es/es/tramites/on/-/line/titulado-de-grado-medio-estadistico-oposicion-2025'
+    && normalize(call.title).includes('titulado/a de grado medio (estadistico)')) return true;
   const organization = ` ${words(call.organization)} `;
   const names = [entity.name,...(entity.aliases??[]),...(aliases[entity.name]??[])].flatMap(name => name.split('/')).map(words).filter(name => name.length>2);
   return names.some(name => organization.includes(` ${name} `));
