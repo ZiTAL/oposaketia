@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2320 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 292k gutxienez bat datorren fitxa zuten, eta 603k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2320 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 293k gutxienez bat datorren fitxa zuten, eta 602k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -1108,3 +1108,14 @@ zegoen deialdiak 93 gai ditu. Funtzio Publikoa da organo deitzailea; datu hori
 bere horretan gorde da, eta inbentarioko auditorian atxikipen egiaztatua
 gehitu da. Plaza bakarraren presentziak ez du erakundearen deialdi guztien
 estaldura frogatzen.
+
+## Nafarroako Kirolaren Institutua
+
+[3773/2025 Ebazpenaren I. eranskinak](https://www.navarra.es/documents/48192/48964728/R202503773+determinar+plazas+TCO+SUP+DEPORTE+2025.doc.pdf/43636484-000b-cdcf-a596-1ff02c58cf42?t=1766487900240)
+Kirolaren Goi Mailako Teknikariaren 5071, 10357 eta 11763 plazak Nafarroako
+Kirolaren eta Jarduera Fisikoaren Institutuari atxikitzen dizkio. Lehen biek
+C1 euskara eskatzen dute; hirugarrenak ez du hizkuntza-eskakizunik adierazten
+eranskin horretan. Katalogoan lehendik zegoen deialdiak hiru plaza eta 95 gai
+ditu. Funtzio Publikoa da organo deitzailea; inbentarioko auditorian soilik
+gehitu da egiaztatutako atxikipena. Deialdi baten presentziak ez du erakundearen
+eskaintza guztien estaldura frogatzen.

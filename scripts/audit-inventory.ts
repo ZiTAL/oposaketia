@@ -27,6 +27,11 @@ function matches(entity:z.infer<typeof entitySchema>,call:Call) {
     && call.sourceId === 'navarra'
     && call.sourceUrl === 'https://www.navarra.es/es/tramites/on/-/line/traductor-interprete-de-euskera-oposicion-2026'
     && normalize(call.title).includes('traductor/a-interprete de euskera')) return true;
+  // Resolution 3773/2025 assigns all three sports posts to this institute.
+  if (entity.id === 'institution-instituto-navarro-del-deporte'
+    && call.sourceId === 'navarra'
+    && call.sourceUrl === 'https://www.navarra.es/es/tramites/on/-/line/tecnico-superior-de-deporte-oposicion-2025'
+    && normalize(call.title).includes('tecnico/a superior de deporte')) return true;
   const organization = ` ${words(call.organization)} `;
   const names = [entity.name,...(entity.aliases??[]),...(aliases[entity.name]??[])].flatMap(name => name.split('/')).map(words).filter(name => name.length>2);
   return names.some(name => organization.includes(` ${name} `));
