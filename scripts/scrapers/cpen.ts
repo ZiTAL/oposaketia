@@ -4,6 +4,9 @@ import { OfficialClient, hash } from './http';
 import { baseCall, canonical, categoryFor, clean, educationIds, linkList } from './shared';
 
 export const CPEN_LIST = 'https://empleo.sociedadespublicasdenavarra.es/jobs/';
+export const CPEN_REVIEWED_ARCHIVE = [
+  'https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-gestion-de-personas',
+];
 
 export function parseCpenList(html: string) {
   const $ = load(html);
@@ -32,7 +35,9 @@ export function parseCpenDetail(html: string, url: string, now: string): Call {
   call.acceptedQualifications = educationIds(call.educationText);
   call.description = 'Oferta de empleo publicada en el portal de sociedades públicas de Navarra. Consultar las condiciones y el procedimiento de selección de la entidad convocante.';
   // Presence in the job board does not establish an application deadline.
-  call.status = 'Pendiente de confirmar';
+  call.status = $('p').toArray().some(node => clean($(node).text()) === 'Oferta cerrada')
+    ? 'Cerrada'
+    : 'Pendiente de confirmar';
   call.documents = linkList($, '.general-content a[href]', url).filter(link => /\.pdf(?:\?|$)/i.test(link.url)).map(link => ({...link,kind:'guia' as const,checkedAt:null,sha256:null}));
   call.sourceHash = hash(html);
   return callSchema.parse(call);
@@ -50,6 +55,7 @@ export async function scrapeCpen(client: OfficialClient, now: string, warn: (mes
     page = parsed.next;
   }
   if (!urls.size) throw new Error('No se reconocen ofertas CPEN; se conserva el catálogo anterior.');
+  for (const url of CPEN_REVIEWED_ARCHIVE) urls.add(url);
   const calls: Call[] = [];
   for (const url of urls) {
     try { calls.push(parseCpenDetail(await client.text(url), url, now)); }

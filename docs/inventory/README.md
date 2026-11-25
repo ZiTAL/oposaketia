@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2308 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 282k gutxienez bat datorren fitxa zuten, eta 613k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2309 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 283k gutxienez bat datorren fitxa zuten, eta 612k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -986,3 +986,16 @@ berrikusteko errorea sortzen du. Orrialdeak amaitutako prozesuen atala ere
 badu, baina oraingoz ez dago bertan egiaztatutako deialdi-fitxarik. Inbentarioko
 auditorian zero erregistro izateak ez du enplegu-deialdirik inoiz egon ez dela
 adierazten.
+
+## INTIA
+
+[CPENen enplegu-atari ofizialeko INTIAren fitxa](https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-gestion-de-personas)
+katalogoan sartu da: pertsonen kudeaketako teknikari-lanpostua da, Atarrabian,
+eta atariak itxita dagoela dio. Fitxak Lan Harremanetako, Zuzenbideko edo
+giza baliabideekin lotutako antzeko unibertsitate-gradua, laneko arriskuen
+prebentzioko masterra, bi urteko esperientzia eta B gidabaimena eskatzen ditu.
+Euskara, frantsesa eta ingelesa merezimenduak dira. Argitalpen-egunak ez du
+urterik adierazten; beraz, amaiera-data hutsik dago. Fitxak ez du azterketako
+gai-zerrendarik. CPENen zerrenda arruntean ez dagoenez, berrikusitako URL
+historikoa ere kontsultatzen da; horrek ez du INTIAren deialdi guztien
+estaldura frogatzen.

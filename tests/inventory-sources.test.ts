@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseCpenList,parseCpenDetail } from '../scripts/scrapers/cpen';
+import { CPEN_REVIEWED_ARCHIVE,parseCpenList,parseCpenDetail } from '../scripts/scrapers/cpen';
 import { parseGipuzkoaList } from '../scripts/scrapers/gipuzkoa';
 import { parseBizkaiaList } from '../scripts/scrapers/bizkaia';
 import { parseTerritorialDetail } from '../scripts/scrapers/emploi-territorial';
@@ -15,6 +15,9 @@ test('CPEN follows only its own job links and pagination, and reads the actual e
   assert.equal(call.organization,'NASUVINSA');assert.equal(call.province,'Navarra');
   assert.deepEqual(call.acceptedQualifications,['arquitectura']);assert.equal(call.status,'Pendiente de confirmar');assert.equal(call.deadline,null);assert.deepEqual(call.topics,[]);
   assert.throws(()=>parseCpenDetail('<h1>Not a job</h1>',list.links[0].url,now));
+  const closed=parseCpenDetail('<meta name="author" content="INTIA, Instituto Navarro de Tecnología e Infraestructuras Agroalimentarias, S.A."><p>Oferta cerrada</p><h1>Personal técnico de gestión de personas</h1><p>Requisitos mínimos</p><div class="general-content"><p>Grado en Relaciones Laborales</p></div>',CPEN_REVIEWED_ARCHIVE[0],now);
+  assert.equal(closed.organization.startsWith('INTIA'),true);
+  assert.equal(closed.status,'Cerrada');assert.equal(closed.deadline,null);
 });
 test('Gipuzkoa excludes internal appointments and duplicates, and never invents dates',()=>{
   const calls=parseGipuzkoaList('<a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/OP01-2026/lista/-1">Administrativo</a><a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/OP01-2026/lista/-1">Duplicated</a><a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/LD01-2026/lista/0">Internal</a>',now);
