@@ -108,7 +108,7 @@ NUPen atari nagusia eskuragarri dago, baina OPE zerrendaren `opcion=3`
 eskaerak HTTP 403 itzuli du. `institutions.json` fitxategian `access-blocked`
 gisa erregistratu da. Ez da sarbide-blokeoa saihestu.
 
-Azken auditorian 2314 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 288k gutxienez bat datorren fitxa zuten, eta 607k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
+Azken auditorian 2315 fitxa zeuden katalogoan. Inbentarioko 895 erregistroetatik 289k gutxienez bat datorren fitxa zuten, eta 606k ez zuten bat datorren fitxarik. Laburpena `coverage-summary.json` fitxategian dago. Kopuru horiek ez dute integrazio osoa frogatzen.
 
 ## 2026-11-18ko foru-erakundeen blokea
 
@@ -1054,3 +1054,14 @@ ikasketak; ingeles arina ere aipatzen du. Fitxak ez du azterketako gai-zerrendar
 Argitalpen-datak urterik ez duenez, amaiera-data ezezaguna da. CPENen
 zerrenda arruntaz gain berrikusitako URL historikoa kontsultatzen da;
 horrek ez du SODENAren deialdi guztien estaldura frogatzen.
+
+## Ciudad Agroalimentaria de Tudela
+
+[CPENen CATen operazio-arduradunaren fitxa ofiziala](https://empleo.sociedadespublicasdenavarra.es/jobs/responsable-de-operaciones-cat)
+itxita dago. Tuterako kogenerazio-instalazioaren lanpostuak industria-
+ingeniaritzako gradua, lizentzia, diplomatura edo antzeko titulua eta laneko
+arriskuen prebentzioko 60 orduko ikastaroa eskatzen ditu; esperientzia
+industrialari buruzko baldintzak ere jasotzen ditu. Ez dago azterketako
+gai-zerrendarik. Argitalpen-egunak urterik ez duenez, amaiera-data ezezaguna
+da. CPENen zerrenda arruntaz gain URL historiko berrikusia kontsultatzen da;
+horrek ez du CATen deialdi guztien estaldura frogatzen.

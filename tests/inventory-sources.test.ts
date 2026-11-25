@@ -35,6 +35,9 @@ test('CPEN follows only its own job links and pagination, and reads the actual e
   const sodena=parseCpenDetail('<meta name="author" content="SODENA, Sociedad de Desarrollo de Navarra, S.L."><p>Oferta cerrada</p><h1>Técnico/a Invest in Navarra</h1><p>Requisitos mínimos</p><div class="general-content"><p>Grado universitario</p></div>',CPEN_REVIEWED_ARCHIVE[5],now);
   assert.match(sodena.organization,/SODENA/);
   assert.equal(sodena.status,'Cerrada');assert.equal(sodena.deadline,null);
+  const cat=parseCpenDetail('<meta name="author" content="CAT, Ciudad Agroalimentaria de Tudela, S.L."><p>Oferta cerrada</p><h1>Responsable de operaciones</h1><p>Requisitos mínimos</p><div class="general-content"><p>Grado en Ingeniería Industrial</p></div>',CPEN_REVIEWED_ARCHIVE[6],now);
+  assert.match(cat.organization,/Ciudad Agroalimentaria de Tudela/);
+  assert.equal(cat.status,'Cerrada');assert.equal(cat.deadline,null);
 });
 test('Gipuzkoa excludes internal appointments and duplicates, and never invents dates',()=>{
   const calls=parseGipuzkoaList('<a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/OP01-2026/lista/-1">Administrativo</a><a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/OP01-2026/lista/-1">Duplicated</a><a href="/WAS/CORP/LLEHautaketaProzesuakWEB/convocatorias/LD01-2026/lista/0">Internal</a>',now);

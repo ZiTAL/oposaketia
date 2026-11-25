@@ -11,6 +11,7 @@ export const CPEN_REVIEWED_ARCHIVE = [
   'https://empleo.sociedadespublicasdenavarra.es/jobs/personal-tecnico-atencion-ciudadana',
   'https://empleo.sociedadespublicasdenavarra.es/jobs/tecnico-a-superior-para-el-area-de-biodiversidad',
   'https://empleo.sociedadespublicasdenavarra.es/jobs/tecnico-a-invest-in-navarra',
+  'https://empleo.sociedadespublicasdenavarra.es/jobs/responsable-de-operaciones-cat',
 ];
 
 export function parseCpenList(html: string) {

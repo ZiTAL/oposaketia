@@ -3697,18 +3697,20 @@
     "territory": "Navarra",
     "province": "Navarra",
     "reportLine": 45,
-    "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "status": "aggregate-partial",
+    "note": "CPENen enplegu-atari ofizialean CATen operazio-arduradunaren fitxa historiko itxi bat egiaztatu da; ez du deialdi guztien estaldura frogatzen.",
     "websiteFromDirectory": "https://www.ciudadagroalimentaria.es/transparencia/",
     "websiteDirectoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas",
     "websiteDirectoryName": "CIUDAD AGROALIMENTARIA DE TUDELA",
     "websiteDirectoryCheckedAt": "2026-11-20T09:00:48.395Z",
     "websiteDirectoryStatus": "verified",
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-25T08:27:58.826Z",
+      "calls": 1,
+      "sourceIds": [
+        "cpen"
+      ],
+      "matching": "CAT employer label includes the full Ciudad Agroalimentaria de Tudela name; partial presence only, not complete coverage."
     }
   },
   {
