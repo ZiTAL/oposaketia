@@ -32,6 +32,11 @@ function matches(entity:z.infer<typeof entitySchema>,call:Call) {
     && call.sourceId === 'navarra'
     && call.sourceUrl === 'https://www.navarra.es/es/tramites/on/-/line/tecnico-superior-de-deporte-oposicion-2025'
     && normalize(call.title).includes('tecnico/a superior de deporte')) return true;
+  // BON 2026/7/3 annex II assigns both youth posts to this institute.
+  if (entity.id === 'institution-instituto-navarro-de-la-juventud'
+    && call.sourceId === 'navarra'
+    && call.sourceUrl === 'https://www.navarra.es/es/tramites/on/-/line/tecnico-superior-de-juventud-oposicion-2025'
+    && normalize(call.title).includes('tecnico/a superior de juventud')) return true;
   const organization = ` ${words(call.organization)} `;
   const names = [entity.name,...(entity.aliases??[]),...(aliases[entity.name]??[])].flatMap(name => name.split('/')).map(words).filter(name => name.length>2);
   return names.some(name => organization.includes(` ${name} `));
