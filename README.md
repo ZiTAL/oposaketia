@@ -565,3 +565,9 @@ plaza ere gehitu da (`isaba`). Udal-iragarkian lotutako oinarri PDFtik
 lehen mailako ikasketen ziurtagiria, B gidabaimena eta 2026-04-20ko
 epea egiaztatzen dira. Euskara meritua da, eta ez dago gai-zerrenda
 zenbakiturik.
+
+Larragako Udalaren 2026ko administrariaren sei hilabeteko aldi
+baterako plaza ere gehitu da (`larraga-admin`). Udal-iragarkian lotutako
+oinarri PDFtik Batxilergoa edo FPII, enplegu-eskatzailearen baldintza
+eta 2026-03-06ko epea egiaztatzen dira. Proba praktikoa dago, baina
+ez gai-zerrenda zenbakiturik.
