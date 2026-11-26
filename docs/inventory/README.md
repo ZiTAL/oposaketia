@@ -1225,3 +1225,22 @@ prozesu historiko hori ez da sarbide irekiko hautaketa-deialdi gisa sartu.
 BOPVko agiri bakarrak ez du Eustaten enplegu-deialdi guztien estaldura
 egiaztatzen. Horregatik, erakundea `pending` dago oraindik eta ez da
 konektorerik edo fitxarik gehitu.
+
+## Emakunde: enplegu-iturrien berrikuspena
+
+2026-11-26an [IVAPen enplegu-atari ofiziala](https://www.ivap.euskadi.eus/empleo-ivap/)
+berrikusi da. 2026ko OPEa EAEko Administrazio Orokorraren eta haren erakunde
+autonomoen esparruan aurkezten du, baina orri orokorrak ez du Emakunderi
+berariaz atxikitako sarbide irekiko plaza eta haren oinarrien pare egiaztaturik
+ematen. [Emakunderen «Subvenciones y convocatorias» orriak](https://www.emakunde.euskadi.eus/informacion/relacion-de-subvenciones-de-emakunde/webema01-contentservi/es/)
+laguntzak, bekak eta sariak zerrendatzen ditu; ez dira langileen hautaketa-
+deialdiak.
+
+[BOPV 216/2025eko 4758 ebazpenak](https://www.euskadi.eus/bopv2/datos/2025/11/2504758a.pdf)
+520010 kodeko eta 114 dotazioko goi-kargudunaren idazkari lanposturako
+izendapen askeko prozesua argitaratu zuen. Parte-hartzaileak baldintzak
+betetzen zituzten karrerako funtzionarioak ziren; eskabideak argitalpenaren
+biharamunetik 15 egun baliodunetan aurkeztu behar ziren. Prozesu historiko
+hori ez da sarbide irekiko hautaketa-deialdi gisa inportatu. Emakunde
+`pending` dago oraindik: berrikusitako iturriek ez dute erakundearen deialdi
+guztien estaldura edo eskaintzarik eza frogatzen, eta ez da scraper-rik gehitu.

@@ -158,7 +158,7 @@
     "province": null,
     "reportLine": 21,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "IVAPen enplegu-atari ofizialak erakunde autonomoen OPE orokorra jasotzen du, baina ez da Emakunderi berariaz atxikitako sarbide irekiko plaza eta oinarrien pare egiaztatu. Emakunderen dirulaguntza-orriak ez dira enplegu-deialdiak. BOPVko 2025eko izendapen askeko prozesua karrerako funtzionarioentzat zen; zuzeneko enplegu-estaldura egiaztatzeko dago.",
     "websiteFromDirectory": "https://emakunde.euskadi.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/emakunde-instituto-vasco-de-la-mujer/web01-a2ogafin/es/",
     "websiteDirectoryName": "Emakunde-Instituto Vasco de la Mujer",
@@ -180,6 +180,14 @@
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
+    },
+    "employmentReview": {
+      "checkedAt": "2026-11-26T17:18:02Z",
+      "status": "general-source-verified-no-attributed-open-call",
+      "officialSourceUrl": "https://www.ivap.euskadi.eus/empleo-ivap/",
+      "institutionPageUrl": "https://www.emakunde.euskadi.eus/informacion/relacion-de-subvenciones-de-emakunde/webema01-contentservi/es/",
+      "secondaryOfficialSourceUrl": "https://www.euskadi.eus/bopv2/datos/2025/11/2504758a.pdf",
+      "note": "IVAPek 2026ko OPEa EAEko Administrazio Orokorraren eta erakunde autonomoen esparruan aurkezten du; orri orokorrak ez du Emakunderi esleitutako plaza zehatzik egiaztatzen. Emakunderen 'Subvenciones y convocatorias' orriak laguntzak, bekak eta sariak zerrendatzen ditu, ez langileen hautaketa. BOPV 216/2025eko 4758 ebazpen ofizialak 520010 kodeko, 114 dotazioko goi-kargudunaren idazkari lanpostuaren izendapen askeko prozesua jasotzen du; parte-hartzea baldintzak betetzen dituzten karrerako funtzionarioentzat zen eta 15 egun balioduneko epea zuen. Prozesu historiko hori ez da sarbide irekiko deialdi gisa inportatu. Berrikuspenak ez du deialdi guztien estaldura edo eskaintzarik eza frogatzen."
     }
   },
   {
