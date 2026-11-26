@@ -1339,3 +1339,19 @@ hautaketa-enpresen iragarkiak ez dira agentziaren atari ofizialaren estaldura
 osoaren froga. Deialdi zehatzik bere oinarri ofizialekin batera egiaztatu ez
 denez, ez da fitxarik edo scraper-rik gehitu. Cyberzaintza `pending` dago:
 berrikuspenak ez du deialdirik ez dagoela frogatzen.
+
+## Ahetze: udal-enplegu orriaren sarbidearen berrikuspena
+
+2026-11-27an [CAPBren Ahetzeko udal-fitxak](https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/ahetze)
+`ahetze.fr` udal-webgune gisa identifikatzen zuela egiaztatu da.
+[Udalaren «Offres d’emploi» orriaren](https://www.ahetze.fr/vie-municipale/offres-demploi/)
+aurrez indexatutako kopiak 2026ko ekainetik abuztura bitarteko zerbitzu
+teknikoko sasoiko kontratuen iragarkia erakusten du, maiatzaren 26ko
+hautagaitza-epearekin. Kopia horrek ez du deialdiaren oinarri edo bestelako
+agiri ofizialetarako estekarik erakusten; epea igarota dago.
+
+Zuzeneko HTTPS kontsultan enplegu-orriak, hasierako orriak eta `robots.txt`
+fitxategiak HTTP 403 itzuli dute. Ezin izan dira egungo deialdiak eta haien
+agiri ofizialak egiaztatu. Ahetze `pending` mantendu da, eta ez da scraper-rik
+gehitu. Sarbide-muga honek ez du esan nahi lanpostu hutsik ez dagoenik, eta
+aurreko iragarkiak ez du atariaren estaldura osoa frogatzen.

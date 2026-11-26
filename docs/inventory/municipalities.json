@@ -24858,10 +24858,10 @@
     "provinceClassification": "historical-cultural",
     "provinceLookupStatus": "classified",
     "employmentPageReview": {
-      "reviewedAt": "2026-11-18T14:59:15.950Z",
+      "reviewedAt": "2026-11-26T23:18:02Z",
       "url": "https://www.ahetze.fr/vie-municipale/offres-demploi/",
-      "outcome": "requires-format-review",
-      "note": "First published employment link reviewed; this does not establish absence of vacancies or complete coverage."
+      "outcome": "unavailable",
+      "note": "The CAPB official commune directory links to ahetze.fr. A previously indexed copy of its official Offres d'emploi page describes summer 2026 seasonal technical-service contracts, with applications due 26 May 2026 and no linked recruitment document. Direct HTTPS requests to the employment page, homepage and robots.txt returned HTTP 403 on this review. The old listing is expired and current calls and documents cannot be verified; no scraper is justified. This does not establish absence of vacancies or complete coverage."
     },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",
