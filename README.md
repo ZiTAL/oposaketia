@@ -553,3 +553,9 @@ plazak ere gehitu dira (`ezcabarte-2025`). BON 2025/149/12ko II.
 eranskineko 13 gaiak eta BON 2025/166/9ko egutegi-zuzenketa jaso dira.
 DBH edo lehen mailako FP eta B gidabaimena egiaztatzen dira; azken
 egun arrunta igandea zenez, eskaera-epea 2025-08-18ra luzatu zen.
+
+Iturmendiko Udalaren 2025eko zerbitzu anitzetako funtzionario-plaza
+ere gehitu da (`iturmendi-2025`). BON 2025/132/12ko II. eranskineko
+14 gaiak, DBH edo lehen mailako FP, euskara B2 eta B gidabaimena
+egiaztatzen dira. Eskaera-epea 30 egun naturalekoa zen; amaiera-data
+absolutua ez da asmatu.
