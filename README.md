@@ -571,3 +571,9 @@ baterako plaza ere gehitu da (`larraga-admin`). Udal-iragarkian lotutako
 oinarri PDFtik Batxilergoa edo FPII, enplegu-eskatzailearen baldintza
 eta 2026-03-06ko epea egiaztatzen dira. Proba praktikoa dago, baina
 ez gai-zerrenda zenbakiturik.
+
+Larraonako Udalaren 2024ko mantentze-lanetarako aldi baterako peoi-
+plaza ere gehitu da (`larraona`). Udal-iragarkiak lotutako oinarri
+PDFak eskolatze-ziurtagiria edo baliokidea, B gidabaimena, enplegu-
+eskatzailearen inskripzioa eta 2024-05-27ko epea zehazten ditu.
+Merezimenduak baloratzen dira; ez dago oposaketako gai-zerrendarik.
