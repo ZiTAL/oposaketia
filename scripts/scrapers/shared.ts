@@ -65,7 +65,7 @@ export function baseCall(source: string, url: string, now: string, territory: Ca
 }
 export function extractTopics(text: string) {
   const lines = text.split(/\r?\n/).map(clean).filter(Boolean);
-  let start = lines.findIndex(line => /^(?:ANEXO\s+[IVX\d]+\s*[.\-–:]?\s*)?(?:TEMARIO|PROGRAMA)(?:\s+DE\s+(?:LA|LAS)\s+(?:OPOSICI[ÓO]N|PRUEBAS))?\s*$/i.test(line));
+  let start = lines.findIndex(line => /^(?:ANEXO\s+[IVX\d]+\s*[.\-–:]*\s*)?(?:TEMARIO|PROGRAMA)(?:\s+DE\s+(?:LA|LAS)\s+(?:OPOSICI[ÓO]N|PRUEBAS))?\s*$/i.test(line));
   if (start < 0) start = lines.findIndex(line => /^ANEXO\b.{0,20}(?:TEMARIO|PROGRAMA)\s*$/i.test(line));
   if (start < 0) return [];
   const topics: string[] = [];

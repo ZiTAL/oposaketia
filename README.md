@@ -527,3 +527,10 @@ zerrenda ere gehitu da (`caseda`). Udal-iragarkitik eta oinarri PDFtik
 2025-11-05eko epea eta Batxilergoaren edo FPIIren baldintza egiaztatzen dira.
 Merezimenduen balorazioa da; ez dago oposaketako gai-zerrendarik edo
 argitaratutako plaza-kopuru zehatzik.
+
+Caparrosoko Udalaren 2026/236/18 BONeko zerbitzu anitzetako plaza
+(`bon-local`) osatu da: txanda irekiko plaza bakarra, E maila,
+eskolatze-ziurtagiria, B gidabaimena eta II. eranskineko 11 gaiak.
+2026-11-26ko argitalpenaren ondoko 20 egun naturaleko epea
+2026-12-16an amaitzen dela kalkulatu da; lehendik zegoen fitxa
+eguneratu da, bikoizturik sortu gabe.

@@ -69,6 +69,19 @@ export function parseBonLocalArticle(html:string,item:Listing,now:string):Call|n
  // A single bulletin call may cover several municipalities and language
  // profiles. Never apply one post's C1 requirement to the whole process.
  call.language=null;call.languageStatus='unknown';
+ if(item.url==='https://bon.navarra.es/es/anuncio/-/texto/2026/236/18'){
+  if(item.bulletin.publishedAt!=='2026-11-26'||normalize(issuer)!=='caparroso'
+   ||!text.includes('una plaza, en turno libre, de empleado de servicios múltiples, nivel E')
+   ||!text.includes('certificado de escolaridad o equivalente')
+   ||!text.includes('permiso de conducir vehículos de la clase B')
+   ||!text.includes('El plazo de presentación de solicitudes será de 20 días naturales')
+   ||call.topics.length!==11||!call.topics[10].startsWith('11. Prevención de Riesgos Laborales'))throw new Error('Caparrosoko deialdiaren oinarriak edo 11 gaiak aldatu dira');
+  call.location='Caparroso';call.places=1;call.group='E';
+  call.educationText='Certificado de escolaridad o equivalente.';call.acceptedQualifications=[];
+  call.deadline='2026-12-16';call.status=now.slice(0,10)<=call.deadline?'Abierta':'Cerrada';
+  call.languageStatus='known';call.requirements=[call.educationText,'Permiso de conducir B.'];
+  call.description='Plaza laboral fija de servicios múltiples mediante oposición en turno libre y contrato de relevo. Plazo de 20 días naturales desde el BON del 26/11/2026: cierre calculado el 16/12/2026. Pruebas teórica y práctica; Anexo II con 11 temas. Quienes aprueben sin plaza integrarán una lista temporal.';
+ }
  call.documents=[{title:'Publicación y bases en el Boletín Oficial de Navarra',url:item.url,kind:'bases',checkedAt:now,sha256:hash(html)}];call.sourceHash=hash(JSON.stringify({title,issuer,paragraphs}));return callSchema.parse(call);
 }
 export async function scrapeBonLocal(client:OfficialClient,now:string,warn:(message:string)=>void):Promise<Call[]>{
