@@ -1283,3 +1283,21 @@ lanpostua esleitu zuen, 2026-03-25etik aurrerako ondorioekin. Prozesu historiko
 itxi hori ez da sarbide irekiko hautaketa-deialdi gisa inportatu. Kontsumobide
 `pending` dago oraindik: berrikuspenak ez du erakundearen deialdi guztien
 estaldura edo eskaintzarik eza frogatzen, eta ez da scraper-rik gehitu.
+
+## Lehiaren Euskal Agintaritza: enplegu-iturrien berrikuspena
+
+2026-11-26an [erakundearen egitura-orri ofiziala](https://www.competencia.euskadi.eus/avc/estructura/webavc00-container/es/)
+kontsultatu da. Bertan 17 lanpostuko plantilla ageri da, baina ez da lanpostu
+hutsen zerrenda edo hautaketa-deialdia. Webguneko berrikusitako nabigazioak ez
+du langileak hautatzeko atari bereizia erakutsi.
+
+[BOPV 196/2025eko 4342 ebazpenaren PDF ofizialak](https://www.euskadi.eus/bopv2/datos/2025/10/2504342a.pdf)
+idazkari nagusiaren 511946 kodeko lanpostua (2 dotazioa) izendapen askearen
+bidez hornitzeko deialdia jasotzen du. Karrerako funtzionarioei mugatua zen;
+eskaerak argitalpenaren biharamunetik 15 egun baliodunetan aurkeztekoak ziren.
+PDFaren SHA-256 balioa `b9f8f30c9e2dd55ce9cd7486e81e8dd0993127fc036b22950caee22e3f3506bc`
+da. [BOPV 247/2025eko 5480 ebazpenak](https://www.euskadi.eus/bopv2/datos/2025/12/2505480a.shtml)
+lanpostua esleitu zuen, 2025-12-11tik aurrerako ondorioekin. Prozesua itxita
+dago eta ez da sarbide irekiko hautaketa; ez da fitxarik edo scraper-rik gehitu.
+Erakundea `pending` dago oraindik, berrikuspen honek ez baitu deialdi guztien
+estaldura edo eskaintzarik eza frogatzen.

@@ -318,7 +318,7 @@
     "province": null,
     "reportLine": 21,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "Erakunde autonomoaren egitura eta BOPVko 2025eko izendapen askeko deialdi historikoa egiaztatu dira. Karrerako langileentzako hornidura itxia da; sarbide irekiko deialdien zuzeneko estaldura berrikusteko dago.",
     "websiteFromDirectory": "https://competencia.euskadi.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/autoridad-vasca-de-la-competencia/web01-a2ogafin/es/",
     "websiteDirectoryName": "Autoridad Vasca de la Competencia",
@@ -328,6 +328,15 @@
       "status": "no-link-found",
       "checkedAt": "2026-11-19T08:26:52.418Z",
       "candidates": []
+    },
+    "employmentReview": {
+      "checkedAt": "2026-11-26",
+      "status": "historical-restricted-provision-verified",
+      "institutionStructureUrl": "https://www.competencia.euskadi.eus/avc/estructura/webavc00-container/es/",
+      "officialCallUrl": "https://www.euskadi.eus/bopv2/datos/2025/10/2504342a.pdf",
+      "officialCallSha256": "b9f8f30c9e2dd55ce9cd7486e81e8dd0993127fc036b22950caee22e3f3506bc",
+      "officialResolutionUrl": "https://www.euskadi.eus/bopv2/datos/2025/12/2505480a.shtml",
+      "note": "Erakundearen egitura-orriak 17 lanpostuko plantilla argitaratzen du; hori ez da lanpostu hutsen zerrenda. BOPV 196/2025eko 4342 ebazpenak idazkari nagusiaren 511946 kodeko lanpostua (2 dotazioa) izendapen askearen bidez hornitzeko deialdia argitaratu zuen. Karrerako funtzionarioek bakarrik har zezaketen parte, ez zen sarbide irekiko hautaketa. Eskaerak argitalpenaren biharamunetik 15 egun baliodunetan aurkeztekoak ziren. BOPV 247/2025eko 5480 ebazpenak lanpostua esleitu zuen, 2025-12-11tik aurrerako ondorioekin. Prozesua itxita dago eta ez da fitxarik inportatu. Berrikusitako iturriek ez dute erakundearen sarbide irekiko deialdi eta oinarrien pare egiaztaturik eman; ez dute deialdi guztien estaldura edo eskaintzarik eza frogatzen."
     },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",
