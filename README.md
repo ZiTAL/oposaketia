@@ -521,3 +521,9 @@ Artaxoako Udalaren familia-langilearen 2025eko plaza ere gehitu da
 eta 2. gaia 2025/30/25eko zuzenketa ofizialaren arabera ordezkatu da.
 Eskolatze-ziurtagiria ez da DBH titulutzat hartu; epearen azken egun
 absolutua ez da asmatu.
+
+Casedako Udalaren administrari ofizialaren 2025eko aldi baterako kontratazio-
+zerrenda ere gehitu da (`caseda`). Udal-iragarkitik eta oinarri PDFtik
+2025-11-05eko epea eta Batxilergoaren edo FPIIren baldintza egiaztatzen dira.
+Merezimenduen balorazioa da; ez dago oposaketako gai-zerrendarik edo
+argitaratutako plaza-kopuru zehatzik.
