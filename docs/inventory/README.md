@@ -1191,3 +1191,20 @@ inskribatuta egon behar da eta eskabideen epea 2026-03-17an amaitu zen.
 Idatzizko probak laneko ohiko zereginak eta udal-araudia hartzen ditu;
 ez dago gai-zerrenda zenbakiturik. LASEMEren eskaintza bereizia ez da
 udal-lanpostutzat hartu. Gainerako udal-artxiboa berrikusteko dago.
+
+## HABE: enplegu-iturrien berrikuspena
+
+2026-11-26an [HABEren hasierako orria](https://www.habe.euskadi.eus/hasiera/)
+HTTP 200 bidez kontsultatu da. Bertan nabarmendutako
+[2026ko azterketa-deialdiak](https://www.habe.euskadi.eus/azterketa-deialdiak/webhabe00-edukiak/eu/)
+ikasleen euskara-mailak egiaztatzeko dira; matrikulazio-epeak ezin dira
+lanpostuetarako eskabide-epe gisa hartu.
+
+[IVAPen enplegu publikoaren atari ofizialak](https://www.ivap.euskadi.eus/empleo-ivap/)
+2026ko OPEa EAEko Administrazio Orokorraren eta haren erakunde autonomoen
+esparruan aurkezten du. Berrikusitako orriek ez dute HABEri berariaz
+atxikitako lanpostu bat bere oinarri ofizialekin batera egiaztatzen.
+Horregatik, HABE `pending` dago oraindik: ez da deialdirik asmatu edo
+konektorerik gehitu. Atari orokorra ez da erakunde honen estaldura osoaren
+froga; HABEren lanpostu zehatz baten atxikipena eta oinarriak egiaztatu
+beharko dira inportatu aurretik.

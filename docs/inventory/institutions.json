@@ -33,7 +33,7 @@
     "province": null,
     "reportLine": 21,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "IVAPen enplegu publikoaren atari ofizialak EAEko Administrazio Orokorra eta haren erakunde autonomoak hartzen ditu; HABEren plaza zehatzik eta haren oinarririk ez da egiaztatu. HABEren azterketa-deialdiak euskara-mailak egiaztatzeko dira, ez langileak hautatzeko. Zuzeneko enplegu-estaldura berrikusteko dago.",
     "websiteFromDirectory": "https://habe.euskadi.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/habe-instituto-de-alfabetizacion-y-reeuskaldunizacion-de-adultos/web01-a2ogafin/es/",
     "websiteDirectoryName": "HABE-Instituto de Alfabetización y Reeuskaldunización de Adultos",
@@ -43,6 +43,14 @@
       "status": "no-link-found",
       "checkedAt": "2026-11-19T08:26:50.201Z",
       "candidates": []
+    },
+    "employmentReview": {
+      "checkedAt": "2026-11-26T15:18:43Z",
+      "status": "general-source-verified-no-habe-call",
+      "officialSourceUrl": "https://www.ivap.euskadi.eus/empleo-ivap/",
+      "institutionHomepageUrl": "https://www.habe.euskadi.eus/hasiera/",
+      "excludedUrl": "https://www.habe.euskadi.eus/azterketa-deialdiak/webhabe00-edukiak/eu/",
+      "note": "IVAPek 2026ko OPEa EAEko Administrazio Orokorraren eta haren erakunde autonomoen prozesu gisa aurkezten du. HABEren hasierako orria HTTP 200 bidez kontsultatu da; bertako 2026ko deialdi nabarmenak ikasleen euskara-mailen egiaztapen-probak dira. Berrikusitako orrietan ez dago HABEri espresuki atxikitako lanpostu eta oinarrien pare egiaztaturik. Atari orokorraren aipamenak ez du HABEren deialdi guztien estaldura frogatzen; ez da fitxarik inportatu."
     },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",
