@@ -278,7 +278,7 @@
     "province": null,
     "reportLine": 21,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "2026ko BOPVko izendapen askeko prozesu historikoa eta ebazpena egiaztatu dira. Karrerako langileentzako hornidura da, ez sarbide irekiko hautaketa; zuzeneko enplegu-estaldura berrikusteko dago.",
     "websiteFromDirectory": "https://kontsumobide.euskadi.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/kontsumobide-instituto-vasco-de-consumo/web01-a2ogafin/es/",
     "websiteDirectoryName": "Kontsumobide-Instituto Vasco de Consumo",
@@ -288,6 +288,15 @@
       "status": "no-link-found",
       "checkedAt": "2026-11-19T08:26:52.253Z",
       "candidates": []
+    },
+    "employmentReview": {
+      "checkedAt": "2026-11-26",
+      "status": "historical-restricted-provision-verified",
+      "institutionHomepageUrl": "https://www.kontsumobide.euskadi.eus/inicio/",
+      "generalEmploymentUrl": "https://www.ivap.euskadi.eus/empleo-ivap/",
+      "officialCallUrl": "https://www.euskadi.eus/bopv2/datos/2026/02/2600622a.pdf",
+      "officialResolutionUrl": "https://www.euskadi.eus/bopv2/datos/2026/03/2601369a.shtml",
+      "note": "BOPV 28/2026ko 622 ebazpenak Kontsumobideren 520010 kodeko 107 dotazioko goi-kargudunaren idazkari lanpostua izendapen askearen bidez iragarri zuen, karrerako funtzionarioentzat. Eskaerak argitalpenaren biharamunetik 15 egun baliodunetan aurkeztekoak ziren. BOPV 60/2026ko 1369 ebazpenak lanpostua esleitu zuen, 2026-03-25etik aurrerako ondorioekin. Prozesua itxita dago eta ez da sarbide irekiko hautaketa; ez da fitxarik inportatu. IVAPen atari orokorrak erakunde autonomoak aipatzen ditu, baina ez du Kontsumobideren sarbide irekiko deialdi eta oinarrien pare egiaztaturik eman. Berrikuspen honek ez du deialdi guztien estaldura edo eskaintzarik eza frogatzen."
     },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",

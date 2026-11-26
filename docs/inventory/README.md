@@ -1263,3 +1263,23 @@ prozesua ebatzi zuen. Prozesu historiko hori ez da sarbide irekiko hautaketa-
 deialdi gisa inportatu. Osalan `pending` dago oraindik: berrikuspenak ez du
 erakundearen deialdi guztien estaldura edo eskaintzarik eza frogatzen, eta ez da
 scraper-rik gehitu.
+
+## Kontsumobide: enplegu-iturrien berrikuspena
+
+2026-11-26an [Kontsumobideren webgune ofiziala](https://www.kontsumobide.euskadi.eus/inicio/)
+eta [IVAPen enplegu-ataria](https://www.ivap.euskadi.eus/empleo-ivap/) berrikusi
+dira. IVAPek 2026ko OPEa EAEko Administrazio Orokorraren eta haren erakunde
+autonomoen esparruan aurkezten du; orri orokorrak ez du Kontsumobideri
+berariaz atxikitako sarbide irekiko plaza eta haren oinarrien pare egiaztaturik
+ematen.
+
+[BOPV 28/2026ko 622 ebazpenaren PDF ofizialak](https://www.euskadi.eus/bopv2/datos/2026/02/2600622a.pdf)
+Kontsumobideren 520010 kodeko, 107 dotazioko goi-kargudunaren idazkari
+lanpostua izendapen askearen bidez hornitzeko deialdia jasotzen du. Baldintzak
+betetzen zituzten karrerako funtzionarioentzat zen; eskaerak argitalpenaren
+biharamunetik 15 egun baliodunetan aurkeztekoak ziren.
+[BOPV 60/2026ko 1369 ebazpenak](https://www.euskadi.eus/bopv2/datos/2026/03/2601369a.shtml)
+lanpostua esleitu zuen, 2026-03-25etik aurrerako ondorioekin. Prozesu historiko
+itxi hori ez da sarbide irekiko hautaketa-deialdi gisa inportatu. Kontsumobide
+`pending` dago oraindik: berrikuspenak ez du erakundearen deialdi guztien
+estaldura edo eskaintzarik eza frogatzen, eta ez da scraper-rik gehitu.
