@@ -577,3 +577,8 @@ plaza ere gehitu da (`larraona`). Udal-iragarkiak lotutako oinarri
 PDFak eskolatze-ziurtagiria edo baliokidea, B gidabaimena, enplegu-
 eskatzailearen inskripzioa eta 2024-05-27ko epea zehazten ditu.
 Merezimenduak baloratzen dira; ez dago oposaketako gai-zerrendarik.
+
+Larraungo Udalaren 2025eko peoi eta ofizial lanetarako bi kontratazioak
+ere gehitu dira (`larraun`). Udal-iragarkiak gidabaimena eta Nafar
+Lansaren 2025-04-30a baino lehenagoko izen-ematea aipatzen ditu, baina
+ez du eskaera-epea, titulazioa edo gai-zerrenda zehazten.
