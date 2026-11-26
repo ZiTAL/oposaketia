@@ -1208,3 +1208,20 @@ Horregatik, HABE `pending` dago oraindik: ez da deialdirik asmatu edo
 konektorerik gehitu. Atari orokorra ez da erakunde honen estaldura osoaren
 froga; HABEren lanpostu zehatz baten atxikipena eta oinarriak egiaztatu
 beharko dira inportatu aurretik.
+
+## Eustat: enplegu-iturrien berrikuspena
+
+2026-11-26an [Eustaten robots.txt fitxategiak](https://www.eustat.eus/robots.txt)
+HTTP 200 itzuli du, baina `User-agent: *` arauaren `Disallow: /` lerroak
+webgunearen bilketa automatikoa baztertzen du. Hasierako orriaren HTTP 200
+erantzunak ez du muga hori kentzen.
+
+[BOPV 235/2025eko 5185 ebazpen ofizialak](https://www.euskadi.eus/bopv2/datos/2025/12/2505185a.shtml)
+Eustaten Estatistika Ekoizpen eta Azterketako zuzendariordearen 512036-2
+lanposturako izendapen askeko prozesua argitaratu zuen. Karrerako
+funtzionarioek parte har zezaketen, ebazpeneko baldintzen arabera;
+eskabide-epea argitalpenaren biharamunetik 15 egun baliodunekoa zen. 2025eko
+prozesu historiko hori ez da sarbide irekiko hautaketa-deialdi gisa sartu.
+BOPVko agiri bakarrak ez du Eustaten enplegu-deialdi guztien estaldura
+egiaztatzen. Horregatik, erakundea `pending` dago oraindik eta ez da
+konektorerik edo fitxarik gehitu.

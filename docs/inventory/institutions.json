@@ -119,7 +119,7 @@
     "province": null,
     "reportLine": 21,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "Eustaten webgune ofizialeko robots.txt fitxategiak bilketa automatikoa debekatzen du. BOPVko 2025eko azaroaren 18ko ebazpen ofiziala egiaztatu da, baina karrerako funtzionarioentzako izendapen askeko lanpostu historikoa da; ez da sarbide irekiko hautaketa-deialdi gisa inportatu. Zuzeneko enplegu-estaldura egiaztatzeko dago.",
     "websiteFromDirectory": "https://eustat.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/eustat-instituto-vasco-de-estadistica/web01-a2ogafin/es/",
     "websiteDirectoryName": "Eustat-Instituto Vasco de Estadística",
@@ -142,6 +142,13 @@
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
+    },
+    "employmentReview": {
+      "checkedAt": "2026-11-26T16:17:53Z",
+      "status": "official-site-robots-disallowed",
+      "officialSourceUrl": "https://www.eustat.eus/robots.txt",
+      "secondaryOfficialSourceUrl": "https://www.euskadi.eus/bopv2/datos/2025/12/2505185a.shtml",
+      "note": "Eustaten robots.txt fitxategiak User-agent: * / Disallow: / adierazten du (HTTP 200). BOPV 235/2025eko 5185 ebazpenak Eustaten Estatistika Ekoizpen eta Azterketako zuzendariordearen 512036-2 lanpostua jasotzen du, izendapen askearen bidez; parte-hartzea karrerako funtzionarioentzako da eta eskabide-epea argitalpenaren biharamunetik 15 egun baliodunekoa zen. Ebazpen historiko horrek ez du sarbide irekiko deialdirik edo Eustaten enplegu-atariaren estaldura osoa frogatzen. Ez da scraper-rik edo fitxarik gehitu."
     }
   },
   {
