@@ -559,3 +559,9 @@ ere gehitu da (`iturmendi-2025`). BON 2025/132/12ko II. eranskineko
 14 gaiak, DBH edo lehen mailako FP, euskara B2 eta B gidabaimena
 egiaztatzen dira. Eskaera-epea 30 egun naturalekoa zen; amaiera-data
 absolutua ez da asmatu.
+
+Izabako Udalaren 2026ko zerbitzu anitzetako sei hilabeteko errefortzu-
+plaza ere gehitu da (`isaba`). Udal-iragarkian lotutako oinarri PDFtik
+lehen mailako ikasketen ziurtagiria, B gidabaimena eta 2026-04-20ko
+epea egiaztatzen dira. Euskara meritua da, eta ez dago gai-zerrenda
+zenbakiturik.
