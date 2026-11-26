@@ -599,3 +599,9 @@ zerrenda ere gehitu da (`lerin-services-2025`). Udalaren oinarri PDFko
 II. eranskineko 12 gaiak, DBH edo erdi-mailako FP eta B gidabaimena
 egiaztatzen dira. Epea BONen argitalpenetik 15 egun naturalekoa da;
 amaiera-data absolutua ez da asmatu.
+
+Lesakako Udalaren 2026ko zerbitzu anitzetako peoiaren sei hilabeteko
+aldi baterako kontratazioa ere gehitu da (`lesaka-peoi-2026`). Udalaren
+oinarri PDFak Eskola Graduatua edo FPI, B gidabaimena, enplegu-
+eskatzailearen inskripzioa, euskara B1 idatziz eta B2 ahoz eta
+2026-03-25eko epea zehazten ditu. Ez dago gai-zerrenda zenbakiturik.

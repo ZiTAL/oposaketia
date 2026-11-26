@@ -6435,16 +6435,17 @@
     "name": "LESAKA",
     "territory": "Navarra",
     "province": "Navarra",
-    "status": "pending",
+    "status": "connected-partial",
     "officialCode": "31153",
     "type": "municipality",
     "sourceIds": [
       "navarra",
-      "lanbide"
+      "lanbide",
+      "lesaka-peoi-2026"
     ],
     "directoryStatus": "verified",
     "directoryUrl": "https://nastat.navarra.es/es/recursos/nomenclator",
-    "note": "2026-10-20ko Nastat izendegi ofizialean egiaztatua. Enplegu-atari agregatuetan estaldura partziala; udal-atariaren egiaztapena falta da.",
+    "note": "2026-10-20ko Nastat izendegi ofizialean egiaztatua. Udal-atari ofizialeko 2026ko peoiaren sei hilabeteko aldi baterako kontratazioa konektatuta; beste deialdiak berrikusteko daude.",
     "aliases": [
       "Lesaka"
     ],
@@ -6457,10 +6458,11 @@
       "candidates": []
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 6,
+      "auditedAt": "2026-11-26T15:03:37.333Z",
+      "calls": 7,
       "sourceIds": [
-        "euskadi"
+        "euskadi",
+        "lesaka-peoi-2026"
       ],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
     },
