@@ -16,6 +16,11 @@ ditu birsortzen. Scraper berriak abioan hasten du lehen bilketa; fitxak bilketa
 amaitutakoan agertzen dira. Akatsa edo saio erdiko muga gertatuz gero, ez da
 push egiten. `codex.sh` fitxategi lokala ukitu gabe mantentzen da.
 
+Podman Compose 1.3.0 bertsioan `--force-recreate` aukerak menpekotasunak ere
+ukitu ditzake. Scriptak Compose konfigurazioaren aldi baterako kopia pribatu
+bat sortzen du, `db` berrabiaraztea saihesteko; datu-basearen edukiontzia eta
+bolumena martxan mantentzen dira.
+
 Push egin eta hedapenak huts egiten badu, commit-a `pending-deploy` fitxategian
 markatzen da. Hurrengo exekuzioan hedapena berriro saiatzen da beste iturri bat
 landu aurretik. Codexen erabilera-baimenik ez badago, exekuzio horrek ere ez du

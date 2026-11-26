@@ -15,6 +15,8 @@ import time
 import urllib.error
 import urllib.request
 
+import yaml
+
 
 REPO = Path(__file__).resolve().parent.parent
 STATE = Path.home() / ".local" / "state" / "oposaketia"
@@ -112,10 +114,43 @@ def deploy_containers():
         print(f"Building {target} image", flush=True)
         subprocess.run(command, cwd=REPO, check=True, timeout=30 * 60)
 
-    print("Recreating app, scraper and web containers", flush=True)
-    subprocess.run(compose + ["up", "-d", "--no-build", "--no-deps",
-                              "--force-recreate", "app", "scraper", "web"],
-                   cwd=REPO, check=True, timeout=5 * 60)
+    # podman-compose 1.3.0 includes dependencies in --force-recreate even with
+    # --no-deps. Remove the db dependency from a private deployment-only copy.
+    resolved = yaml.safe_load(run(*compose, "config"))
+    resolved["services"] = {name: resolved["services"][name]
+                            for name in ("app", "scraper", "web", "db")}
+    for name in ("app", "scraper", "web"):
+        resolved["services"][name].pop("build", None)
+        dependencies = resolved["services"][name].get("depends_on", {})
+        dependencies.pop("db", None)
+        if not dependencies:
+            resolved["services"][name].pop("depends_on", None)
+    web_volumes = resolved["services"]["web"].get("volumes", [])
+    resolved["services"]["web"]["volumes"] = [
+        str((REPO / "docker" / mount[2:].split(":", 1)[0]).resolve())
+        + ":" + mount.split(":", 1)[1] if mount.startswith("./") else mount
+        for mount in web_volumes
+    ]
+    with tempfile.NamedTemporaryFile(mode="w", prefix="deploy-", suffix=".yml",
+                                     dir=STATE, delete=False) as temporary:
+        os.fchmod(temporary.fileno(), 0o600)
+        yaml.safe_dump(resolved, temporary, sort_keys=False)
+        deployment_config = Path(temporary.name)
+    try:
+        database_before = run("podman", "inspect", "oposaketia_db_1",
+                              "--format", "{{.Id}} {{.State.StartedAt}}")
+        print("Recreating app, scraper and web containers", flush=True)
+        subprocess.run(["podman-compose", "--env-file", str(environment_file),
+                        "-f", str(deployment_config), "up", "-d", "--no-build",
+                        "--no-deps", "--force-recreate", "-t", "600",
+                        "app", "scraper", "web"],
+                       cwd=REPO, check=True, timeout=15 * 60)
+    finally:
+        deployment_config.unlink(missing_ok=True)
+    database_after = run("podman", "inspect", "oposaketia_db_1",
+                         "--format", "{{.Id}} {{.State.StartedAt}}")
+    if database_after != database_before:
+        raise RuntimeError("Database container changed during deployment")
 
     port_mapping = run("podman", "port", "oposaketia_web_1", "8080/tcp")
     port = port_mapping.rsplit(":", 1)[-1]
