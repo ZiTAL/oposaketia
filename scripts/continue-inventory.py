@@ -12,10 +12,13 @@ import subprocess
 import sys
 import tempfile
 import time
+import urllib.error
+import urllib.request
 
 
 REPO = Path(__file__).resolve().parent.parent
 STATE = Path.home() / ".local" / "state" / "oposaketia"
+PENDING_DEPLOY = STATE / "pending-deploy"
 PROMPT = """Continue the Oposaketia official public-employment source inventory.
 
 This is an unattended, bounded run. Work on exactly ONE pending institution or
@@ -86,6 +89,57 @@ def codex_available():
             process.wait()
 
 
+def deploy_containers():
+    """Build both application images, recreate services, and verify the web."""
+    environment_file = REPO / "docker" / ".env"
+    if not environment_file.is_file():
+        raise FileNotFoundError(f"Missing deployment configuration: {environment_file}")
+    compose = ["podman-compose", "--env-file", str(environment_file),
+               "-f", str(REPO / "docker" / "docker-compose.yml")]
+    certificate = os.environ.get("NODE_EXTRA_CA_CERTS")
+    if certificate:
+        if not Path(certificate).is_file():
+            raise FileNotFoundError(f"Missing build certificate: {certificate}")
+        compose.extend(["-f", str(REPO / "docker" / "docker-compose.proxy.yml")])
+
+    for target, tag in (("runner", "oposaketia_app"),
+                        ("importer", "oposaketia-importer:local")):
+        command = ["podman", "build", "--network", "host"]
+        if certificate:
+            command.extend(["--secret", f"id=npm_ca,src={certificate}"])
+        command.extend(["-f", "docker/Dockerfile", "--target", target,
+                        "-t", tag, "."])
+        print(f"Building {target} image", flush=True)
+        subprocess.run(command, cwd=REPO, check=True, timeout=30 * 60)
+
+    print("Recreating app, scraper and web containers", flush=True)
+    subprocess.run(compose + ["up", "-d", "--no-build", "--no-deps",
+                              "--force-recreate", "app", "scraper", "web"],
+                   cwd=REPO, check=True, timeout=5 * 60)
+
+    port_mapping = run("podman", "port", "oposaketia_web_1", "8080/tcp")
+    port = port_mapping.rsplit(":", 1)[-1]
+    if not port.isdigit():
+        raise ValueError(f"Unexpected web port mapping: {port_mapping}")
+    health_url = f"http://127.0.0.1:{port}/health"
+    direct_http = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    deadline = time.monotonic() + 120
+    while time.monotonic() < deadline:
+        try:
+            with direct_http.open(health_url, timeout=5) as response:
+                if response.status == 200 and json.load(response).get("status") == "ok":
+                    break
+        except (OSError, ValueError, urllib.error.HTTPError):
+            pass
+        time.sleep(5)
+    else:
+        raise TimeoutError(f"Web did not become healthy: {health_url}")
+    if run("podman", "inspect", "oposaketia_scraper_1",
+           "--format", "{{.State.Status}}") != "running":
+        raise RuntimeError("Scraper container is not running")
+    print(f"Deployment healthy at {health_url}", flush=True)
+
+
 def continue_inventory():
     if run("git", "branch", "--show-current") != "main":
         print("Skipped: main checkout is not on main")
@@ -99,6 +153,12 @@ def continue_inventory():
     start = run("git", "rev-parse", "HEAD")
     if start != run("git", "rev-parse", "origin/main"):
         print("Skipped: main and origin/main differ")
+        return
+    if PENDING_DEPLOY.exists():
+        print(f"Retrying deployment of {PENDING_DEPLOY.read_text().strip()}",
+              flush=True)
+        deploy_containers()
+        PENDING_DEPLOY.unlink()
         return
 
     worktree = Path(tempfile.mkdtemp(prefix="oposaketia-inventory-"))
@@ -143,9 +203,12 @@ def continue_inventory():
             return
 
         run("git", "push", "origin", "HEAD:refs/heads/main", cwd=worktree)
+        PENDING_DEPLOY.write_text(run("git", "rev-parse", "HEAD", cwd=worktree) + "\n")
         run("git", "fetch", "origin", "main")
         run("git", "merge", "--ff-only", "origin/main")
         print(f"Pushed {run('git', 'rev-parse', '--short', 'HEAD')}")
+        deploy_containers()
+        PENDING_DEPLOY.unlink()
     finally:
         if added:
             subprocess.run(["git", "worktree", "remove", "--force", str(worktree)],
@@ -155,8 +218,11 @@ def continue_inventory():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--check-only", action="store_true",
-                        help="Read Codex usage without changing the repository")
+    modes = parser.add_mutually_exclusive_group()
+    modes.add_argument("--check-only", action="store_true",
+                       help="Read Codex usage without changing the repository")
+    modes.add_argument("--deploy-only", action="store_true",
+                       help="Deploy the current checkout without starting Codex")
     args = parser.parse_args()
     network_config = Path.home() / ".config" / "oposaketia" / "inventory-env.json"
     if network_config.exists():
@@ -171,6 +237,10 @@ def main():
         except BlockingIOError:
             print("Skipped: another inventory run is active")
             return
+        if args.deploy_only:
+            deploy_containers()
+            PENDING_DEPLOY.unlink(missing_ok=True)
+            return
         available = codex_available()
         print("Codex can work" if available else "Skipped: Codex has no confirmed capacity")
         if available and not args.check_only:
@@ -180,6 +250,7 @@ def main():
 if __name__ == "__main__":
     try:
         main()
-    except (OSError, subprocess.CalledProcessError, subprocess.TimeoutExpired) as error:
+    except (OSError, ValueError, RuntimeError, subprocess.CalledProcessError,
+            subprocess.TimeoutExpired) as error:
         print(f"Inventory run stopped: {error}", file=sys.stderr)
         sys.exit(1)
