@@ -1301,3 +1301,23 @@ lanpostua esleitu zuen, 2025-12-11tik aurrerako ondorioekin. Prozesua itxita
 dago eta ez da sarbide irekiko hautaketa; ez da fitxarik edo scraper-rik gehitu.
 Erakundea `pending` dago oraindik, berrikuspen honek ez baitu deialdi guztien
 estaldura edo eskaintzarik eza frogatzen.
+
+## Gogora: enplegu-iturrien berrikuspena
+
+2026-11-26an [Gogoraren gardentasun-orria](https://www.gogora.euskadi.eus/transparencia-gogora/webgog00-transgog/es/)
+berrikusi da. Bertako «Subvenciones y convocatorias de Gogora» esteka
+dirulaguntzei dagokie; berrikusitako nabigazioak ez du langileen hautaketarako
+atari bereizirik erakutsi. Horrek ez du enplegu-deialdirik ez dagoela frogatzen.
+
+[IVAPen 2025-04-04ko lanpostu-zerrenda ofizialak](https://www.ivap.euskadi.eus/contenidos/noticia/2022_ope_20250408_i/es_def/adjuntos/3_ES_2025-04-04.pdf)
+Gogoraren 520020 kodeko, 1029 dotazioko «Auxiliar General» lanpostua jasotzen
+du, 2022ko OPEren finkatze-prozesu bereziaren testuinguruan. Zerrenda hori ez
+da egungo izen-emate deialdia. [BOPV 42/2025eko 981 agiriak](https://www.euskadi.eus/bopv2/datos/2025/03/2500981a.pdf)
+2022ko finkatze-prozesuen ondorengo karrerako funtzionarioen izendapenak
+argitaratzen ditu, Gogorari atxikitako lanpostuak barne. Izendapenak ez dira
+lanpostu hutsen deialdiak.
+
+Berrikusitako agiriek ez dute Gogoraren egungo sarbide irekiko deialdi baten
+eta haren oinarri ofizialen pare egiaztaturik eman. Ez da fitxarik edo
+scraper-rik gehitu. Gogora `pending` dago oraindik; berrikuspenak ez du
+deialdi guztien estaldura edo eskaintzarik eza frogatzen.

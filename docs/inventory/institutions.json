@@ -358,7 +358,7 @@
     "province": null,
     "reportLine": 21,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "Gogoraren gardentasun-orria eta IVAPen 2025eko lanpostu-zerrenda egiaztatu dira. Zerrenda hori 2022ko finkatze-prozesu historikoari dagokio; Gogoraren sarbide irekiko deialdi eta oinarrien zuzeneko estaldura berrikusteko dago.",
     "websiteFromDirectory": "https://gogora.euskadi.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/gogora-instituto-de-la-memoria-la-convivencia-y-los-derechos-humanos/web01-a2ogafin/es/",
     "websiteDirectoryName": "Gogora-Instituto de la Memoria, la Convivencia y los Derechos Humanos",
@@ -368,6 +368,14 @@
       "status": "no-link-found",
       "checkedAt": "2026-11-19T08:26:53.045Z",
       "candidates": []
+    },
+    "employmentReview": {
+      "checkedAt": "2026-11-26",
+      "status": "historical-centralized-process-verified",
+      "institutionTransparencyUrl": "https://www.gogora.euskadi.eus/transparencia-gogora/webgog00-transgog/es/",
+      "ivapPostsUrl": "https://www.ivap.euskadi.eus/contenidos/noticia/2022_ope_20250408_i/es_def/adjuntos/3_ES_2025-04-04.pdf",
+      "officialAppointmentUrl": "https://www.euskadi.eus/bopv2/datos/2025/03/2500981a.pdf",
+      "note": "Gardentasun-orriak Gogoraren laguntzak eta egitura jasotzen ditu, baina berrikusitako nabigazioak ez du langileen hautaketarako atari bereizirik erakutsi. IVAPen 2025-04-04ko lanpostu-zerrendak Gogora izendatzen du 520020 kodeko, 1029 dotazioko AUXILIAR GENERAL lanpostuan, 2022ko OPEren finkatze-prozesu bereziaren testuinguruan. BOPV 42/2025eko 981 agiriak 2022ko finkatze-prozesuen ondorengo karrerako funtzionarioen izendapenak argitaratzen ditu, Gogorari atxikitako lanpostuak barne. Agiri horiek ez dira egungo izen-emate deialdiak eta ez dute deialdi bakoitzaren oinarri ofizialekin pare egiaztaturik ematen. Ez da fitxarik edo scraper-rik gehitu; ez da eskaintzarik eza edo Gogoraren deialdi guztien estaldura ondorioztatzen."
     },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",
