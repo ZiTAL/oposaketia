@@ -1321,3 +1321,21 @@ Berrikusitako agiriek ez dute Gogoraren egungo sarbide irekiko deialdi baten
 eta haren oinarri ofizialen pare egiaztaturik eman. Ez da fitxarik edo
 scraper-rik gehitu. Gogora `pending` dago oraindik; berrikuspenak ez du
 deialdi guztien estaldura edo eskaintzarik eza frogatzen.
+
+## Cyberzaintza: enplegu-iturrien berrikuspena
+
+2026-11-26an [Cyberzaintzaren atari ofizialaren hasiera](https://zibersegurtasun.euskadi.eus/hasiera/)
+HTTP 200 bidez kontsultatu da. [Pribatutasun-politika ofizialak](https://ciberseguridad.euskadi.eus/webcyb00-content/es/contenidos/informacion/cyb_politica_de_privacidad/es_def/index.shtml)
+lan-eskaintzen edo hautaketa-prozesuen formularioak aipatzen ditu, baina aipamen
+orokorrak ez du deialdi zehatz bat edo izena emateko epea egiaztatzen.
+[BOPV 155/2026ko 3627 ebazpenak](https://www.euskadi.eus/bopv2/datos/2026/08/2603627a.shtml)
+agentziaren lanpostu-zerrendaren aldaketa argitaratzen du. Lanpostu-zerrenda
+ez da hautaketa-deialdia, eta ez du lanpostu huts bat irekita dagoela frogatzen.
+
+`cyberzaintza.eus` domeinuko hasierako orriak eta `robots.txt` fitxategiak
+HTTP 502 eman dute kontsulta-inguruneko atebidean; ezin izan da domeinu
+horretako enplegu-ataria zuzenean berrikusi. Beste domeinuetan aurkitutako
+hautaketa-enpresen iragarkiak ez dira agentziaren atari ofizialaren estaldura
+osoaren froga. Deialdi zehatzik bere oinarri ofizialekin batera egiaztatu ez
+denez, ez da fitxarik edo scraper-rik gehitu. Cyberzaintza `pending` dago:
+berrikuspenak ez du deialdirik ez dagoela frogatzen.

@@ -565,7 +565,7 @@
     "province": null,
     "reportLine": 23,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "Cyberzaintzaren atari ofiziala, pribatutasun-politikako hautaketa-formularioen aipamena eta BOPVko lanpostu-zerrendaren aldaketa egiaztatu dira. cyberzaintza.eus domeinua atebidean eskuratu ez denez, deialdi zehatz baten eta haren oinarrien parekatzea eta enplegu-atariaren estaldura berrikusteko daude.",
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",
       "calls": 0,
@@ -577,6 +577,16 @@
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "no-directory-match",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
+    },
+    "employmentReview": {
+      "checkedAt": "2026-11-26T22:18:43Z",
+      "status": "official-context-verified-source-access-blocked",
+      "officialHomepageUrl": "https://zibersegurtasun.euskadi.eus/hasiera/",
+      "privacyPolicyUrl": "https://ciberseguridad.euskadi.eus/webcyb00-content/es/contenidos/informacion/cyb_politica_de_privacidad/es_def/index.shtml",
+      "officialStaffingResolutionUrl": "https://www.euskadi.eus/bopv2/datos/2026/08/2603627a.shtml",
+      "unavailableHomepageUrl": "https://cyberzaintza.eus/",
+      "unavailableRobotsUrl": "https://cyberzaintza.eus/robots.txt",
+      "note": "Atari ofizialaren hasierak, pribatutasun-politikak eta BOPVko 3627/2026 lanpostu-zerrendaren aldaketak HTTP 200 eman dute. Politikak lan-eskaintza eta hautaketa-formularioak aipatzen ditu, baina ez du deialdi zehatzik egiaztatzen. Lanpostu-zerrenda ez da deialdia. cyberzaintza.eus helbideek kontsulta-inguruneko CONNECT atebidean HTTP 502 eman dute; ezin izan da bertako enplegu-iturria berrikusi. Hautaketa-enpresen beste domeinuetako iragarkiak ez dira atari ofizialaren estaldura froga. Ez da deialdi bat eta haren oinarri ofizialak batera egiaztatu; ez da fitxarik edo scraper-rik gehitu. Pending egoerak ez du eskaintzarik eza adierazten."
     }
   },
   {
