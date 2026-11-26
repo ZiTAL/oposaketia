@@ -547,3 +547,9 @@ baterako kontratazio-poltsa ere gehitu da (`etxarri-aux`). Udaleko
 iragarkitik eta oinarri elebidunetatik 2026-10-22ko epea, DBH edo
 erdi-mailako FP eta euskara C1 egiaztatzen dira. Ofimatika-proba
 praktikoa dago, baina ez gai-zerrenda zenbakiturik.
+
+Ezkabarteko Udalaren 2025eko zerbitzu anitzetako hiru funtzionario-
+plazak ere gehitu dira (`ezcabarte-2025`). BON 2025/149/12ko II.
+eranskineko 13 gaiak eta BON 2025/166/9ko egutegi-zuzenketa jaso dira.
+DBH edo lehen mailako FP eta B gidabaimena egiaztatzen dira; azken
+egun arrunta igandea zenez, eskaera-epea 2025-08-18ra luzatu zen.
