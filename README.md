@@ -515,3 +515,9 @@ Agoizko Udalaren lorezaintzako zerbitzu anitzetako plaza finkoa ere gehitu
 da (`agoitz`). Udal-webgunean argitaratutako oinarrietatik II. eranskineko
 11 gaiak eta baldintzak atera dira. Epea BONen argitalpenaren ondoko 30 egun
 naturalekoa da; amaiera-data absolutua ez da asmatu.
+
+Artaxoako Udalaren familia-langilearen 2025eko plaza ere gehitu da
+(`artajona-familiar`). BONeko jatorrizko oinarrietako 10 gaiak jaso dira,
+eta 2. gaia 2025/30/25eko zuzenketa ofizialaren arabera ordezkatu da.
+Eskolatze-ziurtagiria ez da DBH titulutzat hartu; epearen azken egun
+absolutua ez da asmatu.
