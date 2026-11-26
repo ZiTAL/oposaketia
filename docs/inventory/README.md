@@ -1,5 +1,7 @@
 # Sektore publikoaren inbentarioaren integrazioa
 
+Jarraipen automatikoaren konfigurazioa: [automation.md](automation.md).
+
 Erabiltzaileak emandako txostena `original-report.md` fitxategian dago.
 Bertako aipamen-markek ez dituzte jatorrizko URLak gordetzen; izenak eta
 kopuruak iturri ofizialetan egiaztatu behar dira.
