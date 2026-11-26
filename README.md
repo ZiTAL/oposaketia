@@ -541,3 +541,9 @@ oinarrietara lotzen du; II. eranskineko 11 gaiak, DBH edo erdi-mailako
 FP egiaztatzen dira; 15 egun naturaleko epearen itxiera 2023-03-03an
 kalkulatzen da. B+E gidabaimena lanpostua hartu ondorengo sei
 hilabeteetan lortu behar zen.
+
+Etxarri Aranazko Udalaren 2026ko administrari laguntzailearen aldi
+baterako kontratazio-poltsa ere gehitu da (`etxarri-aux`). Udaleko
+iragarkitik eta oinarri elebidunetatik 2026-10-22ko epea, DBH edo
+erdi-mailako FP eta euskara C1 egiaztatzen dira. Ofimatika-proba
+praktikoa dago, baina ez gai-zerrenda zenbakiturik.

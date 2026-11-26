@@ -3551,16 +3551,17 @@
     "name": "ETXARRI ARANATZ",
     "territory": "Navarra",
     "province": "Navarra",
-    "status": "pending",
+    "status": "connected-partial",
     "officialCode": "31084",
     "type": "municipality",
     "sourceIds": [
       "navarra",
-      "lanbide"
+      "lanbide",
+      "etxarri-aux"
     ],
     "directoryStatus": "verified",
     "directoryUrl": "https://nastat.navarra.es/es/recursos/nomenclator",
-    "note": "2026-10-20ko Nastat izendegi ofizialean egiaztatua. Enplegu-atari agregatuetan estaldura partziala; udal-atariaren egiaztapena falta da.",
+    "note": "2026-10-20ko Nastat izendegi ofizialean egiaztatua. 2026ko administrari laguntzailearen udal-deialdia eta oinarri elebidunak konektatuta; gainerako enplegu-artxiboa berrikusteko dago.",
     "aliases": [
       "Etxarri Aranatz"
     ],
@@ -3578,19 +3579,20 @@
       ]
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 2,
+      "auditedAt": "2026-11-26T09:10:16.010Z",
+      "calls": 3,
       "sourceIds": [
         "euskadi",
+        "etxarri-aux",
         "bon-local"
       ],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
     },
     "employmentPageReview": {
-      "reviewedAt": "2026-11-18T14:59:28.553Z",
+      "reviewedAt": "2026-11-26T09:10:16.010Z",
       "url": "https://www.etxarriaranatz.eus/eu/lan-eskaintzak",
-      "outcome": "requires-format-review",
-      "note": "First published employment link reviewed; this does not establish absence of vacancies or complete coverage."
+      "outcome": "connected-partial",
+      "note": "Administrari laguntzailearen 2026ko poltsa udal-iragarkitik eta oinarrietatik egiaztatuta; gainerako deialdiak berrikusteko daude."
     },
     "aggregateMonitoring": {
       "sourceId": "bon-local",

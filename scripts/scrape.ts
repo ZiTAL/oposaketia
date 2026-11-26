@@ -93,6 +93,7 @@ import {scrapeAgoitz} from './scrapers/agoitz';
 import {scrapeArtajonaFamiliar} from './scrapers/artajona-familiar';
 import {scrapeCaseda} from './scrapers/caseda';
 import {scrapeAyegui} from './scrapers/ayegui';
+import {scrapeEtxarriAux} from './scrapers/etxarri-aux';
 export type SourceReport = { id:string; attemptedAt:string; succeededAt:string|null; status:'ok'|'partial'|'error'; count:number; warnings:string[]; warningCount:number; error?:string };
 export async function recordReport(report:SourceReport) {
   if(!process.env.DATABASE_URL)return;
@@ -157,6 +158,7 @@ export async function runScrape(selected=process.env.SCRAPE_SOURCES?.trim() || s
           'artajona-familiar':()=>scrapeArtajonaFamiliar(client,now),
           caseda:()=>scrapeCaseda(client,now),
           ayegui:()=>scrapeAyegui(client,now),
+          'etxarri-aux':()=>scrapeEtxarriAux(client,now),
           euskalmet:()=>scrapeEuskalmet(client,now,warn),
           neiker:()=>scrapeNeiker(client,now),
           maneru:()=>scrapeManeru(client,now,warn),
