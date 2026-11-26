@@ -582,3 +582,9 @@ Larraungo Udalaren 2025eko peoi eta ofizial lanetarako bi kontratazioak
 ere gehitu dira (`larraun`). Udal-iragarkiak gidabaimena eta Nafar
 Lansaren 2025-04-30a baino lehenagoko izen-ematea aipatzen ditu, baina
 ez du eskaera-epea, titulazioa edo gai-zerrenda zehazten.
+
+Anikote Leitza S.L. udal-sozietate publikoaren 2026ko gerente-plaza
+ere gehitu da (`anikote-leitza`). Leitzako Udalaren oinarri PDFak
+unibertsitate-titulazio orokorra, euskara C1 eta kirol-kudeaketako
+proba praktikoa zehazten ditu. Eskaera-epea erlatiboa da, eta ez dago
+gai-zerrenda zenbakiturik.
