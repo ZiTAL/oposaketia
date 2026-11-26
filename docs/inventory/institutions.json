@@ -233,7 +233,7 @@
     "province": null,
     "reportLine": 21,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "Osalanen webgune ofiziala eta IVAPen 2026ko OPE orokorra berrikusi dira. BOPVko 2025eko izendapen askeko lanpostu historikoa karrerako langile publikoentzat zen; ez da sarbide irekiko deialdi gisa inportatu. Erakundeari atxikitako lanpostuen oinarriak eta enplegu-estaldura egiaztatzeko daude.",
     "websiteFromDirectory": "https://osalan.euskadi.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/osalan-instituto-vasco-de-seguridad-y-salud/web01-a2ogafin/es/",
     "websiteDirectoryName": "Osalan-Instituto Vasco de Seguridad y Salud Laborales",
@@ -248,6 +248,15 @@
           "url": "https://osalan.euskadi.eus/albistea/2026/genero-ikuspegia-lan-arriskuen-prebentzioan-txertatzea-sustatu-dute-osalanek-ekonomia-lan-eta-enplegu-sailak-eta-emakundek-26/webosa00-noticia/eu/"
         }
       ]
+    },
+    "employmentReview": {
+      "checkedAt": "2026-11-26T18:18:12Z",
+      "status": "general-source-verified-no-attributed-open-call",
+      "officialSourceUrl": "https://www.ivap.euskadi.eus/empleo-ivap/",
+      "institutionHomepageUrl": "https://www.osalan.euskadi.eus/osalan/",
+      "secondaryOfficialSourceUrl": "https://www.euskadi.eus/bopv2/datos/2025/10/2504622a.pdf",
+      "resolutionUrl": "https://www.euskadi.eus/bopv2/datos/2025/12/2505539a.shtml",
+      "note": "Osalanen hasierako orria eta IVAPen enplegu-atari ofiziala HTTP 200 bidez kontsultatu dira. IVAPek 2026ko OPEa Administrazio Orokorraren eta erakunde autonomoen esparruan aurkezten du, baina orri horrek ez du Osalani berariaz atxikitako plaza eta oinarrien pare egiaztaturik ematen. BOPV 209/2025eko 4622 ebazpenaren PDF ofizialak Plangintzako zuzendariordearen 512066-1 lanpostua izendapen askearen bidez hornitzeko deialdia jasotzen du; parte-hartzea baldintzak betetzen dituzten karrerako langile publikoentzat zen, eta eskabide-epea argitalpenaren biharamunetik 15 egun baliodunekoa. BOPV 251/2025eko 5539 ebazpenak prozesua ebatzi zuen. Prozesu historiko hori ez da sarbide irekiko hautaketa-deialdi gisa inportatu. Berrikusitako orriek ez dute Osalanen deialdi guztien estaldura edo eskaintzarik eza frogatzen."
     },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",

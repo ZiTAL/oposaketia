@@ -1244,3 +1244,22 @@ biharamunetik 15 egun baliodunetan aurkeztu behar ziren. Prozesu historiko
 hori ez da sarbide irekiko hautaketa-deialdi gisa inportatu. Emakunde
 `pending` dago oraindik: berrikusitako iturriek ez dute erakundearen deialdi
 guztien estaldura edo eskaintzarik eza frogatzen, eta ez da scraper-rik gehitu.
+
+## Osalan: enplegu-iturrien berrikuspena
+
+2026-11-26an [Osalanen webgune ofiziala](https://www.osalan.euskadi.eus/osalan/)
+eta [IVAPen enplegu-ataria](https://www.ivap.euskadi.eus/empleo-ivap/) kontsultatu
+dira. IVAPek 2026ko OPEa EAEko Administrazio Orokorraren eta haren erakunde
+autonomoen esparruan aurkezten du, baina orri orokorrak ez du Osalani
+berariaz atxikitako plaza eta haren oinarrien pare egiaztaturik ematen.
+
+[BOPV 209/2025eko 4622 ebazpenaren PDF ofizialak](https://www.euskadi.eus/bopv2/datos/2025/10/2504622a.pdf)
+Osalanen Plangintzako zuzendariordearen 512066 kodeko, 1 dotazioko lanpostua
+izendapen askearen bidez hornitzeko deialdia jasotzen du. Baldintzak betetzen
+zituzten karrerako langile publikoek har zezaketen parte; eskabide-epea
+argitalpenaren biharamunetik 15 egun baliodunekoa zen. [BOPV 251/2025eko
+5539 ebazpenak](https://www.euskadi.eus/bopv2/datos/2025/12/2505539a.shtml)
+prozesua ebatzi zuen. Prozesu historiko hori ez da sarbide irekiko hautaketa-
+deialdi gisa inportatu. Osalan `pending` dago oraindik: berrikuspenak ez du
+erakundearen deialdi guztien estaldura edo eskaintzarik eza frogatzen, eta ez da
+scraper-rik gehitu.
