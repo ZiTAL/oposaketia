@@ -101,6 +101,7 @@ import {scrapeLarragaAdmin} from './scrapers/larraga-admin';
 import {scrapeLarraona} from './scrapers/larraona';
 import {scrapeLarraun} from './scrapers/larraun';
 import {scrapeAnikoteLeitza} from './scrapers/anikote-leitza';
+import {scrapeLeitzaAux2026} from './scrapers/leitza-aux-2026';
 export type SourceReport = { id:string; attemptedAt:string; succeededAt:string|null; status:'ok'|'partial'|'error'; count:number; warnings:string[]; warningCount:number; error?:string };
 export async function recordReport(report:SourceReport) {
   if(!process.env.DATABASE_URL)return;
@@ -173,6 +174,7 @@ export async function runScrape(selected=process.env.SCRAPE_SOURCES?.trim() || s
           larraona:()=>scrapeLarraona(client,now),
           larraun:()=>scrapeLarraun(client,now),
           'anikote-leitza':()=>scrapeAnikoteLeitza(client,now),
+          'leitza-aux-2026':()=>scrapeLeitzaAux2026(client,now),
           euskalmet:()=>scrapeEuskalmet(client,now,warn),
           neiker:()=>scrapeNeiker(client,now),
           maneru:()=>scrapeManeru(client,now,warn),

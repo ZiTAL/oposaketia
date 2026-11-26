@@ -588,3 +588,8 @@ ere gehitu da (`anikote-leitza`). Leitzako Udalaren oinarri PDFak
 unibertsitate-titulazio orokorra, euskara C1 eta kirol-kudeaketako
 proba praktikoa zehazten ditu. Eskaera-epea erlatiboa da, eta ez dago
 gai-zerrenda zenbakiturik.
+
+Leitzako Udalaren 2026ko administrari laguntzailearen plaza ere gehitu
+da (`leitza-aux-2026`). BON 2026/31/42ko I. eranskineko 13 gaiak,
+Eskola Graduatua edo lehen mailako FP, euskara C1 eta 2026-03-04ko
+eskaera-epea egiaztatzen dira.
