@@ -1741,16 +1741,17 @@
     "name": "AYEGUI / AIEGI",
     "territory": "Navarra",
     "province": "Navarra",
-    "status": "pending",
+    "status": "connected-partial",
     "officialCode": "31041",
     "type": "municipality",
     "sourceIds": [
       "navarra",
-      "lanbide"
+      "lanbide",
+      "ayegui"
     ],
     "directoryStatus": "verified",
     "directoryUrl": "https://nastat.navarra.es/es/recursos/nomenclator",
-    "note": "2026-10-20ko Nastat izendegi ofizialean egiaztatua. Enplegu-atari agregatuetan estaldura partziala; udal-atariaren egiaztapena falta da.",
+    "note": "2026-10-20ko Nastat izendegi ofizialean egiaztatua. Udaleko enplegu-atariko 2023ko zerbitzu anitzetako plaza eta 11 gaiak konektatuta; gainerako artxiboa berrikusteko dago.",
     "aliases": [
       "Ayegui / Aiegi"
     ],
@@ -1772,10 +1773,10 @@
       ]
     },
     "employmentPageReview": {
-      "reviewedAt": "2026-11-18T14:59:27.433Z",
+      "reviewedAt": "2026-11-26T08:31:13.086Z",
       "url": "https://www.ayegui.org/empleo-publico/",
-      "outcome": "requires-format-review",
-      "note": "First published employment link reviewed; this does not establish absence of vacancies or complete coverage."
+      "outcome": "connected-partial",
+      "note": "2023ko zerbitzu anitzetako deialdia egiaztatuta; gainerako udal-prozesuak berrikusteko daude."
     },
     "aggregateMonitoring": {
       "sourceId": "bon-local",
@@ -1785,9 +1786,11 @@
       "note": "Recent published bulletin monitoring only; no matching notice does not prove absence of vacancies. Direct website coverage remains separately recorded."
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
+      "auditedAt": "2026-11-26T08:31:13.086Z",
+      "calls": 1,
+      "sourceIds": [
+        "ayegui"
+      ],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
     }
   },

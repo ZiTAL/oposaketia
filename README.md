@@ -534,3 +534,10 @@ eskolatze-ziurtagiria, B gidabaimena eta II. eranskineko 11 gaiak.
 2026-11-26ko argitalpenaren ondoko 20 egun naturaleko epea
 2026-12-16an amaitzen dela kalkulatu da; lehendik zegoen fitxa
 eguneratu da, bikoizturik sortu gabe.
+
+Aiegiko Udalaren 2023ko zerbitzu anitzetako funtzionario-plaza ere
+gehitu da (`ayegui`). Udaleko enplegu-atariak BON 2023/33/36ko
+oinarrietara lotzen du; II. eranskineko 11 gaiak, DBH edo erdi-mailako
+FP egiaztatzen dira; 15 egun naturaleko epearen itxiera 2023-03-03an
+kalkulatzen da. B+E gidabaimena lanpostua hartu ondorengo sei
+hilabeteetan lortu behar zen.
