@@ -13810,7 +13810,7 @@
     "aliases": [],
     "type": "municipality",
     "sourceIds": [],
-    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Enplegu-atariaren estaldura bereizita egiaztatu behar da.",
+    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. 2022ko egonkortze-deialdiko garbitzaileen oinarriak udal-zerbitzarian egiaztatu dira; robots.txt fitxategiak agente honen sarbidea baztertzen du, eta enplegu-iturriaren estaldura berrikusteko dago.",
     "directoryStatus": "verified",
     "directoryUrl": "https://www.gazteaukera.euskadi.eus/contenidos/ds_registros/registro_entidades_locales/opendata/entidades.json",
     "directoryCheckedAt": "2026-11-18T08:11:18.820Z",
@@ -13819,6 +13819,14 @@
       "status": "no-link-found",
       "checkedAt": "2026-11-18T08:17:48.640Z",
       "candidates": []
+    },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T23:18:10Z",
+      "url": "https://www.aia.eus/",
+      "outcome": "robots-restricted-historical-bases-verified",
+      "robotsUrl": "https://www.aia.eus/robots.txt",
+      "basesUrl": "https://www.aia.eus/documents/1653150/32707121/Bases%2Bgenerales%2By%2Bespec%C3%ADficas%2Blimpiadoras%2B2023.pdf/f71f93d5-7267-f4ae-db02-580b00a37cce",
+      "note": "The official directory identifies www.aia.eus as the municipal website. Its robots.txt returned HTTP 200 and explicitly disallows ChatGPT-User from /; no further site crawling was performed after that rule was read. A municipal PDF fetched concurrently with the robots check returned HTTP 200. It contains decree 197/2022 of 23 December 2022 and general and specific bases for three cleaner posts in the exceptional stabilization process, with 92%, 70% and 52% schedules. This verifies a historical municipal call and its bases, but not a current opening, an absolute application deadline, or a usable listing for ongoing collection. No scraper or call was added; full employment coverage remains unverified."
     },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",

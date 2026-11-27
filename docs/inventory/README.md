@@ -1839,3 +1839,20 @@ lehenagokoak ziren. Ez da azken egun absoluturik edo gai-zerrendarik asmatzen.
 Orriko emaitzak ez dira deialdi berritzat hartzen. Lehen prospekzioan aurkitutako
 garbiketa-lanpostuaren albistea eta udalaren beste artxiboak berrikusteko daude;
 `connected-partial` egoerak bi fitxa historiko hauen estaldura adierazten du.
+
+## Aia: egonkortze-deialdiko oinarriak eta robots muga
+
+2026-11-28an direktorio ofizialean ageri den [udal-webgunearen](https://www.aia.eus/)
+[robots.txt](https://www.aia.eus/robots.txt) eskuratu da (HTTP 200).
+`ChatGPT-User` agentearentzat `/` bidea baztertzen du; araua irakurri ondoren ez
+da webgunea gehiago arakatu. Aldi berean eskuratutako [udalaren
+PDFak](https://www.aia.eus/documents/1653150/32707121/Bases%2Bgenerales%2By%2Bespec%C3%ADficas%2Blimpiadoras%2B2023.pdf/f71f93d5-7267-f4ae-db02-580b00a37cce)
+HTTP 200 eman du. Bertan 2022-12-23ko 197/2022 alkate-dekretua eta salbuespenezko
+egonkortze-prozesuko hiru garbitzaile-plazaren oinarri orokor eta espezifikoak
+daude, %92ko, %70eko eta %52ko lanaldiekin.
+
+Agiriak udal-deialdi historiko bat eta haren oinarriak egiaztatzen ditu, baina
+ez du egungo izen-emate irekirik edo azken egun absolutu egiaztaturik ematen.
+Ez da enplegu-zerrenda iraunkorra berrikusi, eta robots mugak bilketa automatikoa
+eragozten du. Aia `pending` mantendu da, scraper eta fitxa berririk gabe;
+berrikuspenak ez du deialdi guztien estaldura edo lanpostu hutsik eza frogatzen.
