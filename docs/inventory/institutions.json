@@ -596,7 +596,18 @@
     "province": null,
     "reportLine": 23,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "Aukerak-en gardentasun-atariak langile lan-kontratudunen deialdien atala aipatzen du, baina ez du bertan deialdi zehatzik estekatzen. BOPVko 2026ko izendapen askeko deialdi historikoa eta haren ebazpena egiaztatu dira; karrerako langileentzako hornidura itxia da. Sarbide irekiko deialdi eta oinarrien zuzeneko estaldura berrikusteko dago.",
+    "employmentReview": {
+      "checkedAt": "2026-11-27",
+      "status": "historical-restricted-provision-verified",
+      "officialHomepageUrl": "https://aukerak-gea.euskadi.eus/inicio/",
+      "officialTransparencyUrl": "https://aukerak-gea.euskadi.eus/gea-transparencia/webgea00-content/es/",
+      "officialCallUrl": "https://www.euskadi.eus/bopv2/datos/2026/06/2602654a.pdf",
+      "officialCallSha256": "f779b33ae471f7dd40d683ffbfe114046150516e936eae1cb8555b460943fe32",
+      "officialResolutionUrl": "https://www.euskadi.eus/bopv2/datos/2026/09/2603950a.pdf",
+      "officialResolutionSha256": "cf73e7acfb3f8fcd87e4e07913b6969a482c0c337c0d6d2c32bcfb21de064d18",
+      "note": "Erakundearen webgune eta gardentasun-orriek HTTP 200 eman dute; robots.txt ere eskuragarri dago. Gardentasun-orriak 'Convocatorias de personal laboral' aipatzen du testu hutsean, deialdien estekarik edo zerrendarik gabe. BOPV 113/2026ko 2654 ebazpenak Aukerak-en Iruña Okako 512492 kodeko 1 dotazioko arduradun-lanpostua izendapen askearen bidez iragarri zuen; parte-hartzea baldintzak betetzen dituzten karrerako funtzionarioentzat zen eta argitalpenaren biharamunetik 15 egun balioduneko epea zuen. BOPV 180/2026ko 3950 ebazpenak lanpostua esleitu zuen, 2026-09-21eko ondorioekin. Bi PDF ofizialak HTTP 200 bidez deskargatu dira eta SHA-256ak egiaztatu dira. Prozesua itxita dago eta ez da sarbide irekiko hautaketa; ez da fitxarik edo scraper-rik gehitu. Berrikuspenak ez du langile lan-kontratudunen deialdi eta oinarrien pare egiaztaturik, deialdi guztien estaldura edo eskaintzarik eza frogatzen."
+    },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",
       "calls": 0,
