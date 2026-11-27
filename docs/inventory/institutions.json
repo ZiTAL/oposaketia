@@ -1128,7 +1128,7 @@
     "province": null,
     "reportLine": 25,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "EGOren webgune ofizialeko 2026ko entzunaldiak gazte-orkestrako kideak eta instrumentisten poltsa hautatzeko dira. Berrikusitako orrietan ez da langileen kontratazio-deialdi zehatzik haren hautaketa-agiriekin batera egiaztatu; enplegu-estaldura egiaztatzeko dago.",
     "websiteFromDirectory": "https://egofundazioa.org/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/fundacion-joven-orquesta-euskal-herria-ego/web01-a2ogafin/es/",
     "websiteDirectoryName": "Fundación Joven Orquesta de Euskal Herria (EGO)",
@@ -1151,6 +1151,12 @@
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
+    },
+    "employmentPageReview": {
+      "url": "https://www.egofundazioa.eus/es/audiciones",
+      "status": "orchestra-auditions-not-verified-employment",
+      "checkedAt": "2026-11-27",
+      "note": "The directory website redirects to the current official site. The 2026 auditions page contains musician membership rules, results and a past registration period; it does not establish a staff employment call. The official transparency page lists governance and accounts but no reviewed staff selection notice. No employment call with its official selection documents was verified; this does not prove vacancy absence or complete coverage."
     }
   },
   {

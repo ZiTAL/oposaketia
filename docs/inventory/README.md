@@ -1514,3 +1514,25 @@ bereizirik identifikatu. Ez da ELIKAren lanpostu-deialdi zehatzik bere
 hautaketa-agiri ofizialekin batera egiaztatu. `pending` egoera mantendu da,
 scraper edo fitxa berririk gabe. Honek ez du eskaintzarik eza edo enplegu-
 iturri guztien estaldura frogatzen.
+
+## EGO: gazte-orkestrako entzunaldien eta enpleguaren bereizketa
+
+2026-11-27an Euskadiko [erakunde-direktorioan](https://www.euskadi.eus/entidad/fundacion-joven-orquesta-euskal-herria-ego/web01-a2ogafin/es/)
+EGOri esleitutako `egofundazioa.org` helbideak
+[fundazioaren egungo webgunera](https://www.egofundazioa.eus/es/) birbideratzen
+duela egiaztatu da. Hasierako orria, [«Somos EGO»](https://www.egofundazioa.eus/es/somos-ego),
+[2026ko «Audiciones»](https://www.egofundazioa.eus/es/audiciones) eta
+[gardentasun-orria](https://www.egofundazioa.eus/es/transparencia) zuzenean
+eskuratu dira (HTTP 200). Aurreko prospekzioak ezin izan zuen webgunea ireki;
+oraingo berrikuspenak oztopo hori argitu du.
+
+Fundazioak bere xedea gazteentzako orkestra-prestakuntza gisa aurkezten du.
+2026ko entzunaldien oinarriek eta emaitzek instrumentistak EGOko kide eta
+instrumentisten poltsako partaide izateko hautatzen dituzte; izena emateko
+aldia 2026-03-06tik 2026-04-17ra zen. Ez da orri hori fundazioko langileen
+lanpostu-deialdi gisa inportatu. Gardentasun-orrian gobernantza, egitura eta
+urteko kontuak daude, baina berrikusitako edukian ez da langileen hautaketa-
+deialdi zehatzik aurkitu. Ez da halako deialdirik haren hautaketa-agiri
+ofizialekin batera egiaztatu; EGO `pending` mantendu da, scraper edo fitxa
+berririk gabe. Berrikuspenak ez du lanpostu hutsik ez dagoela edo enplegu-
+iturri guztien estaldura frogatzen.
