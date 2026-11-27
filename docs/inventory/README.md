@@ -1476,3 +1476,22 @@ egin dute; HTTP eskaerek 403 itzuli dute. Horregatik, webgunearen edo artxiboare
 estaldura osoa ezin da baieztatu. Ez da udal-deialdirik bere agiri ofizialekin
 batera egiaztatu, eta ez da scraper-rik edo fitxarik gehitu. Amendeuix-Oneix
 `pending` mantendu da; berrikuspenak ez du lanpostu hutsik ez dagoela frogatzen.
+
+## Amorots-Succos: udal-enplegu iturriaren berrikuspena
+
+2026-11-27an [CAPBren udal-fitxa ofiziala](https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/amorots-succos),
+[Estatuko udal-direktorioa](https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/pyrenees-atlantiques/7fd8a649-1520-469a-9d57-4840c4861575)
+eta [BANATICeko 64019 udal-fitxa](https://www.banatic.interieur.gouv.fr/commune/64019-Amorots-Succos)
+kontsultatu dira. CAPBren eta Estatuko fitxek harremanetarako datuak ematen
+dituzte, baina ez dute udal-webgunerik edo udalaren kontratazio-atalik
+adierazten. BANATICek udalaren 216400192 SIRENa eta CAPB elkargoaren
+200067106 SIRENa bereizten ditu; bertako «Emploi» atala biztanleen jarduera-
+eta langabezia-tasei buruzkoa da, ez lan-eskaintzei buruzkoa.
+
+CAPBko fitxan ageri den [«Nos offres d'emploi» esteka](https://www.communaute-paysbasque.fr/linstitution/nos-offres-demploi)
+elkargoaren kontratazio-espaziora doa, eta ez da Amorots-Succoseko udalaren
+enplegu-iturritzat hartu. Emploi Territorial eta CDG 64ren izen bidezko
+bilaketetan ere ez da udalaren deialdi zehatzik haren agiri ofizialekin batera
+egiaztatu. Bilaketa horiek ez dute artxibo osoa estaltzen. Udalerria `pending`
+mantendu da, scraper edo fitxa berririk gabe; berrikuspenak ez du lanpostu
+hutsik ez dagoela frogatzen.
