@@ -71,6 +71,12 @@
       "checkedAt": "2026-11-18T08:38:14.240Z",
       "candidates": []
     },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T12:19:40Z",
+      "url": "https://sedeelectronica.abarzuza.es/tablondeanuncios/",
+      "outcome": "no-municipal-call-verified",
+      "note": "The municipal website, its employment post and attached PDF, and the official electronic notice board were retrieved directly. The 2026-07-22 employment post republishes a technician vacancy whose PDF identifies Servicios de Montejurra S.A. as the employer, not Abárzuza council. The 2026-07-17 'Convocatoria' PDF summons a council plenary session, not candidates. The notice board showed two published notices (planning and a corral auction) at review time, with no staff selection notice. The BON's 2026-11-23 Abárzuza entries concern the 2027 budget and initial staffing plan, not a selection call. No Abárzuza staff call with its official selection documents was verified; keep direct coverage pending. This snapshot does not establish an absence of vacancies or cover the full archive."
+    },
     "aggregateMonitoring": {
       "sourceId": "bon-local",
       "section": "2.1. Administración Local de Navarra: oposiciones, concursos y oferta pública de empleo",

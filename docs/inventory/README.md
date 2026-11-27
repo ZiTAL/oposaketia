@@ -1602,3 +1602,29 @@ ez du Abáigarko langileen deialdi zehatzik bere hautaketa-agiri ofizialekin
 batera egiaztatu. Udalerria `pending` mantendu da, scraper edo fitxa berririk
 gabe. Berrikuspenak ez du lanpostu hutsik eza edo egoitzaren artxibo osoaren
 estaldura frogatzen.
+
+## Abárzuza / Abartzuza: udalaren iragarki-taularen berrikuspena
+
+2026-11-27an [udal-webgunea](https://www.abarzuza.es/),
+[egoitza elektronikoko iragarki-taula](https://sedeelectronica.abarzuza.es/tablondeanuncios/)
+eta [robots.txt](https://www.abarzuza.es/robots.txt) zuzenean kontsultatu dira
+(HTTP 200); robots.txt fitxategiak ez du bide horiek baztertzen. Taulak
+«Empleo público» kategoria eskaintzen du, baina kontsultako bi iragarkiak
+hirigintzako azterlan bati eta korta baten enkanteari buruzkoak ziren.
+
+Udalaren [«Oferta de empleo de contratación indefinida»
+albisteak](https://www.abarzuza.es/oferta-de-empleo-de-contratacion-indefinida/)
+lotutako [iragarki ofizialean](https://www.abarzuza.es/wp-content/uploads/sites/90/2026/07/Anuncio.-Tecnicoa-superior-OT.pdf)
+Servicios de Montejurra S.A. identifikatzen du teknikariaren enplegatzaile
+gisa. Udalak zabaldutako albistea da, ez Abárzuzako udal-langileen deialdia;
+ez zaio udalerriko scraper bati esleitu. Era berean, [2026-07-17ko
+«Convocatoria»](https://www.abarzuza.es/convocatoria-17-07-2026/) udal-osoko
+bilkurarako deia da, ez hautaketa-prozesua. [2026-11-23ko BON
+sumarioan](https://bon.navarra.es/es/inicio/-/sumario/2026/233) Abárzuzaren
+aurrekontua eta 2027ko plantilla organikoaren hasierako onespena ageri dira;
+ez dira lanpostu batera aurkezteko oinarriak.
+
+Ez da udalaren langile-deialdi zehatzik haren hautaketa-agiri ofizialekin
+batera egiaztatu. Abárzuza `pending` mantendu da, scraper edo fitxa berririk
+gabe. Taularen uneko ikuspegiak eta berrikusitako orriek ez dute artxibo osoa
+estaltzen, eta ez dute lanpostu hutsik eza frogatzen.
