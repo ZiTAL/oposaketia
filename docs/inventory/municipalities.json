@@ -16700,6 +16700,12 @@
       "checkedAt": "2026-11-18T08:19:58.716Z",
       "candidates": []
     },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T13:18:00Z",
+      "url": "https://www.abadiño.org/",
+      "outcome": "official-bulletin-calls-verified-direct-index-unverified",
+      "note": "The municipal homepage and sitemap were retrieved directly (HTTP 200); their inspected links did not expose a usable employment-call index. The municipal robots.txt disallows /tablondocumentos/ and /tablonficheros/. BOE-A-2026-19805 verifies a free-turn Conserje call and cites its bases in Bizkaia bulletin 177/2026; the IVAP official record links directly to BOB II-4842 and reports the application window. BOE-A-2026-20349 and BOE-A-2026-20637 verify internal-promotion calls for four Administrativo/a posts and one Oficial/a Fontanero/a post, citing BOB 182/2026 and 183/2026 for their bases. Existing Euskadi aggregate catalogue matches are partial evidence only. The municipal website's full call coverage and a permitted, stable direct index were not verified; no municipal scraper or new call is added."
+    },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",
       "calls": 4,

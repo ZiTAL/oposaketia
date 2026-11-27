@@ -1628,3 +1628,33 @@ Ez da udalaren langile-deialdi zehatzik haren hautaketa-agiri ofizialekin
 batera egiaztatu. Abárzuza `pending` mantendu da, scraper edo fitxa berririk
 gabe. Taularen uneko ikuspegiak eta berrikusitako orriek ez dute artxibo osoa
 estaltzen, eta ez dute lanpostu hutsik eza frogatzen.
+
+## Abadiño: udal-enplegu iturriaren berrikuspena
+
+2026-11-27an [udalaren webgunea](https://www.abadiño.org/),
+[sitemap-a](https://www.abadiño.org/sitemap.xml) eta
+[robots.txt](https://www.abadiño.org/robots.txt) zuzenean eskuratu dira
+(HTTP 200). Hasierako orriaren eta sitemap-aren ikusitako estekek ez dute
+langileen deialdien zerrenda erabilgarririk erakutsi. `robots.txt` fitxategiak
+`/tablondocumentos/` eta `/tablonficheros/` bideak baztertzen ditu; ez dira
+kontsultatu.
+
+[BOEko atezainaren deialdiak](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-19805)
+2026ko irailaren 24ko argitalpena, plaza bakarra eta txanda irekia baieztatzen
+ditu. [IVAPen fitxa ofizialak](https://www.ivap.euskadi.eus/webivap00-a2enpleg/es/contenidos/empleo_publico/conserje_abadino/es_def/index.shtml)
+2026-09-25etik 2026-10-23ra arteko izen-ematea erakusten du eta
+[Bizkaiko Aldizkari Ofizialeko oinarrietara](https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/09/16/II-4842_cas.pdf)
+lotzen du. [BOE-A-2026-20349](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20349)
+eta [BOE-A-2026-20637](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20637)
+agiriek, hurrenez hurren, administrariaren lau plaza eta iturgin ofizialaren
+plaza bat egiaztatzen dituzte, biak barne-sustapenekoak. Haien oinarriak
+Bizkaiko Aldizkari Ofizialaren 2026ko 182. eta 183. zenbakietan aipatzen dira.
+Izen-emate epeak amaituta daude; ez dira gaur egun irekitako deialdi gisa
+aurkezten. Administrariaren behin-behineko onartuen zerrenda
+[2026-11-20ko BOBean](https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/20/II-6108_cas.pdf)
+argitaratu da; erreklamazio-epea ez da izen-emate berritzat hartu.
+
+Katalogoan Euskadiko iturri agregatuarekin bat datozen lau fitxa zeuden
+aurreko auditorian, baina horrek ez du udalaren zuzeneko estaldura osoa
+frogatzen. Ez da udal-webguneko deialdi-zerrenda egonkor eta baimendurik
+egiaztatu; Abadiño `pending` mantendu da, udal-scraper edo fitxa berririk gabe.
