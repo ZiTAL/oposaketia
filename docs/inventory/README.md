@@ -1495,3 +1495,22 @@ bilaketetan ere ez da udalaren deialdi zehatzik haren agiri ofizialekin batera
 egiaztatu. Bilaketa horiek ez dute artxibo osoa estaltzen. Udalerria `pending`
 mantendu da, scraper edo fitxa berririk gabe; berrikuspenak ez du lanpostu
 hutsik ez dagoela frogatzen.
+
+## ELIKA: fundazioaren enplegu-iturriaren berrikuspena
+
+2026-11-27an [ELIKAren webgune ofiziala](https://www.elika.eus/es/),
+[gardentasun-ataria](https://www.elika.eus/es/transparencia/) eta
+[«Personas» orria](https://www.elika.eus/es/conocenos/personas/) zuzenean
+kontsultatu dira (HTTP 200). [Robots.txt fitxategiak](https://www.elika.eus/robots.txt)
+bilketa baimentzen du. Langileen orriak hamar profesionaleko taldea azaltzen du;
+ez du lanpostu hutsen edo hautaketa-prozesuen zerrendarik ematen.
+
+[Sitemap ofizialeko](https://www.elika.eus/sitemap_index.xml) orri eta
+albiste URLak berrikusi dira. Bertan aurkitutako «convocatoria» izeneko
+albisteetako adibideak ikerketako finantzaketa, prestakuntza edo batzorde
+zientifikoko parte-hartzeari buruzkoak dira; ez dira ELIKAren langileentzako
+deialdi egiaztatuak. Berrikusitako nabigazioan ez da langileen kontratazio-atal
+bereizirik identifikatu. Ez da ELIKAren lanpostu-deialdi zehatzik bere
+hautaketa-agiri ofizialekin batera egiaztatu. `pending` egoera mantendu da,
+scraper edo fitxa berririk gabe. Honek ez du eskaintzarik eza edo enplegu-
+iturri guztien estaldura frogatzen.

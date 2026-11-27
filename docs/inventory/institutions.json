@@ -1010,7 +1010,7 @@
     "province": null,
     "reportLine": 25,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "ELIKAren webgune eta gardentasun-atari ofizialak berrikusi dira; ez da langileen hautaketa-deialdi zehatzik haren agiri ofizialekin batera egiaztatu. Zuzeneko enplegu-estaldura egiaztatzeko dago.",
     "websiteFromDirectory": "https://elika.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/elika-fundacion-vasca-seguridad-agroalimentaria/web01-a2ogafin/es/",
     "websiteDirectoryName": "ELIKA Fundación Vasca para la Seguridad Agroalimentaria",
@@ -1032,6 +1032,15 @@
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
+    },
+    "employmentReview": {
+      "checkedAt": "2026-11-27",
+      "status": "official-site-reviewed-no-documented-staff-call",
+      "officialSourceUrl": "https://www.elika.eus/es/",
+      "transparencyUrl": "https://www.elika.eus/es/transparencia/",
+      "staffUrl": "https://www.elika.eus/es/conocenos/personas/",
+      "sitemapUrl": "https://www.elika.eus/sitemap_index.xml",
+      "note": "Webgune ofizialeko robots.txt fitxategiak bilketa baimentzen du. Hasierako orria, gardentasun-ataria eta langileen orria HTTP 200 bidez kontsultatu dira; azkenak hamar profesionaleko taldea deskribatzen du, ez lanpostu hutsak. Sitemapeko orri eta albiste URLetan enplegu-hitzak bilatuta ez da ELIKAren langileak hautatzeko atal identifikagarririk aurkitu; 'convocatoria' izeneko albisteen artean ikerketa, prestakuntza eta batzorde zientifikoko parte-hartzeari buruzkoak daude. Ez da lanpostu zehatzik bere hautaketa-agiriekin batera egiaztatu, eta ez da scraper-rik edo fitxarik gehitu. Berrikuspenak ez du eskaintzarik eza edo enplegu-iturri guztien estaldura frogatzen."
     }
   },
   {
