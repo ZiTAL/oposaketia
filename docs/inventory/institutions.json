@@ -1248,7 +1248,7 @@
     "province": null,
     "reportLine": 25,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "Euskadiko direktorioak BRTA partzuergo gisa identifikatzen du. Bere enplegu-orri ofizialak aliantzako zentroetako lan-ingurunea azaltzen du, baina ez du BRTAren langile-deialdirik edo hautaketa-agiririk zerrendatzen; zuzeneko estaldura egiaztatzeko dago.",
     "websiteFromDirectory": "https://brta.eus/",
     "websiteDirectoryUrl": "https://www.euskadi.eus/entidad/consorcio-cientifico-tecnologico-vasco-basque-research-and-technology-alliance-brta/web01-a2ogafin/es/",
     "websiteDirectoryName": "Consorcio Científico-Tecnológico Vasco Basque Research and Technology Alliance (BRTA)",
@@ -1258,6 +1258,14 @@
       "status": "no-link-found",
       "checkedAt": "2026-11-19T08:27:04.322Z",
       "candidates": []
+    },
+    "employmentReview": {
+      "checkedAt": "2026-11-27T18:18:25Z",
+      "status": "official-employment-page-no-verifiable-brta-call",
+      "officialSourceUrl": "https://brta.euskadi.eus/empleo/webbrta00-content/es/",
+      "transparencyUrl": "https://brta.euskadi.eus/es/portal-de-transparencia/",
+      "citizenRelationsUrl": "https://brta.euskadi.eus/relacion-con-la-ciudadania/webbrta00-content/es/",
+      "note": "BRTAren enplegu-orria eta gardentasuneko bi orri zuzenean eskuratu dira (HTTP 200). Enplegu-orriak aliantzako 17 zentroetako lan-baldintzei buruzko azalpen orokorra eta kontakturako esteka ditu, baina ez BRTA partzuergoaren lanpostu edo hautaketa-agirien zerrendarik. Gardentasuneko ikusitako orriek informazio instituzionala eta informazio publikora sartzeko bidea eskaintzen dituzte, ez langileen deialdiak. BRTAri espresuki esleitutako deialdi zehatzik eta haren hautaketa-agiri ofizialik ez da batera egiaztatu. Aliantzako kideen enplegua ez zaio partzuergoari egotzi. Berrikuspenak ez du artxibo osoa estaltzen edo lanpostu hutsik eza frogatzen; ez da fitxarik inportatu."
     },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",

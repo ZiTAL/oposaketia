@@ -1732,3 +1732,22 @@ bertako baldintzak eta maiatzaren 21etik 28ra bitarteko epea ezin zaizkio
 2026ko iragarkiari esleitu. Ez da hautaketa-agiri osoen udal-zerrenda egonkorrik
 egiaztatu. Aberin `pending` mantendu da, scraper edo fitxa berririk gabe;
 berrikuspenak ez du beste deialdirik ez dagoela frogatzen.
+
+## BRTA: aliantzako enplegu-orria eta partzuergoaren deialdiak
+
+2026-11-27an [BRTAren enplegu-orria](https://brta.euskadi.eus/empleo/webbrta00-content/es/),
+[gardentasun-ataria](https://brta.euskadi.eus/es/portal-de-transparencia/) eta
+[herritarrekiko harremanen orria](https://brta.euskadi.eus/relacion-con-la-ciudadania/webbrta00-content/es/)
+zuzenean eskuratu dira (HTTP 200). Euskadiko [erakunde-direktorioak](https://www.euskadi.eus/entidad/consorcio-cientifico-tecnologico-vasco-basque-research-and-technology-alliance-brta/web01-a2ogafin/es/)
+BRTA partzuergo gisa identifikatzen du. Enplegu-orriak aliantzako zentroetako
+lan-ingurunea azaltzen du eta kontakturako esteka ematen du; ez du BRTAren
+langile-deialdirik edo hautaketa-agiririk zerrendatzen. Gardentasuneko ikusitako
+orriek informazio instituzionala eta informazio publikora sartzeko bidea
+eskaintzen dituzte, ez langileen hautaketa-zerrenda.
+
+BRTA [17 zentroko aliantza](https://brta.euskadi.eus/conoce-brta/) da;
+zentro kideen kontratazioak ezin zaizkio automatikoki partzuergoari esleitu.
+Berrikusitako iturrietan ez da BRTAri espresuki atxikitako deialdi bat eta haren
+hautaketa-agiri ofizialak batera egiaztatu. `pending` egoera mantendu da,
+scraper edo fitxa berririk gabe. Berrikuspenak ez du artxibo osoa estaltzen,
+ezta lanpostu hutsik eza frogatzen ere.
