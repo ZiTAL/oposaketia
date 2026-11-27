@@ -1583,3 +1583,22 @@ Worktree honetako HTTPS eskaerek ziurtagiriaren egiaztapenean huts egin dute;
 orri publikoak web bilatzailearen bidez irakurri eta sarbidea diagnostikatu da.
 Ez da egungo udal-deialdi bat eta haren hautaketa-agiri ofizialak batera
 egiaztatu. Bidache `pending` mantendu da, scraper edo fitxa berririk gabe.
+
+## Abáigar: udal-enplegu iturriaren berrikuspena
+
+2026-11-27an [udalaren hasierako orria](https://www.abaigar.es/),
+[udalaren datuen orria](https://www.abaigar.es/ayuntamiento_datos.html) eta
+[antolaketa-orria](https://www.abaigar.es/ayuntamiento_organizacion.html)
+zuzenean eskuratu dira (HTTP 200). Ikusitako nabigazioan ez dago enplegu edo
+langileen hautaketa atalik. Hasierako orriak
+[udalaren egoitza elektronikora](https://abaigar.sedelectronica.es/) lotzen du,
+baina worktree honetatik egindako kontsultetan `/info` eta `/info.0` bideek
+elkarri 302 birbideratzeak itzuli dizkiote; iragarki-taula ezin izan da zuzenean
+egiaztatu.
+
+[Nafarroako Aldizkari Ofizialak](https://bon.navarra.es/es/ayuda/preguntas-frecuentes)
+tokiko enplegu-deialdiak bilatzeko bidea azaltzen du. Berrikusitako bilaketak
+ez du Abáigarko langileen deialdi zehatzik bere hautaketa-agiri ofizialekin
+batera egiaztatu. Udalerria `pending` mantendu da, scraper edo fitxa berririk
+gabe. Berrikuspenak ez du lanpostu hutsik eza edo egoitzaren artxibo osoaren
+estaldura frogatzen.

@@ -25,6 +25,12 @@
       "checkedAt": "2026-11-18T08:38:07.448Z",
       "candidates": []
     },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T11:18:30Z",
+      "url": "https://www.abaigar.es/",
+      "outcome": "no-municipal-call-verified",
+      "note": "The municipal home page and Ayuntamiento pages were retrieved directly (HTTP 200). Their visible navigation has no employment or selection section. The home page links to abaigar.sedelectronica.es, but direct requests to /info and /info.0 returned reciprocal HTTP 302 redirects, preventing notice-board verification in this review. A BON search did not verify an Abáigar staff call with official selection documents. Keep direct employment coverage pending; no absence of vacancies is inferred."
+    },
     "aggregateMonitoring": {
       "sourceId": "bon-local",
       "section": "2.1. Administración Local de Navarra: oposiciones, concursos y oferta pública de empleo",
