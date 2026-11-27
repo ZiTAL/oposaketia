@@ -1560,3 +1560,26 @@ fundazioko langileen deialdi gisa hartu. Basque Team `pending` mantendu da,
 scraper edo fitxa berririk gabe. Ez da baldintzarik, eperik edo gai-zerrendarik
 asmatu; berrikuspenak ez du lanpostu hutsik eza edo enplegu-iturri guztien
 estaldura frogatzen.
+
+## Bidache: udal-enplegu iturriaren berrikuspena
+
+2026-11-27an [CAPBren udal-fitxa ofizialak](https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/bidache)
+`bidache.fr` udal-webgune gisa identifikatzen zuela egiaztatu da.
+[Emploi Territorialeko COMMUNE DE BIDACHE bilaketa publikoak](https://www.emploi-territorial.fr/emploi-mobilite/?search-col=39376)
+0 emaitza erakutsi du kontsultan. Horrek ez du udalaren lanpostu hutsik eza
+edo atariaren artxibo osoaren estaldura frogatzen.
+
+[Médiathécaire iragarki ofiziala](https://www.emploi-territorial.fr/offre/o064250922001084-mediathecaire)
+(O064250922001084) oraindik irakur daiteke: 2025-10-01ean argitaratu zen,
+2025-11-02ko hautagaitza-epea amaitu da, eta atariak eskaintza iraungita
+dagoela dio. Bertan adierazitako ikasketak desiragarriak dira, ez derrigorrezko
+sarbide-baldintza egiaztatuak. [Udalaren 2026-01-19ko aktak](https://www.bidache.fr/wp-content/uploads/2026/01/CR1_2026-1.pdf)
+07/2026 erabakian mediatekariaren lanpostu iraunkorra eta 08/2026 erabakian
+ordezkapenerako lanpostu ez iraunkorra sortzen ditu. Akta ez da hautaketa-
+oinarrien edo egungo izen-ematearen iragarkia. Atariaren PDF esportazioaren
+bidea `robots.txt` fitxategiak baztertzen du.
+
+Worktree honetako HTTPS eskaerek ziurtagiriaren egiaztapenean huts egin dute;
+orri publikoak web bilatzailearen bidez irakurri eta sarbidea diagnostikatu da.
+Ez da egungo udal-deialdi bat eta haren hautaketa-agiri ofizialak batera
+egiaztatu. Bidache `pending` mantendu da, scraper edo fitxa berririk gabe.

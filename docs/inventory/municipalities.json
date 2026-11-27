@@ -20005,6 +20005,14 @@
       "checkedAt": "2026-11-18T08:59:51.668Z",
       "candidates": []
     },
+    "employmentReview": {
+      "checkedAt": "2026-11-27",
+      "status": "historical-call-no-current-selection-documents",
+      "officialSourceUrl": "https://www.emploi-territorial.fr/emploi-mobilite/?search-col=39376",
+      "historicalCallUrl": "https://www.emploi-territorial.fr/offre/o064250922001084-mediathecaire",
+      "municipalDocumentUrl": "https://www.bidache.fr/wp-content/uploads/2026/01/CR1_2026-1.pdf",
+      "note": "Emploi Territorialeko COMMUNE DE BIDACHE enplegatzailearen bilaketa publikoak 0 emaitza erakutsi du. 2025eko mediatekariaren O064250922001084 iragarkia ofiziala da, baina 2025-11-02ko hautagaitza-epea amaitu da. Udalaren 2026-01-19ko 07/2026 eta 08/2026 erabakiek lanpostuak sortzen dituzte; ez dira hautaketa-deialdi irekiak edo hautaketa-oinarriak. PDF esportazioaren bidea robots.txt fitxategiak baztertzen du. Lan-ingurune honetako HTTPS ziurtagiri-egiaztapenak huts egin du; web bilatzailearen irakurketa eta diagnostikoko eskaerak erabili dira. Ez da egungo deialdi bat eta haren hautaketa-agiri ofizialak egiaztatu; ez da fitxarik inportatu, eta zuzeneko udal-estaldura berrikusteko dago."
+    },
     "provinceNameInSource": "Bidache",
     "provinceSource": "https://www.eke.eus/fr/culture-basque/pays-basque/pays-basque-nord-ou-iparralde/communes-du-pays-basque-nord",
     "provinceCheckedAt": "2026-11-18T13:05:41.097Z",
