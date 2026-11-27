@@ -13248,12 +13248,14 @@
     "name": "Aduna",
     "territory": "Euskadi",
     "province": "Gipuzkoa",
-    "status": "pending",
+    "status": "connected-partial",
     "officialCode": "20002",
     "aliases": [],
     "type": "municipality",
-    "sourceIds": [],
-    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Enplegu-atariaren estaldura bereizita egiaztatu behar da.",
+    "sourceIds": [
+      "aduna"
+    ],
+    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Udalaren enplegu-orriko 2025eko bi deialdi historikoak eta oinarriak egiaztatuta; estaldura partziala.",
     "directoryStatus": "verified",
     "directoryUrl": "https://www.gazteaukera.euskadi.eus/contenidos/ds_registros/registro_entidades_locales/opendata/entidades.json",
     "directoryCheckedAt": "2026-11-18T08:11:18.818Z",
@@ -13273,22 +13275,33 @@
       ]
     },
     "employmentPageReview": {
-      "reviewedAt": "2026-11-19T07:43:27.731426Z",
+      "reviewedAt": "2026-11-27T22:19:43Z",
       "url": "https://www.aduna.eus/eu/lan-eskaintzak1",
-      "outcome": "requires-format-review",
-      "note": "First published employment link reviewed; this does not establish absence of vacancies or complete coverage."
+      "outcome": "municipal-calls-and-bases-verified",
+      "note": "The directory-listed official employment page and robots.txt returned HTTP 200. The page lists two 2025 municipal selections: a temporary cultural facilitator and an interim polyvalent worker. Both linked municipal notices and both selection-bases PDFs returned HTTP 200 and were parsed directly. The bases identify Ayuntamiento de Aduna, one post each, the education and Basque-language profiles, driving permit B, and Lanbide registration before 16 and 14 February 2025 respectively. The peon notice says B1 while its bases say B; the scraper uses the bases and flags this discrepancy here. These calls are closed. No numbered examination syllabus is published; result lists are excluded. This connector covers the two verified historical entries, not the entire archive or the separately discovered cleaning-job news article.",
+      "noticeUrls": [
+        "https://www.aduna.eus/documents/276610/41889904/Bandoa_KULTURA+DINAMIZATZAILEA+HAUTAKETA+Bandoa+Aduna.pdf/92e6fc59-5c4d-e258-99bf-1787dadd4dff?t=1739182480188",
+        "https://www.aduna.eus/documents/276610/41866218/Lan_Eskaintza_PEOI+BALIOANITZA_Aduna.pdf/52af9f59-2956-5c6d-2e1f-a236253be041?t=1738763889550"
+      ],
+      "basesUrls": [
+        "https://www.aduna.eus/documents/276610/41889904/04_Oinarriak_bi.pdf/41e50785-dade-3209-2c22-1b9250783cfd?t=1739182512200",
+        "https://www.aduna.eus/documents/276610/41866218/04_Oinarriak_bi.pdf/6d772f5c-e8c8-5561-d427-a179d9366284?t=1738763939111"
+      ],
+      "robotsUrl": "https://www.aduna.eus/robots.txt"
     },
     "selectionSeatReview": {
       "reviewedAt": "2026-11-19T09:36:56.308820+00:00",
       "url": "https://www.aduna.eus/eu/lan-eskaintzak1",
       "outcome": "no-supported-seat-link",
-      "note": "This employment page has no recognized link to the supported Gipuzkoa selection seat. Its own recruitment format still requires integration; this does not imply no vacancies."
+      "note": "This employment page has no recognized link to the supported Gipuzkoa selection seat. The two historical calls on the municipal page now have a separate direct connector; the seat review does not establish coverage of other municipal calls."
     },
     "recordEvidence": {
-      "auditedAt": "2026-11-23T07:57:46.942Z",
-      "calls": 0,
-      "sourceIds": [],
-      "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+      "auditedAt": "2026-11-27T22:20:00Z",
+      "calls": 2,
+      "sourceIds": [
+        "aduna"
+      ],
+      "matching": "Focused inventory audit against the two-call Aduna scrape export; observed records prove partial presence only. This is not a whole-catalogue coverage total."
     }
   },
   {

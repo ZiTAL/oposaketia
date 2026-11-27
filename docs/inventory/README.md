@@ -1814,3 +1814,28 @@ prozesuen ondorengo emaitzak ere baditu; ez dira lan-deialdi berritzat hartu.
 Lehen aurkitutako eskualdeko bloga ez da udalaren enplegu-katalogoa. Beste
 udal-deialdiak eta iragarki-taularen artxibo osoa berrikusteko daude;
 `connected-partial` egoerak estaldura mugatu hori adierazten du.
+
+
+## Aduna: 2025eko udal-deialdi historikoak
+
+2026-11-27an [udalaren enplegu-orria](https://www.aduna.eus/eu/lan-eskaintzak1)
+eta [robots.txt](https://www.aduna.eus/robots.txt) zuzenean eskuratu dira (HTTP 200).
+Orriko bi hautaketa historikoetako udal-iragarkiak eta oinarri ofizialak ere
+PDF gisa eskuratu dira (laurak HTTP 200): [kultura dinamizatzailearen
+iragarkia](https://www.aduna.eus/documents/276610/41889904/Bandoa_KULTURA+DINAMIZATZAILEA+HAUTAKETA+Bandoa+Aduna.pdf/92e6fc59-5c4d-e258-99bf-1787dadd4dff?t=1739182480188)
+eta [oinarriak](https://www.aduna.eus/documents/276610/41889904/04_Oinarriak_bi.pdf/41e50785-dade-3209-2c22-1b9250783cfd?t=1739182512200),
+eta [peoi balioanitzaren iragarkia](https://www.aduna.eus/documents/276610/41866218/Lan_Eskaintza_PEOI+BALIOANITZA_Aduna.pdf/52af9f59-2956-5c6d-2e1f-a236253be041?t=1738763889550)
+eta [oinarriak](https://www.aduna.eus/documents/276610/41866218/04_Oinarriak_bi.pdf/6d772f5c-e8c8-5561-d427-a179d9366284?t=1738763939111).
+
+`aduna` konektoreak bi fitxa itxi ematen ditu: 2025eko kultura dinamizatzailearen
+aldi baterako plaza bat eta peoi balioanitzaren behin-behineko plaza bat.
+Oinarriek, hurrenez hurren, Batxilergoa edo goi-mailako teknikaria eta 3. HE,
+eta Bigarren Hezkuntza edo baliokidea eta 2. HE eskatzen dituzte; biek B
+gidabaimena eskatzen dute. Peoiaren iragarkiak **B1** dio, baina oinarriek
+**B**; fitxak oinarrien idazkera erabiltzen du eta kontraesana hemen jasota
+geratzen da. Lanbiden izena emateko epeak 2025-02-16 eta 2025-02-14 baino
+lehenagokoak ziren. Ez da azken egun absoluturik edo gai-zerrendarik asmatzen.
+
+Orriko emaitzak ez dira deialdi berritzat hartzen. Lehen prospekzioan aurkitutako
+garbiketa-lanpostuaren albistea eta udalaren beste artxiboak berrikusteko daude;
+`connected-partial` egoerak bi fitxa historiko hauen estaldura adierazten du.
