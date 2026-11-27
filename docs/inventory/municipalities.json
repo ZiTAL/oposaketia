@@ -20400,6 +20400,16 @@
     "websiteFromDirectory": null,
     "websiteDirectoryUrl": "https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/amendeuix-oneix",
     "websiteDirectoryCheckedAt": "2026-11-18T08:55:18.714Z",
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T05:18:09Z",
+      "url": "https://amendeuix-oneix.com/",
+      "outcome": "official-site-no-verified-call",
+      "note": "The French public-service directory identifies this as the municipal website. The publicly indexed home page, municipal page and news archive show municipal information and staff names, but no recruitment section or specific municipal selection call with official documents was verified. Direct HTTPS requests from this worktree failed certificate validation; HTTP returned 403, so the review does not establish full site or archive coverage. The CAPB commune profile gives contact details but no municipal employment page. No scraper or call is added; absence of vacancies is not inferred.",
+      "directoryUrl": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/pyrenees-atlantiques/51ec7238-15b0-4995-994b-5d3f1f13f25e",
+      "capbProfileUrl": "https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/amendeuix-oneix",
+      "municipalPageUrl": "https://amendeuix-oneix.com/mairie-amendeuix-oneix/",
+      "newsArchiveUrl": "https://amendeuix-oneix.com/actualites/"
+    },
     "provinceNameInSource": "Amendeuix-Oneix",
     "provinceSource": "https://www.eke.eus/fr/culture-basque/pays-basque/pays-basque-nord-ou-iparralde/communes-du-pays-basque-nord",
     "provinceCheckedAt": "2026-11-18T13:05:41.097Z",

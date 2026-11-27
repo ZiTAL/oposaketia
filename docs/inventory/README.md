@@ -1457,3 +1457,22 @@ Ez da udal-deialdi zehatzik haren agiri ofizialekin batera egiaztatu.
 Alos-Sibas-Abense `pending` mantendu da, udal-scraper edo fitxa berririk gabe;
 berrikuspen honek ez du lanpostu hutsik eza edo udalaren enpleguaren estaldura
 osoa frogatzen.
+
+## Amendeuix-Oneix: udal-enplegu iturriaren berrikuspena
+
+2026-11-27an [Estatuko zerbitzu publikoaren direktorioak](https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/pyrenees-atlantiques/51ec7238-15b0-4995-994b-5d3f1f13f25e)
+`https://amendeuix-oneix.com/` udal-webgune gisa identifikatzen zuela egiaztatu
+da. [Udalaren hasierako orriaren](https://amendeuix-oneix.com/),
+[udal-orriaren](https://amendeuix-oneix.com/mairie-amendeuix-oneix/) eta
+[albisteen artxiboaren](https://amendeuix-oneix.com/actualites/) edukia web
+bilatzailearen bidez irakurri da. Udal-orriak langileak izendatzen ditu eta
+albisteen artxiboak udal-jarduerak erakusten ditu; ikusitako nabigazioak ez du
+kontratazio-atalik edo udalaren hautaketa-deialdi zehatzik agertu.
+[CAPBren udal-fitxak](https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/amendeuix-oneix)
+harremanetarako datuak ematen ditu, baina ez du udal-enplegu orririk adierazten.
+
+Worktree honetatik egindako HTTPS eskaerek ziurtagiriaren balioztatzean huts
+egin dute; HTTP eskaerek 403 itzuli dute. Horregatik, webgunearen edo artxiboaren
+estaldura osoa ezin da baieztatu. Ez da udal-deialdirik bere agiri ofizialekin
+batera egiaztatu, eta ez da scraper-rik edo fitxarik gehitu. Amendeuix-Oneix
+`pending` mantendu da; berrikuspenak ez du lanpostu hutsik ez dagoela frogatzen.
