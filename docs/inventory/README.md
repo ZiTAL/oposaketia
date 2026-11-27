@@ -1793,3 +1793,24 @@ Ez da udal-langileen deialdi bat bere hautaketa-agiri ofizialekin batera
 egiaztatu. Aguilar de Codés `pending` mantendu da, scraper eta fitxa berririk
 gabe. Berrikuspen mugatu honek ez du lanpostu hutsik eza frogatzen, ezta
 aldizkariaren artxibo osoa estaltzen ere.
+
+## Aibar/Oibar: administrari ofizialen 2024ko lan-poltsa
+
+2026-11-27an direktorioko [udal-webgunea](https://www.aibar-oibar.org/)
+`aibar-oibar.org` helbidera birbideratu da. [Hasierako orria](https://aibar-oibar.org/),
+[robots.txt](https://aibar-oibar.org/robots.txt), [2024-08-21eko udal-deialdia](https://aibar-oibar.org/convocada-una-oposicion-para-la-creacion-de-una-lista-de-aspirantes-a-oficiales-administrativos/)
+eta bertatik lotutako [oinarri ofizialen PDFa](https://aibar-oibar.org/wp-content/uploads/2024/09/BASES-CONVOCATORIA-OFICIAL-ADMINISTRATIVO.pdf)
+zuzenean eskuratu dira (HTTP 200). Robots arauek ez dituzte bide horiek
+baztertzen. PDFak udala deitzaile gisa, C mailako administrari ofizialen aldi
+baterako kontratazio-zerrenda, Batxilergoa edo bigarren mailako FP, enplegu-
+eskatzailearen inskripzioa eta idatzizko probako hiru legeak jasotzen ditu.
+Eskaera-epea iragarki-taulan eta egoitzan argitaratu ondoko zazpi egun baliodunekoa
+da; ez da albistearen datatik azken egun absoluturik kalkulatu.
+
+`aibar` konektoreak jatorrizko iragarkia eta hari lotutako PDFa berriro
+egiaztatzen ditu, eta artxiboko fitxa bakarra ematen du. Udalaren albisteen
+zerrenda orokorrak dirulaguntza-deialdiak, beste gai batzuk eta hautaketa-
+prozesuen ondorengo emaitzak ere baditu; ez dira lan-deialdi berritzat hartu.
+Lehen aurkitutako eskualdeko bloga ez da udalaren enplegu-katalogoa. Beste
+udal-deialdiak eta iragarki-taularen artxibo osoa berrikusteko daude;
+`connected-partial` egoerak estaldura mugatu hori adierazten du.

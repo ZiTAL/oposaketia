@@ -399,12 +399,13 @@
     "name": "AIBAR / OIBAR",
     "territory": "Navarra",
     "province": "Navarra",
-    "status": "pending",
+    "status": "connected-partial",
     "officialCode": "31009",
     "type": "municipality",
     "sourceIds": [
       "navarra",
-      "lanbide"
+      "lanbide",
+      "aibar"
     ],
     "directoryStatus": "verified",
     "directoryUrl": "https://nastat.navarra.es/es/recursos/nomenclator",
@@ -434,10 +435,13 @@
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
     },
     "employmentPageReview": {
-      "reviewedAt": "2026-11-18T14:59:24.157Z",
-      "url": "https://interesanteparasanguesaybajamontana.blogspot.com/",
-      "outcome": "not-employment-catalogue",
-      "note": "The first discovered link is a comarca information blog, not this municipality’s official employment catalogue. It is not imported."
+      "reviewedAt": "2026-11-27T21:21:31Z",
+      "url": "https://aibar-oibar.org/convocada-una-oposicion-para-la-creacion-de-una-lista-de-aspirantes-a-oficiales-administrativos/",
+      "outcome": "municipal-call-and-bases-verified",
+      "note": "The directory-listed municipal website redirects to the canonical aibar-oibar.org site; its home page, robots.txt, original 21 August 2024 administrative-officer notice and linked municipal bases PDF were retrieved directly (HTTP 200). The PDF identifies Aibar/Oibar council as employer, a temporary level-C administrative-officer hiring list, Bachillerato or second-grade vocational education, employment-office registration, and three named laws for the written test. It gives seven working days from publication on the notice board/electronic office, so no absolute deadline was inferred from the news date. The general news feed also contains grants, unrelated posts and later selection results; this fixed-source connector covers only the verified original call. The previously discovered regional blog is not an official municipal employment catalogue. Other municipal calls and the full notice-board archive remain unreviewed.",
+      "basesUrl": "https://aibar-oibar.org/wp-content/uploads/2024/09/BASES-CONVOCATORIA-OFICIAL-ADMINISTRATIVO.pdf",
+      "robotsUrl": "https://aibar-oibar.org/robots.txt",
+      "newsApiUrl": "https://aibar-oibar.org/wp-json/wp/v2/posts"
     },
     "aggregateMonitoring": {
       "sourceId": "bon-local",

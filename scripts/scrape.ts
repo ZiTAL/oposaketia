@@ -88,6 +88,7 @@ import {scrapeBeaz} from './scrapers/beaz';
 import {scrapeFundapa} from './scrapers/fundapa';
 import {scrapeMoncayo} from './scrapers/moncayo';
 import {scrapeAllo} from './scrapers/allo';
+import {scrapeAibar} from './scrapers/aibar';
 import {scrapeAblitas} from './scrapers/ablitas';
 import {scrapeAgoitz} from './scrapers/agoitz';
 import {scrapeArtajonaFamiliar} from './scrapers/artajona-familiar';
@@ -163,6 +164,7 @@ export async function runScrape(selected=process.env.SCRAPE_SOURCES?.trim() || s
           fundapa:()=>scrapeFundapa(client,now),
           moncayo:()=>scrapeMoncayo(client,now),
           allo:()=>scrapeAllo(client,now),
+          aibar:()=>scrapeAibar(client,now),
           ablitas:()=>scrapeAblitas(client,now),
           agoitz:()=>scrapeAgoitz(client,now),
           'artajona-familiar':()=>scrapeArtajonaFamiliar(client,now),
