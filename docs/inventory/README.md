@@ -1681,3 +1681,27 @@ Katalogoan Euskadiko iturri agregatuarekin bat datozen lau fitxa zeuden
 aurreko auditorian, baina horrek ez du udalaren zuzeneko estaldura osoa
 frogatzen. Ez da udal-webguneko deialdi-zerrenda egonkor eta baimendurik
 egiaztatu; Abadiño `pending` mantendu da, udal-scraper edo fitxa berririk gabe.
+
+## Abaurrepea / Abaurrea Baja: udal-enplegu iturriaren berrikuspena
+
+2026-11-27an [Nafarroako toki-erakundeen fitxa](https://www.navarra.es/es/buscador-de-entidades-locales/-/detalle/1545)
+zuzenean eskuratu da (HTTP 200): `aezkoa.org` ematen du webgune gisa.
+[Aezkoako Batzarre Nagusiaren zerbitzu-orriak](https://aezkoa.org/valle-de-aezkoa/servicios-administrativos/)
+(HTTP 200) dio Abaurrepeak ez duela berezko arreta-zerbitzurik eta
+Abaurregainako udaletxean artatzen dela. [Abaurregainako webguneak](https://abaurreagaina.com/)
+bere burua Abaurrea Altako gune gisa aurkezten du, eta egoitza elektronikoa
+«Próximamente» dela adierazten du. Bertako [robots.txt](https://abaurreagaina.com/robots.txt),
+[albiste-sitemap](https://abaurreagaina.com/post-sitemap.xml) eta
+[orri-sitemap](https://abaurreagaina.com/page-sitemap.xml) fitxategiak ere
+eskuratu dira (HTTP 200); ez dute Abaurrepeako langileen hautaketa-orririk
+erakutsi.
+
+[Nafarroako kontratazio-erregistroak](https://hacienda.navarra.es/sicpportal/mtoFichaEntidad.aspx?Cod=8218)
+Abaurrepeako udala erakunde bereizi gisa identifikatzen du, `P3100400E` IFZrekin.
+[2022ko foru-legean](https://www.boe.es/buscar/doc.php?id=BOE-A-2022-9766)
+bi udalen elkarteko idazkaritza-lanpostu huts bat ageri da; zerrenda hori ez da
+Abaurrepeako udalaren hautaketa-deialdia eta ez ditu deialdiaren oinarriak
+ematen. Berrikusitako aldizkari-bilaketak ere ez du udal-langileen deialdi bat
+bere hautaketa-agiri ofizialekin batera egiaztatu. Abaurrepea `pending` mantendu
+da, scraper edo fitxa berririk gabe. Berrikuspen honek ez du aldizkariaren
+artxibo osoa estaltzen, ezta lanpostu hutsik eza frogatzen ere.

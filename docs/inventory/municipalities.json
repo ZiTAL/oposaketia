@@ -166,6 +166,16 @@
       "checkedAt": "2026-11-18T08:38:12.784Z",
       "candidates": []
     },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T16:18:20Z",
+      "url": "https://aezkoa.org/valle-de-aezkoa/servicios-administrativos/",
+      "outcome": "no-municipal-call-verified",
+      "note": "The Navarra local-entity directory was retrieved directly (HTTP 200) and lists aezkoa.org for Abaurrepea. The Aezkoa administrative-services page (HTTP 200) says Abaurrepea has no separate service desk and is attended at Abaurregaina town hall. The latter's website, robots.txt and published post/page sitemaps were retrieved directly (HTTP 200); the site identifies itself as Abaurrea Alta's, labels its electronic office 'Próximamente', and its published sitemaps showed no Abaurrepea staff-selection page. The official contracting register identifies Abaurrepea council as a contracting entity (NIF P3100400E). A search of official bulletin material did not verify a council staff call together with its selection documents. The shared secretariat vacancy in the 2022 foral law is a vacancy listing, not an Abaurrepea recruitment notice. Keep direct coverage pending; this review does not cover every bulletin notice or establish that no vacancies exist.",
+      "directoryUrl": "https://www.navarra.es/es/buscador-de-entidades-locales/-/detalle/1545",
+      "sharedTownHallWebsiteUrl": "https://abaurreagaina.com/",
+      "contractingEntityUrl": "https://hacienda.navarra.es/sicpportal/mtoFichaEntidad.aspx?Cod=8218",
+      "vacancyListingUrl": "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-9766"
+    },
     "aggregateMonitoring": {
       "sourceId": "bon-local",
       "section": "2.1. Administración Local de Navarra: oposiciones, concursos y oferta pública de empleo",
