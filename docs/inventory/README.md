@@ -1394,3 +1394,18 @@ lanpostuei dagokie; ezin dira Ainhoako udal-deialditzat hartu. Deialdi zehatz
 bat eta haren agiri ofizialak ezin izan direnez egiaztatu, Ainhoa `pending`
 mantendu da eta ez da scraper-rik gehitu. Berrikuspenak ez du lanpostu hutsik
 ez dagoela edo estaldura osoa frogatzen.
+
+## Alçay-Alçabéhéty-Sunharette: udal-enplegu iturriaren berrikuspena
+
+2026-11-27an [CAPBren udal-fitxa ofiziala](https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/alcay-alcabehety-sunharette)
+berrikusi da. Udalaren harremanetarako datuak ematen ditu, baina ez du
+udal-webgunerik edo enplegu-orririk identifikatzen. [Estatuko zerbitzu
+publikoaren direktorioak](https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/pyrenees-atlantiques/d4a2e2fc-3d70-46be-bd4a-38fac0c1bee8)
+ere harremanetarako datuak ematen ditu, webgunerako estekarik gabe.
+
+Udal-fitxan agertzen den [«Nos offres d'emploi» esteka](https://www.communaute-paysbasque.fr/linstitution/nos-offres-demploi)
+CAPB elkargoaren kontratazio-atariari dagokio; bertako eskaintzak ezin dira
+udalaren deialditzat hartu. Ez da udalaren deialdi zehatzik bere agiri
+ofizialekin batera egiaztatu. Horregatik, udalerria `pending` mantendu da eta
+ez da scraper-rik gehitu. Berrikuspenak ez du lanpostu hutsik ez dagoela edo
+udal-enpleguaren estaldura osoa frogatzen.

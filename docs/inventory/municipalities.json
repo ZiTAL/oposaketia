@@ -23929,6 +23929,14 @@
     "provinceCheckedAt": "2026-11-18T13:05:41.097Z",
     "provinceClassification": "historical-cultural",
     "provinceLookupStatus": "classified",
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T02:18:37Z",
+      "url": "https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/alcay-alcabehety-sunharette",
+      "outcome": "no-verifiable-call",
+      "note": "The live CAPB commune profile lists contact details but no municipal website or employment page. The national Service Public directory also lists contact details without a website. The CAPB recruitment link on the commune profile leads to the agglomeration's own job offers, not to calls issued by this municipality. No municipal call or linked official recruitment documents could be verified. No scraper is justified; this does not establish absence of vacancies or complete coverage.",
+      "directoryUrl": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/pyrenees-atlantiques/d4a2e2fc-3d70-46be-bd4a-38fac0c1bee8",
+      "relatedEmploymentUrl": "https://www.communaute-paysbasque.fr/linstitution/nos-offres-demploi"
+    },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",
       "calls": 0,
