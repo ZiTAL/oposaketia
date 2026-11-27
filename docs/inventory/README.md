@@ -1409,3 +1409,29 @@ udalaren deialditzat hartu. Ez da udalaren deialdi zehatzik bere agiri
 ofizialekin batera egiaztatu. Horregatik, udalerria `pending` mantendu da eta
 ez da scraper-rik gehitu. Berrikuspenak ez du lanpostu hutsik ez dagoela edo
 udal-enpleguaren estaldura osoa frogatzen.
+
+## Aldudes: udal-enplegu iturriaren berrikuspena
+
+2026-11-27an [CAPBren Aldudeseko udal-fitxa](https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/aldudes)
+eta [Estatuko udal-direktorioa](https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/pyrenees-atlantiques/46200b6c-1901-4ebf-8064-ddf1fb2d2430)
+kontsultatu dira. Biek harremanetarako datuak ematen dituzte, baina ez dute
+udal-webgunerik edo udalaren enplegu-orririk adierazten. CAPBko «Nos offres
+d'emploi» esteka elkargoaren eskaintzetarako da, ez Aldudeseko udalerako.
+
+[Emploi Territorialeko ATSEM iragarki ofiziala](https://www.emploi-territorial.fr/offre/o064260623001231-atsem)
+(O064260623001231) eta haren [PDF esportazio publikoa](https://www.emploi-territorial.fr/exportoffres/pdf/o064260623001231-atsem)
+zuzenean eskuratu dira. PDFaren SHA-256 balioa
+`9178ca2093341a3198a37f394d2b6de01655feb9a1904ec967fb46fa5dd68692`
+da. Biek Aldudeseko udala deitzaile gisa eta 2026-07-30eko hautagaitza-epea
+jasotzen dituzte. Profilak haur-hezkuntzako CAPa, ATSEM lehiaketa gainditua
+eta ahozko euskara aipatzen ditu; fitxa berak lehiaketarik gabeko zuzeneko
+kontratazioa posible dela ere dio. Ez da kontraesan hori sarbide-baldintza
+bakar eta sinple bihurtu. PDFa iragarki beraren kopia da, ez hautaketaren
+oinarri bereiziak edo gai-zerrenda.
+
+[Lan teknikoetako beste iragarki ofizialak](https://www.emploi-territorial.fr/offre/o064260528001040-agent-interventions-techniques-polyvalent-milieu-rural)
+(O064260528001040) 2026-06-30eko epea erakusten du. Bi epeak igarota daude.
+Bilaketa departamentalaren `emploi-territorial` konektorea dagoeneko martxan
+dago, baina oraingo bilaketak ez ditu historiko horiek nahitaez erakusten eta
+ez du udalaren deialdi guztien estaldura frogatzen. Ez da udal-scraper berririk
+edo egungo deialdirik gehitu; Aldudes `pending` mantendu da.
