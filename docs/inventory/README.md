@@ -1751,3 +1751,23 @@ Berrikusitako iturrietan ez da BRTAri espresuki atxikitako deialdi bat eta haren
 hautaketa-agiri ofizialak batera egiaztatu. `pending` egoera mantendu da,
 scraper edo fitxa berririk gabe. Berrikuspenak ez du artxibo osoa estaltzen,
 ezta lanpostu hutsik eza frogatzen ere.
+
+## Adiós: egoitza elektronikoaren sarbide-muga
+
+2026-11-27an [Nafarroako toki-erakundeen erregistroko Adiosen fitxa](https://www.navarra.es/es/buscador-de-entidades-locales/-/detalle/1554)
+zuzenean eskuratu da (HTTP 200). Udalaren webgune gisa
+[egoitza elektronikoa](https://adios.sedelectronica.es/info.0) ematen du.
+Egoitzaren [robots.txt](https://adios.sedelectronica.es/robots.txt) fitxategia
+ere eskuratu da (HTTP 200): `/`, `/info` eta `/info.0` hasierako bideak soilik
+baimentzen ditu; iragarki-taularen eta dokumentuen bideak baztertuta daude.
+Ez dira baztertutako bideak kontsultatu.
+
+`/info` eta `/info.0` helbideetara egindako eskaerek HTTP 302 erantzuna eman
+dute, biak `/info.0` helbidera; azken horrek bere burura birbideratzen du.
+Birbideratzeei jarraitzean ez da orriko edukirik jaso, denbora-muga agortu
+baita. Bilatzaileak egoitzaren hasierako orriaren kopia erakusten du, baina
+ez da kontsulta zuzen arrakastatsu gisa hartu. Nafarroako iturri ofizialen
+bilaketan ez da Adiosko udal-langileen deialdirik bere hautaketa-agiriekin
+batera egiaztatu. Iragarki-taularen artxiboa ezin izan da berrikusi; udalerria
+`pending` mantendu da, scraper edo fitxa berririk gabe. Horrek ez du
+lanpostu hutsik eza frogatzen.

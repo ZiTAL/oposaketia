@@ -321,6 +321,14 @@
       "candidates": [],
       "error": "Demasiadas redirecciones"
     },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T19:18:19Z",
+      "url": "https://adios.sedelectronica.es/info.0",
+      "outcome": "official-electronic-office-inaccessible",
+      "note": "The Navarra local-entity registry was retrieved directly (HTTP 200) and identifies the Adiós electronic office as the municipal website. Its robots.txt was retrieved directly (HTTP 200) and allows only the landing-page paths /, /info and /info.0; other paths, including notice-board and document paths, are disallowed and were not requested. Direct GET requests to /info and /info.0 returned HTTP 302 redirects to /info.0, including a self-redirect from /info.0; a followed request timed out without page content. A search of official Navarra sources did not verify an Adiós municipal staff call together with its selection documents. Keep direct employment coverage pending, with no scraper or call added. This review cannot inspect the notice-board archive and does not establish that no vacancies exist.",
+      "directoryUrl": "https://www.navarra.es/es/buscador-de-entidades-locales/-/detalle/1554",
+      "robotsUrl": "https://adios.sedelectronica.es/robots.txt"
+    },
     "aggregateMonitoring": {
       "sourceId": "bon-local",
       "section": "2.1. Administración Local de Navarra: oposiciones, concursos y oferta pública de empleo",
