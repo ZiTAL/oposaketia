@@ -117,6 +117,15 @@
       "checkedAt": "2026-11-18T08:38:12.784Z",
       "candidates": []
     },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T15:19:00Z",
+      "url": "https://abaurreagaina.com/",
+      "outcome": "no-municipal-call-verified",
+      "note": "The municipal website was retrieved directly (HTTP 200); its home page, municipal services page and complete published post/page sitemaps showed no staff selection section or municipal employment notice. The home page labels its electronic office 'Próximamente', so an official notice board could not be reviewed there. The directory-listed aezkoa.org is the separate Junta General del Valle de Aezkoa site. Its 2026 information-service job-pool PDF explicitly names the Junta as employer and sets a 2026-06-01 deadline; it is not an Abaurregaina council call. No council staff call together with official selection documents was verified. Keep direct coverage pending; this review does not establish that no vacancies exist or cover every bulletin notice.",
+      "municipalWebsiteUrl": "https://abaurreagaina.com/",
+      "valleySourceUrl": "https://aezkoa.org/noticias/",
+      "excludedDocumentUrl": "https://aezkoa.org/wp-content/uploads/Blog/2026/LAN%20ESKAINTZA_INFORMAZIO%20ZERBITZUAK%20-%20OFERTA%20DE%20EMPLEO_SERVICIOS%20DE%20INFORMACI%C3%93N.pdf"
+    },
     "aggregateMonitoring": {
       "sourceId": "bon-local",
       "section": "2.1. Administración Local de Navarra: oposiciones, concursos y oferta pública de empleo",

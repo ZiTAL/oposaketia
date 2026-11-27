@@ -1629,6 +1629,29 @@ batera egiaztatu. Abárzuza `pending` mantendu da, scraper edo fitxa berririk
 gabe. Taularen uneko ikuspegiak eta berrikusitako orriek ez dute artxibo osoa
 estaltzen, eta ez dute lanpostu hutsik eza frogatzen.
 
+## Abaurregaina / Abaurrea Alta: udal-webgunearen eta haraneko iturriaren berrikuspena
+
+2026-11-27an [udalaren webgunea](https://abaurreagaina.com/),
+[udal-zerbitzuen orria](https://abaurreagaina.com/servicios-municipales/),
+[robots.txt](https://abaurreagaina.com/robots.txt) eta argitaratutako
+[orrien](https://abaurreagaina.com/page-sitemap.xml) eta
+[albisteen](https://abaurreagaina.com/post-sitemap.xml) sitemap-ak zuzenean
+eskuratu dira (HTTP 200). Nabigazioak eta sitemap horiek ez dute udal-langileen
+hautaketa-atalik edo deialdirik erakutsi. Hasierako orriak egoitza elektronikoa
+«Próximamente» dela dio; hortaz, bertako iragarki-taula ezin izan da berrikusi.
+[Nafarroako kontratazio-atari ofizialak](https://hacienda.navarra.es/sicpportal/mtoFichaEntidad.aspx?Cod=8046)
+udalaren domeinuko helbide elektronikoa berresten du.
+
+Direktorioan agertzen den [Aezkoako haranaren webgunea](https://aezkoa.org/noticias/)
+Aezkoako Batzarre Nagusiarena da, bederatzi udalerri biltzen dituen erakunde
+bereizia. Bertako [2026ko informazio-zerbitzuen lan-poltsaren
+PDFak](https://aezkoa.org/wp-content/uploads/Blog/2026/LAN%20ESKAINTZA_INFORMAZIO%20ZERBITZUAK%20-%20OFERTA%20DE%20EMPLEO_SERVICIOS%20DE%20INFORMACI%C3%93N.pdf)
+Batzarra identifikatzen du kontratatzaile gisa eta 2026-06-01eko epea
+argitaratzen du; ez da Abaurregainako udal-langileen deialdia. Ez da udalaren
+deialdi zehatzik haren hautaketa-agiri ofizialekin batera egiaztatu.
+Udalerria `pending` mantendu da, scraper edo fitxa berririk gabe. Berrikuspenak
+ez du BONen artxibo osoa estaltzen, ezta lanpostu hutsik eza frogatzen ere.
+
 ## Abadiño: udal-enplegu iturriaren berrikuspena
 
 2026-11-27an [udalaren webgunea](https://www.abadiño.org/),
