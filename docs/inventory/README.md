@@ -1536,3 +1536,27 @@ deialdi zehatzik aurkitu. Ez da halako deialdirik haren hautaketa-agiri
 ofizialekin batera egiaztatu; EGO `pending` mantendu da, scraper edo fitxa
 berririk gabe. Berrikuspenak ez du lanpostu hutsik ez dagoela edo enplegu-
 iturri guztien estaldura frogatzen.
+
+## Basque Team: fundazioaren enplegu-iturriaren berrikuspena
+
+2026-11-27an [Euskadiko erakunde-direktorioak](https://www.euskadi.eus/entidad/fundacion-basque-team/web01-a2ogafin/es/)
+`basqueteam.eus` Fundación Basque Team Fundazioaren webgune gisa identifikatzen
+zuela egiaztatu da. [Hasierako orria](https://basqueteam.eus/),
+[fundazioaren eta gardentasunaren orria](https://basqueteam.eus/fundacion-basqueteam/),
+[sitemap-a](https://basqueteam.eus/sitemap_index.xml) eta
+[robots.txt](https://basqueteam.eus/robots.txt) zuzenean eskuratu dira (HTTP
+200). `robots.txt` fitxategiak `wp-json` baztertzen du; berrikuspenak orri
+publikoak eta sitemap-a erabili ditu. Fundazioaren orriak erakundeari,
+bekei eta kontratazio publikoko espedienteei buruzko informazioa ematen du.
+Ikusitako nabigazioan eta sitemap-eko orri-helbideetan ez da langileen
+hautaketa-atalik identifikatu. Hori ez da webgunearen eduki osoaren auditoria.
+
+[Hirugarren baten enplegu-atarian](https://www.jobijoba.es/oferta-empleo/69/3d928861c358449ba1f6d555e344805a)
+koordinatzaile nagusiaren lan-eskaintza ageri da, baina ez da deialdi horri
+dagokion fundazioaren iragarki ofiziala eta
+hautaketa-agiria batera egiaztatu. Bekak kirolarientzako dira, eta
+kontratazio-espedienteak zerbitzu edo horniduren erosketei dagozkie; ez dira
+fundazioko langileen deialdi gisa hartu. Basque Team `pending` mantendu da,
+scraper edo fitxa berririk gabe. Ez da baldintzarik, eperik edo gai-zerrendarik
+asmatu; berrikuspenak ez du lanpostu hutsik eza edo enplegu-iturri guztien
+estaldura frogatzen.

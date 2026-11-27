@@ -1188,6 +1188,12 @@
       "checkedAt": "2026-11-20T14:00:17.172Z",
       "status": "website-verified",
       "note": "Published website identity references only, not employment coverage or vacancy absence."
+    },
+    "employmentPageReview": {
+      "url": "https://basqueteam.eus/fundacion-basqueteam/",
+      "status": "official-site-reviewed-no-documented-call",
+      "checkedAt": "2026-11-27",
+      "note": "The official directory identifies basqueteam.eus. Its public homepage, foundation/transparency page and sitemap were accessible; robots.txt excludes wp-json but permits these pages. The foundation page publishes institutional, grants and procurement information; its reviewed navigation and the sitemap page URLs did not identify a staff recruitment section. Third-party coordinator job listings were found, but no matching official notice and selection documents were verified. No call, requirements, deadline or syllabus was imported. This review does not prove vacancy absence or complete employment coverage."
     }
   },
   {
