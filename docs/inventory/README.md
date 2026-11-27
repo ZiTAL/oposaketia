@@ -1705,3 +1705,30 @@ ematen. Berrikusitako aldizkari-bilaketak ere ez du udal-langileen deialdi bat
 bere hautaketa-agiri ofizialekin batera egiaztatu. Abaurrepea `pending` mantendu
 da, scraper edo fitxa berririk gabe. Berrikuspen honek ez du aldizkariaren
 artxibo osoa estaltzen, ezta lanpostu hutsik eza frogatzen ere.
+
+## Aberin: 2026ko sorosleen iragarkia eta 2021eko oinarriak
+
+2026-11-27an direktorioan ageri den [udal-webgunea](https://www.aberin-muniain.org/),
+[robots.txt](https://www.aberin-muniain.org/robots.txt),
+[albiste-artxiboa](https://www.aberin-muniain.org/archives/category/noticias),
+[gardentasun-orria](https://www.aberin-muniain.org/portal-de-transparencia)
+eta [sorosleak kontratatzeari buruzko albistea](https://www.aberin-muniain.org/archives/1301)
+zuzenean eskuratu dira (HTTP 200). Robots fitxategiak ez ditu orri horiek
+baztertzen. Albisteak udalaren [2026-05-19ko bandoaren
+irudia](https://www.aberin-muniain.org/wp-content/uploads/2026/05/BANDO-SOCORRISTAS.png)
+erakusten du: 2026-06-13tik 2026-09-13ra bitarteko aldi baterako sorosle baten
+kontratazioa iragartzen du, Nafarroako Enplegu Zerbitzuaren bidez. Interesdunei
+2026-05-22 baino lehen zerbitzu horretan sorosle gisa izena emanda egotea
+eskatzen die. Bandoak ez du hautaketa-oinarririk edo udal-webguneko eskabide-biderik
+argitaratzen; Enplegu Zerbitzuan izena emateko data ez da udal-deialdiaren
+eskabide-epe gisa hartu.
+
+Udalak estekatutako [egoitza elektronikoak](https://aberin.tecsoluciones.es/sede-portal/home)
+Cloudflareren HTTP 403 erantzuna eman du; bertako iragarkiak ezin izan dira
+berrikusi. Udalaren zerbitzarian [2021eko sorosle-deialdiaren oinarri
+osoak](https://www.aberin-muniain.org/wp-content/uploads/2021/05/Bases-Contrat.-Socorrista.pdf)
+eskuratu dira (HTTP 200). PDFak 2021. urtea espresuki adierazten du;
+bertako baldintzak eta maiatzaren 21etik 28ra bitarteko epea ezin zaizkio
+2026ko iragarkiari esleitu. Ez da hautaketa-agiri osoen udal-zerrenda egonkorrik
+egiaztatu. Aberin `pending` mantendu da, scraper edo fitxa berririk gabe;
+berrikuspenak ez du beste deialdirik ez dagoela frogatzen.

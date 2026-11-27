@@ -216,6 +216,16 @@
       "checkedAt": "2026-11-18T08:38:08.008Z",
       "candidates": []
     },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T17:18:42Z",
+      "url": "https://www.aberin-muniain.org/archives/1301",
+      "outcome": "historical-call-verified-current-selection-documents-unavailable",
+      "note": "The directory-listed municipal website, robots.txt, news archive, transparency page and 2026 lifeguard post were retrieved directly (HTTP 200). The post's municipal notice image, dated 19 May 2026, announces temporary lifeguard hiring for 13 June to 13 September 2026 through the Navarra Employment Service; it asks applicants to have registered there by 22 May. It does not provide selection bases or an application route on the municipal site. The linked electronic office returned Cloudflare HTTP 403, so its notices could not be checked. A separate municipal PDF (HTTP 200) contains the full bases for a 2021 temporary lifeguard call, explicitly dated to that year; its requirements and 21–28 May application period must not be applied to the 2026 notice. The 2021 document is historical and no stable municipal listing of complete selection documents was verified. Keep direct coverage pending; this review does not establish that no other calls exist.",
+      "noticeImageUrl": "https://www.aberin-muniain.org/wp-content/uploads/2026/05/BANDO-SOCORRISTAS.png",
+      "historicalBasesUrl": "https://www.aberin-muniain.org/wp-content/uploads/2021/05/Bases-Contrat.-Socorrista.pdf",
+      "electronicOfficeUrl": "https://aberin.tecsoluciones.es/sede-portal/home",
+      "newsArchiveUrl": "https://www.aberin-muniain.org/archives/category/noticias"
+    },
     "aggregateMonitoring": {
       "sourceId": "bon-local",
       "section": "2.1. Administración Local de Navarra: oposiciones, concursos y oferta pública de empleo",
