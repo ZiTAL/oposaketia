@@ -1355,3 +1355,24 @@ fitxategiak HTTP 403 itzuli dute. Ezin izan dira egungo deialdiak eta haien
 agiri ofizialak egiaztatu. Ahetze `pending` mantendu da, eta ez da scraper-rik
 gehitu. Sarbide-muga honek ez du esan nahi lanpostu hutsik ez dagoenik, eta
 aurreko iragarkiak ez du atariaren estaldura osoa frogatzen.
+
+## Aïcirits-Camou-Suhast: udal-webgunearen sarbidearen berrikuspena
+
+2026-11-27an [CAPBren udal-fitxa ofizialak](https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/aicirits-camou-suhast)
+`aiciritscamousuhast.fr` udal-webgune gisa identifikatzen zuela egiaztatu da.
+Webgunearen HTTPS hasierako orria eta `robots.txt` ezin izan dira TLS
+egiaztapen arruntarekin irakurri: ziurtagiriaren jaulkitzailea ezin izan da
+egiaztatu. Diagnostiko hutseko kontsultan, ziurtagiriaren egiaztapena kenduta,
+`www` eta erro-domeinuko hasierako orriek eta `www` domeinuko `robots.txt`
+fitxategiak HTTP 404 itzuli dute. Ez da gune horretako enplegu-atalik
+egiaztatu.
+
+[Udalaren 2026ko otsaileko 83. buletinaren kopiak](https://static.reseaudespetitescommunes.fr/cities/630/documents/klcz82w5qtb7r05.pdf)
+gazteentzako udako lanak aipatzen ditu; iragarkiaren izenburua, ordea,
+«Emplois d’été 2025» da. Testuak maiatzaren amaierako hautagaitza-epea
+aipatzen du, baina urte-gatazka horrek ez du 2026ko deialdi bat zehaztasunez
+egiaztatzeko aukerarik ematen. Epea, baldintzak eta agiriak ez dira katalogora
+inportatu. Zuzeneko webgunea erabilgarri ez dagoenez, egungo deialdirik eta
+haien agiri ofizialik ezin izan da egiaztatu. Udalerria `pending` mantendu da,
+scraper-rik gehitu gabe; berrikuspenak ez du lanpostu hutsik eza edo estaldura
+osoa frogatzen.

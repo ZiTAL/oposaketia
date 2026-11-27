@@ -21933,6 +21933,13 @@
     "provinceCheckedAt": "2026-11-18T13:05:41.097Z",
     "provinceClassification": "historical-cultural",
     "provinceLookupStatus": "classified",
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T00:18:15Z",
+      "url": "https://www.aiciritscamousuhast.fr/",
+      "outcome": "unavailable",
+      "note": "The CAPB official commune directory identifies aiciritscamousuhast.fr as the municipal website. Its HTTPS homepage and robots.txt could not be verified through the normal TLS client (certificate issuer error); a diagnostic request without certificate verification returned HTTP 404 for both www and bare-domain homepages and for www robots.txt. A copy of the municipality's February 2026 bulletin no. 83 on static.reseaudespetitescommunes.fr mentions summer jobs, but the notice itself is headed 'Emplois d'été 2025' and describes a past May application period. The year conflict and inaccessible live site prevent verification of any current call or its documents. No scraper is justified; this does not establish absence of vacancies or complete coverage.",
+      "documentUrl": "https://static.reseaudespetitescommunes.fr/cities/630/documents/klcz82w5qtb7r05.pdf"
+    },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",
       "calls": 0,
