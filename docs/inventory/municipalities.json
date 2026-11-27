@@ -22713,6 +22713,16 @@
       "candidates": [],
       "error": "fetch failed"
     },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T04:18:27Z",
+      "url": "http://www.alos-sibas-abense.com/",
+      "outcome": "official-site-no-verified-call",
+      "note": "The CAPB commune profile identifies this as the municipal website. Its HTTP home page, news archive and council-report navigation were accessible, but no municipal recruitment page or current selection call with official documents was found. HTTPS failed during TLS negotiation; HTTP robots.txt returned 404. A CDG 64 official 2024 staffing declaration (V064241129002092001) names the commune for a town-clerk post created through internal promotion, not an open application call. A 2026 childcare offer located in Alos explicitly names CAPB as employer, not the municipality. No municipal scraper or call is added; this review does not prove that vacancies are absent or that all municipal recruitment is covered.",
+      "directoryUrl": "https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/alos-sibas-abense",
+      "archiveUrl": "http://www.alos-sibas-abense.com/archives_infos.php",
+      "staffingDeclarationUrl": "https://www.cdg-64.fr/index.php?eID=dumpFile&f=13000&t=f&token=3b5500d94154f2d64f1043611b6084e58a69144a",
+      "capbOfferUrl": "https://www.communaute-paysbasque.fr/linstitution/nos-offres-demploi/offres-demploi-et-stages/animateur-enfance-jeunesse-f-h-pour-laccueil-de-loisirs-dalos-118-2026-plsp"
+    },
     "provinceNameInSource": "Alos-Sibas-Abense",
     "provinceSource": "https://www.eke.eus/fr/culture-basque/pays-basque/pays-basque-nord-ou-iparralde/communes-du-pays-basque-nord",
     "provinceCheckedAt": "2026-11-18T13:05:41.097Z",

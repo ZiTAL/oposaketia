@@ -1435,3 +1435,25 @@ Bilaketa departamentalaren `emploi-territorial` konektorea dagoeneko martxan
 dago, baina oraingo bilaketak ez ditu historiko horiek nahitaez erakusten eta
 ez du udalaren deialdi guztien estaldura frogatzen. Ez da udal-scraper berririk
 edo egungo deialdirik gehitu; Aldudes `pending` mantendu da.
+
+## Alos-Sibas-Abense: udal-enplegu iturriaren berrikuspena
+
+2026-11-27an [CAPBren udal-fitxa ofizialak](https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/alos-sibas-abense)
+`http://www.alos-sibas-abense.com/` udal-webgune gisa identifikatzen zuela
+egiaztatu da. [Udalaren hasierako orria](http://www.alos-sibas-abense.com/),
+[albisteen artxiboa](http://www.alos-sibas-abense.com/archives_infos.php) eta
+udal-bilkuren orria HTTP bidez eskuratu dira; berrikusitako nabigazioak ez du
+langileak hautatzeko orririk erakutsi. HTTPS konexioak huts egin du TLS
+negoziazioan, eta HTTPko `robots.txt` fitxategiak 404 itzuli du. 2026ko
+urriko albisteak dituen hasierako orria ez da enplegu-iturri oso baten froga.
+
+[CDG 64ren 2024ko agiri ofizialak](https://www.cdg-64.fr/index.php?eID=dumpFile&f=13000&t=f&token=3b5500d94154f2d64f1043611b6084e58a69144a)
+`V064241129002092001` lanpostu-adierazpena jasotzen du: udal-idazkariaren
+lanpostua barne-sustapen baten bidez sortua. Adierazpenak ez du izen-emate
+deialdirik, oinarririk edo gai-zerrendarik ematen. Alosen kokatutako
+[2026ko CAPBren haur-animatzaile eskaintzak](https://www.communaute-paysbasque.fr/linstitution/nos-offres-demploi/offres-demploi-et-stages/animateur-enfance-jeunesse-f-h-pour-laccueil-de-loisirs-dalos-118-2026-plsp)
+CAPB izendatzen du enplegatzaile, ez udala; 2026-10-07ko epea igarota dago.
+Ez da udal-deialdi zehatzik haren agiri ofizialekin batera egiaztatu.
+Alos-Sibas-Abense `pending` mantendu da, udal-scraper edo fitxa berririk gabe;
+berrikuspen honek ez du lanpostu hutsik eza edo udalaren enpleguaren estaldura
+osoa frogatzen.
