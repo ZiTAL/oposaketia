@@ -1376,3 +1376,21 @@ inportatu. Zuzeneko webgunea erabilgarri ez dagoenez, egungo deialdirik eta
 haien agiri ofizialik ezin izan da egiaztatu. Udalerria `pending` mantendu da,
 scraper-rik gehitu gabe; berrikuspenak ez du lanpostu hutsik eza edo estaldura
 osoa frogatzen.
+
+## Ainhoa: udal-enplegu orriaren berrikuspena
+
+2026-11-27an [CAPBren Ainhoako udal-fitxa ofizialak](https://www.communaute-paysbasque.fr/linstitution/les-infos-sur-ma-commune/ma-commune/ainhoa)
+`ainhoa.fr` udal-webgune gisa identifikatzen zuela egiaztatu da. Udalaren
+[«Offres d'emploi» orriak](https://www.ainhoa.fr/offres-d-emploi) eta
+[robots.txt fitxategiak](https://www.ainhoa.fr/robots.txt) HTTP 200 itzuli dute;
+azken horrek bilketa baimentzen du. Aurreko hasierako orriaren prospekzioak
+ez zuen barneko enplegu-orri hori aurkitu.
+
+Enplegu-orriak udaleko zerbitzu teknikoak uztailean eta abuztuan indartzeko
+sasoiko langileak bilatzen direla dio, baina ez du urterik, eskabide-eperik,
+baldintzarik edo hautaketaren agiri ofizialik ematen. Informazio gehiago
+udaletxean eskatzeko dio. Bertako CAPBren eskaintzetarako esteka elkargoaren
+lanpostuei dagokie; ezin dira Ainhoako udal-deialditzat hartu. Deialdi zehatz
+bat eta haren agiri ofizialak ezin izan direnez egiaztatu, Ainhoa `pending`
+mantendu da eta ez da scraper-rik gehitu. Berrikuspenak ez du lanpostu hutsik
+ez dagoela edo estaldura osoa frogatzen.

@@ -22892,6 +22892,12 @@
     "provinceCheckedAt": "2026-11-18T13:05:41.097Z",
     "provinceClassification": "historical-cultural",
     "provinceLookupStatus": "classified",
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T01:18:25Z",
+      "url": "https://www.ainhoa.fr/offres-d-emploi",
+      "outcome": "no-verifiable-call",
+      "note": "The CAPB official commune directory identifies ainhoa.fr as the municipal website. The live Offres d'emploi page returned HTTP 200 and its robots.txt permits crawling. It says the municipality seeks seasonal staff for its technical team in July and August, but gives no year, application deadline, requirements or linked official recruitment documents; it directs readers to ask the town hall. Its separate link to CAPB job offers concerns the agglomeration, not Ainhoa's own vacancies. The earlier homepage discovery missed this internal page. No call can be imported and no scraper is justified from the information verified here. This review does not establish absence of vacancies or complete coverage."
+    },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",
       "calls": 0,
