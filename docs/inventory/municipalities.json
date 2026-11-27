@@ -382,6 +382,16 @@
       "calls": 0,
       "sourceIds": [],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+    },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-27T20:18:23Z",
+      "url": "https://www.aguilardecodes.es/",
+      "outcome": "official-source-inaccessible",
+      "note": "The Navarra Local Entities Register directly identifies Aguilar de Codés as municipality 0080000 and lists www.aguilardecodes.es. Direct HTTPS requests to the listed municipal site and its robots.txt failed with connection resets; the home page could not be reviewed. The electronic office robots.txt was retrieved (HTTP 200) and permits only /, /info and /info.0 for general crawlers. Direct requests to those permitted entry paths returned successive HTTP 302 redirects ending in a self-redirect at /info.0; no notice-board contents or selection documents could be read. The disallowed notice-board paths were not requested. A reviewed BON 2026/64 index places the municipality under local non-employment announcements for tax rates, not a staff selection call. No municipal staff call together with official selection documents was verified. Keep direct coverage pending; this access-limited review does not establish that no vacancies exist or cover the bulletin archive.",
+      "officialRegisterUrl": "https://www.navarra.es/es/buscador-de-entidades-locales/-/detalle/1557",
+      "electronicOfficeUrl": "https://aguilardecodes.sedelectronica.es/",
+      "robotsUrl": "https://aguilardecodes.sedelectronica.es/robots.txt",
+      "bulletinSampleUrl": "https://bon.navarra.es/es/inicio/-/sumario/2026/64"
     }
   },
   {

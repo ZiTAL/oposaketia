@@ -1771,3 +1771,25 @@ bilaketan ez da Adiosko udal-langileen deialdirik bere hautaketa-agiriekin
 batera egiaztatu. Iragarki-taularen artxiboa ezin izan da berrikusi; udalerria
 `pending` mantendu da, scraper edo fitxa berririk gabe. Horrek ez du
 lanpostu hutsik eza frogatzen.
+
+## Aguilar de Codés: udal-iturriaren sarbide-muga
+
+2026-11-27an [Nafarroako toki-erakundeen erregistroak](https://www.navarra.es/es/buscador-de-entidades-locales/-/detalle/1557)
+Aguilar de Codés `0080000` kodeko udalerri gisa identifikatzen du eta
+`www.aguilardecodes.es` webgunea ematen du. Webgune horren hasierako orrirako
+eta `robots.txt` fitxategirako HTTPS eskaera zuzenek konexioa eten dute;
+ez da udal-webgunearen edukia egiaztatu.
+
+[Egoitza elektronikoaren robots.txt](https://aguilardecodes.sedelectronica.es/robots.txt)
+fitxategia eskuratu da (HTTP 200). Robot orokorrentzat `/`, `/info` eta
+`/info.0` hasierako bideak soilik baimentzen ditu. Bide horiek HTTP 302
+birbideratzeak eman dituzte, azkena `/info.0` helbidetik bere burura.
+Iragarki-taularen bide baztertuak ez dira kontsultatu; ezin izan dira
+hautaketa-agiriak egiaztatu. [2026ko 64. NAOren
+sumarioan](https://bon.navarra.es/es/inicio/-/sumario/2026/64), udalaren
+sarrera zerga-tasei buruzkoa da, ez langileen hautaketa-deialdia.
+
+Ez da udal-langileen deialdi bat bere hautaketa-agiri ofizialekin batera
+egiaztatu. Aguilar de Codés `pending` mantendu da, scraper eta fitxa berririk
+gabe. Berrikuspen mugatu honek ez du lanpostu hutsik eza frogatzen, ezta
+aldizkariaren artxibo osoa estaltzen ere.
