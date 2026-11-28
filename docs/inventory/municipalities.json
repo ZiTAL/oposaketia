@@ -13349,7 +13349,7 @@
     "aliases": [],
     "type": "municipality",
     "sourceIds": [],
-    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Enplegu-atariaren estaldura bereizita egiaztatu behar da.",
+    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. BOEk 2025eko zerbitzuetako langile-plaza baten deialdia baieztatzen du; udal-webgunearen eta GAOren robots arauek oinarriak eta enplegu-ataria zuzenean berrikustea eragozten dute.",
     "directoryStatus": "verified",
     "directoryUrl": "https://www.gazteaukera.euskadi.eus/contenidos/ds_registros/registro_entidades_locales/opendata/entidades.json",
     "directoryCheckedAt": "2026-11-18T08:11:18.818Z",
@@ -13364,6 +13364,16 @@
       "calls": 0,
       "sourceIds": [],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+    },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-28T01:18:00Z",
+      "url": "https://www.albiztur.eus/",
+      "outcome": "robots-restricted-boe-call-verified",
+      "robotsUrl": "https://www.albiztur.eus/robots.txt",
+      "officialDocumentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19615",
+      "basesPublicationUrl": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2025/09/19/c2506324.pdf",
+      "basesRobotsUrl": "https://egoitza.gipuzkoa.eus/robots.txt",
+      "note": "The directory-listed municipal root returned HTTP 302 to /eu/; its robots.txt returned HTTP 200 and disallows / for ChatGPT-User, so no municipal pages were crawled. The official BOE text (HTTP 200, published 3 October 2025) confirms one permanent labour-staff Operario de Servicios post, free access by concurso-oposicion, and a 20-working-day application period following BOE publication. It points to bases published in Gipuzkoa bulletin 179 on 19 September 2025. The bulletin PDF responded HTTP 200 to a HEAD request, but its host robots.txt also disallows / for ChatGPT-User; the PDF body and detailed bases were not read. No absolute deadline, eligibility requirement or syllabus was inferred. The BOE proves this historical call, not a currently open application or complete municipal employment coverage; no scraper or catalogue record was added."
     }
   },
   {

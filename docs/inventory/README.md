@@ -1878,3 +1878,28 @@ udal-iturria zuzenean berrikusi edo bilketa automatikoa egiaztatu.
 Aizarnazabal `pending` mantendu da, scraper eta fitxa berririk gabe.
 Berrikuspenak ez du egungo deialdirik ez dagoela edo udalaren enplegu-
 artxibo osoa estalita dagoela frogatzen.
+
+## Albiztur: BOEko deialdia eta robots mugak
+
+2026-11-28an direktorio ofizialean ageri den [udal-webgunearen](https://www.albiztur.eus/)
+erroak HTTP 302 bidez `/eu/` helbidera birbideratu du. Udalaren
+[robots.txt](https://www.albiztur.eus/robots.txt) fitxategiak HTTP 200 eman du
+eta `ChatGPT-User` agentearentzat `/` bidea baztertzen du; araua irakurri
+ondoren ez da udal-webgunea arakatu. Lehen prospekzioak ez zuen hasierako
+orrian enplegu-estekarik identifikatu, baina horrek ez du deialdirik eza
+frogatzen.
+
+[2025-10-03ko BOEko udal-ebazpenak](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19615)
+(HTTP 200) zerbitzuetako langile-plaza finko baten deialdia baieztatzen du:
+txanda irekiko oposizio-lehiaketa eta BOEn argitaratu ondoko 20 egun
+balioduneko eskabide-epea. Ebazpenak [2025-09-19ko GAOren 179. zenbakiko
+oinarriak](https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2025/09/19/c2506324.pdf)
+aipatzen ditu. PDFaren `HEAD` eskaerak HTTP 200 eman du, baina
+[GAOren robots.txt](https://egoitza.gipuzkoa.eus/robots.txt) fitxategiak ere
+`ChatGPT-User` agentearentzat `/` bidea baztertzen du; ez da PDFaren edukia
+irakurri. Horregatik, ez dira oinarri zehatzak, titulazio-baldintzak,
+gai-zerrenda edo azken egun absolutua egiaztatutzat eman.
+
+BOEko agiriak deialdi historiko bat frogatzen du, ez egungo izen-emate
+irekia edo udalaren enplegu-iturri osoaren estaldura. Albiztur `pending`
+mantendu da, scraper eta katalogoko fitxa berririk gabe.
