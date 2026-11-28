@@ -4215,12 +4215,22 @@
     "province": "Navarra",
     "reportLine": 45,
     "status": "pending",
-    "note": "Txostenean izendatua; erakundearen izaera eta enplegu-atariaren estaldura egiaztatzeko.",
+    "note": "Webgune ofizialak langile propiorik ez duela dio; hautaketa-atalean lotutako enplegu-orri partekatuak HTTP 404 itzuli du. Ez da POSUSAren deialdirik eta agiri ofizialik egiaztatu; etorkizuneko deialdien estaldura ez dago frogatuta.",
     "websiteFromDirectory": "https://potasasdesubiza.com/transparencia/",
     "websiteDirectoryUrl": "https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas",
     "websiteDirectoryName": "POTASAS DE SUBIZA, S.A.",
     "websiteDirectoryCheckedAt": "2026-11-20T09:00:48.395Z",
     "websiteDirectoryStatus": "verified",
+    "employmentPageReview": {
+      "url": "https://potasasdesubiza.com/transparencia/informacion-institucional-organizativa-y-de-planificacion/",
+      "checkedAt": "2026-11-28T06:18:29Z",
+      "status": "shared-employment-link-broken",
+      "httpStatus": 200,
+      "sha256": "564594f1c777fdbe33ca98b9d465c656a473d10c5c898f4c101ae8832ba2256c",
+      "linkedEmploymentUrl": "https://www.sociedadespublicasdenavarra.es/es/la-voz-de-nsp/unete-a-nuestro-equipo",
+      "linkedEmploymentHttpStatus": 404,
+      "note": "Official institutional page says POSUSA has no own staff and directs selection-process readers to a shared Navarra public-companies employment page. That exact linked URL returned HTTP 404. No POSUSA recruitment call with official selection documents was verified. The page and link do not establish complete future vacancy coverage."
+    },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",
       "calls": 0,

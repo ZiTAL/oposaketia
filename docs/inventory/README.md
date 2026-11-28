@@ -1584,6 +1584,25 @@ orri publikoak web bilatzailearen bidez irakurri eta sarbidea diagnostikatu da.
 Ez da egungo udal-deialdi bat eta haren hautaketa-agiri ofizialak batera
 egiaztatu. Bidache `pending` mantendu da, scraper edo fitxa berririk gabe.
 
+## Potasas de Subiza (POSUSA): enplegu-iturriaren berrikuspena
+
+2026-11-28an [POSUSAren erakunde eta antolaketa orria](https://potasasdesubiza.com/transparencia/informacion-institucional-organizativa-y-de-planificacion/)
+zuzenean irakurri da (HTTP 200; SHA-256
+`564594f1c777fdbe33ca98b9d465c656a473d10c5c898f4c101ae8832ba2256c`).
+Webgune ofizialak berak dio ez duela plantilla propiorik. «Procesos de
+selección» atalak [Nafarroako sozietate publikoen enplegu-orri
+partekatura](https://www.sociedadespublicasdenavarra.es/es/la-voz-de-nsp/unete-a-nuestro-equipo)
+bidaltzen du, baina argitaratutako esteka zehatzak HTTP 404 itzuli du
+kontsultan. [Navarrako sektore publikoko
+direktorioak](https://gobiernoabierto.navarra.es/es/transparencia/sociedades-publicas)
+POSUSAren webgunea erakundearen erreferentzia ofizial gisa ematen du.
+
+Ez da POSUSAren benetako langile-deialdirik bere hautaketa-agiri ofizialekin
+batera egiaztatu. Sarrera `pending` mantendu da eta ez da scraper edo fitxa
+berririk gehitu. Langile propiorik ez duela dioen orria uneko adierazpena da;
+ez du etorkizuneko deialdiak ezinezkoak direnik edo beste iturri batek guztiak
+estaltzen dituenik frogatzen.
+
 ## Abáigar: udal-enplegu iturriaren berrikuspena
 
 2026-11-27an [udalaren hasierako orria](https://www.abaigar.es/),
