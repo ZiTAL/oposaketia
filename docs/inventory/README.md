@@ -2022,3 +2022,32 @@ edo gai-zerrendarik asmatu. Zerrendako bi bandoen `Aldatze Data` 2026-11-17 da,
 PDFetako epeak baino beranduago; ez da argitalpen edo irekiera-data gisa erabili.
 Kontserjearen eta teknikariaren prozesuak eta gainerako artxiboa berrikusteko
 daude; `connected-partial` egoerak muga hori adierazten du.
+
+## Aretxabaleta: 2026ko azaroaren 24ko udal-deialdiak
+
+2026-11-28an [udalaren robots.txt](https://www.aretxabaleta.eus/robots.txt),
+[enplegu-zerrenda](https://www.aretxabaleta.eus/eu/tramiteak/lan-eskaintza-publikoa),
+bi deialdien xehetasunak eta haien oinarri PDFak zuzenean eskuratu dira
+(HTTP 200). `robots.txt` arauek kontsultatutako bideak baimentzen dituzte.
+Zerrendak bi deialdiak `Zabalik` atalean erakutsi ditu, 2026-11-24ko
+argitalpenarekin eta 2026-11-30eko azken egunarekin.
+
+`aretxabaleta` konektoreak bi espediente hauek bakarrik jasotzen ditu:
+[2026ILAE0019, liburutegiko laguntzailea](https://www.aretxabaleta.eus/eu/tramiteak/lan-eskaintza-publikoa/liburutegiko-laguntzailea-egun-1-2-kontratatzeko-deialdia-1)
+eta [2026ILAE0018, bi peoi](https://www.aretxabaleta.eus/eu/tramiteak/lan-eskaintza-publikoa/2-peoi-kontratatzeko-deialdia-6).
+Lehenaren [oinarri PDFak](https://www.aretxabaleta.eus/eu/tramiteak/lan-eskaintza-publikoa/liburutegiko-laguntzailea-egun-1-2-kontratatzeko-deialdia-1/oinarriak_liburutegiko-laguntzailea.pdf/@@download/file/Oinarriak_liburutegiko%20laguntzailea.pdf)
+SHA-256 `e3d5f4071a2962fe6005eee0a062ee534bb10ddc39a34ea6e77a6beb2416d31e`
+du; bigarrenaren [oinarri PDFak](https://www.aretxabaleta.eus/eu/tramiteak/lan-eskaintza-publikoa/2-peoi-kontratatzeko-deialdia-6/oinarriak_peoiak.pdf/@@download/file/Oinarriak_peoiak.pdf)
+SHA-256 `067c4ae4b1b0ee7e84848d30e9645c56321fcc7b4f29902d67c5aa76c841c519`
+du. Biak lau orrialdekoak dira eta Lanbiden 2026-11-30erako izena ematea
+eskatzen dute. Merezimenduak udalean edo egoitza elektronikoan aurkezten dira.
+
+Liburutegiko lanpostuaren oinarriek batxilergoa edo «teknikoa» eta euskarako
+3. hizkuntza-eskakizuna (C1) eskatzen dituzte; «teknikoa» ez da FP maila
+zehatz batekin parekatu. Peoien oinarriek ez dute gutxieneko titulaziorik
+edo euskara-mailarik sarbide-baldintza gisa ezartzen: FP eta euskara merezimendu
+gisa puntuatzen dira. Bi deialdiek langabezia, Lanbiden izena emanda egotea
+eta bailaran erroldatzea eskatzen dute. Ez dago gai-zerrenda zenbakiturik.
+Zerrendako beste hiru `Zabalik` prozesuak, `Prozesuan` atala eta artxiboa
+kanpoan daude; egoera `connected-partial` da. 2026-11-30 igaro ondoren,
+konektoreak deialdiak itxitzat ematen ditu, zerrenda eguneratu ez arren.

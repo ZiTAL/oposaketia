@@ -13720,12 +13720,14 @@
     "name": "Aretxabaleta",
     "territory": "Euskadi",
     "province": "Gipuzkoa",
-    "status": "pending",
+    "status": "connected-partial",
     "officialCode": "20013",
     "aliases": [],
     "type": "municipality",
-    "sourceIds": [],
-    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Enplegu-atariaren estaldura bereizita egiaztatu behar da.",
+    "sourceIds": [
+      "aretxabaleta"
+    ],
+    "note": "Udalaren enplegu-atari ofizialeko 2026ILAE0019 eta 2026ILAE0018 deialdiak, xehetasunak eta oinarri PDFak egiaztatu dira. Biak Lanbideren 2026ko programakoak dira; izen-ematearen azken eguna 2026-11-30 da. Beste prozesuak eta artxiboa ez dira konektore honetan jasotzen; estaldura partziala da.",
     "directoryStatus": "verified",
     "directoryUrl": "https://www.gazteaukera.euskadi.eus/contenidos/ds_registros/registro_entidades_locales/opendata/entidades.json",
     "directoryCheckedAt": "2026-11-18T08:11:18.820Z",
@@ -13753,10 +13755,10 @@
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
     },
     "employmentPageReview": {
-      "reviewedAt": "2026-11-19T07:43:27.731444Z",
-      "url": "https://www.aretxabaleta.eus/eu/sailak/enplegua-garapena",
-      "outcome": "requires-format-review",
-      "note": "First published employment link reviewed; this does not establish absence of vacancies or complete coverage."
+      "reviewedAt": "2026-11-28T07:18:00Z",
+      "url": "https://www.aretxabaleta.eus/eu/tramiteak/lan-eskaintza-publikoa",
+      "outcome": "connected-partial",
+      "note": "Official municipal robots.txt and employment index returned HTTP 200; robots permits the reviewed paths. The index, both 2026-11-24 call pages and their municipal bases PDFs returned HTTP 200. The PDFs confirm one half-time library assistant (2026ILAE0019) and two workers (2026ILAE0018), both for six months and with Lanbide application deadline 2026-11-30. Library bases require Bachillerato or técnico and Basque C1; worker bases state unemployment, Lanbide registration and valley residence, while vocational qualifications and Basque are scored merits, not access requirements. The connector is restricted to these two calls and does not cover the remaining open, in-process or historic entries. The index labels them open as of this review; it does not prove they will remain open after the deadline."
     },
     "selectionSeatReview": {
       "reviewedAt": "2026-11-19T09:36:56.308820+00:00",
