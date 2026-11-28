@@ -13891,7 +13891,7 @@
     "aliases": [],
     "type": "municipality",
     "sourceIds": [],
-    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Enplegu-atariaren estaldura bereizita egiaztatu behar da.",
+    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Udalaren robots.txt fitxategiak webgune osoa baztertzen du; 2026ko BOEko deialdia egiaztatu da, baina GAOko oinarriak eta udal-enpleguaren estaldura egiteko daude.",
     "directoryStatus": "verified",
     "directoryUrl": "https://www.gazteaukera.euskadi.eus/contenidos/ds_registros/registro_entidades_locales/opendata/entidades.json",
     "directoryCheckedAt": "2026-11-18T08:11:18.820Z",
@@ -13901,6 +13901,14 @@
       "checkedAt": "2026-11-18T15:00:48.878Z",
       "candidates": [],
       "error": "robots.txt no permite www.azkoitia.eus/"
+    },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-28T09:18:00Z",
+      "url": "https://azkoitia.eus/udala/lan-eskaintza/12812-liburutegiko-teknikari-laguntzailea-tecnico-a-auxiliar-de-biblioteca",
+      "outcome": "municipal-robots-restricted-boe-call-verified-bases-unavailable",
+      "robotsUrl": "https://www.azkoitia.eus/robots.txt",
+      "officialDocumentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23805",
+      "note": "An indexed page on the directory-listed municipal domain identifies a Lan eskaintza section, but the page was not fetched: www.azkoitia.eus/robots.txt returned HTTP 200 and User-agent: * disallows /. The official BOE notice BOE-A-2026-23805 was retrieved directly (HTTP 200): published 2026-11-13, it verifies one open-turn Administrative Officer for Intervention post by concurso-oposicion. It cites full bases in Gipuzkoa bulletin 206 of 2026-10-28 and sets an application period of 20 working days from the day after BOE publication. The bulletin host's robots.txt redirected to a maintenance page, so the full bases could not be read. No absolute deadline, eligibility requirement, syllabus, current open status or complete municipal coverage was inferred; no scraper or catalogue record was added."
     },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",

@@ -2075,3 +2075,26 @@ Deialdi historikoak ez du egungo izen-emate irekirik, azken egun absoluturik,
 titulazio-baldintzarik edo gai-zerrendarik egiaztatzen. Ataun `pending`
 mantendu da, scraper eta fitxa berririk gabe; udal-enpleguaren gainerako atalak
 eta deialdiak berrikusteko daude.
+
+## Azkoitia: udalaren robots muga eta 2026ko BOEko deialdia
+
+2026-11-28an Euskadiko direktorioan jasotako `www.azkoitia.eus` domeinuaren
+[robots.txt](https://www.azkoitia.eus/robots.txt) zuzenean eskuratu da (HTTP
+200): `User-agent: *` arauak `/` bidea baztertzen du. Bilatzaileak udalaren
+[«Lan eskaintza» ataleko fitxa bat](https://azkoitia.eus/udala/lan-eskaintza/12812-liburutegiko-teknikari-laguntzailea-tecnico-a-auxiliar-de-biblioteca)
+indexatzen du, baina ez da fitxa edo zerrendaren edukia zuzenean irakurri.
+Aurretik egindako aurkikuntzak ere robots muga jaso zuen.
+
+[2026-11-13ko BOEko udal-ebazpena](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23805)
+zuzenean eskuratu da (HTTP 200). Azkoitiko Udaleko Kontu-hartzailetzako
+administrari-plaza bat baieztatzen du, txanda irekiko oposizio-lehiaketaren
+bidez. Oinarriak 2026-10-28ko Gipuzkoako Aldizkari Ofizialaren 206. zenbakian
+argitaratu zirela dio, eta eskabideak BOEko argitalpenaren biharamunetik 20
+egun baliodunez aurkezteko epea ezartzen du. GAOren `robots.txt` eskaera
+mantentze-orrira birbideratu da; ez dira oinarriak irakurri.
+
+Ez da azken egun absoluturik, sarbide-baldintzarik, gai-zerrendarik edo gaur
+egungo izen-ematearen egoerarik ondorioztatu. Udal-webgunearen estaldura ere
+ez dago egiaztatuta; Azkoitia `pending` mantendu da, scraper eta katalogoko
+fitxa berririk gabe. Aurreko auditorian ageri diren sei fitxa agregatuek
+presentzia partziala bakarrik frogatzen dute.
