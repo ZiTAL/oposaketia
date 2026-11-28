@@ -1903,3 +1903,27 @@ gai-zerrenda edo azken egun absolutua egiaztatutzat eman.
 BOEko agiriak deialdi historiko bat frogatzen du, ez egungo izen-emate
 irekia edo udalaren enplegu-iturri osoaren estaldura. Albiztur `pending`
 mantendu da, scraper eta katalogoko fitxa berririk gabe.
+
+## Alegia: BOEko hiru plazak eta robots mugak
+
+2026-11-28an direktorio ofizialean ageri den [udalaren enplegu-orriko](https://www.alegia.eus/eu/lan-eskaintzak)
+`HEAD` eskaerak HTTP 200 eman du. [Udalaren robots.txt](https://www.alegia.eus/robots.txt)
+fitxategiak ere HTTP 200 eman du, baina `ChatGPT-User` agentearentzat `/`
+bidea baztertzen du; ez da orriaren edukia irakurri. [Gipuzkoako
+egoitzaren robots.txt](https://egoitza.gipuzkoa.eus/robots.txt) fitxategiak
+arau bera du. [2025-06-20ko oinarri gisa indexatutako PDFaren](https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2025/06/20/c2504303.pdf)
+`HEAD` eskaerak HTTP 200 eman du, baina ez da haren edukia edo BOEko
+deialdiarekiko lotura zuzenean egiaztatu.
+
+[2025-07-05eko BOEko udal-ebazpena](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13829)
+zuzenean eskuratu da (HTTP 200). Alegiako Udalaren hiru plaza egiaztatzen
+ditu, oposizio-lehiaketaren bidez: administrari bat barne-sustapeneko txandan,
+administrari bat txanda irekian eta liburutegiko arduradun bat txanda irekian.
+Ebazpenak 2025-06-20ko GAOren 116. zenbakian argitaratutako oinarriak aipatzen
+ditu, eta eskabideetarako 20 egun baliodun ezartzen ditu BOEko argitalpenaren
+biharamunetik. Ez da azken egun absoluturik, titulazio-baldintzarik edo
+gai-zerrendarik ondorioztatu irakurri gabeko oinarrietatik.
+
+BOEko iragarkiak deialdi historikoa frogatzen du; ez du egungo izen-emate
+irekia edo udalaren enplegu-iturri osoaren estaldura egiaztatzen. Alegia
+`pending` mantendu da, scraper eta katalogoko fitxa berririk gabe.

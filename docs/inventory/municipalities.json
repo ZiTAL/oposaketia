@@ -13402,10 +13402,14 @@
       ]
     },
     "employmentPageReview": {
-      "reviewedAt": "2026-11-19T07:43:27.731430Z",
+      "reviewedAt": "2026-11-28T02:18:00Z",
       "url": "https://www.alegia.eus/eu/lan-eskaintzak",
-      "outcome": "requires-format-review",
-      "note": "First published employment link reviewed; this does not establish absence of vacancies or complete coverage."
+      "outcome": "robots-restricted-boe-call-verified",
+      "robotsUrl": "https://www.alegia.eus/robots.txt",
+      "officialDocumentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13829",
+      "candidateBasesUrl": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2025/06/20/c2504303.pdf",
+      "basesRobotsUrl": "https://egoitza.gipuzkoa.eus/robots.txt",
+      "note": "The directory-listed municipal employment page responded HTTP 200 to HEAD, but municipal robots.txt (HTTP 200) disallows / for ChatGPT-User, so the page body was not read. The Gipuzkoa bulletin host has the same rule; the apparent 20 June 2025 bases PDF responded HTTP 200 to HEAD only, and its contents were not read. The official BOE notice (HTTP 200, 5 July 2025) verifies three Alegia municipal posts by concurso-oposicion: one Administrative post for internal promotion, one Administrative post for open access, and one Library Manager post for open access. It cites bases in Gipuzkoa bulletin 116 of 20 June 2025 and a 20-working-day application period after BOE publication. No absolute deadline, eligibility requirement or syllabus was inferred. This historical notice does not establish a currently open call or complete municipal employment coverage; no scraper or catalogue record was added."
     },
     "selectionSeatReview": {
       "reviewedAt": "2026-11-19T09:36:56.308820+00:00",
