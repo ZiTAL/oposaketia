@@ -1973,3 +1973,33 @@ oinarrien edukirik, titulazio-baldintzarik edo gai-zerrendarik egiaztatu.
 Deialdi historikoak ez du egungo izen-emate irekirik edo udal-enpleguaren
 estaldura osoa frogatzen. Altzo `pending` mantendu da, scraper eta fitxa
 berririk gabe; ez da egungo lanpostu hutsik eza ondorioztatzen.
+
+## Antzuola: 2026ko udal-bandoak
+
+2026-11-28an Euskadiko direktorioan jasotako `www.antzuola.com` domeinuak
+`antzuola.eus` helbidera birbideratzen duela egiaztatu da. Udalaren
+[robots.txt](https://antzuola.eus/robots.txt),
+[enplegu-zerrenda](https://antzuola.eus/tramiteak-eta-agiriak/lan-eskaintzak)
+eta zerrendako lau xehetasun-orriak zuzenean eskuratu dira (HTTP 200).
+`robots.txt` arauek ez dituzte bide horiek baztertzen. Zerrendak bi 2026ko
+bando eta kontserjearen eta Herritarren Arloko teknikariaren hautaketa-prozesu
+historiko bana erakusten ditu.
+
+`antzuola` konektoreak bi bandoetako udal-PDFak egiaztatzen ditu: [gazteen
+hiru lanpostuen iragarkia](https://antzuola.eus/attachments/article/830/BANDOA%20Hiru%20gazte%20kontratatzea.pdf)
+(SHA-256 `1c55e12d6cf04e9ff4d46b9a17b20bc147131d7dd9093236cf592278bd5ff3bd`)
+eta [udal-eraikinetako garbitzailearen iragarkia](https://antzuola.eus/attachments/article/832/UDAL%20ERAIKINETARAKO%20GARBITZAILE%20BAT%20BEHAR%20DA.pdf)
+(SHA-256 `704a0cdac74f7daa1dae42b27d1665f7eae8209545d0bcad23cbd79401dcc46e`).
+Biak HTTP 200 bidez irakurri dira. Lehenak bi administrari eta kale-garbiketako
+peoi bat jasotzen ditu, 2026-11-13a baino lehen Lanbiden izena emateko;
+bigarrenak hilabete inguruko garbitzaile bat, 2026-11-06ra arte CVa aurkezteko.
+Hiru katalogo-fitxak **itxita** daude. Bandoan egiaztatutako titulazioak,
+euskara-eskakizunak eta gidabaimena soilik jasotzen dira; garbitzailearen
+euskararen maila zehaztu gabe dago.
+
+Gazte-programaren bandoak oinarri osoak udaletxean eta webgunean daudela dio,
+baina zerrendako fitxak bandoaren PDFa bakarrik lotzen du. Ez da oinarri osorik
+edo gai-zerrendarik asmatu. Zerrendako bi bandoen `Aldatze Data` 2026-11-17 da,
+PDFetako epeak baino beranduago; ez da argitalpen edo irekiera-data gisa erabili.
+Kontserjearen eta teknikariaren prozesuak eta gainerako artxiboa berrikusteko
+daude; `connected-partial` egoerak muga hori adierazten du.

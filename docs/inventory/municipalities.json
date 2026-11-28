@@ -13641,12 +13641,14 @@
     "name": "Antzuola",
     "territory": "Euskadi",
     "province": "Gipuzkoa",
-    "status": "pending",
+    "status": "connected-partial",
     "officialCode": "20011",
     "aliases": [],
     "type": "municipality",
-    "sourceIds": [],
-    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Enplegu-atariaren estaldura bereizita egiaztatu behar da.",
+    "sourceIds": [
+      "antzuola"
+    ],
+    "note": "Udalaren enplegu-zerrendako 2026ko bi bando eta haien PDF ofizialak egiaztatu dira: hiru gazteren bi lanbide eta aldi baterako garbitzaile bat. Izen-emate epeak itxita daude. Beste bi hautaketa-prozesu historikoak eta gainerako artxiboa ez daude konektore honetan; estaldura partziala da.",
     "directoryStatus": "verified",
     "directoryUrl": "https://www.gazteaukera.euskadi.eus/contenidos/ds_registros/registro_entidades_locales/opendata/entidades.json",
     "directoryCheckedAt": "2026-11-18T08:11:18.820Z",
@@ -13656,6 +13658,12 @@
       "checkedAt": "2026-11-18T15:00:48.654Z",
       "candidates": [],
       "error": "URL fuera de las fuentes oficiales permitidas"
+    },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-28T05:19:58Z",
+      "url": "https://antzuola.eus/tramiteak-eta-agiriak/lan-eskaintzak",
+      "outcome": "connected-partial",
+      "note": "The directory's www.antzuola.com redirects to antzuola.eus. Its robots.txt, employment list and four detail pages were retrieved directly (HTTP 200); robots rules permit these paths. Two 2026 municipal notices and their linked PDFs were verified directly (HTTP 200): the youth-program notice for two administrative posts and one street-cleaning post, and the temporary municipal-building cleaner notice. Both application deadlines have passed. The list also exposes the citizens' affairs technician and building concierge selection processes, whose full bases and later results are outside this connector. The youth notice says full bases are available elsewhere, but the linked page offers only the notice PDF; no unverified bases or syllabus are imported. The index showed update dates of 2026-11-17 for both notices, later than their PDF deadlines, so update dates are not treated as publication or opening dates. This snapshot does not prove complete municipal employment coverage."
     },
     "recordEvidence": {
       "auditedAt": "2026-11-23T07:57:46.942Z",
