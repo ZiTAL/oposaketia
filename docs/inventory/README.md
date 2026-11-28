@@ -1951,3 +1951,25 @@ prozesuaren kudeaketa Itsasondoko Udalari dagokio. Atariak 2025-01-28tik
 Elkarteko deialdi historiko horrek ez du Altzagaren berezko enplegu-
 iragarkien estaldura egiaztatzen. Altzaga `pending` mantendu da, scraper eta
 fitxa berririk gabe. Ez da egungo lanpostu hutsik eza ondorioztatzen.
+
+## Altzo: BOEko deialdi historikoa eta robots mugak
+
+2026-11-28an Euskadiko direktorioak jasotako [udal-webguneak](https://www.altzo.eus/)
+HTTP 302 bidez `/eu/` helbidera birbideratu du; azken helbidearen `HEAD`
+eskaerak HTTP 200 eman du. [Udalaren robots.txt](https://www.altzo.eus/robots.txt)
+fitxategiak HTTP 200 eman du eta `ChatGPT-User` agentearentzat `/` bidea
+baztertzen du. Ez da udal-webguneko orririk arakatu. [Gipuzkoako
+egoitzaren robots.txt](https://egoitza.gipuzkoa.eus/robots.txt) fitxategiak
+ere arau bera du.
+
+[2005-03-16ko BOEko udal-ebazpena](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2005-4360)
+zuzenean eskuratu da (HTTP 200). Altzoko Udaleko administrari laguntzaile
+karrerako funtzionario-plaza baten txanda irekiko oposizio-lehiaketa
+egiaztatzen du. Oinarri osoak 2005-03-02ko GAOren 41. zenbakian argitaratu
+zirela dio; ez dira robots muga dela eta irakurri. BOEko iragarkian 20 egun
+naturaleko eskabide-epea ageri da, argitalpenaren biharamunetik. Ez da
+oinarrien edukirik, titulazio-baldintzarik edo gai-zerrendarik egiaztatu.
+
+Deialdi historikoak ez du egungo izen-emate irekirik edo udal-enpleguaren
+estaldura osoa frogatzen. Altzo `pending` mantendu da, scraper eta fitxa
+berririk gabe; ez da egungo lanpostu hutsik eza ondorioztatzen.

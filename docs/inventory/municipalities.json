@@ -13477,7 +13477,7 @@
     "aliases": [],
     "type": "municipality",
     "sourceIds": [],
-    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Enplegu-atariaren estaldura bereizita egiaztatu behar da.",
+    "note": "Udal-webguneak eta GAOren egoitzak ChatGPT-User agentearentzat edukia baztertzen dute. BOEko 2005eko udal-deialdi historikoa egiaztatu da, baina haren oinarriak eta egungo udal-enpleguaren estaldura egiteke daude.",
     "directoryStatus": "verified",
     "directoryUrl": "https://www.gazteaukera.euskadi.eus/contenidos/ds_registros/registro_entidades_locales/opendata/entidades.json",
     "directoryCheckedAt": "2026-11-18T08:11:18.819Z",
@@ -13492,6 +13492,12 @@
       "calls": 0,
       "sourceIds": [],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+    },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-28T04:18:00Z",
+      "url": "https://www.altzo.eus/eu/",
+      "outcome": "historical-call-verified-direct-site-blocked",
+      "note": "The official directory lists www.altzo.eus. Its home page returned HTTP 302 to /eu/ and a HEAD request there returned HTTP 200. The site's robots.txt returned HTTP 200 and disallows / for ChatGPT-User, so no page content was crawled. BOE-A-2005-4360 was retrieved directly (HTTP 200): a historical open competition-examination for one career civil-service auxiliary administrative post, referring to full bases in Gipuzkoa's gazette number 41 of 2005-03-02. Gipuzkoa's robots.txt also disallows / for ChatGPT-User; the bases were not read. This notice does not establish an open call, the requirements or syllabus, or complete coverage of Altzo's employment source."
     }
   },
   {
