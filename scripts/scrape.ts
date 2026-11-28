@@ -108,6 +108,7 @@ import {scrapeAnikoteLeitza} from './scrapers/anikote-leitza';
 import {scrapeLeitzaAux2026} from './scrapers/leitza-aux-2026';
 import {scrapeLerinServices2025} from './scrapers/lerin-services-2025';
 import {scrapeLesakaPeoi2026} from './scrapers/lesaka-peoi-2026';
+import {scrapeAmescoaBaja} from './scrapers/amescoa-baja';
 export type SourceReport = { id:string; attemptedAt:string; succeededAt:string|null; status:'ok'|'partial'|'error'; count:number; warnings:string[]; warningCount:number; error?:string };
 export async function recordReport(report:SourceReport) {
   if(!process.env.DATABASE_URL)return;
@@ -167,6 +168,7 @@ export async function runScrape(selected=process.env.SCRAPE_SOURCES?.trim() || s
           fundapa:()=>scrapeFundapa(client,now),
           moncayo:()=>scrapeMoncayo(client,now),
           allo:()=>scrapeAllo(client,now),
+          'amescoa-baja':()=>scrapeAmescoaBaja(client,now),
           aibar:()=>scrapeAibar(client,now),
           aduna:()=>scrapeAduna(client,now),
           antzuola:()=>scrapeAntzuola(client,now),

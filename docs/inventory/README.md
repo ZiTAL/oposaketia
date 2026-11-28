@@ -2116,3 +2116,26 @@ arakatatu. Berrikuspen honetan ez da egungo udal-deialdirik haren hautaketa-
 dokumentu ofizialekin egiaztatu, eta ez dago udal-deialdien zerrenda osoa
 egiaztatuta. Allín `pending` mantendu da, scraper eta fitxa berririk gabe;
 horrek ez du esan nahi lanposturik ez dagoenik.
+
+## Améscoa Baja: 2026ko eraikuntzako peoiaren deialdia
+
+2026-11-28an [udalaren «Bandos y otros» zerrenda](https://amescoabaja.org/es/ayuntamiento/bandos-y-otros.html)
+zuzenean eskuratu da (HTTP 200). `robots.txt` helbideak HTTP 200 eman du,
+baina udalaren 404 orria itzuli du, ez robotentzako araurik. Zerrendak
+2026-10-14ko [hautaketa-bandoa](https://amescoabaja.org/documents/715_Bando+convocatoria+prueba+selectiva+contrataci%3Fn+_Pe%3Fn+de+la+construcci%3Fn_+-+SEFYCU+393857.pdf)
+eta [oinarriak eta gai-zerrenda](https://amescoabaja.org/documents/714_Condicionado+prueba+selectiva+y+modelo+de+instancia+-+SEFYCU+393849.pdf)
+lotzen ditu. Bi PDFak zuzenean eskuratu dira (HTTP 200): bandoak orrialde
+bat eta SHA-256 `7c365f54b9566ff0b58b9f41e9f7c8b154b5ecab1727e071afb5a1eabb5fb70e`
+ditu; oinarriek bederatzi orrialde eta SHA-256
+`4fb477a03c57bfee7d2acb5c215cb692e857a146f858c65b896c9a870e7fee57`.
+
+`amescoa-baja` konektoreak udalaren eraikuntzako peoiaren **plaza bakarra**
+jasotzen du: hamar hilabeteko aldi baterako kontratua, ur-horniduraren sarean.
+Bandoak Nafar Lansaren 2026-10-23ra arteko inskripzioa eta udaleko lan-poltsan
+2026-10-26tik 2026-11-03ra artekoa bereizten ditu. Oinarriek DBH edo lehen
+mailako FP edo baliokidea, B gidabaimena eta lanposturako ibilgailu egokia
+eskatzen dituzte; azken orrialdeko lau gaiak bakarrik jasotzen dira. Azterketa
+2026-11-09rako zegoen; zerrendak 2026-11-10eko kalifikazioak erakusten ditu.
+Izena emateko epea amaituta dago. Beste bandoak eta egoitza elektronikoko
+iragarki-taula ez dira berrikusi; udalerria `connected-partial` da, ez udalaren
+enplegu-iturri osoaren estaldura.
