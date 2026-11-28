@@ -2051,3 +2051,27 @@ eta bailaran erroldatzea eskatzen dute. Ez dago gai-zerrenda zenbakiturik.
 Zerrendako beste hiru `Zabalik` prozesuak, `Prozesuan` atala eta artxiboa
 kanpoan daude; egoera `connected-partial` da. 2026-11-30 igaro ondoren,
 konektoreak deialdiak itxitzat ematen ditu, zerrenda eguneratu ez arren.
+
+## Ataun: enplegu-orriaren hutsunea eta 2024ko BOEko deialdia
+
+2026-11-28an direktorio ofizialean ageri den `www.ataun.net` helbidearen
+HTTPS ziurtagiria ezin izan da baliozkotu. [Ataungo Udalaren
+robots.txt](https://www.ataun.eus/robots.txt) zuzenean eskuratu da (HTTP 200):
+`Disallow` hutsik dago eta 60 segundoko `Crawl-delay` ezartzen du.
+[Enplegu-orriak](https://www.ataun.eus/es/pagina/empleo) HTTP 200 eman du,
+baina «Ez dugu aurkitu bilatzen duzuna» mezua erakusten du; menuan
+egonkortze-prozesuen beste atal baterako esteka ageri da. Ez da orri hori
+deialdien zerrenda erabilgarri gisa hartu.
+
+[2024-05-04ko BOEko udal-ebazpena](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9011)
+zuzenean eskuratu da (HTTP 200). Zerbitzu anitzeko langile-plaza finko bat
+egiaztatzen du, txanda irekiko oposizio-lehiaketaren bidez, eta eskabideetarako
+20 egun baliodun ezartzen ditu BOEko argitalpenaren biharamunetik. Oinarri
+osoak 2024-04-25eko Gipuzkoako Aldizkari Ofizialaren 80. zenbakian daudela dio.
+[Aldizkariaren robots.txt](https://egoitza.gipuzkoa.eus/robots.txt) eskatu denean,
+mantentze-lanen HTML orria itzuli du; ez dira oinarriak irakurri.
+
+Deialdi historikoak ez du egungo izen-emate irekirik, azken egun absoluturik,
+titulazio-baldintzarik edo gai-zerrendarik egiaztatzen. Ataun `pending`
+mantendu da, scraper eta fitxa berririk gabe; udal-enpleguaren gainerako atalak
+eta deialdiak berrikusteko daude.

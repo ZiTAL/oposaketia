@@ -13820,7 +13820,7 @@
     "aliases": [],
     "type": "municipality",
     "sourceIds": [],
-    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Enplegu-atariaren estaldura bereizita egiaztatu behar da.",
+    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Udalaren enplegu-orriak ez aurkitu mezua ematen du; 2024ko BOEko deialdia egiaztatu da, baina aipatutako oinarriak eta udal-enpleguaren estaldura egiteko daude.",
     "directoryStatus": "verified",
     "directoryUrl": "https://www.gazteaukera.euskadi.eus/contenidos/ds_registros/registro_entidades_locales/opendata/entidades.json",
     "directoryCheckedAt": "2026-11-18T08:11:18.820Z",
@@ -13836,6 +13836,14 @@
       "calls": 0,
       "sourceIds": [],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+    },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-28T08:19:00Z",
+      "url": "https://www.ataun.eus/es/pagina/empleo",
+      "outcome": "employment-page-missing-historical-boe-call-verified",
+      "robotsUrl": "https://www.ataun.eus/robots.txt",
+      "officialDocumentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9011",
+      "note": "The official directory lists www.ataun.net, whose HTTPS certificate could not be validated in this review. The Ataun municipal site at www.ataun.eus was directly retrieved: robots.txt returned HTTP 200 with Disallow empty and Crawl-delay: 60; the Empleo page returned HTTP 200 but displayed “Ez dugu aurkitu bilatzen duzuna” (not found), while linking to a separate stabilization section. BOE-A-2024-9011 was retrieved directly (HTTP 200): it verifies one permanent multiple-services operative position, open concurso-oposicion, with a 20-working-day application period after its 4 May 2024 BOE publication. It cites full bases in Gipuzkoa bulletin 80 of 25 April 2024. The bulletin host returned a maintenance HTML page when its robots.txt was requested; those bases were not read. No absolute deadline, eligibility requirement or syllabus was inferred. This historical notice does not establish an open call or complete municipal employment coverage; no scraper or catalogue record was added."
     }
   },
   {
