@@ -13314,7 +13314,7 @@
     "aliases": [],
     "type": "municipality",
     "sourceIds": [],
-    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Enplegu-atariaren estaldura bereizita egiaztatu behar da.",
+    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. 2026ko EPEa GAOko agiri ofizialean egiaztatu da, baina hautaketa-deialdia geroagorako aurreikusten du. Udal-webguneko robots arauak bilketa eragozten du; enplegu-atariaren estaldura egiaztatzeko dago.",
     "directoryStatus": "verified",
     "directoryUrl": "https://www.gazteaukera.euskadi.eus/contenidos/ds_registros/registro_entidades_locales/opendata/entidades.json",
     "directoryCheckedAt": "2026-11-18T08:11:18.818Z",
@@ -13329,6 +13329,14 @@
       "calls": 0,
       "sourceIds": [],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+    },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-28T00:18:01Z",
+      "url": "https://www.aizarnazabal.eus/",
+      "outcome": "robots-restricted-official-employment-plan-only",
+      "robotsUrl": "https://www.aizarnazabal.eus/robots.txt",
+      "officialDocumentUrl": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/08/31/c2605715.pdf",
+      "note": "The Euskadi local-entities register identifies this municipal website. The root returned HTTP 302 to /eu/, and robots.txt returned HTTP 200 with Disallow: / for ChatGPT-User; no further municipal crawling followed. The official Gipuzkoa bulletin PDF of 31 August 2026 approves the municipal 2026 public employment offer for one building-cleaner position (C2, planned concurso-oposicion), while explicitly requiring a later selection call. This OPE does not verify an open selection call, application deadline, selection bases or syllabus. An indexed 2024 municipal cleaner PDF was not directly checked because of the robots restriction. No scraper or catalogue call was added; complete municipal employment coverage remains pending."
     }
   },
   {

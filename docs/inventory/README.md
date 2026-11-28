@@ -1856,3 +1856,25 @@ ez du egungo izen-emate irekirik edo azken egun absolutu egiaztaturik ematen.
 Ez da enplegu-zerrenda iraunkorra berrikusi, eta robots mugak bilketa automatikoa
 eragozten du. Aia `pending` mantendu da, scraper eta fitxa berririk gabe;
 berrikuspenak ez du deialdi guztien estaldura edo lanpostu hutsik eza frogatzen.
+
+## Aizarnazabal: 2026ko EPEa eta udal-webgunearen robots muga
+
+2026-11-28an [Euskadiko toki-erakundeen erregistro ofizialak](https://www.euskadi.eus/toki-erakundea/aizarnazabal/web01-a2tokiad/es/)
+`www.aizarnazabal.eus` udal-webgunea identifikatzen duela egiaztatu da.
+Webgunearen erroak HTTP 302 bidez `/eu/` helbidera birbideratzen du,
+baina [robots.txt](https://www.aizarnazabal.eus/robots.txt) fitxategiak
+(HTTP 200) `ChatGPT-User` agentearentzat `/` bide osoa baztertzen du.
+Arau hori irakurri ondoren ez da udal-webgunea arakatu.
+
+[2026-08-31ko Gipuzkoako Aldizkari Ofizialeko udal-agiriak](https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/08/31/c2605715.pdf)
+2026ko **enplegu publikoaren eskaintza** onartzen du: eraikinen garbitzaile
+postu bat, C2 taldea, oposizio-lehiaketa aurreikusita. Agiriak berak dio
+eskainitako plaza geroago deitu behar dela. Beraz, EPEa ez da hautaketa-
+deialdia; ez du izena emateko eperik, proba-agiririk edo gai-zerrendarik
+egiaztatzen. Udal-webguneko 2024ko garbitzaile-deialdiaren PDF bat
+bilatzailearen emaitzetan ageri da, baina robots muga dela eta ezin izan da
+udal-iturria zuzenean berrikusi edo bilketa automatikoa egiaztatu.
+
+Aizarnazabal `pending` mantendu da, scraper eta fitxa berririk gabe.
+Berrikuspenak ez du egungo deialdirik ez dagoela edo udalaren enplegu-
+artxibo osoa estalita dagoela frogatzen.
