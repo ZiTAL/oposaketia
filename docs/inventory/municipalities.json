@@ -16734,7 +16734,7 @@
     "aliases": [],
     "type": "municipality",
     "sourceIds": [],
-    "note": "Izena eta web-erreferentzia erregistro ofizialean egiaztatuak. Enplegu-atariaren estaldura bereizita egiaztatu behar da.",
+    "note": "Direktorioko altzaga.net webgunea ezin izan da eskuratu; EUDELek altzaga.eus argitaratzen du, baina haren robots arauek edukia baztertzen dute. Itsasondok kudeatutako elkarteko deialdi historiko baten oinarriak egiaztatu dira; Altzagaren zuzeneko enplegu-estaldura egiteke dago.",
     "directoryStatus": "verified",
     "directoryUrl": "https://www.gazteaukera.euskadi.eus/contenidos/ds_registros/registro_entidades_locales/opendata/entidades.json",
     "directoryCheckedAt": "2026-11-18T08:11:18.828Z",
@@ -16750,6 +16750,12 @@
       "calls": 0,
       "sourceIds": [],
       "matching": "Normalized organization name; it can identify a publishing body rather than each contractual employer in joint calls. Partial presence only, not complete coverage."
+    },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-28T03:18:00Z",
+      "url": "https://www.altzaga.eus/",
+      "outcome": "shared-call-verified-direct-site-blocked",
+      "note": "The Euskadi directory lists www.altzaga.net, which returned HTTP 503 and failed TLS validation. EUDEL lists www.altzaga.eus; its robots.txt returns HTTP 200 and disallows / for ChatGPT-User, so its pages were not crawled. Gipuzkoa's public selection page OPO01/2025 and its 16-page official bases PDF were fetched directly (HTTP 200): an interim secretary position for the Itsasondo-Arama-Altzaga municipal association, with applications 2025-01-28 through 2025-02-10. The bases assign process administration to Itsasondo. This historical shared call does not verify coverage of Altzaga's own employment notices or an open vacancy."
     }
   },
   {

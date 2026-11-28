@@ -1927,3 +1927,27 @@ gai-zerrendarik ondorioztatu irakurri gabeko oinarrietatik.
 BOEko iragarkiak deialdi historikoa frogatzen du; ez du egungo izen-emate
 irekia edo udalaren enplegu-iturri osoaren estaldura egiaztatzen. Alegia
 `pending` mantendu da, scraper eta katalogoko fitxa berririk gabe.
+
+## Altzaga: udal-webgunearen sarbide-muga eta elkarteko deialdia
+
+2026-11-28an [Euskadiko toki-erakundeen direktorioak](https://www.euskadi.eus/entidad-local/altzaga/web01-a2tokiad/eu/)
+argitaratzen duen `www.altzaga.net` helbideak HTTP 503 eman du; HTTPS
+ziurtagiria ere ezin izan da baliozkotu. [EUDELen udal-direktorioak](https://udalengida.eudel.eus/altzaga/)
+`www.altzaga.eus` ematen du. Bigarren domeinuaren
+[robots.txt](https://www.altzaga.eus/robots.txt) zuzenean eskuratu da
+(HTTP 200), eta `ChatGPT-User` agentearentzat `/` baztertzen du. Ez da
+webgunearen edukia arakatu, ezta direktorioko URL zaharra ordezkatu ere.
+
+[Gipuzkoako udal-hautaketaren atarian](https://udal.egoitza.gipuzkoa.eus/WAS/CORP/LLEHautaketaProzesuakWEB/concursosAytos/6704/0/47/ver)
+`OPO01/2025` prozesua eta bertatik lotutako [oinarri ofizialen
+PDFa](https://ssl7.gipuzkoa.net/convocatorias/seleccion/apuntes/CE000000-20250115123137.pdf)
+zuzenean eskuratu dira (biak HTTP 200; PDFak 16 orrialde eta SHA-256
+`7fe46d12dc3ea5c73c10bda6f94b5c857430ec650f6c029a5096869b6bfdce86`
+ditu). Oinarriek Itsasondo, Arama eta Altzagako udal elkartearen hirugarren
+mailako Idazkaritza lanpostuaren bitarteko hautaketa baieztatzen dute;
+prozesuaren kudeaketa Itsasondoko Udalari dagokio. Atariak 2025-01-28tik
+2025-02-10era arteko izen-ematea erakusten du; epea amaituta dago.
+
+Elkarteko deialdi historiko horrek ez du Altzagaren berezko enplegu-
+iragarkien estaldura egiaztatzen. Altzaga `pending` mantendu da, scraper eta
+fitxa berririk gabe. Ez da egungo lanpostu hutsik eza ondorioztatzen.
