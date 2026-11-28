@@ -535,6 +535,12 @@
       "checkedAt": "2026-11-18T08:38:16.000Z",
       "candidates": []
     },
+    "employmentPageReview": {
+      "reviewedAt": "2026-11-28T10:18:00Z",
+      "url": "https://allin.es/",
+      "outcome": "historical-municipal-calls-only-current-coverage-unverified",
+      "note": "The official municipal home page, its 2023 employment post and a 2023 administrative hiring post were retrieved directly (HTTP 200). The employment post sets a 2023-07-12 CV deadline; the administrative post sets a 2023-04-12 employment-service registration deadline. These are expired historical notices, not evidence of a current opening or a complete employment index. The home page links to the municipal electronic office, whose robots.txt disallows /tablondeanuncios; its notices and selection documents were not crawled. No current Allín call with official selection documents was verified in this review. Direct coverage remains pending; no absence of vacancies is inferred."
+    },
     "aggregateMonitoring": {
       "sourceId": "bon-local",
       "section": "2.1. Administración Local de Navarra: oposiciones, concursos y oferta pública de empleo",

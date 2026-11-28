@@ -2098,3 +2098,21 @@ egungo izen-ematearen egoerarik ondorioztatu. Udal-webgunearen estaldura ere
 ez dago egiaztatuta; Azkoitia `pending` mantendu da, scraper eta katalogoko
 fitxa berririk gabe. Aurreko auditorian ageri diren sei fitxa agregatuek
 presentzia partziala bakarrik frogatzen dute.
+
+## Allín / Allin: 2023ko udal-iragarkiak eta iragarki-taularen sarbide-muga
+
+2026-11-28an [udalaren robots.txt](https://allin.es/robots.txt),
+[hasierako orria](https://allin.es/), [2023ko lan-eskaintza](https://allin.es/oferta-de-empleo/)
+eta [administrariaren 2023ko iragarkia](https://allin.es/convocatoria-de-un-administrativo-2023/)
+zuzenean eskuratu dira (HTTP 200). Lan-eskaintzak 2023-07-12ko CVa bidaltzeko
+epea dakar; administrariaren iragarkiak 2023-04-12ko Nafarroako Enplegu
+Zerbitzuan izena emateko epea. Biak historikoak eta amaituak dira. Hasierako
+orriko «BANDO» esteka ez da hautaketa-oinarrien PDF gisa hartu.
+
+Udalak [egoitza elektronikoa](https://sedeelectronica.allin.es/) estekatzen du,
+baina haren [robots.txt](https://sedeelectronica.allin.es/robots.txt) fitxategiak
+`/tablondeanuncios` baztertzen du. Ez dira bertako iragarkiak edo oinarriak
+arakatatu. Berrikuspen honetan ez da egungo udal-deialdirik haren hautaketa-
+dokumentu ofizialekin egiaztatu, eta ez dago udal-deialdien zerrenda osoa
+egiaztatuta. Allín `pending` mantendu da, scraper eta fitxa berririk gabe;
+horrek ez du esan nahi lanposturik ez dagoenik.
